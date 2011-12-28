@@ -13,47 +13,31 @@ prev:
 
 ---
 
-Ma gandem zilele astea la "articolele":http://www.caterina.net/archive/000965.html "excelente":http://vladimir.metromind.ro/business/articol-grozav-despre-afacerile-20 aparute recent despre modelul de afacere "Web 20" si daca acest tip de afacere ar mai putea fi de succes sau nu.
+Ma gandem zilele astea la "articolele":http://www.caterina.net/archive/000965.html excelente aparute recent despre modelul de afacere "Web 20" si daca acest tip de afacere ar mai putea fi de succes sau nu.
 
 Stiri vechi, deja fumate.
 
 Ca un mica concluzie personala, sunt de acord cu idea ca:
 
-
-
 bq. "It's A Great Time To Start A Business":http://37signals.com/svn/archives2/its_a_great_time_to_start_a_business.php
-
-
 
 Oricum, subiectul este putin diferit.
 
 Presupunand ca suntem inzestrati cu entuziasm, un cuvant cheie pentru a reusi in orice fel de proiect, *avem* si vreo 2-3 idei bune, intrebarea mea este:
 
-
-
 bq. Care este nisa pe unde ai putea sa patrunzi *cel mai greu* pe piata web din Romania?
 
+Initial, ma gandeam ca o pagina destinata celor care isi cauta un loc de munca ar fi un esec sigur. Dar, cu o idee buna in acest domeniu, as putea obtine 50% din piata pe care o are in acest moment cel mai cunoscut portal de joburi din .ro in 6 luni, maxim un an.
 
-
-Initial, ma gandeam ca o pagina destinata celor care isi cauta un loc de munca ar fi un esec sigur. Dar, cu o idee buna in acest domeniu, as putea obtine 50% din piata pe care o are in acest moment cel mai cunoscut portal de joburi din .ro in 6 luni, maxim un an. Sunt convins, vezi si ultima isprava in "domeniu":http://vladimir.metromind.ro/marketing/din-capitolul-la-marketing-ne-pricepem-ca-la-fotbal.
-
-
-
-"George":http://george.cshy.net/, mi-a sugerat un portal pentru minoritati.
+George, mi-a sugerat un portal pentru minoritati.
 
 Nu o sa spun ce "minoritate":http://en.wikipedia.org/wiki/Minority, insa din nou mi se pare mult prea usor.
 
 Daca as face asa ceva, cel putin jumatate din acea minoritate imi va vizita pagina :)
 
-
-
 Un portal pentru statistici? O pagina web pentru intalniri online? Un site pentru ringtones sau logo-uri pentru telefonul mobil? Un magazin online pentru produse electonice?
 
-
-
 Unde as putea esua *sigur*?
-
-
 
 _Analizeaza!_
 
@@ -61,20 +45,12 @@ Vino cu o idee in fiecare exemplu dat de mine mai sus.
 
 Spune-ti sincer si convins: "Nu e greu! Tipul asta chiar are dreptate".
 
-
-
 Cred ca in Romania se poate patrunde foarte usor si cu succes pe piata web.
 
 Totusi:
 
-
-
 * Trebuie sa ai calitatile amintite mai sus;
-
 * Oameni foarte buni in domenii cheie: SEO, vanzari sau programare care sa isi faca munca cu *pasiune*[1];
-
 * Normal, o investitie initiala minima va fi necesara.
 
-
-
-fn1. "Vezi":http://www.exigo.ro/blog/it-s-the-people-stupid si "afirmatia":http://news.com.com/2010-1071-281563.html ""It's the People, stupid":http://www.tompeters.com/"
+fn1. Vezi si "afirmatia":http://news.com.com/2010-1071-281563.html" "It's the People, stupid":http://www.tompeters.com/"
