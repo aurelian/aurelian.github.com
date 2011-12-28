@@ -15,39 +15,21 @@ prev:
 
 h4. Trebuie să vezi
 
-
-
 Am devenit un utilizator fidel de "google/reader":http://www.google.com/reader/view/.
-
-
 
 Sunt abonat la destul de multe feed-uri, iar când găsesc un articol care îmi place cu un singur click pot adăuga un link către textul respectiv şi la mine pe blog (în partea dreapta pentru cei ce mă citesc folosind un... Feed Reader :p).
 
-
-
 h4. A doua întâmplare
-
-
 
 Pe de altă parte, aseară am primit o vizită având un "referer":http://en.wikipedia.org/wiki/Referer ciudat:
 
-
-
-!/images/24.png(Cand se poate considera o fata grasa?)!
-
-
+!http://assets.locknet.ro/images/24.png(Cand se poate considera o fata grasa?)!
 
 Intodeauna m-au distrat chestiile astea.
 
-
-
 h4. Şi ultima
 
-
-
-Iniţial am avut un impuls şi m-am gandit să public doar un singur articol legat de evenimentele la care am fost prezent în Octombrie: "LOAD2006":/article/load2006 şi "expozitia de pisici":/article/autumn-cats-show-2006. În ultima clipă m-am decis totuşi să împart cele două subiecte.
-
-
+Iniţial am avut un impuls şi m-am gandit să public doar un singur articol legat de evenimentele la care am fost prezent în Octombrie: "LOAD2006":http://locknet.ro/archive/2006-10-21-load2006.html şi "expozitia de pisici":http://locknet.ro/archive/2006-10-21-autumn-cats-show-2006.html. În ultima clipă m-am decis totuşi să împart cele două subiecte.
 
 Cred că era mai bine dacă nu renunţam la idee pentru că articolul despre pisici a avut de două ori mai multe vizionari decât cel despre LOAD. Mă gândesc că am ratat o ocazie buna de promovare Linux.
 
