@@ -17,19 +17,11 @@ Pare greu de crezut, insa toate locurile pentru wurbe #5 au fost ocupate! Sincer
 
 Probabil discutiile vor acoperi aspecte generale sau frameworkuri pentru testare, insa sper sa vad prezentatori ce vor rula unit-teste pe o aplicatie "reala". Vreau sa vad ceva mai mult decat hello test world. Cu cat mai multe "failures", cu atat mai bine!
 
-
-
 <pre>
-
 [aurelian@stalingrad slobod.xxx]$ rake
-
 ...
-
 15 tests, 0 assertions, 0 failures, 30 errors
-
 </pre>
-
-
 
 Povestea mea despre unit testing se continua pe site, nu prea lunga dar poate destul de plictisitoare. Tu cand ai scris ultimul test case?
 
@@ -41,14 +33,8 @@ Ideea m-a atras si am folosit modelul proaspat invatat - de a testa inainte de a
 
 Mai tarziu, am avut sarcina de a scrie un API, si cum specificatiile erau destul de vagi descriind concepte destul de abstracte ..am cerut unit teste. Spre multumirea mea le-am primit iar restul este istorie - in cateva zile implementarea era gata.
 
-
-
 Web testing? sigur, am fixat odata un bug - din ala pus pe bugzilla - cu "simple test":http://www.lastcraft.com/simple_test.php plecand de la descrierea problemei aparute si a pasilor pentru a o reproduce. Bine, mai intai am intampinat ceva dificultati chiar cu "frameworkul":http://sourceforge.net/tracker/index.php?func=detail&aid=1408928&group_id=76550&atid=547455 insa odata rezolvate, am putut sa produc un fix fara a incarca pagina web in browser, poate doar o singura data inainte de a pune codul in productie.
 
+O "perioada":http://locknet.ro/archive/2006-09-20-acoperire-cu-rcov.html am cochetat si cu code coverage dar nu atat de mult incat sa devin dependent.
 
-
-O "perioada":http://www.locknet.ro/article/acoperire-cu-rcov am cochetat si cu code coverage dar nu atat de mult incat sa devin dependent.
-
-
-
-rSpec? inca nu, si probabil nu si in viitorul apropiat. Poate dupa wurbe #5 ma apuca vreo pasiunea, cine stie..
+rSpec? inca nu, si probabil nu si in viitorul apropiat. Poate dupa wurbe #5 ma apuca vreo pasiunea, cine stie...
