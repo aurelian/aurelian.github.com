@@ -13,17 +13,15 @@ prev:
 
 ---
 
-Mi-am facut ceva timp si am reusit sa schitez in cateva ore partea centrala a aplicatiei "marks":http://marks.29dots.com: salvarea si afisarea bookmarkurilor. si, ta-ta-ta-ta-ta-taguri.
+Mi-am facut ceva timp si am reusit sa schitez in cateva ore partea centrala a aplicatiei marks - http://marks.29dots.com: salvarea si afisarea bookmarkurilor. si, ta-ta-ta-ta-ta-taguri.
 
-Fata de planul "initial":http://www.locknet.ro/article/marks-my-rails-pet-project, am ales sa fac @modelul@ bookmark cu 
+Fata de planul "initial":http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html, am ales sa fac @modelul@ bookmark cu 
 
 @has_one_and_belongs_to_many :users@. 
 
 Sper sa fie o decizie inteleapta cu toate ca intampin ceva probleme la afisarea unui total pe bookmark, de genul: "acest url a mai fost salvat de alti X utilizatori".
 
-Pentru taguri, am folosit pluginul "Act As Taggable":http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin cu destule "modificari":http://dema.ruby.com.br/articles/2005/09/03/tagging-on-steroids-with-rails ce permit gruparea acestora per user.
-
-
+Pentru taguri, am folosit pluginul "Act As Taggable":http://web.archive.org/web/20060424173833/http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin cu destule "modificari":http://web.archive.org/web/20060721231754/http://dema.ruby.com.br/articles/2005/09/03/tagging-on-steroids-with-rails ce permit gruparea acestora per user.
 
 Sunt inca multe lipsuri, de exemplu nu pot edita sau sterge intrarile odata introduse.
 
@@ -39,11 +37,7 @@ Plus mailuri cand te inregistrezi, password recovery, RSS, import din alte aplic
 
 Uff, acum imi dau seama cate mai sunt de facut, insa ... toate la timpul lor.
 
-
-
 Totusi, tin insa sa multumesc celor care s-au inregistrat in prima faza, in total suntem cam 12 utilizatori (WOW!!!) banuiesc ca doar vreo 7-8 conturi sunt "pe bune".
-
-
 
 Intr-un viitor articol o sa explic mai pe larg de ce nu tin sa fac codul disponibil sub o licenta open-source.
 
