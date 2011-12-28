@@ -22,7 +22,7 @@ header h2 {
   text-align: center;
 }
 
-pre {
+pre, code {
   font-family: "Monaco", "Consolas", "Ubuntu Monospace", "courier new", monospace;
   font-size: .8em;
 }
