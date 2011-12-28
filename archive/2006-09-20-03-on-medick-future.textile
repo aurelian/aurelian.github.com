@@ -13,17 +13,13 @@ prev:
 
 ---
 
-I've got some emails in the last days (like 2) from people asking about "medick":http://medick.locknet.ro future.
+I've got some emails in the last days (like 2) from people asking about "medick":http://web.archive.org/web/20100329022422/http://www.medick.locknet.ro/ future.
 
 They noticed that I was some how "on Rails" in the last weeks.
 
 So I have decided to answer online on this question:
 
-
-
 bq. The development on medick is not closed and the medick project is not dead!
-
-
 
 It's just that I needed a brake from "evil PHP":http://www.flickr.com/photos/nataliedowne/97365899/ way of doing things.
 
@@ -33,38 +29,17 @@ Ruby is too cool to be ignored, starting with the community that they have, the 
 
 Rails is the killer application for ruby. They are not advertising only a rapid development web framework, they are promoting best practices.
 
-
-
 Back to medick, I have a lot of nice ideas for the future, I even try to implement some of those without committing them to repository.
 
 For sure, major changes will be introduced starting with version 0.3:
 
-
-
 * php 5.1.4 (or higher) will be required since I want to use some nice features added to the language,
-
 * replace xml configuration file with a php script,
-
 * performance improvements to ActiveRecord (cheap cache using static for query results),
-
 * more options when using ActiveRecord validations and more Validators to be added on the framework,
-
 * update unit-tests (at least a cleaning is needed) to reflect all the changes,
-
 * more docs.
-
-
-
-A roadmap (maybe is deprecated already?) is "here":http://medick.locknet.ro/api/ric_TODO.html.
-
-
 
 Anyway, I cannot estimate now a relase date for version 0.3, I cannot even say if the development on 0.2.x is closed, but stay tuned, I will let anyone know when I will add new features to the framework and how to use them.
 
-
-
-For questions or support on medick, you can contact me via the "contact form":http://www.locknet.ro/contact. If you want to get involved in this project, just subscribe to the "mailing list":http://lists.berlios.de/mailman/listinfo/medick-devel and start asking questions there.
-
-
-
-On the other side, my "rails":http://www.rubyonrails.org pet project, "marks":http://marks.29dots.com is the first item on my todo list. If you don't get "it":http://www.flickr.com/photos/planetargon/127984254/, ""I'd rather be on rails":http://www.flickr.com/photos/digitalnomad/73294250/ (&trade;)".
+On the other side, my "rails":http://www.rubyonrails.org pet project, marks - http://marks.29dots.com is the first item on my todo list. If you don't get "it":http://www.flickr.com/photos/planetargon/127984254/, ""I'd rather be on rails":http://www.flickr.com/photos/digitalnomad/73294250/ (&trade;)".
