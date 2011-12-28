@@ -13,96 +13,51 @@ prev:
 
 ---
 
-"Victor Stanciu":http://www.victorstanciu.ro ma roaga sa pun pe blog un anunt de angajare pentru un front-end developer la F5 Solutions:
+Victor Stanciu ma roaga sa pun pe blog un anunt de angajare pentru un front-end developer la F5 Solutions:
 
-
-
-"F5 Solutions":http://www.f5solutions.ro cauta un *Front-End Web Developer* care sa raspunda afirmativ la cel putin 5 din urmatoarele 8 intrebari:
-
-
+F5 Solutions cauta un *Front-End Web Developer* care sa raspunda afirmativ la cel putin 5 din urmatoarele 8 intrebari:
 
 * Poti face o comparatie intre cel putin 2 framework-uri JavaScript ?
-
 * Codul XHTML scris de tine este corect din punct de vedere semantic ?
-
 * Preferi un editor de tip TEXT (cu sintax-highlighting) in detrimentul unui editor de tip WYSIWYG ?
-
 * Cunosti cel putin o solutie pentru realizarea unui transfer asincron de date cross-domain ?
-
 * Obisnuiesti sa validezi codul XHTML / CSS conform standardelor W3C ?
-
 * "Cross-Browser", "fiabilitate" si "scalabilitate" se numara printre caracteristicile definitorii ale proiectelor tale ?
-
 * Esti familiar cu cel putin 4 dintre urmatorii termeni: "hasLayout", "mostenire", "DOM", "elemente multi-class", "polimorfism" ?
-
 * Ai folosit pana acum o tehnologie text-based de serializare / transmitere a datelor in afara de XML ?
-
-
 
 *Cunostintele si conditiile* obligatorii sunt urmatoarele:
 
-
-
 * XHTML, CSS;
-
 * XML, XSLT, JSON;
-
 * JavaScript (OOP, minim 4 luni experienta in utilizarea unui framework);
-
 * Un portofoliu care sa cuprinda cel putin 3 proiecte / experimente / aplicatii relevante;
-
 * Seriozitate, responsabilitate, etica profesionala;
+* Simtul umorului (nu glumim).
 
-* Simtul umorului (nu glumim).!http://assets.locknet.ro/images/39t.jpg!
-
-
+!http://assets.locknet.ro/images/39t.jpg!
 
 Esti *avantajat* daca:
 
-
-
 * Ai experienta in utilizarea Smarty;
-
 * Ai experienta in utilizarea Fireworks si/sau Photoshop (slicing / export);
-
 * Esti familiar cu modul de functionare al tehnologiilor server-side (cel putin la nivel de concept);
-
 * Te implici, esti activ si stii sa-ti exprimi / argumentezi propriile idei si convingeri;
-
 * Esti intr-un proces continuu de autodepasire.
-
-
 
 *Beneficii*:
 
-
-
 * Proiecte complexe si incitante;
-
 * Pachet salarial si bonusuri atractive;
-
 * Programul (flexibil) incepe undeva in jurul orei 11:00 (somn++, trafic--);
-
 * Atmosfera placuta si degajata (cu mici exceptii: luni dimineata si vineri seara);
-
 * Echipa tanara (pe bune) si statica (la 8 ore pe zi in fata monitorului numai dinamica nu e);
-
 * Sansa de a te "razbuna" zilnic pe colegii tai utilizand "armele din dotare" (X-BOX / PC gaming sessions);
-
 * Restul le descoperim impreuna pe parcurs.
-
-
 
 *Locatie*: Bucuresti (Cartierul Primaverii)
 
-
-
 *Program*: Full-Time
-
-
 
 Dupa cum probabil ti-ai dat seama, NU cautam script-kiddies si in nici un caz NU suntem adeptii conceptului "struto-camila" / "one man show".
 
-
-
-Acestea fiind spuse, asteptam *CV*-ul tau insotit de *3 link-uri* catre cele mai reprezentative proiecte realizate de tine (in cazul in care un proiect nu a fost realizat integral de tine te rugam sa specifici care au fost contributiile tale) pe adresa *jobs [at] f5solutions [dot] ro* (vor fi contactati numai cei care vor fi selectati pentru interviu). Studentii sunt bine-veniti.
