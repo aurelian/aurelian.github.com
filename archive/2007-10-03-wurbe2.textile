@@ -15,116 +15,54 @@ prev:
 
 Aseara a fost intalnirea "wurbe#2":http://wurbe.ro, organizata de "comitetul wurbe":http://wurbe.ro/despre si gazduita de "Adobe Romania":http://myadobe.ro/2007/09/12/adobe-gazduieste-urmatoarea-intalnire-wurbe/ Gazdele au pus la bataie o sala destul de incapatoare (wifi, proiector, scaune &), badgeuri, sucuri si pizza pentru toata lumea -- vreo 50-60 persoane (nu stiu o cifra exacta).
 
-
-
 !http://assets.locknet.ro/images/35.jpg!
-
-
 
 Acum, imagineaza-ti o sala -- ceva poze pentru exercitiul asta sunt pe "flickr":http://www.flickr.com/photos/tags/wurbe2 -- cu (sa zicem) 50 de dezvoltatori web care se intalnesc destul de rar. Au fost 5 prezentari de cate 20-30-sau mai multe minute si 6 lightning talks intr-un interval de 4-5 ore. Un adevarat maraton! Subiectele expuse fiind destul de interesante s-au prelungit uneori mai mult decat era cazul, pentru ca cei 50 simteau nevoia sa discute, sa intrebe si sa intoarca pe toate fetele. Orice.
 
 Din aceasta cauza, pauzele au fost destul de mici (cam 45 minute in total) deci, posibilitatile de socializare au fost reduse. In plus (acum observ) 2 prezentari scurte au fost reporogramate (Dragos Ionita cu PHP __autoload() si Adrian Tanase cu SEO with GSA).
 
-
-
 Una peste alta, a fost *super* ok si tin sa remarc abilitatile lui "Andrei Maxim":http://andreimaxim.ro care a reusit sa se descurce foarte bine fiind asaltat de tot felul de intrebari si discutii dar si ideea de a introduce in program prezentari de tip fulger (5-10 minute).
-
-
 
 Or sa fie si slideuri online in curand, si probabil un wurbe#3 mai spre sfarsitul lunii, de data asta cred ca la o bere -- vedem - analizam:)
 
-
-
 h5. Update
-
-
 
 Dupa intalinrea de aseara, am invatat cateva jmecherii CSS, asa ca pentru incepatori de la "Cristi Balan":http://evil.che.lu:
 
-
-
 # hack-ul cu zoom:1 (has layout in IE6)
-
 # float: left; display: inline; (nici nu stiam de ce am margine dubla in IE 6)
-
 # gruparea declaratiilor pentru selectori
-
-
-
-"reset.css":http://developer.yahoo.com/yui/reset/ de la yahoo il folosesc si eu in ultimul timp.
-
-
 
 Apoi, am inteles care e treaba cu Flex si OpenLaszlo (chiar daca nu cred ca o sa ma lovesc de asa ceva prea curand) de la "Sorin Mocanu":http://eblogs.ro/sorin.
 
-
-
 "Viorel Cojocaru":http://beanon.com/ spune sa folosesc liste pentru a afisa posturile pe blog, cica asa ar fi mai semantic si persoanele cu screenreadere ar fi ajutate sa inteleaga unde incepe si se termina un articol. Si sa pun abbr pe data cu un format ISO sa vada toata lumea cand a fost adaugat / actualizat un articol.
-
-
 
 Cool.
 
-
-
 h4. RFSDS
-
-
 
 Ok, eu am vorbit cateva minute despre RFSDS, un sistem simplu de deploy al aplicatiilor cu arhitectura simpla. Din pacate, am fost si singurul fara slideuri sau notite si presat fiind si de timp, nu stiu daca toata lumea a inteles despre ce era vorba.
 
-
-
-De fapt, am avut un singur "slide":http://www.locknet.ro/files/remote.rake.html.
-
-
+De fapt, am avut un singur "slide":http://assets.locknet.ro/files/remote.rake.html.
 
 RFSDS este o alternativa pentru capistrano sau vlad. Aveam nevoie de o modalitate rapida pentru a face delpoy sau a controla serviciile Rails dintr-o singura comanda rulata local.
 
 Capistrano este o unealta excelenta, insa incearca sa rezolve prea multe probleme. Mai mult poti pierde timp destul de pretios pentru a invata cum se foloseste sau pentru a realiza primul sistem de deploy care sa mearga. Fiind la inceput, o sa ai nevoie si de un sistem de test pentru a experimenta. Apoi, eu am constatat ca ai nevoie de pasi suplimentari, de exemplu in cazul in care ai o aplicatie care face upload de fisiere.
 
-
-
 Nevoile mele sunt mult mai simple:
 
-
-
 # trebuie sa am un sistem care sa faca foarte usor actualizari ale codului din version control. Acest lucru implica si posibilitatea de a face rollback in cazul in care am introdus cine stie ce eroare.
-
 # trebuie sa am o modalitate simpla de a controla mongrel, serverul de aplicatii folosit.
-
 # vreau sa rulez taskuri rake (in special rake db:migrate) pe sistemul remote.
-
-
 
 Am grupat aceste cerinte in -5- 6 taskuri rake. Am adaugat si ceva condimente (ruby-growl pentru notificari cool pe Mac OS X) si am avut in mai putin de o ora un sistem de deploy care ma ajuta sa imi fac treaba.
 
 Cand o sa am o aplicatie ce va necesita actualizari pe mai multe masini, o sa adaug si aceasta posibilitate, si am experienta, pentru ca am realizat si ceva similar in trecut.
 
-
-
 RFSDS foloseste libraria ruby "Net::SSH":http://net-ssh.rubyforge.org/ la fel ca si "capistrano":http://capify.org/. Sistemul merge pentru "Subversion":http://subversion.tigris.org/ si "mongrel cluster":http://mongrel.rubyforge.org/.
-
-
 
 Nu exista posibilitatea de a adauga si parola, pentru ca in mod normal eu folosesc autentificare ssh cu chei publice / private, insa se poate mofica foarte usor daca este cazul.
 
-
-
 Probabil ca merge si pe windows cu "PuTTY":http://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter8.html#8.2 insa eu nu am posibilitatea sa incerc.
-
-
-
-"Codul sursa" poate fi obtinut din SVN-ul de la "NRR":http://rubyforge.org/projects/nrr, de exemplu folosind:
-
-
-
-@svn export svn://rubyforge.org/var/svn/nrr/rfsds rfsds@.
-
-
-
-Patches are welcome!
-
-
 
 p{color:#ccc;font-size:75%}. *photo credit*: Grant Neufeld, "Green Party of Alberta AGM, 2006":http://www.flickr.com/photos/grantneufeld/256963081/ on flickr. Released under: "Creative Commons":http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en-us.
