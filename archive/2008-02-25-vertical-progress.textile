@@ -13,48 +13,27 @@ prev:
 
 ---
 
-Am prins cateva ore saptamana trecuta pentru a imbunatatii idea legata de dezvoltarea unui vertical[1] search engine pentru joburi din .ro. Am prezentat cateva detalii in "Follow up IT Market":http://www.locknet.ro/article/follow-up-it-market
-
-
+Am prins cateva ore saptamana trecuta pentru a imbunatatii idea legata de dezvoltarea unui vertical[1] search engine pentru joburi din .ro. Am prezentat cateva detalii in "Follow up IT Market":http://locknet.ro/archive/2008-01-29-follow-up-it-market.html
 
 <p><a href="http://assets.locknet.ro/images/50.png" rel="lightbox" title="Search Results"><br />
-
 <img src="http://assets.locknet.ro/images/50t.png" title="Search Results" alt="Search Results" /></a></p>
 
-
-
 Proiectul nu este live. Si inca nu stiu cand si daca va fi disponibil.
-
-
 
 Momentan e doar un "loc de joaca" pentru probleme legate de o cautare: relevanta, rapiditate, detectarea si eliminarea anunturilor duplicate sau a problemelor morale[2].
 
 Si ce sens are sa colectezi atatea date daca nu dezvolti si servicii aditionale in paralel? Statistici sau trenduri de exemplu.
 
-
-
 Alte concluzii:
 
-
-
 * anunturile publicate pe myjob sunt de foarte multe ori clasificate incorect si ma intreb daca merita efortul pana la urma.
-
 * encoding-ul poate provoca ceva peri albi ("ex":http://www.myjob.ro/locuri-de-munca/265700/consultant-web-marketing-rcwmr.html).
-
 * "Bizoo Jobs":http://jobs.bizoo.ro/ e okay, "netjobs":http://netjobs.netplaza.ro/ urmeaza sa-l investighez.
-
-
 
 P.S: peste vreo 2 ore incepe "wurbe #6":http://wurbe.ro/2008/2/11/wurbe-6-can-has-beer.
 
-
-
 ---
 
-
-
 fn1. Ironic, acum doua luni nici nu stiam ce inseamana.
-
-
 
 fn2. Cat de corect este sa construiesti un continut pe date colectate din diverse surse? Cum ar fi sa publici si reclame in paginile respective?
