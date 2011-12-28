@@ -13,19 +13,9 @@ prev:
 
 ---
 
-Promovarea unei afaceri prin intermediul mesajelor nesolicitate trimise pe email, adica SPAM ma deranjeaza *foarte* "mult":http://www.locknet.ro/article/totcedoresti-nu-doresc-spam.
-
-
+Promovarea unei afaceri prin intermediul mesajelor nesolicitate trimise pe email, adica SPAM ma deranjeaza *foarte* "mult":http://locknet.ro/archive/2007-11-27-totcedoresti-nu-doresc-spam.html.
 
 !http://assets.locknet.ro/images/43t.png(TopFinante SPAM)!
 
-
-
-Emailul complet de la "TopFinante.ro":http://www.locknet.ro/files/topfinante-mail.txt a fost  trimis la "RBL":http://rbl.sns.ro/.
-
-
-
-
-
-
+Emailul complet de la "TopFinante.ro":http://assets.locknet.ro/files/topfinante-mail.txt a fost  trimis la "RBL":http://rbl.sns.ro/.
 
