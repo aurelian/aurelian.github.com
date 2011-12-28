@@ -13,30 +13,18 @@ prev:
 
 ---
 
- 	    <h3>Nota catre mine:</h3>
+<h3>Nota catre mine:</h3>
 
-    <p>In Internet Explorer pentru a adauga un atribut unui element cu rol de eveniment, <strong>nu</strong> mai incerca sa folosesti <em>setAttribute</em>:</p>
+<p>In Internet Explorer pentru a adauga un atribut unui element cu rol de eveniment, <strong>nu</strong> mai incerca sa folosesti <em>setAttribute</em>:</p>
 
 <pre>
-
 element.setAttribute('onmouseover', 'foo("350px");');
-
 </pre>
 
-    <p>Atributul <em>onmouseover</em> va fi adaugat elementului, insa evenimentul nu va fi declansat. Si asta pentru ca in Internet Explorer, exista metoda <em>attachEvent</em> pentru Element.<br />
-
-O solutie cross-browser ar fi:</p>
+<p>Atributul <em>onmouseover</em> va fi adaugat elementului, insa evenimentul nu va fi declansat. Si asta pentru ca in Internet Explorer, exista metoda <em>attachEvent</em> pentru Element.<br />O solutie cross-browser ar fi:</p>
 
 <pre>
-
 element.onmouseover= function() { foo("350px"); }
-
 </pre>
 
-
-
-<p>
-
-<strong>Update: </strong> pentru exemplificare vezi testul <a href="http://www.locknet.ro/files/set_attribute.html">acesta</a>.
-
-</p>
+<p><strong>Update: </strong> pentru exemplificare vezi testul <a href="http://assets.locknet.ro/files/set_attribute.html">acesta</a>.</p>
