@@ -5,8 +5,8 @@ title: yay pigeons!
 layout: archive
 date: 2008-01-25 19:46:45.000000000 +01:00
 next:
-  url: /archive/2008-01-27-slashes-slashes-slashes.html
-  title: slashes! slashes! slashes!
+  url: /archive/2008-01-28-ce-se-cauta-pe-piata-muncii-it.html
+  title: Ce se cauta pe piata muncii IT?
 prev:
   url: /archive/2008-01-23-ephemeral-projects.html
   title: Ephemeral Projects
@@ -15,39 +15,21 @@ prev:
 
 Pentru a III-a oara in ultimul an m-am trezit cu o familie de porumbei in balcon. Deja a aparut un ou.. si de ce nu si un "blog":http://pigeon-family.blogspot.com/2008/01/hello-pigeon-lovers.html unde sa povestesc ce se mai intampla cu ei.
 
-
-
 <a href="http://www.flickr.com/photos/aurelian/2218678184/" title="The First Father by aurelian, on Flickr"><img src="http://farm3.static.flickr.com/2227/2218678184_a35748c73a.jpg" width="500" height="375" alt="The First Father" /></a>
-
-
 
 Deja aventurile din "primul sezon":http://pigeon-family.blogspot.com/2008/01/season-1-review.html au fost spuse.
 
-
-
 h5. FAQ
-
-
 
 1) Ai prea mult timp liber? Nu, dar imi iubesc pasarile. Si pisicile "sunt okay(1 more minit wit teh menu pls)":http://icanhascheezburger.com/2008/01/24/funny-pictures-1-more-minit-wit-teh-menu-pls/. Lemurii sunt si mai adevarati.
 
-
-
 2) Google Adds? Da, pentru ca din banii adunati planuiesc sa adopt "un lemur":http://www.lemurlanding.com/ pentru un an, dap o sa pun o poza cu mine si lemurul cand o sa soseasca. Nu refuz si alte colaborari atat timp cat sunt "contextuale".
-
-
 
 3) Engleza? Da, pentru ca veau sa imi imbunatatesc skilzurile (sic!) si, apropos, accept orice fel de corecturi corecte.
 
-
-
 4) Alte idei de viitor? Da.
 
-
-
 h5. Off
-
-
 
 Apropos, ti-ai facut o lista cu lucruri pe care vrei sa le faci in viata asta? Daca nu, cred ca este *foarte* trist.
 
