@@ -13,22 +13,16 @@ prev:
 
 ---
 
-"Minute pe net":http://minute.locknet.eu este un "tumblelog":http://en.wikipedia.org/wiki/Tumblelog. 
+Minute pe net este un "tumblelog":http://en.wikipedia.org/wiki/Tumblelog. 
 
 Adica, un fel de blog in care articole scurte prezinta informatii ce *imi atrag atentia*. Nu exista comentarii sau categorii. Posturile nu au nici macar un titlu. 
 
 *Nu* sunt lucruri pe care eu le consider interesante sau amuzante. Prin eventualele completari incerc sa fiu cat mai distant si sa nu exprim nicio opinie pentru a pastra sensul sursei initiale.
 
+Intr-o proportie foarte mare, minutele sunt asigurate folosind fluxurile rss/atom cu continut in limba romana. Cred ca am indexate cel putin 200 de feeduri din cele mai diverse domenii folosind o categorie speciala in "Google Reader":http://www.google.com/reader/view/.
 
-
-Intr-o proportie foarte mare, "minutele":http://minute.locknet.eu sunt asigurate folosind fluxurile rss/atom cu continut in limba romana. Cred ca am indexate cel putin 200 de feeduri din cele mai diverse domenii folosind o categorie speciala in "Google Reader":http://www.google.com/reader/view/.
-
-
-
-"Primul post":http://minute.locknet.eu/minute/2007158.html#entry_1 l-am scris pe 7 Iunie cu toate ca aveam aplicatia aproape gata din Aprilie. Pana acum, siteul a fost in "private beta" fiind "promovat" doar prin statutul pe care il aveam pe Y!Mess.
-
-
+Primul post l-am scris pe 7 Iunie cu toate ca aveam aplicatia aproape gata din Aprilie. Pana acum, siteul a fost in "private beta" fiind "promovat" doar prin statutul pe care il aveam pe Y!Mess.
 
 Planuiam acest proiect de cel putin un an, insa atunci continutul oferit in principal de bloggeri era destul de subtire. Mai mult, nu toate ziarele ofereau in versiunea online un "feed":http://en.wikipedia.org/wiki/Web_feed. Acum starea generala a webului romanesc parca s-a mai imubatatit facilitand aparitia siteurilor cu continut generat de alti utilizatori.
 
-"Minute / net":http://minute.locknet.eu va evolua catre o aplicatie mult mai complexa, insa schimbarile vor fi facute in timp.
+Minute / net va evolua catre o aplicatie mult mai complexa, insa schimbarile vor fi facute in timp.
