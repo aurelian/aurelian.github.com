@@ -15,34 +15,18 @@ prev:
 
 "Adobe":http://myadobe.ro ne-a oferit sala si pentru intalnirea "wurbe":http://wurbe.ro no. 7. Tematica, orientata pe "client side" - css, js, (x)html, microformats, usability - a fost destul de bine acoperita de prezentari. Poze si .pdf-uri vor aparea mai tarziu pe site (eu am baut o cafea mai tarziu si nu am somn acum).
 
-
-
 Tot despre user experinece este vorba si in filmuletul de mai jos.
-
-
 
 <object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/75vypET4yzo&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/75vypET4yzo&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
 
-
-
 --
-
-
 
 In alta ordine de idei, "Tim":http://www.boo.ro/ mi-a confirmat ca nu e nimic ascuns in spatele ofertei de "10k $":http://10k.ro. Am trait cu impresia ca as avea nevoie de un web-cam.
 
-
-
-Intr-o pauza, s-a lansat un schimb frenetic de carti de vizita. Din pacate nu am avut decat una la mine deci, daca e cineva interesat poate sa faca "print(business card)":http://i.locknet.eu/card-0.2.jpg. Oricum, cu ocazia asta i-am cunscut "offline" pe "Victor":http://www.victorstanciu.ro/, "Ovidiu":http://www.ovidiuboc.ro/ si "Alin":http://www.alinzainescu.ro/. Si... am scos "chestia verde":http://www.locknet.ro/article/2-ani-mai-tarziu acum.
-
-
+Intr-o pauza, s-a lansat un schimb frenetic de carti de vizita. Din pacate nu am avut decat una la mine deci, daca e cineva interesat poate sa faca "print(business card)":http://assets.locknet.ro/images/card-0.2.jpg. Oricum, cu ocazia asta i-am cunscut "offline" pe "Victor":http://www.victorstanciu.ro/, "Ovidiu":http://www.ovidiuboc.ro/ si "Alin":http://www.alinzainescu.ro/. Si... am scos "chestia verde":http://locknet.ro/archive/2008-03-18-2-ani-mai-tarziu.html acum.
 
 Ne mai vedem noi. Data viitoare cica e din aia cu bere.
 
-
-
 h5. Update
-
-
 
 "Viorel Mocanu":http://viorelmocanu.ro/blog/wurbe7/ a relatat mai detaliat despre cum fu'.
