@@ -15,18 +15,8 @@ prev:
 
 Cam "tarziu":http://www.cianblog.com/2006/08/18/eliberaticaro-rosiro-online-now/, insa tin sa anunt si eu infiintarea grupului de initiativa "ROSI":http://www.rosi.ro/ - *Romanian Open Source and Free Software Initiative* - avand ca scop imediat pregatirea si organizarea unei conferinte pe teme open-source si free-software in Brasov, Romania in primavara anului 2007.
 
-
-
-<a href="http://www.eliberatica.ro" ><img src="http://eliberatica.ro/eLiberatica_logo.gif" alt="eLiberatica - The Benefits of Open and Free Technologies Conference" style="border:0;"/></a>
-
-
-
 Aceasta conferinta se va numi eLiberatica si va prezenta: 
 
-
-
 bq. ...beneficiile rezultate din adoptarea, folosirea si dezvoltarea de solutii Open Source si Free Software.
-
-
 
 Mai multe detalii se gasesc pe portalul conferintei, "eLiberatica.ro":http://www.eliberatica.ro/.
