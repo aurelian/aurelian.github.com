@@ -19,27 +19,15 @@ Tehnic, se extrage la intamplare din corpus un n-gram (de 3), apoi se foloseste 
 
 Deocamdata doar Basescu si Vanghelie sunt "inscrisi".
 
-
-
 Suntem in 2009, asa ca aplicatia are si un API simplu (iPhone ready!!!):
 
-
-
 <pre>
-
 GET http://circ.heroku.com/${politician}.[xml|json|rss] | ultimile aberatii
-
 POST http://circ.heroku.com/${politician}.[xml|json] | creaza aberatie noua
-
 DELETE http://${user}:${password}@circ.heroku.com/${politician}/${id_aberatie}.[xml|json] | sterge draciu
-
 </pre>
 
-
-
 Buzz-Words: sinatra, dm, haml, ajax, jquery, api, rgc. Momentan, aplicatia ruleaza intr-un mediu destul de strict (max. 5MB) la "heroku":http://heroku.com.
-
-
 
 Cateva idei:
 
@@ -47,11 +35,7 @@ Cateva idei:
 
 * cum ar fi un chat cu Base :D ?
 
-
-
 Nu exista plan de monetizare.
-
-
 
 Tu ce zici? (In afara de "ai prea mult timp liber")
 
