@@ -16,113 +16,62 @@ prev:
 <p>Sa vedem ce se intampla in timpul unei sesiuni prin care incerc sa instalez <a href="http://www.rubygems.org/">gemu</a> cu <a href="http://rmagick.rubyforge.org/">RMagick</a>.</p>
 
 <pre>
-
 [aurelian@stalingrad ~]$ gem install rmagick
-
 Attempting local installation of 'rmagick'
-
 [...............]
-
 Building native extensions. This could take a while...
-
 [...............]
-
 make: *** [rmmain.o] Error 1
-
 setup.rb:655:in `command': system("make") failed (RuntimeError)
-
 from setup.rb:664:in `make'
-
 from setup.rb:1258:in `setup_dir_ext'
-
 from setup.rb:1532:in `__send__'
-
 [...............]
-
 from setup.rb:772:in `invoke'
-
 from setup.rb:1578
-
 make: *** [all] Error 1
-
 [...............]
-
 ---> ext
-
 ---> ext/RMagick
-
 no ruby extention exists: 'ruby setup.rb setup' first
-
 Try 'ruby setup.rb --help' for detailed usage.
-
 make: *** [install] Error 1
-
 ruby gem_extconf.rb install rmagick
-
 sh configure
-
 Configuring RMagick 1.14.1
-
 checking for gcc... gcc
-
 checking for C compiler default output file name... a.out
-
 checking whether the C compiler works... yes
-
 [...............]
-
 This installation of RMagick 1.14.1 is configured for 
-
 ruby 1.8.5 (2006-08-25) [i586-linux-gnu] and ImageMagick 6.2.9.
-
 RMagick configuration completed successfully.
-
 [...............]
-
 make install
-
 /usr/bin/ruby setup.rb install
-
 Successfully installed rmagick-1.14.1
-
 </pre>
 
 <pre>
-
 [aurelian@stalingrad ~]$ gem list | grep rmagick
-
 rmagick (1.14.1)
-
 </pre>
 
 <pre>
-
 [aurelian@stalingrad ~]$ irb
-
 irb(main):001:0&gt; require "rubygems"
-
 => true
-
 irb(main):002:0&gt; require "RMagick"
-
 LoadError: no such file to load -- RMagick.so
-
 from /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require__'
-
 from /usr/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:21:in `require'
-
 from /usr/lib/ruby/gems/1.8/gems/rmagick-1.14.1/lib/RMagick.rb:11
-
 </pre>
 
-    <p><a href="http://www.rubygems.org/">Gem</a> a devenit metoda standard prin care se instaleaza o librarie/pachet pentru <a href="http://www.ruby-lang.org">Ruby</a>.</p>
+<p><a href="http://www.rubygems.org/">Gem</a> a devenit metoda standard prin care se instaleaza o librarie/pachet pentru <a href="http://www.ruby-lang.org">Ruby</a>.</p>
 
-    <p>Sistemul pare destul de bine pus la punct si surprinzator chiar functioneaza.<br />
+<p>Sistemul pare destul de bine pus la punct si surprinzator chiar functioneaza.<br />In majoritatea cazurilor.</p>
 
-In majoritatea cazurilor.</p>
+<p>Nu cunosc toate detaliile privind modalitatea prin care se construieste un astfel de pachet, insa in ultimul timp am intampinat ceva dificultati la instalarea unor extensii "native" ( si <a href="http://libxml.rubyforge.org/">libxml-ruby(0.3.8)</a> se comporta asemanator pe <a href="http://en.wikipedia.org/wiki/FreeBSD">FreeBSD</a>).</p>
 
-    <p>Nu cunosc toate detaliile privind modalitatea prin care se construieste un astfel de pachet, insa in ultimul timp am intampinat ceva dificultati la instalarea unor extensii "native" ( si <a href="http://libxml.rubyforge.org/">libxml-ruby(0.3.8)</a> se comporta asemanator pe <a href="http://en.wikipedia.org/wiki/FreeBSD">FreeBSD</a>).</p>
-
-    <p>Nu inteleg insa de ce instalarea nu se opreste imediat cand este intalnita o eroare.<br />
-
-Nu inteleg de ce la sfarsit am primit mesajul prin care am fost anuntat ca libraria respectiva a fost instalata cu succes.</p>
+<p>Nu inteleg insa de ce instalarea nu se opreste imediat cand este intalnita o eroare.<br />Nu inteleg de ce la sfarsit am primit mesajul prin care am fost anuntat ca libraria respectiva a fost instalata cu succes.</p>
