@@ -13,65 +13,33 @@ prev:
 
 ---
 
-<a href="http://www.eliberatica.ro/2008"><img src="http://www.eliberatica.ro/2008/media/logo-eLiberatica-2008-600x300.gif" alt="eLiberatica 2008 - The Benefits of Open and Free Technologies Conference" border="0" /></a>
-
-
-
 Un mic reminder: vineri 30 si sambata 31 Mai, la "World Trade Center":http://rubyurl.com/FKTK in Bucuresti se va desfasura conferinta cu teme open source eLiberatica. Pana la sfarsitul lunii (31 Martie), "biletele":http://www.eliberatica.ro/2008/eliberatica-inregistrare#bct au o reducere fabuloasa de 20%!
-
-
 
 Despre eLiberatica 2008 se va vorbi mult timp: Cu o tendinta spre business, in 2008, "programul":http://www.eliberatica.ro/2008/eliberatica-conferentiari-si-program + partenerii formeaza deja o lista impresionanta.
 
-
-
 h5. Nota #1
-
-
 
 Si anul asta se intampla sa se voteze cam in acelasi timp. Anul trecut a fost un referendum chiar in ultima zi. Acum, pe 1 iunie se voteaza pentru alegerile locale. La anul, poate pica aproape de prezidentiale :) Vedem noi in 2010 ce mai votam.
 
-
-
 h5. Nota #2
 
-
-
-E prea devreme sa imi dau seama daca o sa reusesc sau nu "sa ajung":http://www.locknet.ro/article/pauza-de-bucuresti si eu.
-
-
+E prea devreme sa imi dau seama daca o sa reusesc sau nu "sa ajung":http://locknet.ro/archive/2008-02-18-pauza-de-bucuresti.html si eu.
 
 h5. Nota #3
 
-
-
 Acest eveniment este facut posibil de "Lucian":http://www.cianblog.com/ si restul membrilor (activi) "ROSI":http://www.rosi.ro/ in parteneriat cu "Agora Media":http://www.agora.ro/.
-
-
 
 h5. Nota #4
 
-
-
 Pentru "mofo":http://microformats.org/ lovers:
 
-
-
 <div class="vevent">
-
  <span class="summary"><a class="url" href="http://www.eliberatica.ro/2008/">eLiberatica - 2008</a>
-
   The benefits of Open and Free Technologies</span>
-
   <abbr class="dtstart" title="2008-05-30">30</abbr> - 
-
   <abbr class="dtend" title="2008-05-31">31 Mai</abbr>,
-
  la <span class="location"><a href="http://rubyurl.com/FKTK">World Trade Center</a>, in Bucuresti</span>
+</div>
 
- </div>
-
-
-
-cel mai bine se vede cu "Operator":https://addons.mozilla.org/firefox/4106/ pe "Firefox":http://www.mozilla.com/en-US/firefox/ sau "webcal":webcal://suda.co.uk/projects/X2V/get-vcal.php?uri=http://www.locknet.ro/article/eliberatica-2008-a-kick-ass-event.
+cel mai bine se vede cu "Operator":https://addons.mozilla.org/firefox/4106/ pe "Firefox":http://www.mozilla.com/en-US/firefox/ sau "webcal":webcal://suda.co.uk/projects/X2V/get-vcal.php?uri=http://locknet.ro/archive/2008-03-20-eliberatica-2008-a-kick-ass-event.html.
 
