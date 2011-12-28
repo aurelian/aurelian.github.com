@@ -5,8 +5,8 @@ title: Obstrusivionam?
 layout: archive
 date: 2008-05-29 03:21:53.000000000 +02:00
 next:
-  url: /archive/2008-06-02-jobs-properazzi.html
-  title: Jobs @ Properazzi
+  url: /archive/2008-06-12-flawless-design-not.html
+  title: ! 'Flawless design. Not!'
 prev:
   url: /archive/2008-05-08-subscribers-va-raspund-cu-301.html
   title: ! 'Subscribers: va raspund cu 301!'
