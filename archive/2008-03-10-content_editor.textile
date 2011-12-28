@@ -13,66 +13,29 @@ prev:
 
 ---
 
-<p>Content Editor is a Beast plugin that allows creation of simple pages with &#8230;stuff.</p>
+Content Editor is a Beast plugin that allows creation of simple pages with ...stuff.
 
+h3. Features
 
+ * Nice Permalinks (http://example.com/my-cool-page)
+ * Admin only (http://example.com/pages to start with it)
+ * Textarea with Textile
+ * ...umm
 
-    <h3>Features</h3>
+h3. Install
 
-
-
-    <ul>
-
-        <li>Nice Permalinks (http://example.com/my-cool-page);</li>
-
-        <li>Admin only (http://example.com/pages to start with it);</li>
-
-        <li>Textarea with Textile;</li>
-
-        <li>&#8230;umm</li>
-
-    </ul>
-
-
-
-    <h3>Install</h3>
-
-
-
-    <ul>
-
-        <li>make sure you have a working Beast (or Altered Beast) installation!</li>
-
-        <li>clone with Git:
-
-
+Make sure you have a working Beast (or Altered Beast) installation! Then clone with Git:
 
 <pre>git clone git://github.com/aurelian/beast--contenteditor.git vendor/beast/content_editor</pre>
 
-</li>
+or <a href="http://github.com/aurelian/beast--contenteditor/tarball/master">download</a> and unpack to vendor/beast/content_editor.
 
-        <li>or <a href="http://github.com/aurelian/beast--contenteditor/tarball/master">download</a> and unpack to vendor/beast/content_editor</li>
+There is also a <a href="http://github.com/aurelian/beast--contenteditor/wikis">wiki page</a>.
 
-        <li>there is a <a href="http://github.com/aurelian/beast--contenteditor/wikis">wiki page</a>.</li>
+h3. Halp?
 
-    </ul>
+Use github infrastructure.
 
+h3. What's Beast?
 
-
-    <h3>Halp?</h3>
-
-
-
-    <ul>
-
-        <li>Contact/Patches: use the <a href="http://www.locknet.ro/contact">form</a>. or the email, no patches via <span class="caps">SMS</span>.</li>
-
-    </ul>
-
-
-
-    <h3>What&#8217;s Beast?</h3>
-
-
-
-    <p>A forum.</p>
+A forum.
