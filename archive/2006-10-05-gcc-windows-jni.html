@@ -15,22 +15,18 @@ prev:
 
 <h3>Nota catre mine.</h3>
 
-    <p>Cand esti in Windows si incerci sa folosesti <a href="http://www.mingw.org/">gcc</a> pentru a compila biblioteca de legaturi dinamice (mai pe romaneste dll-ul) ce va contine implementarea pentru metodele native declarate in <a href="http://en.wikipedia.org/wiki/Java_programming_language">Java</a> cu ajutorul <a href="http://en.wikipedia.org/wiki/Java_Native_Interface">JNI</a>, nu uita sa adaugi flagul <code>-D_JNI_IMPLEMENTATION_</code>.</p>
+<p>Cand esti in Windows si incerci sa folosesti <a href="http://www.mingw.org/">gcc</a> pentru a compila biblioteca de legaturi dinamice (mai pe romaneste dll-ul) ce va contine implementarea pentru metodele native declarate in <a href="http://en.wikipedia.org/wiki/Java_programming_language">Java</a> cu ajutorul <a href="http://en.wikipedia.org/wiki/Java_Native_Interface">JNI</a>, nu uita sa adaugi flagul <code>-D_JNI_IMPLEMENTATION_</code>.</p>
 
-    <p>In final, comanda pentru compilare poate arata asa:</p>
+<p>In final, comanda pentru compilare poate arata asa:</p>
 
 <pre>
-
 set INCLUDES = -I%JAVA_HOME%\include -I%JAVA_HOME%\include\win32
-
 set LINKFLAGS=-Wall -Wl,--kill-at -shared
-
 gcc -D_JNI_IMPLEMENTATION_ %INCLUDES% %LINKFLAGS% ....
-
 </pre>
 
-    <p>Daca tot esti aici, nu uita sa aplici <code>strip</code> pe fisierul binar rezultat.</p>
+<p>Daca tot esti aici, nu uita sa aplici <code>strip</code> pe fisierul binar rezultat.</p>
 
-    <p>Si vezi ca exista o implementare pentru <a href="http://en.wikipedia.org/wiki/Pthreads">pthreads</a> si pentru Windows <a href="http://sourceware.org/pthreads-win32/">aici</a>. Merita incercat.</p>
+<p>Si vezi ca exista o implementare pentru <a href="http://en.wikipedia.org/wiki/Pthreads">pthreads</a> si pentru Windows <a href="http://sourceware.org/pthreads-win32/">aici</a>. Merita incercat.</p>
 
-    <p>Apropos, nu mai ai nevoie de metoda <code>DllMain</code> in libraria ta JNI. Cred ca doar daca folosesti <a href="http://en.wikipedia.org/wiki/GNU_Compiler_Collection">GCC</a>.</p>
+<p>Apropos, nu mai ai nevoie de metoda <code>DllMain</code> in libraria ta JNI. Cred ca doar daca folosesti <a href="http://en.wikipedia.org/wiki/GNU_Compiler_Collection">GCC</a>.</p>
