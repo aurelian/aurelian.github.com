@@ -13,30 +13,18 @@ prev:
 
 ---
 
-Luna trecuta am inceput-o prin castigarea unei batalii cu spamul primit pe lista de discutii a proiectului "Medick":http://medick.locknet.ro prin blocarea mailurilor trimise de ORICEdeborahORICE@ORICE.ORICE. Asa ca, daca ai _in_ adresa de mail cuvantul _deborah_ si incerci sa postezi un mesaj pe "Medick-devel":http://bat.berlios.de/mailman/listinfo/medick-devel acesta va fi refuzat pentru SPAM.
+Luna trecuta am inceput-o prin castigarea unei batalii cu spamul primit pe lista de discutii a proiectului Medick prin blocarea mailurilor trimise de ORICEdeborahORICE@ORICE.ORICE. Asa ca, daca ai _in_ adresa de mail cuvantul _deborah_ si incerci sa postezi un mesaj pe "Medick-devel":http://bat.berlios.de/mailman/listinfo/medick-devel acesta va fi refuzat pentru SPAM.
 
 Tot pentru lista de discutii, am mai blocat un grup de 30 de adrese de mail.
 
-
-
 Pe blog, primesc SPAM "vizibil" prin formularul de contact. Nu este cea mai buna / eficienta solutie insa aproximativ 40 de IP-uri nu ma vor mai putea conctacta. Stiu povestea: poate am blocat si utilizatori inocenti, insa imi asum acest risc.
-
-
 
 !http://assets.locknet.ro/images/27.png!
 
-
-
 Spamul invizibil este realizat de incearcarile de  adaugare a unui comentariu pentru articole cu comentarii dezactivate. Suna stupid, insa aceste incercari pot cauza o crestere inutila a utilizarii resurselor folosite de sistem dar si o nedorita crestere a traficului.
-
-
 
 !http://assets.locknet.ro/images/28.png!
 
-
-
 Folosesc in mod curent 2 adrese de mail. SPAM-ul primit direct pe acestea (cam 98% din mailurile primite de mine sunt SPAM) este anihilat cu filtre in thunderbird sau destul de eficient de sistemul de la gmail. De 3-4 ori pe an, SPAM-ul in limba romana il trimit mai departe la "Romanian Black List":http://rbl.sns.ro/.
-
-
 
 Sunt convins ca oricat de mult m-as stradui, victoriile mele impotriva spammerilor sunt doar temporare. Curand acestia vor gasi alte adrese ip sau email de unde sa produca mesaje nesolicitate.
