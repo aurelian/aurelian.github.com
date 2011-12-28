@@ -15,14 +15,7 @@ prev:
 
 bq. OpenStreetMap este un proiect colectiv, în regim open source, ce are ca scop construirea unei baze de date geografice globale. cum ar fi atlasele rutiere, folosind atât date introduse manual avand ca backround imagini spaţiale cât şi date colectate de pe dispozitive GPS.
 
-
-
 "OpenStreetMap":http://www.openstreetmap.org/ pe "wikipedia in limba romana":http://ro.wikipedia.org/wiki/OpenStreetMap.
-
-
 
 Asta pentru ca in ultimile 2-3 luni am discutat cu cateva persoane care nu au auzit de OSM. Si ar fi trebuit.
 
-
-
-Despre Google MapMaker am "scris pe blogul ondi":http://ondi.ro/blog/google-mapmaker.html.
