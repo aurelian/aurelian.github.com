@@ -1,0 +1,62 @@
+---
+id: 7
+url: /archive/2006-09-20-trafic
+title: Trafic
+layout: archive
+date: 2006-09-20 10:40:00.000000000 +02:00
+next:
+  url: /archive/2006-09-20-medick-environments-part-1.html
+  title: Medick Environments - Part 1
+prev:
+  url: /archive/2006-09-20-afacere-sortita-escului.html
+  title: Afacere sortita esecului
+
+---
+
+De cateva saptamani, firma care gazduieste domeniul locknet.ro a scos "webalizer":http://www.mrunix.net/webalizer/.
+
+Imi place webalizer, chiar daca arata cam primitiv cred ca isi face foarte bine treaba. Cel putin pentru nevoile mele.
+
+Si uite asa am ramas cu "awstats":http://awstats.sourceforge.net/.
+
+In sfarsit, nimic anormal si m-as putea obisnui si cu awstats, *insa* statisticile pe care le am acum sunt generate o singura data / saptamana.
+
+M-ar interesa sa ruleze cronul ala al lor macar o data pe zi.
+
+
+
+Asa ajung si la imaginea noua si albastra de sub logo-ul textpattern. Este vorba despre un serviciu de statistici oferit de performancing.com (via "SEORom Blog":http://blog.seorom.com/2006/03/14/bloguri/stats-uri-speciale-pentru-bloggeri-de-la-bloggeri/).
+
+Ca orice aplicatie care se respecta, sunt convins ca se afla inca in BETA.
+
+Acesta promite:
+
+
+
+* Real-time blog statistics
+
+* -Track mutiple blogs with one user account-
+
+* -Ideal for high traffic blogs-
+
+* RSS 2.0 feeds for your news reader
+
+* It's FREE!
+
+
+
+*Update*: Am taiat facilitatile care nu mi se par interesante.
+
+
+
+Din Mission:
+
+
+
+bq. To create a home for professional bloggers. A place where those that want to make money from their blogs can learn, and perfect the art of making a living from weblogging.
+
+
+
+Nu prea este cazul. Eu vreau doar statistici cool si la timp.
+
+In plus, o sa pot dezactiva stats-urile (nu foarte folositoare) oferite de textpattern.

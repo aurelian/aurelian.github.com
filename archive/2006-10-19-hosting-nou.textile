@@ -1,0 +1,40 @@
+---
+id: 67
+url: /archive/2006-10-19-hosting-nou
+title: Hosting nou
+layout: archive
+date: 2006-10-19 16:34:15.000000000 +02:00
+next:
+  url: /archive/2006-10-20-sunt-pfa-caen-7222.html
+  title: Sunt PFA, CAEN 7222
+prev:
+  url: /archive/2006-10-12-linux-open-alternative-days.html
+  title: Linux Open Alternative Days
+
+---
+
+De vreo 10 zile am schimbat hostingul pentru locknet.ro.
+
+
+
+Am ales "hosting.chml.ro":http://hosting.chml.ro pentru ca serverele sunt in Romania dar si pentru ca: 
+
+
+
+bq. "La noi veţi lucra cu oameni, nu cu scripturi".
+
+
+
+(salut "maxx":http://www.mandrivausers.ro)
+
+
+
+Ma bucur in liniste de Subversion, Rails, SSH si spatiu de stocare rezonabil (aveam 30 MB).
+
+
+
+Migrarea - incluzand si schimbarea de DNS  - a fost facuta transparent pentru vizitatori. Nu am avut mari probleme pana acum si sunt foarte incantat de facilitatile detinute.
+
+
+
+Downtime-ul de astazi (10-12 ore) se datoreaza unui rebel care si-a facut de cap cu niste cabluri. Sper sa nu se mai repete - prea des :)

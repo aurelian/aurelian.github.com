@@ -1,0 +1,30 @@
+---
+id: 57
+url: /archive/2006-09-20-medick-030pre2-released
+title: Medick 0.3.0pre2 Released
+layout: archive
+date: 2006-09-20 10:07:39.000000000 +02:00
+next:
+  url: /archive/2006-09-20-ordinea-validarii-in-rails.html
+  title: Ordinea Validarii in Rails
+prev:
+  url: /archive/2006-09-20-viitorul-liber.html
+  title: Viitorul liber
+
+---
+
+"Medick":http://medick.locknet.ro version 0.3.0pre2 was released today.
+
+For download you can use one of "berlios":http://berlios.de "mirrors":http://developer.berlios.de/project/showfiles.php?group_id=4023&release_id=10611.
+
+
+
+Since database configuration settings where moved from the xml file to a conf/database.ini this version is not compatible with older versions. Learn how to upgrade your medick applications to 0.3.0pre2 from "this message":http://lists.berlios.de/pipermail/medick-devel/2006q3/000039.html posted on the "internal development list":http://lists.berlios.de/mailman/listinfo/medick-devel.
+
+
+
+For a complete list of changes see the "CHANGELOG":http://medick.locknet.ro/api/ric_CHANGELOG.html file.
+
+
+
+"Medick":http://medick.locknet.ro is a PHP 5 Web Framework (not a collection of PHP classes) released under a BSD style "LICENSE":http://medick.locknet.ro/api/ric_LICENSE.html.

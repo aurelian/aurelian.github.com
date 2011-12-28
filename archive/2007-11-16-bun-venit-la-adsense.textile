@@ -1,0 +1,60 @@
+---
+id: 133
+url: /archive/2007-11-16-bun-venit-la-adsense
+title: Bun venit la AdSense
+layout: archive
+date: 2007-11-16 19:37:31.000000000 +01:00
+next:
+  url: /archive/2007-11-27-totcedoresti-nu-doresc-spam.html
+  title: ! 'totcedoresti: Nu doresc SPAM'
+prev:
+  url: /archive/2007-11-14-be-my-follower.html
+  title: Be my Follower
+
+---
+
+Dap, ai citit bine! Mi-am pus adsense pe blog!
+
+Vino sa le vezi cat sunt de frumoase si lasa un comentariu!Cum unde sunt? Adica, nu se incarca? Sau...
+
+
+
+Tu, cititor fidel de locknet.ro nu o sa ai parte de nicio reclama, pentru ca tu esti *inteligent* si imi devorezi articolele printr-un feed RSS iar cand vii sa lasi vreun comentariu in niciun caz nu folosesti Internet Explorer.
+
+
+
+Ei bine, mi-am permis o implemetare selectiva.
+
+Pentru ca totusi cititorii ocazionali sunt cei mai numerosi, ei aterizand pe aici de pe vreun motor de cautare unde de cele mai multe ori informatiile cautate nu se regasesc decat partial in continutul oferit de mine. De ce sa nu ii ajut, si cu AdSense, reclama contextuala, sa ii trimit intr-un alt loc, unde ar fi mai fericiti?
+
+
+
+Am studiat bine conditiile impuse de Google, si nu am gasit vreo sectiune in care sa imi interzica sa fac discriminari bazate pe browserul utilizatorului sau pe referal.
+
+Deja am vreo 4 fire de par alb in cap si 3 dintre ele sunt provocate *sigur* de MSIE. De ce sa nu ma simt si eu bine si sa modific putin layoutul adaugand vreo 5-6 box-uri cu reclame? Contextuale.
+
+
+
+In concluzie ai reclame daca:
+
+<ul>
+
+        <li>folosesti IE</li>
+
+        <li>vii de pe un motor de cautare,</li>
+
+        <li>vii de pe siteuri care fac referinta catre locknet.ro si au reclame</li>
+
+</ul>
+
+
+
+Ma astept la castiguri financiare fabuloase? Nu, dar poate dupa un an o sa pot plati din AdSense hostingul sau de ce nu poate sa imi iau si eu Leopard-ul.
+
+
+
+Simplu, nu?
+
+
+
+*P.S.*: am updatat lista de conditii (nu avea sens, right?) si mai lucrez putin la implementare :p

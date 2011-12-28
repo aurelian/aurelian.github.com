@@ -1,0 +1,73 @@
+---
+id: 153
+url: /archive/2008-01-09-iban-validation-and-beast
+title: IBAN validation and Beast
+layout: archive
+date: 2008-01-09 14:40:09.000000000 +01:00
+next:
+  url: /archive/2008-01-16-10-tickets-to-go.html
+  title: 10 tickets to go
+prev:
+  url: /archive/2008-01-03-2008_2007_3.html
+  title: 2008 = 2007*3
+
+---
+
+h5. I) Short snippet
+
+
+
+<pre>
+
+  validates_each :iban do | record, attr, value |
+
+    record.errors.add attr, 'IBAN is mandatory' and next if value.blank?
+
+    # IBAN code should start with country code (2letters)
+
+    record.errors.add attr, 'Country code is missing from the IBAN code' and next unless value.to_s =~ /^[A-Z]{2}/i
+
+    iban = value.gsub(/[A-Z]/) { | p | p[0]-55 }
+
+    record.errors.add attr, 'Invalid IBAN format' unless (iban[6..iban.length-1].to_s+iban[0..5].to_s).to_i % 97 == 1
+
+  end
+
+</pre>
+
+
+
+!http://imgs.xkcd.com/comics/regular_expressions.png(Regular Expressions
+
+)!:http://xkcd.com/208/
+
+
+
+More on "IBAN":http://en.wikipedia.org/wiki/IBAN#Calculating_and_Validating_IBAN_checksums numbers and validation.
+
+
+
+h5. II) Load "Beast":http://beast.caboo.se/ plugins with script/console
+
+
+
+<pre>
+
+[aurelian@stalingrad beastapp]$ script/console
+
+Loading development environment (Rails 2.0.2)
+
+beastapp> profile = User.find(:first).profile
+
+NoMethodError: undefined method `profile' for #<User:0x32b72a0>
+
+beastapp> Dispatcher.new($stdout).prepare_application
+
+=> false
+
+beastapp> profile = User.find(:first).profile
+
+=> #<Profile id: 1, user_id: 4, title: "Mr.", [...]
+
+</pre>
+

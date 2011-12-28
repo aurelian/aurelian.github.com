@@ -1,0 +1,38 @@
+---
+id: 195
+url: /archive/2008-04-20-google-si-pornografie
+title: Despre google si pornografie
+layout: archive
+date: 2008-04-20 14:48:40.000000000 +02:00
+next:
+  url: /archive/2008-04-23-aao_friendfeed-a-textpattern-plugin.html
+  title: aao_friendfeed a Textpattern Plugin
+prev:
+  url: /archive/2008-04-16-poezie-pe-twitter.html
+  title: Poezie pe Twitter
+
+---
+
+Motorul ma iubeste, iar eu - fara sa vreau, da? - am intrat in prima pagina in .ro cu un "cuvant":http://www.locknet.ro/article/eliberatica-2008-a-kick-ass-event aducator de cautatori de fundulete.
+
+In doar cateva saptamani pisicile au fost detronate fara rusine de acesti perversi lipsiti de scrupule. Si sunt multi! Ani de zile investiti in SEO s-au dus pe apa sambetei fara ca eu sa pot reactiona. Acum imi e teama ca vor fi dezamagiti si cine stie ce haker se va gandi sa imi dea o lectie.
+
+
+
+Sau poate o sa apara la conferinta.
+
+
+
+h5. Cum faci o captcha a la google? 
+
+
+
+<a href="http://assets.locknet.ro/images/53.png" rel="lightbox" title="Google Fun"><img src="http://assets.locknet.ro/images/53t.png" alt="Google Fun" title="Google Fun" /></a>
+
+
+
+Pai, se ia o lista de cuvinte la mare cautare avand fix 5 caractere. Umm. Si atat.
+
+
+
+Dupa ce am tras screenshot- ul, am dat refresh sau submit?

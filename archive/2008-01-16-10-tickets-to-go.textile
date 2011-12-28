@@ -1,0 +1,32 @@
+---
+id: 155
+url: /archive/2008-01-16-10-tickets-to-go
+title: 10 tickets to go
+layout: archive
+date: 2008-01-16 16:25:07.000000000 +01:00
+next:
+  url: /archive/2008-01-21-luni-la-wurbe-5.html
+  title: ! 'Luni, la Wurbe #5'
+prev:
+  url: /archive/2008-01-09-iban-validation-and-beast.html
+  title: IBAN validation and Beast
+
+---
+
+Mai sunt doar "10 bilete":http://www.eventbrite.com/event/92260955 pentru marele eveniment "wurbe #5":http://wurbe.ro/2008/1/11/wurbe-5-locatie-si-organizare, organizat in 21 ianuarie de comitetul "wurbe":http://wurbe.ro cu sprijinul "Adobe Romania":http://myadobe.ro.
+
+
+
+Se va vorbi despre testing: TDD si BDD.
+
+
+
+Apropos, vine si "vivi":http://vivi.ro.
+
+
+
+--
+
+
+
+Pe de alta parte, "Sun":http://www.sun.com/aboutsun/pr/2008-01/sunflash.20080116.1.xml a "achizitionat MySQL(Sun acquires MySQL)":http://blogs.mysql.com/kaj/sun-acquires-mysql.html/.

@@ -1,0 +1,28 @@
+---
+id: 122
+url: /archive/2007-10-22-my-new-textpattern
+title: My New Textpattern...
+layout: archive
+date: 2007-10-22 07:45:00.000000000 +02:00
+next:
+  url: /archive/2007-11-05-sfatul-zilei-incoming-personal-calificat.html
+  title: ! 'Sfatul Zilei: Incoming Personal Calificat'
+prev:
+  url: /archive/2007-10-15-my-textpattern-template.html
+  title: My Textpattern Template
+
+---
+
+Ok, am fost previzibil, dar eram total deprimat de vechea tema :)
+
+Asa ca, am facut cateva schimbari, destul de mici, pe ici-pe-colo.
+
+Ar mai fi putin de lucru - pe la CSS in special - insa acum sunt foarte multumit, si in plus *parca* arata la fel in mai mult de 3 browsere (diferite).
+
+
+
+Intre timp am upgradat la ultima versiune stabila de "textpattern":http://textpattern.com/ - eram cu o 4.0.3, iesita de vreo 2 ani, am adaugat cateva efecte de mare efect - "mootools":http://mootools.net/ powered. Casuta de comentarii este si ea putin mai mare.
+
+
+
+Mai mult, in curand o sa am si un coleg de blog, nu prea vorbaret, dar care promite sa vina cu o insemnare saptamanal.

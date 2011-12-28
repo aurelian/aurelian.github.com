@@ -1,0 +1,39 @@
+---
+id: 88
+url: /archive/2007-03-18-cat-de-profitabila-este-autofinanarea
+title: Cât de profitabila este autofinanțarea?
+layout: archive
+date: 2007-03-18 22:16:01.000000000 +01:00
+next:
+  url: /archive/2007-03-28-de-ce-open-source.html
+  title: De ce Open Source?
+prev:
+  url: /archive/2007-03-16-happy-blog-day.html
+  title: Happy blog day
+
+---
+
+Autofinantare: investitia in propriile proiecte.
+
+Context: Romania --> IT --> Software --> Web.
+
+
+
+Singurul motiv bun pentru care as investi intr-un proiect propriu in contextul descris mai sus ar fi satisfactia realizarii unui produs prin forte proprii. Sa fim realisti, castigul material iese din discutie cel putin in primul an. 
+
+Pe de alta parte ar putea sa fie "The First Big Thing" pe piata din Romania.
+
+
+
+Ar trebui sa stiu sa joc un triplu rol: sa fiu producator ( programator / designer ), utilizator dar si client.
+
+Si sa am calitatile si subiectiviatea necesara pentru fiecare rol in parte: sa fiu un client exigent, un producator bun, un utilizator sceptic.
+
+Nu inseamna ca o sa incep sa ma cert singur prin casa pentru un termen limita nerespectat, insa voi avea nevoie de organizare.
+
+Ah, si sa stiu sa imi promovez produsul.
+
+
+
+Cu 8 ore petrecute la munca timp de 5 zile pe saptamana, autofinantarea inseamna abandonarea unor proiecte aditionale aducatoare de bani suplimentari.
+

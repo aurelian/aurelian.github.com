@@ -1,0 +1,22 @@
+---
+id: 65
+url: /archive/2006-09-24-medick
+title: Medick, the Web Framework for PHP
+layout: archive
+date: 2006-09-24 14:21:27.000000000 +02:00
+next:
+  url: /archive/2006-09-24-on-projects-despre-proiecte.html
+  title: on Projects, despre proiecte
+prev:
+  url: /archive/2006-09-24-wsm.html
+  title: WSM
+
+---
+
+Medick is an open-source web framework written in PHP.
+
+
+
+Started in June 2005 at "berlios.de":http://developer.berlios.de/projects/medick/, Medick is at version 0.3.0pre2.
+
+The website is "here":http://medick.locknet.ro/ and it includes a nice "FAQ":http://medick.locknet.ro/faq.html and the "API docs":http://medick.locknet.ro/api/.

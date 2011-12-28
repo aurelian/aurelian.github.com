@@ -1,0 +1,32 @@
+---
+id: 215
+url: /archive/2008-06-18-aproape-aici
+title: Aproape aici
+layout: archive
+date: 2008-06-18 00:31:52.000000000 +02:00
+next:
+  url: /archive/2008-06-30-campeones-update.html
+  title: campeones - update
+prev:
+  url: /archive/2008-06-17-lista-de-cheltuieli.html
+  title: Lista de cheltuieli
+
+---
+
+bq. Si, de ce iti este dor din Romania in afara de prieteni si familie?
+
+
+
+bq. Umm... de nimic, zic eu
+
+
+
+bq. Daa? Ce misto.
+
+
+
+bq. Poate o conexiune decenta la internet. Tie, ce iti lipseste?
+
+
+
+bq. Of, atat de multe. Dar cel mai mult cultura si media din londra.

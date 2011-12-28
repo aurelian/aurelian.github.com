@@ -1,0 +1,108 @@
+---
+id: 27
+url: /archive/2006-04-10-committed-revision-1
+title: Committed revision 1
+layout: archive
+date: 2006-04-10 09:47:48.000000000 +02:00
+next:
+  url: /archive/2006-04-14-am-hosting-cu-rails-mai-departe.html
+  title: Am hosting cu Rails, mai departe?
+prev:
+  url: /archive/2006-04-09-medick-022-released.html
+  title: Medick 0.2.2 Released
+
+---
+
+I have migrated "WSM":http://wsm.berlios.de/ from "CVS":http://www.nongnu.org/cvs/ to "Subversion":http://subversion.tigris.org/ today, basically  re-imported the sources into the new repository since I'm more comfortable with svn.
+
+
+
+Because I'm a linux user now, the development on WSM  is somehow discontinued.
+
+
+
+The good news is that I have found a great OS emulator, "qemu":http://fabrice.bellard.free.fr/qemu/ , installed windows XP as a guest OS on my computer, the free microsoft compiler and now I'm ready to code on WSM.
+
+
+
+My TODO list:
+
+
+
+* "WSMService::create":http://wsm.berlios.de/pmwiki.php/Main/WSMServiceCreate should return a WSMService object
+
+* More "methods":http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/base/service_functions.asp related with windows services
+
+* Use WSM to control a service on a network computer (tests)
+
+* Update "API docs":http://wsm.berlios.de/pmwiki.php/Main/API from WSM web-site
+
+* Create a new relase.
+
+* Compile it with windows gcc (a Makefile, anyone?)
+
+* Add methods to create a service from a php script (like win32service has).
+
+* Rule the World.
+
+
+
+Dont know when I can finish this list, but if you can help me with:
+
+
+
+* *code*: if you are familiar with PHP internals or with windows API
+
+* *tests*: get the sources, compile them and load the wsm extension
+
+* *web-site* maintenance (what skills you need for this?).
+
+
+
+please, do contact me.
+
+In return, you can add a new line in your resume:
+
+
+
+bq. I did task X for a nice open-source project, WSM
+
+
+
+or you can add your name on the credits, or you can just learn something new.
+
+
+
+WSM (Windows Service Management) is a great PHP extension (not published with pecl) witch provides a nice OO API that will help you to control windows services (start/stop, create/remove, query) from php.
+
+
+
+h3. Update 10.April.2006
+
+
+
+The sync was made on the berlios servers and the subversion service is available. Checkout the code with:
+
+
+
+<pre>
+
+svn checkout svn://svn.berlios.de/wsm
+
+</pre>
+
+
+
+"More info on how to get WSM source from berlios svn ":http://developer.berlios.de/svn/?group_id=2873.
+
+
+
+*on* WSM future:
+
+
+
+* Step 0.5: Finish tasks from my TODO list
+
+* Step 1: Create a clone of "win32 module from python":http://aspn.activestate.com/ASPN/docs/ActivePython/2.4/pywin32/win32service.html to php.
+
+* Step 2: Port other "cool":http://aspn.activestate.com/ASPN/docs/ActivePython/2.4/pywin32/win32_modules.html win32 modules to php.

@@ -1,0 +1,28 @@
+---
+id: 95
+url: /archive/2007-05-08-in-deriva
+title: ! '"In Deriva"'
+layout: archive
+date: 2007-05-08 00:28:34.000000000 +02:00
+next:
+  url: /archive/2007-05-09-javascript-events-ie.html
+  title: Javascript, Events, IE
+prev:
+  url: /archive/2007-04-24-repede.html
+  title: Repede
+
+---
+
+Octavian Paler:
+
+
+
+bq. Romania mai are, oare, un „popor“?
+
+[...]
+
+Ma gandesc la ceea ce inseamna, cred eu, un popor: o comunitate care recunoaste ca, deasupra tuturor intereselor egoiste, exista un interes comun. Ei bine, ce ne mai solidarizeaza azi? Exista vreun ideal care sa ne lege pe toti, sa ne faca sa privim in aceeasi directie, chiar daca nu ne iubim unii pe altii? Mai exista vreo valoare pe care s-o respectam? Mai exista ceva neatins de ura, de disolutie, ceva care sa nu te faca sa te simti insuportabil de singur?
+
+
+
+Dumnezeu sa-l odihneasca.

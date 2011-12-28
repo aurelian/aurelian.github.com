@@ -1,0 +1,28 @@
+---
+id: 92
+url: /archive/2007-04-17-trip
+title: Trip
+layout: archive
+date: 2007-04-17 17:25:22.000000000 +02:00
+next:
+  url: /archive/2007-04-24-repede.html
+  title: Repede
+prev:
+  url: /archive/2007-04-02-deruta.html
+  title: Derută
+
+---
+
+Maine dimineata pe la ora 8 o sa plec intr-o calatorie (work related) pana in "Belgia":http://maps.google.com/maps?f=d&hl=en&saddr=Bucharest,+Romania&daddr=Ostend,+Belgium&sll=37.0625,-95.677068&sspn=35.957999,82.089844&layer=&ie=UTF8&z=5&om=1. Nimic spectaculos, doar ca cei 2300Km vor fi facuti cu un micut "Renault Clio":http://en.wikipedia.org/wiki/Renault_Clio impreuna cu sefu` si cu un coleg de munca.
+
+
+
+O sa fie interesant. -cred ca pe drum o sa isi spuna fiecare povestea vietii.-
+
+
+
+Pozele vor veni pe "flickr":http://flickr.com/photos/aurelian/, -sambata sau duminica- mai tarziu.
+
+
+
+Update: am plecat vineri la 9, am dormit undeva la vreo 30 km de Budapesta si am ajuns cu bine sambata pe la ora 23:30 (ora locala).

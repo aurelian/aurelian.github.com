@@ -1,0 +1,44 @@
+---
+id: 257
+url: /archive/2009-03-04-avem-ritm
+title: Avem ritm!
+layout: archive
+date: 2009-03-04 23:47:28.000000000 +01:00
+next:
+  url: /archive/2009-03-19-niste-cifre-fara-rost-din-Spania.html
+  title: Niște cifre fără rost din Spania
+prev:
+  url: /archive/2009-01-26-mai-departe.html
+  title: Mai departe
+
+---
+
+Doar dacă trăiești într-o peșteră nu ai auzit încă de "ondi.ro":http://ondi.ro un proiect nou ce își propune să ofere diverse servicii web orientate către publicul vorbitor de limbă română.
+
+Am început cu un "pseudo-geocoder":http://ondi.ro/wiki/api/Locate așa să vedem cum merge, însă avem și alte scheme în plan.
+
+
+
+Poți să afli cum am pornit direct de pe "blog":http://ondi.ro/blog/hello-ondi-world.html.
+
+
+
+h4. Ca lăsatul de fumat
+
+
+
+Cred că am avut niște "idei decente":http://www.locknet.ro/article/vertical-progress pierdute acum într-un  colț al hard-diskului. Din diverse motive. ( Ăsta cu trendurile a murit când am șters din greșeală baza de date :| ).
+
+
+
+Oricum, știi metoda aia de a te lasa de fumat spunându-le tuturor?
+
+Ei, cam așa și eu cu proiectul ăsta. Acum mai îl am și pe andrei să ne mai trimitem câte un impuls.
+
+
+
+h4. De ce ritm?
+
+
+
+Pentru că avem un ritm de lucru constant: cam 20-30 de taskuri / săptămână ( în ultimile 4 săptămâni ). În plus, pentru prima dată zilele trecute, scorul ne-a devenit favorabil (itemuri făcute contra itemuri nefăcute). Și, pentru a nu ajunge la burnout prea repede - asta și pentru că niciunul din noi nu lucrează full-time la proiectul ăsta - andrei a plecat câteva zile la ski. Eu aștept zile mai însorite.

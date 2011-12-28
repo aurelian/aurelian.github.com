@@ -1,0 +1,20 @@
+---
+id: 125
+url: /archive/2007-11-05-sfatul-zilei-incoming-personal-calificat
+title: ! 'Sfatul Zilei: Incoming Personal Calificat'
+layout: archive
+date: 2007-11-05 11:52:16.000000000 +01:00
+next:
+  url: /archive/2007-11-09-mmmashup-monkey.html
+  title: Mmmashup Monkey
+prev:
+  url: /archive/2007-10-22-my-new-textpattern.html
+  title: My New Textpattern...
+
+---
+
+Daca as fi antreprenor in constructii (de exemplu), in loc sa ma plang de lipsa de personal as sta cu ochii pe stiri pentru a urmari cand mai sunt trimisi in tara romani din Italia. Sau cand mai vin din aia speriati.
+
+Le-as face oferte la usa avionului. As flutura un contract de munca gata sa fie semnat.
+
+Marketing agresiv nene. Viral.

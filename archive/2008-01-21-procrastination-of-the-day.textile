@@ -1,0 +1,38 @@
+---
+id: 158
+url: /archive/2008-01-21-procrastination-of-the-day
+title: Procrastination of the Day
+layout: archive
+date: 2008-01-21 13:43:02.000000000 +01:00
+next:
+  url: /archive/2008-01-23-ephemeral-projects.html
+  title: Ephemeral Projects
+prev:
+  url: /archive/2008-01-21-luni-la-wurbe-5.html
+  title: ! 'Luni, la Wurbe #5'
+
+---
+
+<pre>
+
+str = File.read("time_tracker.textile")
+
+minutes = 0
+
+m = str.scan /^\* ([0-9]{1}):([0-9]{2}) -/i
+
+while m.size > 0 do
+
+  h, min = m.shift
+
+  minutes += min.to_i+(h.to_i*60)
+
+end
+
+puts "--> Total Time: #{minutes/60}:#{minutes%60}"
+
+</pre>
+
+
+
+Because "scan":http://www.ruby-doc.org/core/classes/String.html#M000827 is nice.

@@ -1,0 +1,124 @@
+---
+id: 54
+url: /archive/2006-07-16-medick-under-siege
+title: Medick under Siege
+layout: archive
+date: 2006-07-16 16:04:33.000000000 +02:00
+next:
+  url: /archive/2006-07-16-medick-under-siege-rezultate.html
+  title: Medick under Siege - Rezultate
+prev:
+  url: /archive/2006-07-13-o-noua-palarie-fixa.html
+  title: O noua palarie, fixa
+
+---
+
+<p>Nu sunt un mare suporter al ideii de clasamente sau optimizari premature, insa citind articolul <a href="http://wiki.rubyonrails.com/rails/pages/Framework+Performance">Framework Performance</a> am fost curios sa vad cum se comporta <a href="http://medick.locknet.ro">Medick</a> comparativ cu <a href="http://rubyonrails.org/">Rails</a>, <a href="http://www.djangoproject.com/">Django</a> sau (in special) cu <a href="http://www.symfony-project.com/">Symfony</a>.<br />
+
+Exact ca in exemplul din articol, am creat o noua aplicatie &#8211; <a href="http://svn.berlios.de/wsvn/medick/applications/cookbook/?rev=0&#38;sc=0">cookbook</a> &#8211; cu Medick bazata pe tutorialul <a href="http://www.onlamp.com/pub/a/onlamp/2005/01/20/rails.html">Ruby on Rails tutorial Rolling with Ruby on Rails</a>.<br />
+
+Am pastrat si ideea de a genera un numar unic pe pagina de test folosind <a href="http://php.net/microtime">microtime</a>. Nu stiu exact numarul de bytes serviti in testul prezentat, insa, cu Medick am avut fix 1000. </p>
+
+    <h4>Test Hardware</h4>
+
+    <ul>
+
+        <li>AMD Athlon&#8482; 64 Processor 3000+ (Venice)</li>
+
+        <li>1 Gig RAM</li>
+
+        <li>40 Gig ATA 133 HDD (5400rpm)</li>
+
+    </ul>
+
+    <h4>Test Software</h4>
+
+    <ul>
+
+        <li>OS: Mandriva Linux release 2006.0 (Official) for i586</li>
+
+        <li>kernel: 2.6.12-18mdk (i686)</li>
+
+        <li>stress-test software: <a href="http://www.joedog.org/JoeDog/Siege">Siege 2.65</a></li>
+
+    </ul>
+
+    <h4>Medick setup:</h4>
+
+    <h5>Consideratii</h5>
+
+    <p>Majoritatea pachetelor sunt compilate din surse, poate pentru a mai compensa diferenta destul de mare intre hardware. Unele teste au fost rulate cu serverul X pornit, fapt ce a atras o penalitate de aproximativ 8% din CPU. In final insa, nu cred ca acest lucru a influentat rezultatele obtinute.</p>
+
+    <h5>Apache/2.0.55 (mod_php)</h5>
+
+    <p>Compilat cu gcc 3.3.6 utilizand comanda:</p>
+
+<pre>./configure --prefix=/wwwroot --enable-mods-shared=all --enable-so</pre>
+
+    <h5>MySQL 5.0.21</h5>
+
+    <p>Compilat cu gcc 4.0.1 utilizand comanda:</p>
+
+<pre>./configure --prefix=/wwwroot 
+
+--with-mysqld-user=mysql 
+
+--localstatedir=/wwwroot/data 
+
+--disable-maintainer-mode --without-debug</pre>
+
+    <p>Se foloseste my-medium.cnf, cu optiunile pentru InnoDB activate.</p>
+
+    <h5>PHP 5.1.4</h5>
+
+    <p>Compilat cu gcc 3.3.6 utilizand comanda:</p>
+
+<pre>./configure --prefix=/wwwroot 
+
+--with-pdo-mysql=/wwwroot 
+
+--with-mysql=/wwwroot 
+
+--with-apxs2=/wwwroot/bin/apxs 
+
+--enable-memory-limit 
+
+--enable-mbstring 
+
+--with-zlib 
+
+--with-gd 
+
+--with-jpeg-dir=/usr/include 
+
+--with-png-dir=/usr/include 
+
+--with-freetype-dir=/usr/include 
+
+--with-zlib-dir=/usr/include 
+
+--enable-gd-native-ttf 
+
+--enable-exif 
+
+--with-curl</pre>
+
+    <p>Se foloseste <a href="http://cvs.php.net/viewvc.cgi/php-src/php.ini-recommended?revision=1.179.2.11&#38;view=markup&#38;pathrev=php_5_1_4">php.ini-recommended</a>.</p>
+
+    <h5>APC-3.0.10</h5>
+
+    <p><a href="http://pecl.php.net/package/APC">APC</a> a fost compilat din surse folosind gcc 3.3.6 cu comanda:</p>
+
+<pre>./configure --enable-apc-mmap 
+
+--with-apxs=/wwwroot/bin/apxs 
+
+--with-php-config=/wwwroot/bin/php-config</pre>
+
+    <p>APC a fost configurat conform instructiunilor de <a href="http://cvs.php.net/viewvc.cgi/pecl/apc/INSTALL?revision=3.48.2.1&#38;view=markup">aici</a>.</p>
+
+    <h5>Medick-0.3.0pre1</h5>
+
+    <p>Medick, versiunea oferita la download, cu nivelul de log setat la 3, pentru a simula conceptul de mediu de productie.</p>
+
+    <p>Pentru a nu creea un nou articol foarte lung si greu de urmarit, o sa revin maine cu rezultatele obtinute.</p>

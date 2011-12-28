@@ -1,0 +1,194 @@
+---
+id: 43
+url: /archive/2006-07-31-filtre-activerecord-before
+title: Filtre ActiveRecord (before)
+layout: archive
+date: 2006-07-31 10:58:00.000000000 +02:00
+next:
+  url: /archive/2006-08-29-de-unde-mai-inveti-rails.html
+  title: De unde mai inveti Rails?
+prev:
+  url: /archive/2006-07-29-julyfactsflatten.html
+  title: July::Facts.flatten!
+
+---
+
+<h4>Update: (11.07.2006)</h4>
+
+<p>Incepand cu <a href="http://www.locknet.ro/article/medick-030pre1-released">medick 0.3.0pre1</a> sintaxa pentru validari a fost <a href="http://lists.berlios.de/pipermail/medick-devel/2006-July/000038.html">modificata</a>.<br />Am corectat acest articol pentru a reflecta ultimile schimbari.</p>
+
+<p><a href="http://www.locknet.ro/article/validarea-obiectelor-activerecord">Vorbeam</a> acum cateva zile despre detalii foarte tehnice legate de validarea obiectelor <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a> in <a href="http://medick.locknet.ro">medick</a>. Spuneam ca aceste validari au loc in filtrele <code>before_*</code>, insa pana acum nu am explicat povestea lor.</p>
+
+    <p>Din nou, un articol lung, ce poate servi insa ca documentatie pentru framework.</p>
+
+    <p>Filtrele <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a> pentru <a href="http://medick.locknet.ro">medick</a> sunt practic niste metode oferite de framework, dar implementate de utilizator prin care se poate interveni in cel putin doua puncte cheie din viata unui obiect <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a>: inaintea sau dupa efectuarea unei operatii legate de baza de date cu acel obiect.<br />
+
+Aceste metode sunt grupate (pentru moment) in doua categorii: before si after.<br />
+
+Voi detalia filtrele before_, urmand ca intr-un articol viitor sa explic ce se intampla in filtrele after.</p>
+
+    <h4>1) Filtre before_ </h4>
+
+    <p>Sunt 4 metode ce pot fi implementate, executate <em>inainte</em> de efectuarea unei operatii cu obiectul detinut. Aceste filtre sunt declarate ca <a href="http://php.net/manual/en/language.oop5.visibility.php#language.oop5.visiblity-methods">metode cu vizibilitate protected</a> si vor returna o <a href="http://php.net/manual/en/language.types.boolean.php">valoare boolean</a> , TRUE va permite continuare operatiei curente iar FALSE va intrerupe aceasta operatie.<br />
+
+Cele mai cunoscute utilizari includ: validarea anumitor proprietati ale obiectului curent, setarea de valori implicite pentru anumite campuri sau efectuarea unor operatii suplimentare declansate de crearea obiectului curent (db triggers).<br />
+
+Operatiile posibile (numele metodelor) sunt: </p>
+
+    <h5>1a) before_insert</h5>
+
+    <p>Executat inainte de inserarea obiectului in baza de date.<br />
+
+Poate cel mai bun exemplu este un obiect <code>user</code> care inainte de a fi creat, va trebui sa aibe proprietatea <code>terms_and_conditions</code> cu valoarea 1 pentru a semnala ca user-ul curent a fost de acord cu termenii si conditiile prezentate:</p>
+
+<pre>
+
+class User extends ActiveRecord {
+
+  protected function before_insert() {
+
+    // conditiile impuse nu au fost aceptate:
+
+    if ($this-&gt;terms_and_conditions != 1) {
+
+      // adaugam un mesaj de eroare:
+
+      $this-&gt;getField('terms_and_conditions')-&gt;addError('Conditiile nu au fost acceptate');
+
+      return FALSE;
+
+    }
+
+    // setarea unui camp cu valoare initiala:
+
+    $this-&gt;created_at= time();
+
+  }
+
+[ ... ]
+
+}
+
+// utilizare (in controller de exemplu):
+
+$user= new User();
+
+$user-&gt;insert(); // filtrul este executat!
+
+// sau:
+
+$user-&gt;save(); // filtrul este si in acest caz executat!
+
+</pre>
+
+    <h5>1b) before_update</h5>
+
+    <p>Este un filtru executat inaintea actualizarii unui obiect ActiveRecord.</p>
+
+<pre>
+
+class User extends ActiveRecord {
+
+  protected function before_update() {
+
+    [....]
+
+    // setarea unui camp cu valoare initiala:
+
+    $this-&gt;updated_at= time();
+
+    return TRUE;
+
+  }
+
+[....]
+
+}
+
+// utilizare:
+
+$user= User::find(1); // gaseste user-ul cu id=1
+
+$user-&gt;update(); // filtrul este executat
+
+// sau:
+
+$user-&gt;save(); // filtrul este executat si in acest caz.
+
+</pre>
+
+    <h5>1c) before_save</h5>
+
+    <p>Filtru executat inaintea salvarii obiectului curent in baza de date.<br />
+
+Poate contine, de exemplu, metode comune de validare atat in cazul in care obiectul curent este nou (creat cu insert) sau se incearca doar actualizarea acestuia.</p>
+
+<pre>
+
+class User extends ActiveRecord {
+
+  protected function before_update() {
+
+    $this-&gt;validates_presence_of('name');
+
+    return TRUE;
+
+  }
+
+[....]
+
+}
+
+// utilizare:
+
+$user= User::find(1); // gaseste user-ul cu id=1
+
+$user-&gt;save(); // filtrul este executat
+
+// sau
+
+$user= new User();
+
+$user-&gt;name= 'Mihai';
+
+$user-&gt;save(); // filtrul este executat
+
+</pre>
+
+    <h5>1d) before_delete</h5>
+
+    <p>Este executat inaintea stergerii obiectului curent din baza de date. Un exemplu bun de folosire este stergerea mesajelor detinute de utilizatorul (user-ul) curent.</p>
+
+<pre>
+
+class User extends ActiveRecord {
+
+  protected function before_delete() {
+
+    // gaseste mesajele detinute de acest user
+
+    $messages= Message::find('all', array('condition'=&gt;'user_id=?'), array($this-&gt;id));
+
+    // sterge mesajele.
+
+    [....]
+
+    return TRUE;
+
+}
+
+[....]
+
+}
+
+// utilizare:
+
+$user= User::find(1); // gaseste user-ul cu id=1
+
+$user-&gt;delete(); // filtrul este executat
+
+</pre>
+
+    <p>Cam astea sunt cateva detalii si metode mai intalnite pentru folosirea acestor filtre.<br />
+
+<strong>Foarte important</strong>: nu uita sa adaugi linia <code>return true</code> chiar la sfarsitul filtrului, in caz contrar php va returna in mod implicit false!</p>

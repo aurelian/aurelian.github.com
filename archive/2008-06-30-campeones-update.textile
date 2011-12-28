@@ -1,0 +1,20 @@
+---
+id: 218
+url: /archive/2008-06-30-campeones-update
+title: campeones - update
+layout: archive
+date: 2008-06-30 14:06:07.000000000 +02:00
+next:
+  url: /archive/2008-07-01-in-verdele-bucuresti.html
+  title: In verdele Bucuresti
+prev:
+  url: /archive/2008-06-18-aproape-aici.html
+  title: Aproape aici
+
+---
+
+*Update* Trebuia sa RTFM inainte sa uploadez pe "flickr":http://www.flickr.com/photos/aurelian/2623305752/, azi dimineata am vazut ca mi-au taiat filmul dupa 90 de secunde :)
+
+
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/Zu2HRA5lDrI&hl=en"></param><embed src="http://www.youtube.com/v/Zu2HRA5lDrI&hl=en" type="application/x-shockwave-flash" width="425" height="344"></embed></object>

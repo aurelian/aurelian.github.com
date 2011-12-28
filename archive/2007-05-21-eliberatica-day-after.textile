@@ -1,0 +1,36 @@
+---
+id: 100
+url: /archive/2007-05-21-eliberatica-day-after
+title: eLiberatica, day after
+layout: archive
+date: 2007-05-21 14:10:25.000000000 +02:00
+next:
+  url: /archive/2007-05-24-geek-meet-reloaded.html
+  title: Geek Meet Reloaded
+prev:
+  url: /archive/2007-05-17-sfatul-zilei-prezenta-obligatorie-la-referendum.html
+  title: ! 'Sfatul zilei: prezenta obligatorie la referendum'
+
+---
+
+Ce poate fi mai cool, decat sa poti discuta cu "Michael (Monty) Widenius":http://en.wikipedia.org/wiki/Michael_(Monty)_Widenius, sa il intrebi ce facilitati planuieste pentru urmatoarele versiuni MySQL sau sa ii ceri sfaturi?
+
+
+
+"eLiberatica":http://eliberatica.ro a fost o conferinta IT, unde discutiile s-au invartit in jurul beneficiilor aduse de folosirea tehnologiilor open & free. "Organizatorii":http://rosi.ro evenimentului s-au descurcat binisor, audienta destul de numerosa si activa iar vorbitorii la inaltime.
+
+
+
+Subiecte si studii de caz interesante, din care am invatat ca eforturile pentru promovarea si impunerea solutiilor open-source ar putea da roade daca o eventuala comunitate formata in jurul acestor idei ar fi mai vizibila si mai vocala.
+
+
+
+Nu s-a vorbit deloc despre GPL 3 in schimb multa lume s-a aratat interesata de "reverse engeneering" sau de modalitati prin care pot fenta legea pentru obtinerea rapida de profit financiar.
+
+
+
+Pentru mine, eLiberatica a fost o ocazie foarte buna pentru a cunoaste persoane implicate in industrie. Acesta este cel mai mare beneficiu si dupa doua zile petrecute in Brasov, cred ca trebuie sa ne intalnim mai des.
+
+
+
+"Reactii":http://technorati.com/search/eLiberatica si "poze":http://www.flickr.com/photos/tags/eliberatica/.

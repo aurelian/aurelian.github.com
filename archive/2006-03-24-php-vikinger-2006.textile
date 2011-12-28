@@ -1,0 +1,34 @@
+---
+id: 14
+url: /archive/2006-03-24-php-vikinger-2006
+title: PHP Vikinger 2006
+layout: archive
+date: 2006-03-24 10:17:44.000000000 +01:00
+next:
+  url: /archive/2006-03-25-medick-checkboxes.html
+  title: FormHelper::check_box
+prev:
+  url: /archive/2006-03-20-erata-medick-021.html
+  title: ! 'Erata: medick-0.2.1'
+
+---
+
+"ezSystems":http://ez.no/ plans to host a "Midsummer":http://en.wikipedia.org/wiki/Midsummer conference as well as a celabration for the PHP community.
+
+
+
+This event is called PHP Vikinger and it will take place in Skien, Norway on 24-25 June, this year.
+
+
+
+There is a 20 EURO registration fee, all the money will go to the Free Software and Free Culture organizations. There will be free food and free sleeping arrangements.
+
+Also, a cool list of attendees including Christopher Kunz, Ilia Alshanetsky, Marcus Boerger or Rasmus Lerdorf.
+
+
+
+More "details":http://zak.greant.com/2006/02/php-vikinger.html.
+
+
+
+Let's see how can I get a cheap flight to Norway.

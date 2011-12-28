@@ -1,0 +1,61 @@
+---
+id: 18
+url: /archive/2006-03-31-medick-no-html-filtering
+title: Medick, no HTML filtering
+layout: archive
+date: 2006-03-31 09:45:39.000000000 +02:00
+next:
+  url: /archive/2006-04-03-mirror-cygwn-in-ro.html
+  title: Mirror Cygwn in .ro
+prev:
+  url: /archive/2006-03-29-4-hours-on-session.html
+  title: 4 hours on session
+
+---
+
+With the help of "creole":http://creole.phpdb.org, medick will try to escape everything that will go to the database using "PreparedStatements":http://creole.phpdb.org/trac/wiki/Documentation/CreoleGuide#MoreonPreparedStatements
+
+I have decided that "medick":http://medick.locknet.ro should not take care about filtering any HTML input that commes as request parameter or from web forms.
+
+This means that the HTML will be taken as it is.
+
+If some will input nasty html tags:
+
+
+
+<pre>
+
+&lt;script&gt;alert('foo');&lt;/script&gt;
+
+</pre>
+
+
+
+well, you will end up with a javascript alert message on you screen.
+
+
+
+I think this is a nice feature to medick, since I don't want to change from the framework any data that your application receives.
+
+You can use some php functions for that in your models. Just hook the calls in your model @before_*@ filters.
+
+A short example:
+
+
+
+<pre>
+
+class Article extends ActiveRecord {
+
+  protected function before_save() {
+
+    $this->title= htmlentities($this->title);
+
+  }
+
+  [....]
+
+}
+
+</pre>
+

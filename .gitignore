@@ -1,1 +1,4 @@
 _site/
+s3/
+*.swp
+config.yaml

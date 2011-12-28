@@ -1,0 +1,40 @@
+---
+id: 16
+url: /archive/2006-03-27-border-top-15px-solid-333
+title: ! 'border-top: 15px solid #333;'
+layout: archive
+date: 2006-03-27 15:37:34.000000000 +02:00
+next:
+  url: /archive/2006-03-28-is-the-hype-over.html
+  title: Is the hype over?
+prev:
+  url: /archive/2006-03-25-medick-checkboxes.html
+  title: FormHelper::check_box
+
+---
+
+"9rules/whitespace":http://9rules.com/whitespace/ au schimbat in acest weekend infatisarea paginii.
+
+Imi place mai noul design, mai curat si poate putin mai intuitiv.
+
+Ma deranjeaza insa foarte mult borderul pe care l-au ales pentru a stiliza elementul @body@:
+
+
+
+<pre>
+
+border-top: 15px solid #333;
+
+</pre>
+
+
+
+Ca o coincidenta, exact aceiasi declaratie o folosesc si eu aici.
+
+
+
+Tema mea este putin inspirata din "simpa":http://thebombsite.com/test/simpla (unde marginea este mai mica, de doar 5px) iar layout-ul este aproximativ acelasi pe care l-am primit odata cu instalarea blogului.
+
+Acum, eu ce sa mai inteleg?
+
+Un border de 15 pixeli pentru body, culoare 333 arata bine, huh?

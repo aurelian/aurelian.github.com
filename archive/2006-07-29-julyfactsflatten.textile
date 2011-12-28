@@ -1,0 +1,52 @@
+---
+id: 56
+url: /archive/2006-07-29-julyfactsflatten
+title: July::Facts.flatten!
+layout: archive
+date: 2006-07-29 12:52:11.000000000 +02:00
+next:
+  url: /archive/2006-07-31-filtre-activerecord-before.html
+  title: Filtre ActiveRecord (before)
+prev:
+  url: /archive/2006-07-16-expozitie-pisici.html
+  title: Expozitie pisici
+
+---
+
+h4. Headlines
+
+
+
+* "Alex":http://www.locknet.ro/article/filtre-activerecord-before#c000063 si-a tras "blog":http://alex2echo.bloghost.ro/, articole geeky si foarte tehnice insa destul de interesante. Congrats, esti in Akregator.
+
+* "Andu":http://www.voidberg.org "zice ca":http://www.voidberg.org/blog/drupal.html a dezvoltat pana acum 16 siteuri cu drupal. Mi se pare cam plictisitor.
+
+
+
+h4. Rails
+
+
+
+* Spre sfarsitul verii sper sa pot publica doua proiecte web realizate in "Rails":http://www.rubyonrails.org. Unul este "marks":http://www.locknet.ro/article/marks-face-primii-pasi, ajuns pe "localhost":http://localhost:3000 intr-un stadiu destul de bun. Al doilea proiect este inca in schite si este prea devreme sa pot vorbi despre el.
+
+* In functie de timp, voi incepe un mini proiect pe "RubyForge":http://www.rubyforge.org. Va fi un plugin pentru "Rails":http://www.rubyonrails.org.
+
+
+
+h4. Medick
+
+
+
+* Recent, "Medick":http://medick.locknet.ro a implinit un an, astfel, statutul proiectului a fost "schimbat":http://developer.berlios.de/projects/medick/ din planning in alpha.
+
+* Aproape am terminat primul proiect mai serios realizat cu "Medick":http://medick.locknet.ro (link in curand).
+
+
+
+h4. PHP
+
+
+
+* Au "reinceput":http://marc.theaimsgroup.com/?l=php-dev&m=115323366222876&w=2 discutiile (impresionante ca dimensiune) referitoare la (re)introducerea unei clase cu numele *Date* in PHP 5.2. "Penibil":http://marc.theaimsgroup.com/?l=php-dev&m=115323465630356&w=2.
+
+* *Later*: Ideea "asta(rethink OO inheritance strictness)":http://marc.theaimsgroup.com/?l=php-dev&m=115347211314387&w=2 imi place si as avea nevoie de asa ceva, insa nu va fi "implementata":http://marc.theaimsgroup.com/?l=php-dev&m=115347425619802&w=2. Simplu: componentele ez sau cele zend au nevoie de strictetea respectiva pentru a impune API-ul oferit utilizatorilor.

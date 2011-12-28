@@ -1,0 +1,17 @@
+---
+id: 231
+url: /archive/2008-09-03-digital-dallas-fail
+title: Digital Dallas. Fail
+layout: archive
+date: 2008-09-03 21:12:40.000000000 +02:00
+next:
+  url: /archive/2008-09-07-chrome-lhc-si-mai-era-ceva.html
+  title: Chrome, LHC si mai era ceva
+prev:
+  url: /archive/2008-09-02-distributie.html
+  title: Distribuție *
+
+---
+
+<a href="http://assets.locknet.ro/images/56.png" rel="lightbox" title="Dallas pe Antena1?"><img src="http://assets.locknet.ro/images/56t.png" alt="Dallas pe Antena1" title="Dallas pe Antena1" /></a>
+

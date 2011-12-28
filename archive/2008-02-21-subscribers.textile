@@ -1,0 +1,64 @@
+---
+id: 175
+url: /archive/2008-02-21-subscribers
+title: Subscribers
+layout: archive
+date: 2008-02-21 13:08:00.000000000 +01:00
+next:
+  url: /archive/2008-02-25-vertical-progress.html
+  title: Vertical ...Progress
+prev:
+  url: /archive/2008-02-18-pauza-de-bucuresti.html
+  title: Pauză de București
+
+---
+
+Nu folosesc FeedBurner pentru a monitoriza numarul de persoane abonate la feed-ul locknet.ro sau pentru a beneficia de alte facilitati oferite din doua motive:
+
+
+
+1. Ar trebui sa mai retin inca o parola pentru inca un serviciu. Astept sa ma pot autentifica cu acelasi user/pass folosit in alte servicii google.
+
+
+
+2. Am incercat acum cateva luni insa "cativa utilizatori":http://www.locknet.ro/article/wurbe2#c000218 s-au plans ca serviciul nu este disponibil. Am facut cateva verificari, si poate i-am prins intr-o zi proasta pe cei de la FeedBurner, dar raspunsul de la serverul lor era _503 Internal Server Error_.
+
+
+
+3. Ar trebui sa gasesc o solutie pentru a migra intr-un mod cat mai transparent URL-urile feedurilor folosite deja.
+
+
+
+Ok, am observat sunt deja 3 motive. Iti poti da seama ca sunt destul de lenes pentru a trece peste.
+
+
+
+Cum pe de alta parte sunt si un mare hacker, am observat ca de la o vreme, atat google/reader cat si bloglines adauga informatii despre numarul de subscribers in user-agent. Cifrele sunt destul de interesante si pentru mine pot tine loc de FeedCount:
+
+
+
+<pre>
+
+"GET /rss/ HTTP/1.1" 304 26 "-" "Feedfetcher-Google; ([...] 14 subscribers [...])"
+
+"GET /rss HTTP/1.1" 304 26 "-" "Feedfetcher-Google; ([...] 22 subscribers [...])"
+
+"GET /atom/ HTTP/1.1" 304 26 "-" "Feedfetcher-Google; ([...] 4 subscribers [...])"
+
+"GET /rss/ HTTP/1.1" 200 3836 "-" "Bloglines/3.1 ([...] 19 subscribers)"
+
+</pre>
+
+
+
+Observi ca ofer 4 feed-uri distincte: multi au preferat ATOM cand am inceput blogul (astia sunt cititorii hardcore de locknet.ro), pentru ca era oferit in mod implicit de TextPattern. Variatiile cu sau fara forward-slash pentru RSS nu stiu exact de unde vin.
+
+Mai adaug cate 1 subscriber pentru fiecare user-agent ce aduce a feed-reader gasit prin loguri (NetNewsWire, RssBandit etc.) sa zicem inca vreo 5, de unde rezulta vreo 60-65 persoane abonate.
+
+
+
+Interesant, nu?
+
+
+
+P.S. poti considera acest articol ca un raspuns pentru "Alex Brie":http://alexbrie.net/1823/de-ce-nu-iti-activezi-feedburner-feedcount/ caruia ii multumesc pentru ca m-a adaugat la pagina "Programare":http://news.alexbrie.net/?page=Programare a blogurilor alese (damn am 37 de ceva pe technorati).

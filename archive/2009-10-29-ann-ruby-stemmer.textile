@@ -1,0 +1,72 @@
+---
+id: 152
+url: /archive/2009-10-29-ann-ruby-stemmer
+title: ! '[ANN] Ruby-Stemmer'
+layout: archive
+date: 2009-10-29 00:49:22.000000000 +01:00
+next:
+  url: /archive/2009-12-07-tirile-sportive-la-protv.html
+  title: Știrile sportive la ProTV
+prev:
+  url: /archive/2009-10-28-30-perechi.html
+  title: 30 perechi
+
+---
+
+I'm very proud to announce the first release of Ruby-Stemmer, an implementation of "Stemming Algorithm":http://en.wikipedia.org/wiki/Stemmer using "SnowBall":http://snowball.tartarus.org/ API from "libstemmer_c":http://snowball.tartarus.org/download.php.
+
+
+
+That's it. Is *not* a pure ruby implementation, but the external library it's included with the download so you don't need to install anything else, just run: @gem install ruby-stemmer@.
+
+
+
+The usage is very simple:
+
+
+
+<pre>
+
+require 'lingua/stemmer'
+
+s = Lingua::Stemmer.new
+
+s.stem "installation" # ==> install
+
+</pre>
+
+
+
+You can change the language or the encoding by passing them to the Stemmer constructor. For example to run the Romanian algorithm with ISO-8859-2 as encoding just use:
+
+
+
+<pre>
+
+s = Lingua::Stemmer.new(:language => 'ro', :encoding => 'ISO_8859_2')
+
+s.stem "găinațul" #==> găinaț
+
+</pre>
+
+
+
+You can read the complete list of algorithms in "modules.txt":http://github.com/aurelian/ruby-stemmer/blob/master/libstemmer_c/libstemmer/modules.txt
+
+
+
+The code, released under the terms of MIT-LICENSE, is available also on "github":http://github.com/aurelian/ruby-stemmer
+
+<pre>
+
+git clone git://github.com/aurelian/ruby-stemmer.git
+
+</pre>
+
+
+
+h4. Note
+
+
+
+Please use the infrastructure provided by github to report "issues":http://github.com/aurelian/ruby-stemmer/issues.

@@ -1,0 +1,59 @@
+---
+id: 89
+url: /archive/2007-03-11-esecul-timpuriu-al-unui-proiect
+title: Esecul timpuriu al unui proiect
+layout: archive
+date: 2007-03-11 17:57:41.000000000 +01:00
+next:
+  url: /archive/2007-03-16-happy-blog-day.html
+  title: Happy blog day
+prev:
+  url: /archive/2007-03-09-caut-algoritm.html
+  title: Caut algoritm
+
+---
+
+Prin noiembrie anul trecut am inceput sa caut un Peugeot 307 pe motorina second-hand. Trebuia sa aibe 90 sau 110 cai, motor de 1.6 sau de 2.0 si cutie de viteze manuala. Si sa nu fie gri, alb sau rosu. Nu intru in amanunte despre cum am ajuns la aceste cerinte, depaseste scopul acestui articol insa imi era foarte clar ce vreau.
+
+M-am pus pe cautat pe siteurile de specialitate de la noi. Nu a fost foarte greu sa gasesc anunturi ce corespundeau exigentelor mele care sa se incadreze si in bugetul avut la dispozitie.
+
+
+
+Insa, ca un power-user de web ce sunt, nu am fost incantat de felul cum se arata si se comporta respectivele siteuri.
+
+Ati vazut vreodata "autovit.ro":http://autovit.ro ? Ca o paranteza, trafic.ro ne indica peste 750.000 de vizitatori in februarie.
+
+Normal ca mi-am zis ca pot face ceva mai bun, mai usor de folosit si mai aratos.
+
+
+
+Si m-am pus pe analizat viitoarea concurenta. Asa mi se pare normal: sa imi fac o idee asupra numarului de vizitatori ce se invart in acest domeniu.
+
+Si am pus pe hartie: autovit.ro 630 (suntem in noiembrie) + .... masini.ro .... si inca vreo 2-3 siteuri. Am facut adunarea repede si am aflat cel putin estimativ cam cate clickuri se dau pe siteuri de acest gen.
+
+(Acum stau si ma intreb daca aceasta informatie ar fi fost utila...)
+
+
+
+Normal ar fi fost sa incep sa analizez cam cum ajunge lumea pe respectivele siteuri, sau sa incep sa schitez o interfata, o baza de date ceva.
+
+Dar nu, m-am pus si am bagat datele colectate anterior intr-un fisier excel.
+
+Daca tot eram aici, am spus ca ar fi mai relevant daca as lua traficul din ultimile 6 luni.
+
+Apoi cum ar fi daca as face si niste grafice? Cu portocaliu sau cu verde?
+
+Dar daca as scrie un script in Ruby care sa faca toata treaba pentru mine??? Si m-am pus pe script.
+
+De mult imi doream sa folosesc "hpricot":http://code.whytheluckystiff.net/hpricot/ combinat cu putin XPath. Dupa cateva ore am reusit sa scriu cate un fisier csv pentru fiecare site "analizat".
+
+Daca tot eram la scripturi, de ce sa nu adaug si alte facilitati? De exemplu sa imi aduca si ultimile referinte. Dar de ce sa nu fac o baza de date SQLite care sa tina toate aceste detalii? Si apoi, cum ar fi sa fac si o interfata web ajutat de Rails pentru a afisa niste grafice dragute, eventual facute cu "SVG::Graph":http://www.germane-software.com/software/SVG/SVG::Graph/ ?
+
+
+
+Dupa vreo 2-3 samptamani de "analize" si presat de alte probleme ( de exemplu am devenit proprietarul masinii cautate ), am abandonat total proiectul, spre bucuria celor de la autovit.ro. In tot timpul asta eram constient, parca radeam de inventiile mele intrebandu-ma cat de mult pot devia de la ideea initiala.
+
+
+
+Acum cred ca am invatat lectia: prea multe detalii pot ucide un proiect.
+

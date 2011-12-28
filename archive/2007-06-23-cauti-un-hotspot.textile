@@ -1,0 +1,30 @@
+---
+id: 107
+url: /archive/2007-06-23-cauti-un-hotspot
+title: Cauti un HotSpot?
+layout: archive
+date: 2007-06-23 14:35:16.000000000 +02:00
+next:
+  url: /archive/2007-07-12-nrr.html
+  title: NRR
+prev:
+  url: /archive/2007-06-20-outsourcing-roz.html
+  title: Outsourcing Roz
+
+---
+
+bq. [...] iti iei laptopul cu tine, in speranta ca vei gasi macar un hotspot, undeva intr-o cafenea. Nu cunosti pe nimeni in Brasov [...]
+
+
+
+"Hotspots.ro":http://hot.spots.ro te ajuta sa gasesti puncte de access la internet grupate pe orase sau pe categoria locatiei.
+
+Proiectul este realizat de  "Manu":http://www.bitconnect.ro/blog/ si "FilipCTE":http://www.filipcte.ro.
+
+
+
+Mi-ar placea sa vad si imagini (eventual cu oameni cu laptopul in brate) si o localizare pe harta.
+
+
+
+Este un proiect ce merita urmarit si ma bucur ca a aparut si Bucuresti pe harta hotspoturilor.

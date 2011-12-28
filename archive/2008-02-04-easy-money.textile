@@ -1,0 +1,31 @@
+---
+id: 168
+url: /archive/2008-02-04-easy-money
+title: Easy Money
+layout: archive
+date: 2008-02-04 13:58:36.000000000 +01:00
+next:
+  url: /archive/2008-02-10-marti-12.html
+  title: Marti, 12
+prev:
+  url: /archive/2008-02-03-feed-such-a-complex-thing.html
+  title: Feed, such a complex thing
+
+---
+
+Cum faci bani pe internet cu o investitie cat mai mica?
+
+
+
+Cumperi domenii, sa zicem la 100E iti poti lua si 10 domenii .com sau .eu - in voga zilele astea - pe care le "parchezi" apoi la sedo.com de exemplu.
+
+Apoi astepti. Si banii vin: fie din reclame fie de la cei ce isi doresc cu adevarat respectivul domeniu.
+
+
+
+!http://assets.locknet.ro/images/49t.jpg!
+
+
+
+Idea nu este noua, am mai auzit-o si la altcineva pe blogosfera mai demult. Imi cer scuze pentru ca nu gasesc linkul acum.
+

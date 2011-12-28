@@ -1,0 +1,20 @@
+---
+id: 251
+url: /archive/2008-12-02-da-cu-safari-ce-ati-avut
+title: Da, cu Safari ce ati avut?
+layout: archive
+date: 2008-12-02 23:31:04.000000000 +01:00
+next:
+  url: /archive/2008-12-22-in-sfarsit-despre-apartament.html
+  title: In sfarsit, despre apartament
+prev:
+  url: /archive/2008-11-27-de-data-asta-nu-votez.html
+  title: De data asta nu votez
+
+---
+
+<a href="http://assets.locknet.ro/images/60.png" rel="lightbox" title="Website, Prefectura Alba"><img src="http://assets.locknet.ro/images/60t.png" alt="Website, Prefectura Alba" title="Website, Prefectura Alba" /></a>
+
+
+
+Cineva mi-a ingradit accesul la ...informatie.

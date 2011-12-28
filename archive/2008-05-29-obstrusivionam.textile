@@ -1,0 +1,162 @@
+---
+id: 208
+url: /archive/2008-05-29-obstrusivionam
+title: Obstrusivionam?
+layout: archive
+date: 2008-05-29 03:21:53.000000000 +02:00
+next:
+  url: /archive/2008-06-02-jobs-properazzi.html
+  title: Jobs @ Properazzi
+prev:
+  url: /archive/2008-05-08-subscribers-va-raspund-cu-301.html
+  title: ! 'Subscribers: va raspund cu 301!'
+
+---
+
+Consider ca lucrez in industrie acum. In industria de web development pentru sectorul real-estate. In fiecare zi studiez diverse siteuri - potential concurente - fie din curiozitate sau pur si simplu pentru a incerca sa inteleg cum sunt puse in practica diverse idei. E parte din jobul meu, nu?
+
+
+
+Stiam "magazinul de case.ro":http://www.magazinuldecase.ro/ de ceva vreme, insa aseara dupa ce am citit articolul lui "Alex Mihaileanu":http://subiectiv.ro/media/magazinuldecasero-te-uita-balonul-imobiliar-cum-se-sparge/ zic sa mai vad ce se mai intamplat.
+
+
+
+Față de ce vad zilnic, vreau sa iti spun de la inceput, ca magazinul de case punct ro este un site bunicel. In special se pune accent pe modelul lor de afacere - iti pozeaza casa, nu exista intermediari, etc - o atentie la detalii care ar trebui sa iti dea un sentiment de incredere.
+
+
+
+Bun. Dar sa trecem la treaba. Doar suntem calculatoristi, nu?
+
+
+
+--
+
+
+
+Am fost intampinat cu un fel de lightbox unde eram invitat sa imi aleg orasul / zona unde vreau sa imi caut o casa. Interesant principiu, sincer nu l-am mai intalnit pana acum, cred insa in utilitatea lui chiar daca cumva imi da o senzatie de obstructionare a experinetei mele de vizitator. 
+
+
+
+Imi dau cu parerea si spun ca la nivel tehnic, dupa ce prima pagina este incarcata, lightbox-ul continand formularul cu orasul/zona este afisat peste aceasta pagina, iar dupa ce se face selectia, un request de tip POST se trimite catre server. Browserul meu primeste un cookie pentru ca pe viitor sa comunic mai bine cu serverul si sa nu mai fie nevoie de ecranul negru.
+
+
+
+Din paragraful de mai sus, observam doua probleme - vizibile in special in cazul unei conexiuni mai proaste (cum am eu):
+
+
+
+1. home page-ul se incarca de doua ori cand intri pentru prima data pe site.
+
+
+
+2. folosirea incorecta a metodei POST.
+
+
+
+In cazul in care chiar este nevoie de selectarea orasului / zonei in prealabil, eu as implementa chestia asta ca o pagina noua si as trimite forumlarul ala cu GET. Ceva rewrite-rules in Apache ar rezolva problema URL-urilor frumoase.
+
+
+
+Sincer sa fiu, eu am simtit nicio valoare in acel lightbox si l-as scoate definitiv, eventual as folosi o solutie de mapare a IP-ului utilizatorului la o anumita zona geografica. Sau cel mai simplu as afisa direct ofertele din Bucuresti (Update: statistica "asta":http://stat.trafic.ro/stat/magazinuldecase/localizare/judet/#stat zice ca nu ar fi asa de rau).
+
+
+
+Pentru a lamuri: lipsa de valoare este data de pastrarea formularului in coltul din stanga sus in restul paginilor din site unde teoretic (pentru ca nu l-am incercat) pot schimba oricand zona.
+
+
+
+Mai mult, textul afisat imi creeaza ceva confuzie: "Alege anunturi imobiliare din orasul tau".
+
+Cum adica, "din orasul meu"? Adica, daca orasul meu nu este in lista si totusi vreau sa ma mut, nu pot folosi siteul? Un lucru minor, insa pret de cateva fractiuni de secunda am fost nevoit sa ma gandesc ce anume sa selectez din lista.
+
+Eu l-as inlocui cu "Cauta anunturi in orasul (sau judetul)" sau ceva mai simplu.
+
+
+
+Initial din cauza conexiunii, pagina s-a incarcat doar pe jumatate si ca orice om curios sa vad ce se mai vinde prin Constanta, am facut refresh, moment in care browserul m-a intrebat daca vreau sa trimit din nou datele la server. Asta inseamna folosirea incorecta a metodei POST.
+
+
+
+Lansand la o parte contextul descris mai sus - in care se face request-ul de tip POST - (oare chiar *postezi* ceva pe server, oare chiar nu mergea un sa iei - get - ceva de pe server?) este o *lege*:
+
+
+
+h3. dupa POST facem redirect!
+
+
+
+De fiecare data cand faci POST si nu redirectezi o pisicuță moare!
+
+
+
+--
+
+
+
+Nu vreau sa fiu rautacios, insa atunci cand o sa intelegi si o sa aplici legea asta, o sa treci peste nivelul de programator web incepator, instalator de phpBB si Wordpress.
+
+Personal, am avut o revelatie, un moment de mare descoperire si iluminare, dupa ce, poate am luat câteva din cele 9 vieti ale unei pisicuțe.
+
+
+
+--
+
+
+
+Revin la site, si dupa toata aventura cu reincarcarea paginii de vreo 3 ori (de'h nu toata lumea are broadband ca in Regie), ma asteptam sa vad zeci - sute de anunturi din Constanta. Era doar unul. La fel si in Bucuresti. Mai tarziu am descoperit si lista dorita, insa in sectiunea "Caut Casa" si apoi click pe "Cauta", adica deja inca doua clickuri (side note: formularul se trimite cu GET, de data asta e okay).
+
+
+
+In loc de lista, apare un consilier imobiliar, niste articole, niste intrebari, ceva oferte imobiliare (in sfarsit!), aparitii in presa (?) si un tip fericit ca si-a vandut casa cu 200k E.
+
+
+
+Trec repede peste, si dau click pe primul anunt pentru a vedea detaliile.
+
+
+
+Click pe prima poza mica. Si astept.
+
+
+
+Click pe prima poza mica din nou. Asteptam sa se deschida un pop-up sau sa se intample ceva. Nimic.
+
+
+
+Click pe a doua poza in timp ce ma uitam la poza mare, ca poate s-o schimba. Nimic.
+
+
+
+Un tooltip imi spune "click pentru a aduce poza in prim plan". Zic poate s-o fi incarcat undeva in vreo fereastra in ascunsa de browser. Nu.
+
+
+
+Am incercat sa dau click pe tooltip. Nu merge.
+
+
+
+Firebug ma anunta ca sunt 3 erori in pagina, moment in care incep sa investighez. Doar asta fac toata ziua, nu?
+
+
+
+--
+
+
+
+De unde vine titlul articolului? Se vede mai bine in versiunea marita a screenshotului de mai jos.
+
+
+
+<a href="http://assets.locknet.ro/images/54.png" rel="lightbox" title="Obstrusivionam?"><img src="http://assets.locknet.ro/images/54t.png" alt="Obstrusivionam?" title="Obstrusivionam?" /></a>
+
+
+
+Inchei aici, dar cred ca ar mai fi mult de analizat si discutat.
+
+
+
+De exemplu: de ce sidebarul ce contine cautarea este in stanga in prima pagina si apoi in dreapta? De fapt, de ce apare in mod parca aleator fie in dreapta, fie in stanga? Odata e rosu apoi se face galben? Sau, care este diferenta intre "Cautare Simpla", "Cautare Directa" si "Cautare Avansata"? "Caut Casa", casă, sau sunt incluse si apartamentele? De ce am nevoie de cont pentru a primi nu stiu ce raport al pietei imobiliare? Ce se intampla cu adresa mea de mail?
+
+
+
+Oricum, eu sunt doar o persoana mai tehnica cu probleme serioase de intelegere a unor paginii web (adica nu ma prind din prima) si cu un stil diferit de catalogare a siteurilor (adica in util, bun, bunicel, varza, muci), dar cred ca mi-as putea castiga existenta scriind si rapoarte de uzabilitate :)

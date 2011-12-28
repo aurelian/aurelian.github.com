@@ -1,0 +1,18 @@
+---
+id: 121
+url: /archive/2007-10-15-my-textpattern-template
+title: My Textpattern Template
+layout: archive
+date: 2007-10-15 21:11:02.000000000 +02:00
+next:
+  url: /archive/2007-10-22-my-new-textpattern.html
+  title: My New Textpattern...
+prev:
+  url: /archive/2007-10-15-a-venit-netu.html
+  title: A venit netu'
+
+---
+
+Sunt doar eu, sau tema folosita pe blogul arata pur si simplu ca dracu?
+
+Trebuie sa o repar cumva -- candva.

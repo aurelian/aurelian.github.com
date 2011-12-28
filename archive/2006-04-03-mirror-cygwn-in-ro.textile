@@ -1,0 +1,20 @@
+---
+id: 10
+url: /archive/2006-04-03-mirror-cygwn-in-ro
+title: Mirror Cygwn in .ro
+layout: archive
+date: 2006-04-03 22:04:20.000000000 +02:00
+next:
+  url: /archive/2006-04-06-pisici-demistificate.html
+  title: Pisici demistificate
+prev:
+  url: /archive/2006-03-31-medick-no-html-filtering.html
+  title: Medick, no HTML filtering
+
+---
+
+Am gasit aseara un mirror "cygwin":http://cygwin.com/ in .ro (via "mandrivalinux.ro":http://www.mandrivalinux.ro/x/modules/mylinks/singlelink.php?cid=4&lid=184) gazduit de "iasi.roedu":ftp://ftp.iasi.roedu.net/pub/mirrors/cygwin.com/.
+
+
+
+In 10-15 minute aveam tail, ssh, svn si multe alte bunatati fara de care nu as putea supravietui pe windows.

@@ -1,0 +1,32 @@
+---
+id: 45
+url: /archive/2006-06-01-quest-ruby-new
+title: ! 'Quest: Ruby.new'
+layout: archive
+date: 2006-06-01 10:05:23.000000000 +02:00
+next:
+  url: /archive/2006-06-05-nested-set-2-unordered-list.html
+  title: Nested Set 2 Unordered List
+prev:
+  url: /archive/2006-05-29-rubyonrails-hosting-in-romania.html
+  title: rubyonrails hosting ...in Romania
+
+---
+
+Daca ar fi sa definesc experientele cu "Ruby":http://www.ruby-lang.org as alege cuvantul "Quest":http://en.wikipedia.org/wiki/Quest.
+
+O aventura ce ma tine cu sufletul la gura pana aproape de sfarsitul zilei, din care descopar fragmente noi tot timpul, pentru ca la final, toate aceste fragmente sa se imbine corect rezolvand astfel intr-un mod placut si inteligent problema data.
+
+
+
+Quest, mai curand cu sensul din "RPG":http://en.wikipedia.org/wiki/Computer_role-playing_game.
+
+
+
+Ruby ofera taskuri suplimentare la tot pasul, poate fara nici o legatura cu actiunea principala. Insa, odata rezolvate, acestea cresc abilitatile personajului principal.
+
+Mai ciudat: mi se pare ca Ruby nu incearca sa te impidice, nu iti ascunde nici un secret, parca ar vrea ca tu sa devii mai bun.
+
+
+
+Acum ar trebui sa scap de obiceiurile formate in php.

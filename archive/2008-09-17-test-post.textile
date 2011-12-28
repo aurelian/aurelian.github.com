@@ -1,0 +1,25 @@
+---
+id: 238
+url: /archive/2008-09-17-test-post
+title: Test post
+layout: archive
+date: 2008-09-17 21:37:38.000000000 +02:00
+next:
+  url: /archive/2008-09-20-economie-20-si-mai-era-ceva.html
+  title: Economie 2.0, si mai era ceva
+prev:
+  url: /archive/2008-09-11-seo-magic.html
+  title: SEO Magic
+
+---
+
+Feel free to ignore this entry.<div id='vu_ytplayer_vjVQa1PpcFN8BEuHE13NavS-ri9GSH1i9EwsQTXmYeM='><a href='http://www.youtube.com/browse'>Watch the latest videos on YouTube.com</a></div><script type='text/javascript' src='http://www.youtube.com/watch_custom_player?id=vjVQa1PpcFN8BEuHE13NavS-ri9GSH1i9EwsQTXmYeM='></script>
+
+
+
+<p>Wondering if it's funny.</p>
+
+<p>Arguable.</p>
+
+
+

@@ -1,0 +1,16 @@
+---
+id: 82
+url: /archive/2006-12-04-workingwithrails
+title: WorkingWithRails
+layout: archive
+date: 2006-12-04 16:38:15.000000000 +01:00
+next:
+  url: /archive/2006-12-05-diverse-servicii-prin-bucuresti-romania.html
+  title: Diverse servicii prin Bucuresti, Romania
+prev:
+  url: /archive/2006-12-03-spam-vs-me.html
+  title: SPAM vs. Me
+
+---
+
+"Suntem deja 6":http://www.workingwithrails.com/browse/country/Romania.

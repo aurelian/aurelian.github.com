@@ -1,0 +1,42 @@
+---
+id: 3
+url: /archive/2006-03-15-about-and-politics
+title: Despre si Politica
+layout: archive
+date: 2006-03-15 17:30:50.000000000 +01:00
+next:
+  url: /archive/2006-03-15-hello-world.html
+  title: Hello World
+prev:
+  url: /archive/2009-12-29-cati-km-de-autostrada-vrei.html
+  title: Cati km. de autostrada vrei?
+
+---
+
+h3. *Despre ce va fi vorba pe aici*
+
+
+
+Sunt Aurelian si voi fi gazda acestui blog.
+
+In principal se va vorbi despre programare, programare web in special.
+
+Voi discuta diverse siretlicurii si jmecheri legate de proiectele in care sunt implicat in timpul liber.
+
+Voi incerca sa nu fiu o agentie de stiri, insa voi prezenta diferite noutati pe care le voi comenta.
+
+Voi incerca sa respect limba romana si nu voi fi niciodata deranjat daca cineva imi va atrage atentia atunci cand folosesc un limbaj de lemn sau fac vreo greseala gramaticala.
+
+
+
+h3. *Politica*
+
+
+
+Articolele publicate aici exprima parerea mea.
+
+Comentariile apartin celor care le publica.
+
+Imi rezerv dreptul de a modera comentariile postate pe acest site si de a sterge cu sange rece orice deviere in afara subiectului :)
+
+<!-- Iti poti face un hate locknet.ro blog, nu ma supar. -->

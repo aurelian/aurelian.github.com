@@ -1,0 +1,28 @@
+---
+id: 213
+url: /archive/2008-06-12-voices
+title: Voices
+layout: archive
+date: 2008-06-12 02:25:58.000000000 +02:00
+next:
+  url: /archive/2008-06-17-lista-de-cheltuieli.html
+  title: Lista de cheltuieli
+prev:
+  url: /archive/2008-06-12-flawless-design-not.html
+  title: Flawless design. Not!
+
+---
+
+Okay, mi-am depasit atributiile si parca as schimba titlul blogului iar.
+
+
+
+<div><object width="420" height="339"><param name="movie" value="http://www.dailymotion.com/swf/x2ei7w" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://www.dailymotion.com/swf/x2ei7w" type="application/x-shockwave-flash" width="420" height="339" allowFullScreen="true" allowScriptAccess="always"></embed></object><br /><b><a href="http://www.dailymotion.com/swf/x2ei7w">ASCENSEUR DISCO (REMI GAILLARD)</a></b><br /><i>by <a href="http://www.dailymotion.com/nqtv">nqtv</a></i></div>
+
+
+
+<div><object width="420" height="339"><param name="movie" value="http://www.dailymotion.com/swf/x2esvw" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://www.dailymotion.com/swf/x2esvw" type="application/x-shockwave-flash" width="420" height="339" allowFullScreen="true" allowScriptAccess="always"></embed></object><br /><b><a href="http://www.dailymotion.com/swf/x2esvw">ASCENSEUR REGGAE (REMI GAILLARD)</a></b><br /><i>by <a href="http://www.dailymotion.com/nqtv">nqtv</a></i></div>
+
+
+
+De acelasi autor: "hockey(demential)":http://www.dailymotion.com/visited/video/x2ehdx_hockey-remi-gaillard_fun, "rocky(letal)":http://www.dailymotion.com/visited/video/x2z0xx_rocky-remi-gaillard si "imposture foot":http://www.dailymotion.com/visited/video/x2fnf9_imposture-foot-remi-gaillard_fun (ca tot ne uitam la EURO'08 acum).

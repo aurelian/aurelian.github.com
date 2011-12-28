@@ -1,0 +1,60 @@
+---
+id: 233
+url: /archive/2008-09-07-chrome-lhc-si-mai-era-ceva
+title: Chrome, LHC si mai era ceva
+layout: archive
+date: 2008-09-07 22:58:26.000000000 +02:00
+next:
+  url: /archive/2008-09-09-pair-programming-with-paris.html
+  title: Pair Programming with Paris
+prev:
+  url: /archive/2008-09-03-digital-dallas-fail.html
+  title: Digital Dallas. Fail
+
+---
+
+h5. I) Google Chrome. Navigatorul
+
+
+
+Deci, am auzit ca a aparut un nou browser, de la Google. Ii spune Chrome si nu l-am incercat pentru ca nu exista o versiune pentru Mac OS sau "Linux":http://kernel.org. Am citit doar prezentarea si cum ma pricep la toate, imi permit sa imi dau cu parerea:
+
+
+
+* Interesanta idea cu "fiecare tab" = "un nou proces".
+
+* Chrome va respecta standardele web si in plus, este si produs open-source. Tipul asta de concurenta insemana progres.
+
+
+
+h5. II) Despre LHC
+
+
+
+ProTV se intraba daca "Murim cu totii miercurea viitoare?" Dar, din pacate, articolul a disparut de pe siteul lor (sau nu il mai gasesc eu?). Nu stiu cum s-a intamplat sa am inca tabul din Safari deschis (sic!). Articolul - de doar doua fraze - zice asa:
+
+
+
+bq. Doua scenarii de cosmar, doua apocalipse. Sunt ideile care au facut inconjurul lumii odata cu preconizata lansare de miercuri, 10 septembrie, a unei masinarii capabile sa aduca nu atat disparitia Terrei, cat distrugerea totala a intregului Univers, anunta ziaristii britanici de la DailyMail.
+
+
+
+Mai neutru, TVR anunta ca "Fizicienii pregătesc un nou Big Bang":http://tvr.ro/articol.php?id=45888.
+
+
+
+Eu zic ca traim vremuri interesante. Fizicienii vor fi pusi in dificultate daca experimentele efectuate "in LHC":http://www.boston.com/bigpicture/2008/08/the_large_hadron_collider.html nu vor reusi sa furnizeze raspunsurile "cautate":http://en.wikipedia.org/wiki/LHC#Research. Si, iti poti imagina dimensiunea datelor "colectate":http://en.wikipedia.org/wiki/LHC_Computing_Grid?
+
+
+
+h5. III) Si inca ceva.
+
+
+
+* Licentele CC s-au lansat si in Romania.
+
+* Seinfeld a aparut intr-o reclama Microsoft.
+
+
+
+Buna treaba.

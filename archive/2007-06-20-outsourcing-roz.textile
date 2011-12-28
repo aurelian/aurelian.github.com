@@ -1,0 +1,44 @@
+---
+id: 106
+url: /archive/2007-06-20-outsourcing-roz
+title: Outsourcing Roz
+layout: archive
+date: 2007-06-20 22:03:50.000000000 +02:00
+next:
+  url: /archive/2007-06-23-cauti-un-hotspot.html
+  title: Cauti un HotSpot?
+prev:
+  url: /archive/2007-06-17-medick-version-040-was-released.html
+  title: Medick version 0.4.0 was released
+
+---
+
+Alex a publicat un "manifest anti-agile":http://antiagile.indigenious.ro/ considerand ca dezvoltarea produselor software folosind metodologii Agile nu se poate aplica in practica pe proiecte Outsourcing. Nu se poate construi o relatie bazata pe incredere cu un client ce te-a ales pentru pretul mic.
+
+
+
+1. Clientul va prefera sa verifice zilnic progresul facut lansandu-se in discutii interminabile.
+
+
+
+2. Programatorii nu stiu cand sa se opreasca cand adauga facilitati sa le spunem nesolicitate.
+
+
+
+Iteratiile la 2-3 saptamani ar reprezenta o rezolvare a problemei, atat timp cat clientul plateste la timp.
+
+Un pret mai mare l-ar putea descuraja pe un eventual "vanator de cel mai ieftin" insa este posibil sa ramani mai mult timp fara proiecte.
+
+
+
+Lectura suplimentara:
+
+
+
+* " How to &quot;fire&quot; a difficult client?":http://groups.google.com/group/rails-business/browse_thread/thread/b0df734622c36643?hl=en pe "rails-bussiness":http://groups.google.com/group/rails-business?hl=en.
+
+* "Asshole driven development":http://www.scottberkun.com/blog/2007/asshole-driven-development/ de Scott Berkun (The Art of Project Management) o solutie care nu se scaleaza prea bine (imagineaza-ti un cluster de "Asshole's":http://www.robbyonrails.com/articles/2007/06/19/berkun-introduces-add#comment-28347).
+
+
+
+Are cineva o poveste de succes?

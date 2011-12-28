@@ -1,0 +1,30 @@
+---
+id: 17
+url: /archive/2006-03-28-is-the-hype-over
+title: Is the hype over?
+layout: archive
+date: 2006-03-28 10:48:20.000000000 +02:00
+next:
+  url: /archive/2006-03-29-4-hours-on-session.html
+  title: 4 hours on session
+prev:
+  url: /archive/2006-03-27-border-top-15px-solid-333.html
+  title: ! 'border-top: 15px solid #333;'
+
+---
+
+3 or 4 weeks ago, every day I've heard the words : ruby, rubyonrails, rails.
+
+It seams that everyone saw, touch and get back to php or whatever.
+
+
+
+Well, I'm *wrong*, "rails":http://www.rubyonrails.org/ is even better and today "David":http://www.loudthinking.com/about.html "announced version 1.1":http://weblog.rubyonrails.org/articles/2006/03/28/rails-1-1-rjs-active-record-respond_to-integration-tests-and-500-other-things with more that "500 other things", a impressive list of new features.
+
+
+
+bq. The biggest upgrade in Rails history has finally arrived.
+
+
+
+Welcome.

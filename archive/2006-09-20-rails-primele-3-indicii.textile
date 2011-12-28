@@ -1,0 +1,60 @@
+---
+id: 29
+url: /archive/2006-09-20-rails-primele-3-indicii
+title: Rails, primele 3 indicii
+layout: archive
+date: 2006-09-20 10:36:11.000000000 +02:00
+next:
+  url: /archive/2006-09-20-75-la-suta-mai-putin-continut.html
+  title: 75% mai putin continut
+prev:
+  url: /archive/2006-09-20-marks-my-rails-pet-project.html
+  title: ! 'Marks: my Rails pet project'
+
+---
+
+Am incercat in ultimele zile sa ma familiarizez cu "RubyOnRails":http://rubyonrails.com si sa incerc sa fac o aplicatie de la zero.
+
+In mod normal primul lucru pe care il facem este tipicul HelloWorld pentru a testa mediul in care o sa dezvoltam in continuare.
+
+
+
+Dupa un weekend on Rails, pot da urmatoarele sfaturi:
+
+
+
+* Foloseste FastCGI!
+
+
+
+Daca se foloseste combinatia "Apache/mod_ruby":http://www.modruby.net/ sau "Apache/CGI":http://httpd.apache.org/docs/2.0/howto/cgi.html performanta aplicatiilor scrise in "ruby":http://ruby-lang.org si implicit in rails scade simtitor.
+
+Lucrurile se schimba insa cu "Lighty":http://www.lighttpd.net/  + "FastCGI":http://www.fastcgi.com/ (recomandat) sau "Apache cu FastCGI":http://freshmeat.net/projects/mod_fastcgi/.
+
+Am aflat si de "SCGI(Simple Common Gateway Interface)":http://www.mems-exchange.org/software/scgi/ (via "blog.peat.org":http://blog.peat.org/articles/2006/04/13/rails-scgi-lighttpd-planet-argon) insa nu stiu momentan daca as putea instala asa ceva intr-un mediu in care nu am acces direct la serverul web (apache in cazul meu). Se pare insa ca Lighty/SCGI este o "solutie buna":http://www.zedshaw.com/projects/scgi_rails/ pentru cei care ofera hosting cu rails.
+
+
+
+* Foloseste setup-uri asemanatoare pe masina pe care se face dezvoltarea si sistemul unde o sa publici aplicatia (production)!
+
+
+
+Am pierdut *foarte mult* timp (probabil ca acum as rezolva problema mult mai repede) sa imi mut aplicatia dezvoltata pe localhost cu Lighty/FCGI pe Apache/CGI. Cautari fara raspuns pe "google":http://google.com (nu prea se foloseste Apache/CGI?), intrebari pe "#rubyonrails":http://www.rubyonrails.org/community si intr-un final cu ajutorul unei console de debug pentru CGI (practic examinarea erorilor din fiserul de log al serverului web) am rezolvat problema, cam 5-6 ore in total. Si asta cu noroc, pentru ca dupa vreo 4 ore am decis sa ma culc putin.
+
+Ma gandesc cat timp as fi pierdut daca foloseam windows cu "WEBrick":http://www.webrick.org/.
+
+
+
+* Foloseste o metoda de deploy automata!
+
+
+
+Deploy: adica publicarea aplicatiei pe net.
+
+De cele mai multe ori, transferul prin ftp este incomod.
+
+Daca se poate, foloseste "capistrano":http://manuals.rubyonrails.com/read/book/17 (fost SwitchTower), daca nu cauta metode alternative, de exemplu "rsync":http://wiki.rubyonrails.com/rails/pages/HowtoUseRsyncToDeployYourApplication sau orice alt script care iti va muta fisierele rapid pe serverul live.
+
+
+
+Apropos, inca "nu m-am hotarat":http://www.locknet.ro/article/am-hosting-cu-rails-mai-departe ce fel de aplicatie o sa fac (ei bine, de fapt am niste idei), insa, primii pasi cu o aplicatie dezvoltata in rails si publicata pe internet i-am facut "aici":http://marks.29dots.com/main/index.

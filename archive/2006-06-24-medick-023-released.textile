@@ -1,0 +1,28 @@
+---
+id: 49
+url: /archive/2006-06-24-medick-023-released
+title: Medick 0.2.3 Released
+layout: archive
+date: 2006-06-24 12:08:58.000000000 +02:00
+next:
+  url: /archive/2006-07-10-medick-030pre1-released.html
+  title: Medick 0.3.0pre1 Released
+prev:
+  url: /archive/2006-06-21-validarea-obiectelor-activerecord.html
+  title: Validarea obiectelor ActiveRecord
+
+---
+
+"medick":http://medick.locknet.ro version 0.2.3 was released today.
+
+For download you can use one of "berlios":http://berlios.de "mirrors":http://developer.berlios.de/project/showfiles.php?group_id=4023 or the .ro "copy":http://medick.locknet.ro/download/medick-0.2.3.tgz.
+
+
+
+This is the "still alive" proof release! It includes minor changes and fixes to 0.2.2.
+
+For a complete list of changes see the "CHANGELOG":http://medick.locknet.ro/api/ric_CHANGELOG.html file.
+
+
+
+"medick":http://medick.locknet.ro is a PHP 5 Web Framework released under a BSD style "LICENSE":http://medick.locknet.ro/api/ric_LICENSE.html.

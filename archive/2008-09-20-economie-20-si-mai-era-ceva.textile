@@ -1,0 +1,40 @@
+---
+id: 240
+url: /archive/2008-09-20-economie-20-si-mai-era-ceva
+title: Economie 2.0, si mai era ceva
+layout: archive
+date: 2008-09-20 16:44:24.000000000 +02:00
+next:
+  url: /archive/2008-10-07-onze-de-setembre-diada.html
+  title: Onze de Setembre, Diada
+prev:
+  url: /archive/2008-09-17-test-post.html
+  title: Test post
+
+---
+
+h5. Cum e mai avantajos?
+
+
+
+In plina criza economica, ma gandesc cum e mai bine: sa ai un credit bancar si sa speri ca banca sa dea faliment? sau sa nu ai niciun credit?
+
+
+
+Citeam prin presa online de limba romana cum ca Romania va avea la sfarsitul anului cea mai mare crestere de PIB din UE. In acelasi timp, un economist spunea ca scaderile de la Bursa din Bucuresti (BVB) nu influenteaza economia tarii. Ma gandesc, ce fel de economie e asta? Sau ce fel de Bursa?
+
+
+
+h5. Si inca ceva.
+
+
+
+* LHC s-a stricat.
+
+* Seinfeld nu mai apare in reclamele Microsoft.
+
+* Mi-a placut aplicatia "asta":http://electopinion.ca/en. Dar, pana la urma, este vorba ...tot de politicieni.
+
+
+
+Buna treaba. Din nou.

@@ -1,0 +1,20 @@
+---
+id: 234
+url: /archive/2008-09-09-pair-programming-with-paris
+title: Pair Programming with Paris
+layout: archive
+date: 2008-09-09 22:00:52.000000000 +02:00
+next:
+  url: /archive/2008-09-11-seo-magic.html
+  title: SEO Magic
+prev:
+  url: /archive/2008-09-07-chrome-lhc-si-mai-era-ceva.html
+  title: Chrome, LHC si mai era ceva
+
+---
+
+!http://assets.locknet.ro/images/58.png!
+
+
+
+For the geeks out there: Paris is not a programming language.

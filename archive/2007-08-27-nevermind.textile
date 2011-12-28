@@ -1,0 +1,32 @@
+---
+id: 112
+url: /archive/2007-08-27-nevermind
+title: Nevermind
+layout: archive
+date: 2007-08-27 15:36:20.000000000 +02:00
+next:
+  url: /archive/2007-08-30-ive-been-tagged.html
+  title: I've been tagged!
+prev:
+  url: /archive/2007-08-08-jobberro-ro-it-jobs-si-apple-widgets.html
+  title: Jobber.ro, .ro IT Jobs si Apple Widgets
+
+---
+
+Sentimentul de:
+
+
+
+Construiesti ceva, depui un efort foarte mare pentru a realiza un produs perfect dar parca destul de fragil.
+
+
+
+Cand este gata, il scapi din mana si sute de piese ce formau intregul ansamblu se imprastie pe podea.
+
+
+
+...
+
+
+
+Eu as aduna fiecare bucata si as lua-o de la capat.

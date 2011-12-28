@@ -1,0 +1,54 @@
+---
+id: 40
+url: /archive/2006-09-20-doar-productivitatea-se-vede
+title: Doar productivitatea se vede
+layout: archive
+date: 2006-09-20 10:21:47.000000000 +02:00
+next:
+  url: /archive/2006-09-20-popularitate-si-calitate.html
+  title: Popularitate si calitate
+prev:
+  url: /archive/2006-09-20-ordinea-validarii-in-rails.html
+  title: Ordinea Validarii in Rails
+
+---
+
+In ultimii 2-3 ani am observat un pattern in comportamentul meu.
+
+De obicei, incepand din aprilie ma apuca o stare de neliniste totala denumita de mintea mea "astenie anuala de primavara".
+
+In fiecare an, _aprile_ este o luna proasta. Au trecut 3 luni din noul an si nu am realizat nimic din ce mi-am propus la sfarsitul lui _decembrie_.
+
+In _aprile_ imi dau seama ca productivitatea mea tinde spre zero. Nu fac nimic interesant.
+
+
+
+Masor productivitatea prin diferenta dintre numarul de idei/proiecte/planuri avute si cele realizate.
+
+Sau prin timpul alocat indeplinirii unei misiuni. Inspaimantator, acum un plan de o ora inseamna o zi sau o saptamana.
+
+
+
+Timpul trece si prin _mai_ analizez contextul in care ma aflu: De un an sunt la acelasi nivel, imi este teama, as putea sa imi pierd calitatile daca o tin tot asa.
+
+
+
+Incerc sa nu mai fiu afectat de evenimentele inconjuratoare. Articole de genul "YOU'LL DO THIS MORNING ...":http://www.tompeters.com/entries.php?note=006635.php ma ung la suflet.
+
+
+
+Marile idei initiale au fost sparte in bucati. Productivitatea creste doar pentru ca incerc sa ma concentrez pe taskuri simple. Vreau sa fac lucruri concrete. REPEDE. ACUM. O jumatate este mai mai buna decat nimic.
+
+
+
+Din exterior insa, in aprilie se vede un "release medick":http://www.locknet.ro/article/medick-022-released sau un "prim proiect public":http://marks.29dots.com - inca neterminat - in rails "inceput":http://www.locknet.ro/article/marks-face-primii-pasi in _mai_.
+
+Un blog cu un numar de vizitatori si abonati mai mare decat ar merita. 
+
+Un "CRUD":http://en.wikipedia.org/wiki/CRUD_%28acronym%29 facut cu "medick":http://medick.locknet.ro intr-o ora.
+
+
+
+Astenia mea nu exista pentru cei din jur.
+
+Acum daca as reusi sa aduc intr-un stadiu mai bun toate proiectele incepute. Sau macar sa am curajul sa le abandonez. Si asta doar pentru ca am idei si planuri noi.

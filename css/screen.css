@@ -1,16 +1,12 @@
 body {
   margin: 1em auto 0.5em auto;
   width: 78%;
-  font-family: 'Cagliostro', Georgia, sans-serif;
+  font-family: "Cagliostro", Georgia, sans-serif;
 }
 
-a {
-  color: #870D26;
-}
+a { color: #AA9EC5; }
 
-a:visited {
-  color: #7D4E56;
-}
+a:visited { color: #EBD7F4; }
 
 header h1 {
   font-size: 5em;
@@ -24,5 +20,10 @@ header h2 {
   font-size: 1.5em;
   margin-bottom: 1.5em;
   text-align: center;
+}
+
+pre {
+  font-family: "Monaco", "Consolas", "Ubuntu Monospace", "courier new", monospace;
+  font-size: .8em;
 }
 

@@ -1,0 +1,54 @@
+---
+id: 185
+url: /archive/2008-03-18-crawling-legal-si-moral
+title: ! 'Crawling: legal si moral'
+layout: archive
+date: 2008-03-18 21:39:24.000000000 +01:00
+next:
+  url: /archive/2008-03-20-eliberatica-2008-a-kick-ass-event.html
+  title: eLiberatica 2008, a kick ass event!
+prev:
+  url: /archive/2008-03-18-wurbe-vii-zat.html
+  title: wurbe-vii-zat
+
+---
+
+M-am apucat sa ii scriu un comentariu lui "Filip":http://www.filipcte.ro/17-03-2008/site-crawling-legalitati-probleme/, dar mi-am dat seama ca ar fi fost cam mare. "Știm":http://www.locknet.ro/article/75-la-suta-mai-putin-continut cu ce viteză "citim":http://www.sensible.com/chapter.html o pagină web zilele astea.
+
+
+
+--
+
+
+
+Acum cativa ani price.ro era teh king in agregarea continutului de pe alte siteuri. Nu stiu daca acum are concurenta sau care "mai e treaba":http://stat.trafic.ro/stat/pricero. Dar stiu ca atunci cand imi cautam o componenta pentru PC sau alte gadgeturi, ala era siteul unde intram prima data.
+
+In primul rand imi oferea o viziune clara asupra preturilor + linkuri directe catre siteul de unde era extrasa informatia. Cu un click aterizam in magazinul online fix pe pagina produsului unde continuam experienta si puteam sa _adaug in cos_, sa gasesc _adresa magazinului_ sau sa verific _disponibilitatea_.
+
+
+
+Nu cred ca magazinele online erau deranjate de acest fapt, parca exista si un API ceva prin care oricine isi poate adauga produsele acolo.
+
+
+
+Este prea putin sa oferi un site ce "agregheaza" informatia si ofera doar posibilitatea de a cauta. Daca mai pui si reclame, devine deja stresant pentru asa zisul "partener", pentru ca se intra intr-o problema morala: a face bani din continutul altora.
+
+Cea mai buna metoda este de a adauga servicii aditionale, de ex. pe price.ro se puteau face diverse sortari sau ofereau grafice cu evolutia preturilor, servicii ce vor aduce valoare pentru toata lumea (inclusiv pentru utilizatorul in cautarea unui iPhone).
+
+
+
+Exemplu negativ este rss.mioritics.ro un fel de ...imi scapa. Oamenii astia probabil fac trafic si bani din adsense folosind continutul meu. Chestia asta ma deranjeaza, si acum vreun an le-am dat un mail prin care solicitam sa nu mai fiu indexat. Nu am primit niciun raspuns, iar acum vreo luna (I'm lazy) am recurs la masura extrema si anume "l-am blocat accesul":http://www.locknet.ro/files/htaccess.txt.
+
+"programare.org":http://programare.org/blogosfera.php ofera un servicu similar. Insa dansii imi aduc vizitatori de calitate (si pentru asta le multumesc) pentru ca in primul rand nu apar pe aceiasi pagina cu Free Adult Web-Cams sau cu psihopatu din '96. Apoi exista o singura reclama, foarte bine delimitata in pagina. La fel, pe "iRead.ro":http://iread.ro/best/programare, "Alex":http://alexbrie.net m-a adaugat in categoria "programare" unde imi afiseaza doar titlul articolului si un mic teaser (la mouse over). That's cool.
+
+
+
+Nu sunt familiar cu produsele oferite de "Alexandru Badiu":http://www.voidberg.org/ si echipa "Creditlink":http://www.creditlink.ro/, dar "stiu":http://www.creditlink.ro/node/624 ca si ei experimenteaza diverse abordari: pe autoo.ro langa pretul masinii imi arata si ce rata bancara ar trebui sa platesc lunar. Friggin' nice!
+
+
+
+In concluzie: adauga valoare!
+
+Fa-ma sa ma simt onorat pentru ca imi faci crawling la site! Ofera-mi posibilitatea sa te refuz daca nu imi plac conditiile tale.
+
+Daca aterizez ca si utlizator de internet, arata-mi lucruri interesante.

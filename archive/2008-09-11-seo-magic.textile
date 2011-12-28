@@ -1,0 +1,24 @@
+---
+id: 235
+url: /archive/2008-09-11-seo-magic
+title: SEO Magic
+layout: archive
+date: 2008-09-11 21:16:35.000000000 +02:00
+next:
+  url: /archive/2008-09-17-test-post.html
+  title: Test post
+prev:
+  url: /archive/2008-09-09-pair-programming-with-paris.html
+  title: Pair Programming with Paris
+
+---
+
+Cautam si eu - ca tot omul de altfel - o imagine la o rezolutie mai mare cu Elena, increzator: ca doar Google "a rezolvat 90%-95%":http://www.techcrunch.com/2008/09/07/is-search-really-90-solved/ din problemele search-ului.
+
+
+
+<a href="http://assets.locknet.ro/images/59.png" rel="lightbox" title="Elena, Elena Udrea?"><img src="http://assets.locknet.ro/images/59t.png" alt="Elena, Elena Udrea?" title="Elena, Elena Udrea?" /></a>
+
+
+
+Cum o fi facut Iliescu sa iasa si el in rezultate?

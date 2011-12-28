@@ -1,0 +1,54 @@
+---
+id: 8
+url: /archive/2006-03-19-medick-021-released
+title: Medick 0.2.1 Released
+layout: archive
+date: 2006-03-19 18:36:19.000000000 +01:00
+next:
+  url: /archive/2006-03-20-erata-medick-021.html
+  title: ! 'Erata: medick-0.2.1'
+prev:
+  url: /archive/2006-03-15-hello-world.html
+  title: Hello World
+
+---
+
+I'm very proud to annonce you that "medick":http://medick.locknet.ro version 0.2.1 has been "released":http://medick.locknet.ro/download/medick-0.2.1.tgz 15 minutes ago.
+
+
+
+h3. Whats new?
+
+
+
+* API docs bundled in the download package
+
+* Medick Environments
+
+* Minor fixes
+
+
+
+Read the complete "changelog":http://svn.berlios.de/wsvn/medick/trunk/CHANGELOG?op=file&rev=379&sc=0.
+
+
+
+Not to many new things one might say, but the most important is the fact that I spend some time on writing some cool documentation:
+
+
+
+* "The Long Intro":http://medick.locknet.ro/documentation.html still a work in progress,
+
+* the "API":http://medick.locknet.ro/api docs,
+
+* a small and aready outdated "screencast":http://medick.locknet.ro/getting_started.html (4MB flash movie).
+
+
+
+h3. Update 19.March
+
+
+
+I have uploded this release also on "berlios":http://berlios.de.
+
+Download "here":http://prdownload.berlios.de/medick/medick-0.2.1.tgz

@@ -1,0 +1,74 @@
+---
+id: 72
+url: /archive/2006-10-21-load2006
+title: LOAD2006
+layout: archive
+date: 2006-10-21 15:34:12.000000000 +02:00
+next:
+  url: /archive/2006-10-24-ruby-fara-viitor.html
+  title: Ruby "fara viitor"
+prev:
+  url: /archive/2006-10-21-autumn-cats-show-2006.html
+  title: Autumn Cats Show 2006
+
+---
+
+_17-18 Octombrie, 2006, Athenee Palace Hilton, Bucuresti, *Linux Open Alternative Days, 2006*_
+
+
+
+Dupa o pizza cam grasă mâncată la prânz, am plecat spre Hilton pentru "LOAD":http://www.load.ro.
+
+Din pacate, am reuşit să văd doar 3 prezentari, toate din prima zi: Novell, eLiberatica şi RedHat.
+
+In condiţiile astea, poate părerea mea nu este relevantă.
+
+
+
+Totuşi.
+
+Cei doi giganti din lumea Linux au avut prezentări destul de slabe. 
+
+Nu am învăţat nimic şi nu am aflat nimic nou.
+
+Ne-au arătat versiunile "pe bani": RHLE 4 şi SuSE Linux Enterprise (Desktop şi Server) 10.
+
+
+
+Dacă la Novell câteva slideuri - mai "complicate" - erau explicate prin:
+
+
+
+bq. Cine vrea detalii, discutam la sfârşit.
+
+
+
+la RedHat, prezentarea a fost "citită":http://flickr.com/photos/aurelian/274732289/ de pe nişte foi.
+
+Poate sunt eu mai nescos prin lume, dar audienţa va fi pierdută în momentul în care începi să citeşti.
+
+Aşa tu poţi aduce un flux *foarte* _mare_ de informaţii într-un timp *foarte* _scurt_ devenind *foarte* _greu_ de urmărit.
+
+Spre sfârşit mai mult de jumatate din sală era deja în hol.
+
+
+
+Între, Alexandru Lăpuşan a prezentat un eveniment ce va avea loc în Mai 2007: "eLiberatica":http://www.eLiberatica.ro, organizat de "ROSI":http://rosi.ro.
+
+În 15 minute am aflat "Cine Suntem", "Ce Vrem", "De Ce Vrem" "Cand şi Unde Vrem". Din reacţiile din public, încă înţelegem că Free Software e tot una cu Open Source care înseamnă că este Gratis şi rezultă că sunt Anti Ms.
+
+
+
+Se spune că cele mai bune prezentari au fost facute de domnul "Felix Enescu":http://ciomind.biz/ în prima zi, despre "Rompetrol şi Open Source" şi de domnul "Dragoş Manac":http://dragosh.bloghost.ro/ despre "Enterprise cu bani puţini" a doua zi. Regret că nu am putut ajunge. Şi ştiu că nu a fost un concurs de prezentari.
+
+
+
+În concluzie, LOAD nu a fost un eveniment pe gustul meu. Parcurgând lista de invitaţi şi mai ales a subiectelor expuse, majoritatea nu prea au avut nici o legatură cu fenomenul. Din cauza asta, nu am mai avut nicio tragere de inimă să mai vin şi a doua zi.
+
+
+
+"Alte":http://dragosh.bloghost.ro/2006/10/19/load-2006/ "reacţii":http://alexbrie.net/myblog/Blog/871/ceva-mai-multe-despre-load2006 "despre":http://vladimir.metromind.ro/business/despre-load/ "LOAD":http://cop.tfm.ro/archives/55 2006.
+
+
+
+Poze pe "flickr":http://flickr.com/photos/aurelian/tags/load2006/.

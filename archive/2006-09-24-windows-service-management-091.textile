@@ -1,0 +1,30 @@
+---
+id: 62
+url: /archive/2006-09-24-windows-service-management-091
+title: Windows Service Management - 0.9.1
+layout: archive
+date: 2006-09-24 12:11:57.000000000 +02:00
+next:
+  url: /archive/2006-09-24-fastwork.html
+  title: Fastwork
+prev:
+  url: /archive/2006-09-20-medick-environments-part-1.html
+  title: Medick Environments - Part 1
+
+---
+
+Last night I've got an email from a WSM user who asked about a precomipled binary of WSM for PHP 5.1 and 5.2.
+
+
+
+So,  I'm proud to annonce release 0.9.1 of WSM.
+
+Use the "berlios.de":http://developer.berlios.de mirrors for "download":http://developer.berlios.de/project/showfiles.php?group_id=2873.
+
+
+
+WSM stands for Windows Service Management and it's an extension to PHP so you can control Windows Services from - umm, well - your PHP scripts. WSM is released under "PHP License, version 3.0":http://php.net/license/3_0.txt.
+
+
+
+More details, including the API or the installation procedure, can be found on the WSM web site, "http://wsm.berlios.de":http://wsm.berlios.de

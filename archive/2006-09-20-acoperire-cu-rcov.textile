@@ -1,0 +1,46 @@
+---
+id: 36
+url: /archive/2006-09-20-acoperire-cu-rcov
+title: Acoperire cu rcov
+layout: archive
+date: 2006-09-20 10:33:30.000000000 +02:00
+next:
+  url: /archive/2006-09-20-marks-my-rails-pet-project.html
+  title: ! 'Marks: my Rails pet project'
+prev:
+  url: /archive/2006-09-20-03-on-medick-future.html
+  title: 0.3, on Medick future
+
+---
+
+"Spuneam":http://www.locknet.ro/article/stage-1-aproape-gata ca sunt putin nefericit din cauza ca testele pentru controllerul @account@ sunt cam subtiri.
+
+
+
+<div class="mta"><a href="http://assets.locknet.ro/images/17.png" rel="lightbox" title="Marks Account-Controller Code Coverage">
+
+!http://assets.locknet.ro/images/17t.png(Code Coverage)!
+
+<br />Click on image for a larger view</a></div>
+
+
+
+Vineri seara am descoperit "rcov":http://eigenclass.org/hiki.rb?rcov. Pe scurt, rcov este o aplicatie care identifica acoperirea codului cu unit-teste pentru ruby, destul de greu de explicat in romana.
+
+
+
+Se poate vedea alaturat, ca dupa prima rulare, la 121 de linii de cod in @account_controller@, doar 16,1 % erau acoperite de teste. O cifra acceptabila ar fi 75%, dar pentru o aplicatie atat de mica ar fi fost pacat sa nu am 100% "code coverage":http://en.wikipedia.org/wiki/Code_coverage.
+
+
+
+bq. rcov is a code coverage tool for Ruby
+
+Code coverage shouldn't be abused (in few words, C0 coverage guarantees nothing) but it's still useful for testing: it will at least tell you when your tests need more work, and most importantly where.
+
+
+
+Dupa cateva ore, folosind pasi marunti de genul: scrie unit-test, ruleaza, regeneraza graficul de acoperire am ajuns la 100%.
+
+
+
+Revenind la "marks":http://marks.locknet.ro, nu am reusit sa imi fac timp pentru a adauga facilitati noi, insa cel putin acum sunt mai sigur ca partea de management al utlizatorilor va functiona corect.

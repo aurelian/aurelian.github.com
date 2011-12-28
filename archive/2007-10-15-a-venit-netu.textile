@@ -1,0 +1,78 @@
+---
+id: 120
+url: /archive/2007-10-15-a-venit-netu
+title: A venit netu'
+layout: archive
+date: 2007-10-15 09:38:32.000000000 +02:00
+next:
+  url: /archive/2007-10-15-my-textpattern-template.html
+  title: My Textpattern Template
+prev:
+  url: /archive/2007-10-03-wurbe2.html
+  title: Wurbe#2
+
+---
+
+Nici nu stii ce saptamana fara internet am avut!
+
+
+
+Cat ma bucuram sa ies pana la mall sa beau un capuccino si sa imi iau mailul. wifi frate!. O data pe zi, vreo ora- cel mult, apoi nu mai dadeam prea bine.
+
+
+
+!http://assets.locknet.ro/images/36.jpg!
+
+
+
+Insa, eram convins ca fara conexiune as fi mai productiv. Da de unde! Eram foarte stresat, verificam tot timpul sa vad daca raspunde cineva la ping si nu puteam sa ma concentrez.
+
+
+
+ISP-ul meu a fost chiar ok:
+
+
+
+bq. - azi la 2 vine baiatu sa lipeasca firu pe stalp!
+
+
+
+Asa imi zicea din doua in doua zile.
+
+
+
+bq. - nu poate ca a plouat afara si nu se prinde fibra bine!
+
+
+
+Mi-a oferit in permanenta sprijin si m-a tinut la curent cu ultimile noutati, cand il sunam eu. A naibii fibra, ca nu am inteles inca de ce anume trebuia sa se prinda.
+
+
+
+Foarte posibil sa fi pierdut vreo "doua contracte(good shit)":http://en.wikipedia.org/wiki/Markov_chains - adica bani - in saptamana asta lipsa, si la fel de posibil sa fiu bagat in categoria "freelancer care dispare". Mai ales ca acum cateva zile mi-am facut si telefonul varza. Unu sigur e pierdut. Si imi pare foarte rau ca era din ala de tip "easy money". Sa vad, poate mai am cum sa il salvez pe al-ii-lea.
+
+
+
+In sfrasit. Intre timp am descoperit o chestie ciudata in "prototype":http://prototypejs.org:
+
+Daca ai un mare formular, sa zicem cu vreo 50 de campuri, bunul simt iti zice ca ar fi bine sa faci ceva de genul "wizard": mai multe paginii cu "Next... Next..., Back.....", ca la windows. Si cum aveam deja si ceva colturi rotunjite (adica web2.0), requesturile intre paginii se fac cu AJAX.
+
+Ei bine, nu este atat de simplu pe cat pare, pentru ca din motive elucidate "doar pe jumatate(in functia aia parca era buba!)":http://dev.rubyonrails.org/browser/spinoffs/prototype/trunk/src/form.js?rev=7852#L6, daca ai un formular cu mai multe inputuri de tip sumbit, prototype trimite doar valoare si numele primului (din DOM) - chiar daca au nume diferit (unu next, iar celalat prev). In acest caz, nu aveam cum sa imi dau seama daca utilizatorul a dat click pe next pentru a afisa pagina urmatoare sau pe back pentru precedenta, merita totusi incercat un random ceva:
+
+
+
+bq. - apasa tasta 1 daca ai dat click pe "Next(Kramer era Moviefone!!!)":http://en.wikipedia.org/wiki/The_Pool_Guy, 2 pentru... sau mai bine spune-mi pe ce ai apasat!
+
+
+
+Workaroundul a fost sa nu mai observ formularul la submit (cum incercam initial) ci butoanele. Bleah, ugly as hell, da merge.
+
+Plus ca am si un file upload pe acolo. Normal cu progress bar rotund.
+
+
+
+Acum totul pare OK cu conexiunea. Serverul de DNS se cam balbie si mi le rezolva mai greu, da na'h, trec peste asta. Viata merge inainte.
+
+
+
+p{color:#ccc;font-size:75%}. *photo credit*: celebdu, "Karaoke: The Guys":http://www.flickr.com/photos/celebdu/491535753/ on flickr. Released under: "Creative Commons":http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en-us.

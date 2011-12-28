@@ -1,0 +1,72 @@
+---
+id: 25
+url: /archive/2006-09-20-75-la-suta-mai-putin-continut
+title: 75% mai putin continut
+layout: archive
+date: 2006-09-20 10:38:01.000000000 +02:00
+next:
+  url: /archive/2006-09-20-afacere-sortita-escului.html
+  title: Afacere sortita esecului
+prev:
+  url: /archive/2006-09-20-rails-primele-3-indicii.html
+  title: Rails, primele 3 indicii
+
+---
+
+bq. "One of the very few well-documented facts about Web use is that people tend to spend very little time reading most Web pages. Instead, we scan (or skim) them, looking for words or phrases that catch our eye.
+
+The exception, of course, is pages that contain documents like news stories, reports, or product descriptions. But even then, if the document is longer than a few paragraphs, we are likely to print it out - since it's easier and faster to read on paper than on a screen."
+
+
+
+Am citat din "Steve Krug":http://www.sensible.com/about.html, "Don't make me think":http://www.amazon.com/gp/product/0789723107/102-4611559-5937740?n=283155, "capitolul doi":http://www.sensible.com/chapter.html
+
+Am mai gasit si capitolul 11 disponibil gratuit "aici":http://www.webreference.com/programming/usability/.
+
+
+
+Prima impresie despre o pagina web se formeaza foarte repede, nimeni nu va sta mai mult de cateva secunde pentru a intelege despre ce este vorba.
+
+
+
+Suntem mai mereu pacaliti de motoarele de cautare care ne vor trimite pe siteuri mai greu de inteles. Simplu: noi oamenii nu avem rabdare sa citim tot continutul indexat de google.
+
+
+
+Am dat un click, marketingul? foarte fericit, inca un vizitator.
+
+Pai, si noi putem sa ii pacalim pana la urma, vizita noastra a durat doar 10 secunde.
+
+Si asta pentru ca nu am vazut butonul "Adauga in cos, ACUM!".
+
+In schimb, prea mult continut.
+
+
+
+Cum ar fi, sa stergi 75% din cuvinte sau sa pastrezi doar 3 propozitii?
+
+
+
+Nu mai stiu exact cum am ajuns pe "WeBlow":http://weblow.com.au/index.php, poate pentru ca a fost de curand "xHTMLizat":http://xhtmlized.com/, oricum nu conteaza.
+
+
+
+Mai important insa, siteul prezinta un model excelent de urmat: m-am prins din prima despre ce este vorba, chiar daca nu am nici un fel de legatura cu domeniul lor de activitate.
+
+Am inteles beneficiile pe care le voi avea daca apelez la serviciile lor:
+
+
+
+bq. Easy, Fast, Professional, Proven & reliable service 100% Guarantee of no damage: We Blow are the Experts.
+
+
+
+Ah, normal ca am inteles si ce servicii ofera.
+
+
+
+Nu o sa pun nici un link catre exemple negative. Gasim la fiecare pas.
+
+Gandeste-te la 99% din paginile web ce apartin companiilor romanesti de programare sau design web.
+
+Chiar credeti ca ma intereseaza cat costa un gif animat, ce e ala meniu in flash? Vreau sa imi fac simtita prezenta pe web, vreau sa te contactez, unde apas?

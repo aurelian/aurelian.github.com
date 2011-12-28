@@ -1,0 +1,64 @@
+---
+id: 75
+url: /archive/2006-10-24-ruby-fara-viitor
+title: Ruby "fara viitor"
+layout: archive
+date: 2006-10-24 13:47:25.000000000 +02:00
+next:
+  url: /archive/2006-10-28-software-updates-jucarii-noi.html
+  title: Software Updates (jucarii noi)
+prev:
+  url: /archive/2006-10-21-load2006.html
+  title: LOAD2006
+
+---
+
+Acesta este lucrul cel mai des spus de către programatorii români. În cazul fericit în care au auzit de "Ruby":http://www2.ruby-lang.org/en/20020101.html.
+
+
+
+bq. Ce viitor are un limbaj de programare în spatele caruia nu se află o companie?
+
+
+
+Destinul Ruby este condus cu mână de fier de un "japonez simpatic":http://en.wikipedia.org/wiki/Matz.
+
+Până nu demult, Ruby se învârtea doar în mediul academic din Japonia. Au apărut traduceri ale documentaţiei, o listă de discuţii in engleză, o carte şi un framework grozav - "the killer app for Ruby" - numit "Rails":http://www.rubyonrails.com.
+
+
+
+bq. Ce încredere pot avea într-un limbaj de programare al cărui viitor este influenţat de o singură persoană?
+
+
+
+Observaţiile sunt reale. Chiar dacă sună a comunism, eu nu văd nimic rău în această situaţie. Pentru a demonstra, aş putea face comparaţii directe cu ce se întamplă în comunitatea PHP. O să incerc să mă abţin (sigur).
+
+
+
+Marii jucători de pe piaţa limbajelor de programare dinamice, SUN şi Microsoft îşi vor lua partea de Ruby.
+
+Acum vreo câteva zile, creatorul "RubyCLR":http://www.rubyclr.com/, un proiect ce creează o "legatură de mare performanţă" (n.m. traducere aproximativă) între Ruby şi .NET a "anunţat":http://www.iunknown.com/articles/2006/10/20/dynamic-languages-microsoft-and-me că din Ianuarie va lucra pentru Microsoft. Poate pentru a răspunde celor de la SUN care au îndrăznit primii şi "i-au angajat":http://www.tbray.org/ongoing/When/200x/2006/09/07/JRuby-guys pe băieţii "JRuby":http://jruby.codehaus.org/, proiect ce face legatura între Ruby şi Java.
+
+
+
+Să ne amintim pupincurismul manifestat de Zend acum vreo 2 ani? Sau discuţiile de genul: PHP pentru Enterprise?
+
+
+
+Este adevărat, la o căutare pe "sourceforge":http://www.sf.net, cele mai multe proiecte sunt cele realizate în PHP. Aici intervine însă factorul calitate contra cantitate. Cât de mult "contează":http://ohloh.net/wiki/articles/php_eats_rails numărul de linii de cod scrise în limbajul de programare X?
+
+
+
+"PHP Group" l-a adus tot timpul în discuţie pe "The Average Joe", adică targetul limbajului de programare sunt programatorii de nivel mediu spre începatori. Foarte mulţi dintre noi am început cu PHP, însă de atunci au trecut câţiva ani.
+
+
+
+Tu cum ai de gând să progresezi? O să scrii toată viaţa php? Nu te-ai săturat de oscommerce? Academic vs Average Joe?
+
+
+
+Nu spun că nu mai vreau să vad PHP niciodată, dar cred că învăţarea unui limbaj de programare superior este o dovadă de progres. Este calea naturală pentru a evolua ca programator.
+
+
+
+Poate o să am timp într-un articol viitor să îţi explic de ce cred că plănuirea unei noi aplicaţii in php te face să fii un vrajitor capabil să citească viitorul.

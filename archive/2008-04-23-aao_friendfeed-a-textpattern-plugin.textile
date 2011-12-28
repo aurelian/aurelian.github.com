@@ -1,0 +1,24 @@
+---
+id: 197
+url: /archive/2008-04-23-aao_friendfeed-a-textpattern-plugin
+title: aao_friendfeed a Textpattern Plugin
+layout: archive
+date: 2008-04-23 01:32:44.000000000 +02:00
+next:
+  url: /archive/2008-04-23-de-sant-jordi.html
+  title: de Sant Jordi
+prev:
+  url: /archive/2008-04-20-google-si-pornografie.html
+  title: Despre google si pornografie
+
+---
+
+I'm proud to release the ultimate sidebar item to add on your "Textpattern":http://textpattern.com based blog: The "FriendFeed":http://friendfeed.com Feed!
+
+
+
+"aao_friendfeed":http://forum.textpattern.com/viewtopic.php?pid=177923#p177923 - still a work in progress - is just a plugin for textpattern and you can see a "demo" already on the bottom of my sidebar.
+
+
+
+Follow the development of this amazing tool on the "textpattern forum":http://forum.textpattern.com/viewtopic.php?pid=177923#p177923.

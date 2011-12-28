@@ -1,0 +1,228 @@
+---
+id: 55
+url: /archive/2006-07-16-medick-under-siege-rezultate
+title: Medick under Siege - Rezultate
+layout: archive
+date: 2006-07-16 16:34:43.000000000 +02:00
+next:
+  url: /archive/2006-07-16-expozitie-pisici.html
+  title: Expozitie pisici
+prev:
+  url: /archive/2006-07-16-medick-under-siege.html
+  title: Medick under Siege
+
+---
+
+<p>Eram dator de <a href="http://www.locknet.ro/article/medick-under-siege">ieri</a> cu rezultatele testului de <strong>performata</strong> la care a fost supus <a href="http://medick.locknet.ro">Medick</a>.<br />
+
+Sincer sa fiu, ma asteptam la rezultatele obtinute. PHP-ul (mod_php) nu poate concura (prin natura sa) cu 10 instante de <a href="http://mongrel.rubyforge.org/">Mongrel</a> sau cu Python (<a href="http://www.modpython.org/">mod_python</a>). Am vrut totusi sa vad ce diferente sunt si cum reactioneaza Medick comparativ (in special) cu <a href="http://www.symfony-project.com/">Symfony</a>.</p>
+
+    <h4>Tunning</h4>
+
+    <p>Pentru Apache Prefork am utilizat exact metoda de tunning descrisa in testul ce a servit ca inspiratie (si comparatie) pentru acest articol:</p>
+
+<pre>
+
+StartServers 5
+
+MinSpareServers 5
+
+MaxSpareServers 10
+
+ServerLimit 150
+
+MaxClients 150
+
+MaxRequestsPerChild 10000
+
+</pre>
+
+    <p>Pentru ca am folosit InnoDB ca storage engine pentru MySQL, am adaugat (activat) in my.cnf urmatoarele setari:</p>
+
+<pre>
+
+innodb_buffer_pool_size = 64M
+
+innodb_additional_mem_pool_size = 16M
+
+</pre>
+
+    <h4>Test 1: 30 minute, 50 Utilizatori Concurenti, APC Activat</h4>
+
+<pre>
+
+Transactions:               91179 hits
+
+Availability:                   99.87 %
+
+Elapsed time:             1801,60 secs
+
+Data transferred:           86.96 MB
+
+Response time:               0.43 secs
+
+Transaction rate:            50.61 trans/sec
+
+Throughput:                    0.05 MB/sec
+
+Concurrency:                 21.62
+
+Successful transactions: 91175
+
+Failed transactions:           116
+
+Longest transaction:        30.01
+
+Shortest transaction:         0.01
+
+</pre>
+
+    <p><div class="mta"><a href="http://assets.locknet.ro/images/19.png" rel="lightbox" title="Medick :: 30 Minutes under Siege">
+
+<img src="http://assets.locknet.ro/images/19t.png" title="Medick :: 30 Minutes under Siege" alt="Medick :: 30 Minutes under Siege" height="180" width="240">
+
+<br />
+
+Click on image for a larger view</a></div></p>
+
+    <p><strong>Transactions</strong> (91179 hits), inseamna ca am primit numarul asta de acesari in <strong>Elapsed Time</strong> (1801.60 sec). Serverul a fost disponibil in proportie de <strong>Availability</strong> (99.87 %), timp in care am transferat <strong>Data transferred</strong> (86.96) MB. <strong>Transaction rate</strong> (50.61) reprezinta numarul de tranzactii pe secunda (mai mare mai bine). Cand serverul timite un cod de raspuns 200 inseamna ca tranzactiile au fost efectuate cu succes, <strong>Successful transactions</strong> (91175), in cazul unui raspuns diferit de 200, tranzactia este esuata, <strong>Failed transactions</strong> (116).<br />
+
+Se poate observa ca, de 4 ori, serverul a fost de negasit.</p>
+
+    <h4>Test 2: 3 minute, 50 Utilizatori Concurenti, APC Dezactivat</h4>
+
+<pre>
+
+Transactions:              2561 hits
+
+Availability:                99.38 %
+
+Elapsed time:            181,32 secs
+
+Data transferred:          2.38 MB
+
+Response time:             2.64 secs
+
+Transaction rate:         14.12 trans/sec
+
+Throughput:                  0.01 MB/sec
+
+Concurrency:               37.24
+
+Successful transactions: 2559
+
+Failed transactions:           16
+
+Longest transaction:      30.61
+
+Shortest transaction:      0.07
+
+</pre>
+
+    <h4>Test 3: 3 minute, 50 Utilizatori Concurenti, APC Activat</h4>
+
+<pre>
+
+Transactions:               10279 hits
+
+Availability:                 100.00 %
+
+Elapsed time:              185.94 secs
+
+Data transferred:            9.52 MB
+
+Response time:               0.40 secs
+
+Transaction rate:           55.28 trans/sec
+
+Throughput:                    0.05 MB/sec
+
+Concurrency:                 21.91
+
+Successful transactions: 10279
+
+Failed transactions:              0
+
+Longest transaction:         6.64
+
+Shortest transaction:        0.01
+
+</pre>
+
+    <h4>Test 4: 3 minute, 150 Utilizatori Concurenti, APC Activat</h4>
+
+<pre>
+
+Transactions:              14501 hits
+
+Availability:                 99.18 %
+
+Elapsed time:             189.25 secs
+
+Data transferred:         36.94 MB
+
+Response time:             0.62 secs
+
+Transaction rate:         76.62 trans/sec
+
+Throughput:                  0.20 MB/sec
+
+Concurrency:               47.82
+
+Successful transactions: 1881
+
+Failed transactions:         120
+
+Longest transaction:     25.28
+
+Shortest transaction:      0.00
+
+</pre>
+
+    <h4>Concluzii</h4>
+
+    <p>Se poate observa ca Medick a raspuns la fel de bine ca Symfony pe o platforma hardware inferioara, numarul mai mare de tranzactii efectuate vine probabil din dimesiumea (mai mica) paginii servite.<br />
+
+APC imbunatateste performanta de 5 ori, lucru observat prin comparatia directa a rezultatelor din testele 2 si 3.<br />
+
+Din pacate aceasta extensie nu va fi prezenta pe serverele unde gazduim paginile web scrise in PHP. Iar zvonul ca extensia APC va fi prezenta si activata in mod implicit in PHP 6, este, well, doar un zvon, si nu cred ca se va intampla acest lucru. Plus, la ritmul de dezvoltare, acoperire si utilizare PHP 6 va fi disponibil cam in 3-4 ani.</p>
+
+    <p>Testul 4 m-a pus pe ganduri, serverul MySQL a cedat foarte repede. Rezultatele obtinute de Rails (Ruby) sau Django (Python) ma fac sa cred ca problema sta in clientul mysql din PHP.<br />
+
+Asa ca, am repetat acest test, insa recunosc ca am trisat modificand o linie de cod din <a href="http://medick.locknet.ro/api/__filesource/fsource_medick.active.record__activerecordBase.php.html#a701">ActiveRecord</a> adaugand flagul ce marcheaza conexiunea la baza de date ca fiind persistenta (Creole::PERSISTENT).</p>
+
+<pre>
+
+Transactions:                11410 hits
+
+Availability:                   99.78 %
+
+Elapsed time:               214.80 secs
+
+Data transferred:            10.88 MB
+
+Response time:                2.14 secs
+
+Transaction rate:            53.12 trans/sec
+
+Throughput:                     0.05 MB/sec
+
+Concurrency:                113.65
+
+Successful transactions:  11408
+
+Failed transactions:              25
+
+Longest transaction:        24.69
+
+Shortest transaction:         0.03
+
+</pre>
+
+    <h4>Ce am invatat?</h4>
+
+    <p><a href="http://pecl.php.net/package/APC">APC</a> aduce un plus de performanta.<br />
+
+<a href="http://medick.locknet.ro">Medick</a> are nevoie de setarea diferitilor parametri de conectare la baza de date in fisierul de configurare.<br />
+
+Pe o platforma hardware asemanatoare Medick ar fi mult mai rapid decat Symfony.</p>

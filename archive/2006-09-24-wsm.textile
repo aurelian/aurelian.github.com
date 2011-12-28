@@ -1,0 +1,22 @@
+---
+id: 64
+url: /archive/2006-09-24-wsm
+title: WSM
+layout: archive
+date: 2006-09-24 14:09:51.000000000 +02:00
+next:
+  url: /archive/2006-09-24-medick.html
+  title: Medick, the Web Framework for PHP
+prev:
+  url: /archive/2006-09-24-fastwork.html
+  title: Fastwork
+
+---
+
+WSM, Windows Service Management, is an extension to the PHP programming language, that allows you to control Windows NT Services from PHP scripts.
+
+
+
+The project was started in December 2004 since I needed a nice way to start or stop Windows Services from "Fastwork Control Center":http://sourceforge.net/project/screenshots.php?group_id=89492. In January 2005 the project was moved to "berlios.de":http://developer.berlios.de/projects/wsm/
+
+Octomber 2005: I re-wrote the extension to give away a nice "OO API":http://wsm.berlios.de/pmwiki.php/Main/API. Also, a website powered by "PmWiki":http://www.pmwiki.org/ was launched to "http://wsm.berlios.de/":http://wsm.berlios.de/

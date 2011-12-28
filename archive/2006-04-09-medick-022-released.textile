@@ -1,0 +1,42 @@
+---
+id: 26
+url: /archive/2006-04-09-medick-022-released
+title: Medick 0.2.2 Released
+layout: archive
+date: 2006-04-09 14:29:24.000000000 +02:00
+next:
+  url: /archive/2006-04-10-committed-revision-1.html
+  title: Committed revision 1
+prev:
+  url: /archive/2006-04-06-pisici-demistificate.html
+  title: Pisici demistificate
+
+---
+
+"medick":http://medick.locknet.ro, the PHP Framework, has been released.
+
+This is version 0.2.2 and for download, you can use one of "berlios":http://berlios.de "mirrors":http://prdownload.berlios.de/medick/medick-0.2.2.tgz or the .ro "copy":http://medick.locknet.ro/download/medick-0.2.2.tgz. Click "here":http://prdownload.berlios.de/medick/medick-0.2.2.zip if you preffer a zip package.
+
+
+
+h3. Changelog
+
+
+
+* Testor, a new sample application for medick
+
+* *added*: "Route requirements":http://medick.locknet.ro/api/medick.action.controller/routing/Route.html#setRequirements 
+
+* *added:* "Cookie":http://medick.locknet.ro/api/medick.action.controller/http/Cookie.html class, still a work in progress, but one can use this to set a Cookie on "response":http://medick.locknet.ro/api/medick.action.controller/http/HTTPResponse.html#setCookie or to get the cookies from "request":http://medick.locknet.ro/api/medick.action.controller/http/HTTPRequest.html#getCookies
+
+* *added:*  "CreoleSessionContainer":http://medick.locknet.ro/api/medick.action.controller/session/CreoleSessionContainer.html a session handler for php on top of "creole":http://creole.phpdb.org
+
+* *fixed:* "FormHelper::check_box":http://medick.locknet.ro/api/medick.action.view/helpers/FormHelper.html#check_box, will work, but make sure to "read more":http://www.locknet.ro/article/medick-checkboxes on how to use this method
+
+* *fixed:* "ActiveRecordHelper::error_messages_on()":http://medick.locknet.ro/api/medick.action.view/helpers/ActiveRecordHelper.html#error_message_on was implemented
+
+* *fixed:* Storing an ActiveRecord object in session will work now
+
+* *fixed:* Rewrite on/off setting in app.xml
+
+* *fixed:* Uniqueness of Validator when updating an ActiveRecord Object.

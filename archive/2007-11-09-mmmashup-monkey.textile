@@ -1,0 +1,46 @@
+---
+id: 127
+url: /archive/2007-11-09-mmmashup-monkey
+title: Mmmashup Monkey
+layout: archive
+date: 2007-11-09 10:57:52.000000000 +01:00
+next:
+  url: /archive/2007-11-09-wanted-front-end-web-developer-f5-solutions.html
+  title: ! '[WANTED] Front-End Web Developer @ F5 Solutions'
+prev:
+  url: /archive/2007-11-05-sfatul-zilei-incoming-personal-calificat.html
+  title: ! 'Sfatul Zilei: Incoming Personal Calificat'
+
+---
+
+p(mta). !http://assets.locknet.ro/images/38t.jpg(Wires)!
+
+
+
+Scriu destul de rar pe blog si majoritatea articolelor nu au vreo legatura cu topicul principal (despre proiecte, proiecte open-source) ci sunt prezentari de evenimente, note scurte sau diverse intamplari.
+
+Subiectele de discutie la moda trec repede pe langa mine pentru ca de multe ori nu am timp sa le abordez sau simt ca nu ar aduce nimic nou.
+
+
+
+E OK. Nu mi-am propus sa stau acasa si sa traiesc de pe urma blogului. Poate doar sa imi imbunatatesc gramatica sau capacitatea de a ma exprima mai bine in scris. Efecte secundare care va sa zica.
+
+
+
+Si pana la urma, asta nu inseamna ca eu nu produc continut.
+
+Insa acesta este raspandit in alte locuri: Ma.gnolia, "Google Reader":http://www.google.com/reader/shared/04790822832836070413 sau flickr au continut creeat de mine!
+
+Si atunci, de ce sa nu fie mai usor pentru toata lumea sa acceseze aceste informatii?
+
+
+
+Mashup Monkey, noul meu prieten, deja aduce linkurile mele preferate de pe Ma.gnolia. In fiecare marti.
+
+L-ai cunoscut deja si sper ca nu te deranjeaza.
+
+La "wurbe #3":http://www.wurbe.ro/2007/11/6/wurbe-3 am incercat sa il familiarizez si cu Google Reader si am ajuns destul de aproape. Poate va fi capabil sa imi aduca macar niste linkuri catre articolele mele favorite in curand.
+
+
+
+p(photo_credit). *photo credit*: Dave 'Coconuts' Kleinschmidt, "Wires":http://www.flickr.com/photos/dklein/372398643/ on flickr. Released under: "Creative Commons":http://creativecommons.org/licenses/by-sa/2.0/deed.en.

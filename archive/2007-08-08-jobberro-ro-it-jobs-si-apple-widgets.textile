@@ -1,0 +1,58 @@
+---
+id: 111
+url: /archive/2007-08-08-jobberro-ro-it-jobs-si-apple-widgets
+title: Jobber.ro, .ro IT Jobs si Apple Widgets
+layout: archive
+date: 2007-08-08 05:01:32.000000000 +02:00
+next:
+  url: /archive/2007-08-27-nevermind.html
+  title: Nevermind
+prev:
+  url: /archive/2007-07-18-programatorul-web-fara-portofoliu.html
+  title: Programatorul web fara portofoliu
+
+---
+
+Au trecut deja "doua saptamani":http://www.jobber.ro/blog/14-07-2007/ce-este-jobber/ de cand "Filip":http://www.filipcte.ro a lansat "Jobber.ro":http://www.jobber.ro, o alternativa simpla si eficienta de recrutare IT.
+
+
+
+<p><div class="mta"><a href="http://assets.locknet.ro/images/32.png" rel="lightbox" title="Front Side"><img src="http://assets.locknet.ro/images/32t.png" title="Front Side" alt="Front Side" height="200" width="240"/></a></div></p>
+
+
+
+Dar nu despre Jobber vreau sa iti povestesc, ci despre o noua modalitate de a fi la curent cu ultimile anunturi adaugate. Si asta  direct pe "dashbord":http://www.apple.com/downloads/dashboard/ cu ajutorul unui "Widget":http://www.apple.com/downloads/dashboard/.
+
+
+
+Cum este prima mea isprava de acest fel, as vrea sa detaliez putin procesul.
+
+In primul rand, un widget este o combinatie de HTML, CSS si JavaScript unde toate fisierele necesare sunt puse intr-un director al carui nume se termina in @.wdgt@.
+
+Workflow-ul este destul de simplu, iar pe site-ul Apple sunt destule exemple de widget-uri care preiau stiri sub forma RSS.
+
+In cateva cuvinte, documentul HTML are atasat pe elementul body un eveniment declansat la @onload@, eveniment ce face un request folosind XmlHTTPRequest pentru a prelua fluxul RSS. Acesta este apoi parsat si introdus in document.
+
+
+
+Am ales "mootools(is teh new black)":http://mootools.net pentru JavaScript mai mult pentru ca eram curios sa vad cum se misca frameworkul decat pentru efecte sau reqesturi AJAX cross-browser. 
+
+
+
+<p><div class="mta"><a href="http://assets.locknet.ro/images/33.png" rel="lightbox" title="Back Side"><img src="http://assets.locknet.ro/images/33t.png" title="Back Side" alt="Back Side" height="100" width="180"></a></div></p>
+
+
+
+Singura problema intampinata a fost legata de feed-ul oferit de "Jobber.ro":http://www.jobber.ro din cauza ca acesta este generat in formatul "RSS-1.0":http://en.wikipedia.org/wiki/RSS_(file_format)#RSS_1.0. 
+
+Din cauza namespace-urilor (cred) nu puteam sa selectez din feed titlul si linkul corespunzator fiecarei intrari. Lucru destul de ciudat, pentru ca in "Safari (3.0.3)":http://www.apple.com/safari/download/ aveam rezultatul dorit. Acum, @getElementsByTagName('link')@ mergea in browser dar nu si in dashboard si asa am ajuns la concluzia ca sunt folosite versiuni diferite de "WebKit":http://developer.apple.com/documentation/Cocoa/Conceptual/DisplayWebContent/DisplayWebContent.html#//apple_ref/doc/uid/10000164-138404. In dashboard puteam accesa doar descrierea si data unei intrari, titlul si linkul fiind returnate ca un singur element Text.
+
+
+
+Dupa cateva ore de lupta cu RSS-ul, am renuntat si am ales sa folosesc "API-ul":http://www.jobber.ro/blog/04-08-2007/schimbari-la-widget-api/ oferit in varianta cu raspuns in format XML. 10 minute mai tarziu aplicatia era gata.
+
+
+
+Pe viitor, as vrea sa adaug si o sectiune unde sa iti poti configura diversi parametrii, de exemplu sa poti alege doar anunturile publicate intr-o anumita categorie.
+
+Pana atunci, download de "aici":http://www.jobber.ro/files/jobber.wdgt.zip.

@@ -1,0 +1,40 @@
+---
+id: 149
+url: /archive/2008-01-03-2008_2007_3
+title: 2008 = 2007*3
+layout: archive
+date: 2008-01-03 15:37:50.000000000 +01:00
+next:
+  url: /archive/2008-01-09-iban-validation-and-beast.html
+  title: IBAN validation and Beast
+prev:
+  url: /archive/2007-12-23-asa-da-cadou-de-sarbatori.html
+  title: Asa da cadou de sarbatori!
+
+---
+
+Asta mi-am propus pentru 2008: sa fie un an de 3 ori mai bun si mai productiv decat 2007. Ceea ce iti urez si tie.
+
+
+
+<a href="http://www.flickr.com/photos/aurelian/1457031609/" title="downhill by aurelian, on Flickr"><img src="http://farm2.static.flickr.com/1430/1457031609_01e2f2f267.jpg" width="500" height="375" alt="downhill" /></a>
+
+
+
+Ideea mi-a venit dupa ce am recitit postul "Review dupa 3 luni de freelance":http://www.locknet.ro/article/review-dupa-3-luni-de-freelance:
+
+
+
+bq. [...] in 3 luni am castigat cat intr-o luna ca si angajat, insa din Ianuarie mi-am propus sa inversez putin cifrele astfel incat 1 luna freelance = 3 luni angajat [...]
+
+
+
+Totusi, imi doresc foarte mult ca anul asta sa lansez cel putin un proiect prin "forte proprii":http://www.locknet.ro/article/cat-de-profitabila-este-autofinanarea pentru ca pana la urma freelancing nu trebuie sa insemne doar outsourcing.
+
+
+
+Mai vedem noi..
+
+
+
+*P.S.* "textpattern":http://textpattern.com nu inghite permalinkuri care au doar cifre, altfel nu se pot adauga comentarii (wtf?)

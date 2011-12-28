@@ -1,0 +1,44 @@
+---
+id: 167
+url: /archive/2008-02-03-feed-such-a-complex-thing
+title: Feed, such a complex thing
+layout: archive
+date: 2008-02-03 18:46:31.000000000 +01:00
+next:
+  url: /archive/2008-02-04-easy-money.html
+  title: Easy Money
+prev:
+  url: /archive/2008-01-29-follow-up-it-market.html
+  title: Follow-up - IT Market
+
+---
+
+Ziarele cu prezenta online furnizeaza feeduri (de cele mai multe ori in format RSS) mai mult pentru ca asa au auzit ca este interesant. E usor sa adaugi un mare icon pe care sa scrii RSS si sa incluzi in lista de facilitati posibilitatea de a citi articolele in feed-reader-ul favorit.
+
+
+
+!http://assets.locknet.ro/images/47t.png!
+
+
+
+Primul exemplu (negativ) este RSS-ul 2.0 de pe libertatea.ro, restul formatelor sufera de aceiasi problema: linkul permanent este generat gresit. libertatea are un site foarte bine facut pentru un tabloid: culoarea rosie si reclamele animate roz din sidebar ne creeaza o stare de disconfort necesara pentru a digera tipul de articolele publicate.
+
+
+
+!http://assets.locknet.ro/images/48t.jpg!
+
+
+
+Al doilea exemplu este din Business -Magazin- Standard unde observam un redactor panicat de vestile infernale si pentru a ne face sa suferim alaturi de el a inceput sa sublinieze si sa scrie titlul articolului cat mai mare, si cu -rosu- negru eventual. El era doar panicat, insa mi se pare cel putin ciudata implementarea abordata de programatori care permit cuiva sa introduca HTML in titlu. Mai ales in RSS.
+
+
+
+In conditiile in care 99% din feedurile oferite de ziare nu contin decat titlu articolului si in cel mai bun caz primele 100-200 caractere din acesta, stau si ma intreb de ce isi mai bat capul cu astfel de facilitati. Mai ales cand se observa foarte usor ca nici macar ei nu le folosesc.
+
+
+
+Personal, am ramas abonat doar la tvr.ro. Mi se pare destul de decent pentru ca cel putin articolul este complet, caracterele romanesti sunt afisate corect, iar imaginea relevanta pentru fiecare articol este adaugata intr-o sectiune CDATA.
+
+
+
+Tu esti abonat la feed-ul vreunui ziar?

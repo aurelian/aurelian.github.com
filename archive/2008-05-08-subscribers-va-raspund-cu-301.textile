@@ -1,0 +1,60 @@
+---
+id: 201
+url: /archive/2008-05-08-subscribers-va-raspund-cu-301
+title: ! 'Subscribers: va raspund cu 301!'
+layout: archive
+date: 2008-05-08 01:02:21.000000000 +02:00
+next:
+  url: /archive/2008-05-29-obstrusivionam.html
+  title: Obstrusivionam?
+prev:
+  url: /archive/2008-04-23-de-sant-jordi.html
+  title: de Sant Jordi
+
+---
+
+Okay, am trecut peste "lene":http://www.locknet.ro/article/subscribers și mi-am pus și eu feed-ul la prăjit pe feedburner.
+
+
+
+Noul URL este: "http://feeds.feedburner.com/locknet/ro":http://feeds.feedburner.com/locknet/ro și te rog sa acționezi ca atare!
+
+
+
+Dacă citești postul asta într-un feed-reader, înseamnă că acesta se descurcă când serverul web ii spune "301 Moved Permanently":http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.2 și îi indica noua locație.
+
+În cazul asta, dacă ți se pare complicat (adică lene), nu trebuie să acționezi în niciun fel.
+
+
+
+Apoi, "am ințeles":http://blogs.feedburner.com/feedburner/archives/2008/04/movin_on_up.php că în curând voi putea folosi Google Accounts pentru autentificare. O parolă mai puțin.
+
+
+
+Prin martie am experimentat initial pe utilizatorii care au preferat versiunea ATOM (erau doar 4 conform statisticilor), nu s-a plans nimeni si sper sa mearga si acum. Din aprilie am schimbat referintele de pe blog catre noul URL.
+
+
+
+Pentru hackerul iubitor de "Textpattern":http://www.textpattern.com, redirectarea se poate face cu ceva de genul:
+
+
+
+<pre>
+
+RewriteCond %{HTTP_USER_AGENT} FeedBurner
+
+RewriteRule ^(rss|atom)/?$ http://www.locknet.ro/rss/index.rss [QSA,L]
+
+RewriteCond %{HTTP_USER_AGENT} !FeedBurner
+
+RewriteRule ^(rss|atom)/?$ http://feeds.feedburner.com/locknet/ro [R=301,L]
+
+</pre>
+
+
+
+în @.htaccess@. Am găsit și eu bucata asta de cod pe net, și parcă merge.
+
+
+
+Apropos, mă poți contacta dacă ai nelămuriri sau intâlnești vreo problemă.

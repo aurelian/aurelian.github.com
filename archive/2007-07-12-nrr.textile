@@ -1,0 +1,40 @@
+---
+id: 109
+url: /archive/2007-07-12-nrr
+title: NRR
+layout: archive
+date: 2007-07-12 15:49:38.000000000 +02:00
+next:
+  url: /archive/2007-07-18-despre-minute-net.html
+  title: Despre Minute / Net
+prev:
+  url: /archive/2007-06-23-cauti-un-hotspot.html
+  title: Cauti un HotSpot?
+
+---
+
+Am ajuns la "21":http://workingwithrails.com/browse/people/country/Romania.
+
+
+
+"Alex":http://alexandru.deva.googlepages.com/ incearca sa formeze o "Nationala Romana de Ruby":http://nrr.netsoft.ro (NRR), ca un site pentru a strange resurse in limba romana despre "Ruby":http://www.ruby-lang.org sau "Rails":http://www.rubyonrails.com.
+
+Nu se supara nimeni daca cineva ar adauga o traducere sau daca ar posta pur si simplu intrebari, totusi pentru a face lucrul acesta, ai nevoie de un cont. Pentru a comenta pe marginea articolelor este permis si accesul anonim.
+
+
+
+Dupa modelul "seattle.rb":http://seattlerb.rubyforge.org/ am pus-o si de un "proiect":http://rubyforge.org/projects/nrr/ pe "rubyforge":http://rubyforge.org/ cu scopul de a publica sub-proiecte create in cadrul comunitatii NRR sau de catre membrii acestei comunitati.
+
+Alex este primul care contribuie cu Civic Duty, un plugin pentru Rails care permite realizarea de poll-uri. Mai multe detalii pe siteul "Nationalei":http://nrr.netsoft.ro/articles/2007/07/06/civicduty-plugin-de-rails-pentru-polling.
+
+De fapt, initial civic-duty era un proiect separat pe rubyforge, imi place sa cred ca l-am convins pe Alex sa il mute ca sub-proiect NRR :)
+
+In curand or sa apara si alte mini-proiecte.
+
+Daca ai vreo idee, sau ai facut mici experimente care sunt in pericol sa se piarda pe HDD-ul tau, poti sa iei legatura cu Alex sau cu mine, si te vom adauga cu placere in lista "membrilor":http://rubyforge.org/project/memberlist.php?group_id=4024.
+
+Trebuie doar sa aiba legatura cu Ruby (scripturi cool, extensii Ruby, orice Rails) si sa alegi una dintre licentele BSD, MIT sau Ruby License.
+
+
+
+Ah, si sa nu uit, se simte si ceva activitate de vara pe lista de discutii "Ruby on Rails - Romania":http://groups.google.com/group/rubyonrails-ro.

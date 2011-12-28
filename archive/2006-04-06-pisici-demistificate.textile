@@ -1,0 +1,22 @@
+---
+id: 23
+url: /archive/2006-04-06-pisici-demistificate
+title: Pisici demistificate
+layout: archive
+date: 2006-04-06 10:04:07.000000000 +02:00
+next:
+  url: /archive/2006-04-09-medick-022-released.html
+  title: Medick 0.2.2 Released
+prev:
+  url: /archive/2006-04-03-mirror-cygwn-in-ro.html
+  title: Mirror Cygwn in .ro
+
+---
+
+!(mta)http://assets.locknet.ro/images/3.jpg(O favorita)!
+
+In weekendul trecut am fost la expozitia de pisici despre care vorbeam acum "cateva zile":http://www.locknet.ro/article/expozitie-pisici.
+
+Mai multe poze cu pisici? Le-am pus pe "flickr":http://www.flickr.com/photos/aurelian/tags/2006springcatsshow/ sau daca preferi versiunea: "Slideshow cu mate":http://www.flickr.com/photos/aurelian/tags/2006springcatsshow/show/...
+
+<br style="clear:left;"/>

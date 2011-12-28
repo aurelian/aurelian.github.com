@@ -1,0 +1,20 @@
+---
+id: 101
+url: /archive/2007-05-24-geek-meet-reloaded
+title: Geek Meet Reloaded
+layout: archive
+date: 2007-05-24 09:20:48.000000000 +02:00
+next:
+  url: /archive/2007-06-01-urmeaza-un-nou-inceput.html
+  title: Urmeaza un nou inceput
+prev:
+  url: /archive/2007-05-21-eliberatica-day-after.html
+  title: eLiberatica, day after
+
+---
+
+"Filip":http://www.filipcte.ro/ a creat o "lista de discutii":http://groups.google.com/group/geek-meet/ publica unde putem stabili intalniri "Geek Meet":http://geekmeet.ro sau putem invata cum sa organizam o astfel de intalnire.
+
+
+
+*Update* : lista s-a transformat intr-un "forum":http://www.geekmeet.ro/talk.

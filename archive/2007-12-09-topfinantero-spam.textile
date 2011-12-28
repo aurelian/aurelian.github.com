@@ -1,0 +1,31 @@
+---
+id: 139
+url: /archive/2007-12-09-topfinantero-spam
+title: TopFinante.ro - SPAM
+layout: archive
+date: 2007-12-09 14:21:04.000000000 +01:00
+next:
+  url: /archive/2007-12-10-sofer-in-bucuresti-pregatire-personala.html
+  title: Sofer in Bucuresti, Pregatire personala
+prev:
+  url: /archive/2007-11-28-gaudeamus-am-fost-wurbe-4-ma-duc.html
+  title: ! 'Gaudeamus: am fost, wurbe #4: ma duc'
+
+---
+
+Promovarea unei afaceri prin intermediul mesajelor nesolicitate trimise pe email, adica SPAM ma deranjeaza *foarte* "mult":http://www.locknet.ro/article/totcedoresti-nu-doresc-spam.
+
+
+
+!http://assets.locknet.ro/images/43t.png(TopFinante SPAM)!
+
+
+
+Emailul complet de la "TopFinante.ro":http://www.locknet.ro/files/topfinante-mail.txt a fost  trimis la "RBL":http://rbl.sns.ro/.
+
+
+
+
+
+
+

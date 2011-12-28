@@ -1,0 +1,48 @@
+---
+id: 159
+url: /archive/2008-01-23-ephemeral-projects
+title: Ephemeral Projects
+layout: archive
+date: 2008-01-23 14:15:39.000000000 +01:00
+next:
+  url: /archive/2008-01-25-yay-pigeons.html
+  title: yay pigeons!
+prev:
+  url: /archive/2008-01-21-procrastination-of-the-day.html
+  title: Procrastination of the Day
+
+---
+
+Daca nu ai observa deja, duminica am schimbat titlul blogului in "Ephemeral Projects" dupa aproape doi ani de "on Projects".
+
+
+
+In primul rand, mi-a placut cum suna cuvantul asta "ephemeral":http://dictionary.reference.com/search?q=ephemeral (in romana "efemer":http://dexonline.ro/search.php?cuv=efemer)...
+
+Senzationala descoperire am facut-o in timp ce ma documentam despre *ephemeral associations* (in contextul text mining) din "The Text Mining Handbook":http://www.amazon.com/Text-Mining-Handbook-Approaches-Unstructured/dp/0521836573/, circumstanta "definita":http://ccc.inaoep.mx/~mmontesg/publicaciones/2001/NewsMining-CyS01.pdf [.pdf] ca fiind:
+
+
+
+bq. A common phenomenon in news reports is the influence of a peak news topic, i.e., a topic with one-time short-term peak of frequency, on the other news topics. This influence shows itself in two different forms: the peak topic induces some topics to emerge or become important along with it, and the others to be momentarily forgotten.
+
+
+
+Trecand totusi peste, am facut imediat legatura cu majoritatea ideilor de dezvoltarea a unui proiect, unde dupa un timp intreaga munca este abandonata - am spus majoritatea, deci nu in toate cazurile. Filip vorbeste despre "sabloane":http://www.filipcte.ro/18-01-2008/iterating-through-patterns/. Este ca si cand totul se termina brusc undeva inainte de pasul 3 descris de el, si poate dupa un timp idea continua sa se dezvolte fiind pusa la "pastrare" pentru moment.
+
+
+
+--
+
+
+
+2008 este un an electoral in Romania. Cum ar fi daca am analiza stirile pentru a determina "sentimentul" (ziaristilor) despre un anume subiect de discutie?
+
+De exemplu: "X se lupta cu coruptia".
+
+Oare putem afla cum este vazut un politician (X) in urma acestor analize?
+
+Teoretic lupta asta a lui ar putea fi un lucru bun, insa pe baza informatiilor prelucrate putem observa ca X face *doar* acest lucru.. sau ca acest subiect este dezvoltat doar de X atunci cand stirea principala (cele mai multe referinte) este alta (toata lumea vorbeste despre canicula).
+
+
+
+Face sens? Sau pun si idea asta in cutia cu "ephemeral projects"...

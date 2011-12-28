@@ -1,0 +1,74 @@
+---
+id: 118
+url: /archive/2007-09-29-more-updates
+title: More Updates
+layout: archive
+date: 2007-09-29 11:44:07.000000000 +02:00
+next:
+  url: /archive/2007-10-03-wurbe2.html
+  title: Wurbe#2
+prev:
+  url: /archive/2007-09-29-picts1.html
+  title: Picts!!!1
+
+---
+
+h4{margin-left:0px}. 1. Wurbe#2 (vvvurrbe2)
+
+
+
+!http://assets.locknet.ro/images/34.jpg!
+
+
+
+Luni de la ora 17 se va infaptui intalnirea wurbe#2. Inscrierile "s-au terminat":http://wurbe.ro/2007/9/27/inscrierile-pentru-wurbe-2-s-au-terminat deja insa vreo 77 de persoane si-au anuntat prezenta. Programul complet a fost pus pe "site":http://wurbe.ro/2007/9/28/wurbe-2-program.
+
+O sa vorbesc si eu vreo 5-10 minute despre RFSDS un sistem de deploy simplu pentru aplicatii cu arhitectura simpla.
+
+
+
+h4{margin-left:0px}. 2. PFA-Works
+
+
+
+"Grupul":http://groups.google.com/group/pfa-works a crescut undeva la vreo 20 de membrii si in cele cateva saptamanii de activitate s-au strans deja informatii foarte utile. Sper sa reusesc zilele astea sa grupez cumva continutul strans pana acum. Eventual pe cateva "paginii":http://groups.google.com/group/pfa-works/web in cadrul grupului. 
+
+Oricum, vreau sa remarc mini-how-to-ul scris de "Alex Brie":http://alexbrie.net/ despre "Sanatate si Pensii pentru PFA":http://groups.google.com/group/pfa-works/browse_thread/thread/dc8330e2843f0c33.
+
+
+
+h4{margin-left:0px}. 3. PHP 5.3 sta sa iasa
+
+
+
+Ok-Ok, de ce tin sa anunt *asa ceva*? (Deja aud voci care spun: "PHP-Bleeaaaahhhhh").
+
+Simplu, de cand eram mic visam la schimbarile ce vor fi "introduse":http://cvs.php.net/viewvc.cgi/php-src/NEWS?revision=1.2027.2.547.2.965.2.12&view=markup in aceasta versiune:
+
+
+
+* Added support for namespaces. (Dmitry, Stas)
+
+* Added support for Late Static Binding. (Dmitry, Etienne Kneuss)
+
+* Added support for __callstatic() magic method. (Sara)
+
+
+
+Pfoai, that's "BIG":http://svn.berlios.de/wsvn/medick/exp/ar5/!
+
+
+
+h4{margin-left:0px}. 4. PayPal withdraw in Romania
+
+
+
+Cica aici ar fi sursa "initiala":http://forum.seopedia.ro/bar-lobby/5506-withdraw-si-receive-payments-paypal-acum-si-la-noi.html. Asta e chiar BIG-BIG!
+
+In curand o sa pot primii donatii(inca un vis din copilarie)!
+
+
+
+
+
+p{color:#ccc;font-size:75%}. *photo credit*: "Marco Fatino":http://sy.naptic.net/ (marco.inge "???":http://www.flickr.com/photos/marcoinge/480502089/ on flickr). Released under: "Creative Commons":http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en-us.

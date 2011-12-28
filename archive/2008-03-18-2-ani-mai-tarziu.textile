@@ -1,0 +1,32 @@
+---
+id: 182
+url: /archive/2008-03-18-2-ani-mai-tarziu
+title: 2 ani mai tarziu
+layout: archive
+date: 2008-03-18 00:19:17.000000000 +01:00
+next:
+  url: /archive/2008-03-18-wurbe-vii-zat.html
+  title: wurbe-vii-zat
+prev:
+  url: /archive/2008-03-10-content_editor.html
+  title: ! '[ANN] Content Editor for Beast'
+
+---
+
+"Am":http://www.locknet.ro/article/hello-world implinit si 2 ani, un eveniment special in urma caruia mi-am tras o "chestie":http://www.locknet.ro "verde":http://www.colourlovers.com/pattern/15709/painted_green. Si, "fara statistici plictisitoare":http://www.locknet.ro/article/happy-blog-day.
+
+
+
+§. 
+
+
+
+h5. Update - 2 zile mai tarziu
+
+
+
+!http://assets.locknet.ro/images/52t.png!
+
+
+
+Due to popular demand ... am scos "fata de masa":http://assets.locknet.ro/images/52.png.

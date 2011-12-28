@@ -1,0 +1,54 @@
+---
+id: 144
+url: /archive/2007-12-13-createdirectro-e-m-via-neogen-dar-tot-spam
+title: createdirect.ro e M$ via neogen, dar tot spam
+layout: archive
+date: 2007-12-13 22:07:18.000000000 +01:00
+next:
+  url: /archive/2007-12-20-claxon-la-ora-5.html
+  title: Claxon la ora 5
+prev:
+  url: /archive/2007-12-12-review-dupa-3-luni-de-freelance.html
+  title: Review dupa 3 luni de freelance
+
+---
+
+p(mta). !http://assets.locknet.ro/images/44t.jpg!:http://assets.locknet.ro/images/44.jpg
+
+
+
+O noutate! office [ ] createdirect.ro (cunoscut si sub numele de Microsoft) imi recomanda o versiune de MS. Office, sau un card ceva.
+
+
+
+Nu trebuie sa fii un mare detectiv pentru a vedea ca tentativa de "frauda":http://www.locknet.ro/files/createdirect-mail.txt a fost trimisa prin (sau de pe) serverele neogen. Chiar si imaginea aia e gazduita de ei. Iar linkul este cam asa: "http://niogen.ro/redir.php?id=605[...]crosoft.com%2Fro[.....]x":http://neogen.ro/redir.php?id=6050&idp=38348&link=http%3A%2F%2Fwww.locknet.ro.
+
+
+
+SPAM-SPAM-SPAM.
+
+
+
+h5. Update 1.
+
+
+
+Putin mai tarziu gmail imi spune:
+
+
+
+bq. Warning: This message may not be from whom it claims to be. Beware of following any links in it or of providing the sender with any personal information.
+
+
+
+
+
+h5. Update 2.
+
+
+
+3 articole interesante aparute astazi, "tot(scarlatescu.ro)":http://www.scarlatescu.ro/2007/12/13/si-apropo-de-spam/ "despre(dotcommerce.ro)":http://blog.dotcommerce.ro/2007/12/13/ce-consider-a-fi-spam/ "spam(si iar scarlatescu.ro)":http://www.scarlatescu.ro/2007/12/13/spam-ul-e-rege-printre-email-uri/.
+
+
+
+<br style="clear:left;" />

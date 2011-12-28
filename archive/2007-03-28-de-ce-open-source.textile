@@ -1,0 +1,56 @@
+---
+id: 91
+url: /archive/2007-03-28-de-ce-open-source
+title: De ce Open Source?
+layout: archive
+date: 2007-03-28 13:21:23.000000000 +02:00
+next:
+  url: /archive/2007-04-02-deruta.html
+  title: Derută
+prev:
+  url: /archive/2007-03-18-cat-de-profitabila-este-autofinanarea.html
+  title: Cât de profitabila este autofinanțarea?
+
+---
+
+Ionut Parvu, a explicat acum cateva zile "Importanta unui bun CMS":http://www.ionutparvu.ro/2007/importanta-unui-cms-bun/.
+
+Eu am ajuns "mai tarziu":http://www.ionutparvu.ro/2007/importanta-unui-cms-bun/#comment-228 la discutiile dezvoltate pe marginea acestui articol si mi s-a parut interesanta ideea lui "Worker":http://www.ionutparvu.ro/2007/importanta-unui-cms-bun/#comment-101 legata de dezvoltarea respectivei aplicatii sub o licenta open source.
+
+Ionut a explicat ca dezvoltarea in-house a CMS-ului le aduce un avantaj de 25% (timp de dezvoltare a unei aplicatii web / pret final al acestei aplicatii ) fata de eventualii competitori.
+
+Mai departe, "novo":http://blog.raduceuca.com/ spune ca exista si alte agentii ce folosesc o strategie asemanatoare. Nu este o noutate, si sper ca cel putin 95% dintre cei ce realizeaza siteuri web au o astfel de aplicatie. Asa ca avansul de 25% se reduce daca si concurenta face "skinuri" pe banda rulanta (motiv pentru care am spus in comentarii ca este vorba despre o iluzie).
+
+
+
+Este evident ca in aceste conditii publicarea codului si creearea unei comunitati in jurul CMS-ului ar putea aduce numai beneficii.
+
+
+
+De exemplu: 
+
+
+
+* adaugarea sau integrarea unor noi faciltati ar putea fi facuta cu ajutorul comunitatii sau pe baza feedbackului oferit de catre aceasta comunitate;
+
+* testare mai atenta a comunitatii ar putea descoperi diverse probleme de functionare sau de securitate;
+
+* poate viitori angajati sau colaboratori vor fi gasiti in comunitate;
+
+
+
+Sunt convins in dezvoltarea acestui produs se vor folosi si tehnologii open-source (php?, mysql?, apache?, firefox?).
+
+De ce favoarea sa nu fie intoarsa?
+
+Chiar daca comunitatea va fi formata din 2-3 persoane si voi veti fi singurii utilizatori, pana la urma este un gest frumos, iar competitia ideilor va fi mutata in public.
+
+
+
+Nu stiu cat de mult ajuta stilul "shareware" abordat de "BluoCMS":http://www.bluocms.com/ (Metromind) insa o lansare sub o dubla-licenta (vezi MySQL) ar trebui sa inlature teama de a fi "furat". Pana la urma vorbim despre PHP unde poti irosi mai multe resurse incercand sa iti protejezi codul sursa.
+
+
+
+Eu promit sa fac un review al codului - pe gratis.
+
+Sunt multe de spus insa pana atunci, sa vedem si un demo :)

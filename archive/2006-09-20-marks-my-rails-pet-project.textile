@@ -1,0 +1,118 @@
+---
+id: 30
+url: /archive/2006-09-20-marks-my-rails-pet-project
+title: ! 'Marks: my Rails pet project'
+layout: archive
+date: 2006-09-20 10:34:43.000000000 +02:00
+next:
+  url: /archive/2006-09-20-rails-primele-3-indicii.html
+  title: Rails, primele 3 indicii
+prev:
+  url: /archive/2006-09-20-acoperire-cu-rcov.html
+  title: Acoperire cu rcov
+
+---
+
+Marks va fi titlul primului meu proiect facut in "ruby":http://ruby-lang.org folosind "Ruby on Rails":http://rubyonrails.com.
+
+Marks vine de la Book<b>marks</b> si, TADA: va fi o clona dupa "del.icio.us":http://del.icio.us.
+
+Asa "cum":http://www.locknet.ro/article/rails-primele-3-indicii "ziceam":http://www.locknet.ro/article/am-hosting-cu-rails-mai-departe, este doar un pet project, nu caut celebritatea in domeniul asta, si nici nu incerc sa intru pe piata celor care ofera "Social Bookmarks" (din unele statistici, cica ar fi peste 20 de astfel de aplicatii).
+
+*Just for fun*.
+
+Sper totusi sa fiu primul care foloseste acest nume.
+
+
+
+Sa spun adevarul pana la capat, dupa ce am descoperit ca voi putea folosi Ruby on Rails si dupa ce m-am gandit cateva zile, aveam deja planul initial pentru "marks".
+
+Saptamana asta o sa incep si implementarea.
+
+
+
+*Marks, Application Workflow*
+
+
+
+Un utilizator va putea sa vada linkurile adaugate, insa va avea nevoie de un cont pentru a putea introduce un URL in sistem.
+
+Gruparea se va face pe "taguri", pe utilizatori sau pe tagurile unui utilizator.
+
+
+
+Pentru inceput:
+
+
+
+* Va fi un sistem in care nu va exista posibilitatea adaugarii de comentarii pentru o anumita intrare.
+
+* Validare utilizatorilor nou creati se va face automat, totusi, in viitor fiecare va trebui sa isi valideze contul folosind un link primit pe mail.
+
+
+
+*Marks, Database*
+
+
+
+Tabelul central al aplicatiei va fi denumit *bookmarks* si va avea campurile:
+
+
+
+* url
+
+* title
+
+* user_id
+
+
+
+Fiecare bookmark va avea asociat un user, deci tabelul pentru pastrarea utilizatorilor, *users*, va arata cam asa:
+
+
+
+* username
+
+* password
+
+* email
+
+
+
+Pentru taguri va fi folosit pluginul "Acts As Taggable":http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin
+
+
+
+*Marks, Frontend*
+
+
+
+In partea de prezentare voi folosi foarte mult AJAX, atat de mult incat va fi de prost gust.
+
+Foarte importanta mi se pare insa validarea campurilor completate de utlizatori si mesajele de eroare care vor fi afisate in cazul in care se intampla ceva gresit.
+
+La fel de important: as vrea ca aceasta aplicatie sa fie functionabila si pe browsere fara javascript.
+
+
+
+Cam acesta este PLANUL.
+
+Pentru o versiune viitoare, as avea nevoie de:
+
+
+
+* Un maestru in chestiuni de usabilitate si/sau un guru specializat in desenarea interfetelor web,
+
+* Un server mai rapid.
+
+
+
+Sincer, ma astept sa apara un destept cu ideea ca ar putea face acest proiect in ASM sau PHP in 10 minute, iti zic inca de acum: felicitari!
+
+Un altul imi va atrage atentia ca nu va folosi niciodata aceasta aplicatie pentru ca exista deja X sau Y: foarte bine ramai cu X.
+
+Daca nu v-ati prins deja, repet: este un proiect pe care il fac doar din placere, si pentru a avea parte de bucurii adevarate trebuie sa folosesc ruby si Ruby on Rails.
+
+
+
+Poti vedea cum progreseaza PLANUL pe "http://marks.locknet.ro":http://marks.locknet.ro. O sa anunt cand va fi gata pentru testare.

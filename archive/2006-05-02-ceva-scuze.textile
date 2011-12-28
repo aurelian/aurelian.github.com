@@ -1,0 +1,40 @@
+---
+id: 33
+url: /archive/2006-05-02-ceva-scuze
+title: Ceva Scuze.
+layout: archive
+date: 2006-05-02 10:37:34.000000000 +02:00
+next:
+  url: /archive/2006-05-05-oradea-geek-meet-plan.html
+  title: ! 'Oradea: Geek Meet plan'
+prev:
+  url: /archive/2006-04-14-am-hosting-cu-rails-mai-departe.html
+  title: Am hosting cu Rails, mai departe?
+
+---
+
+h4. Offline
+
+
+
+Nu stiu ce s-a intamplat, nici nu am vreo explicatie oficiala (nici nu o sa o am), dar se pare ca "locknet.ro":http://www.locknet.ro a fost offline timp de cateva ore in data de 1 mai. Nu stiu exact cate ore sau in ce interval orar am fost offline (inca investighez), dar a fost o perioada in care nu am avut mail si nici blog, deci scuze celor care mi-au scris si scuze celor care au venit de pe google cautand vreo informatie pe site.
+
+
+
+h4. Internet Explorer
+
+
+
+Zilele trecute am avut placerea sa imi vad siteul ruland pe IE 6. As vrea sa imi cer scuze celor 25-30% dintre vizitatori care folosesc IE pentru ca acesta nu are cunostinte despre transparenta iconitelor in format .png.
+
+In plus se pare ca nici prea mult css nu stie. De exemplu elementul @pre@ sau @code@ stilizat cu @width: 100%;@ si @overflow:auto;@ este afisat cam ciudat uneori stricand intreaga asezare in pagina. Mai sunt si altele, dar ca o recomandare: *"USE FireFox":http://www.mozilla.com/* pentru ca nu am de gand sa corectez problemele pe care le are Explorerul.
+
+Asta daca nu se ofera cineva :)
+
+
+
+h4. IP Ban
+
+
+
+Scuze "George":http://george.cshy.net/ pentru ca ti-am dat ban pe IP, nu am stiu ca esti tu si nu am stiu ca faci o gluma, dar m-a deranjat ca ai bagat un link catre un site porcos.

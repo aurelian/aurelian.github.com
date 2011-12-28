@@ -1,0 +1,58 @@
+---
+id: 104
+url: /archive/2007-06-09-intalniri-intre-pasionatii-web-in-bucuresti
+title: Intalniri intre pasionatii web, in Bucuresti
+layout: archive
+date: 2007-06-09 20:10:35.000000000 +02:00
+next:
+  url: /archive/2007-06-17-medick-version-040-was-released.html
+  title: Medick version 0.4.0 was released
+prev:
+  url: /archive/2007-06-04-29kg-hartie.html
+  title: 29kg Hartie
+
+---
+
+Mi-ar placea foarte mult daca la intervale regulate - sa zicem odata la 2-3 luni - ar exista o intalnire intre persoane specializate sau pasionate de tehnologii web in Bucuresti.
+
+
+
+Imi doresc ca aceste intalniri sa respecte 5 reguli:
+
+
+
+1. *sharing* --> ne intalnim pentru a povesti ultimile noastre intamplari in acest domeniu si pentru a schimba idei ce au legatura cu tehnologiile web.
+
+
+
+2. *small is better* --> ne intalnim in grupuri restranse de 15 maxim 30 de persoane, sa putem interactiona mai bine si sa ne cunoastem mai bine. Aceste intalniri fiind destul de dese, se poate acoperi un numar mai mare de persoane interesante. Nu este obligatorie participarea la toate intalnirile.
+
+
+
+3. *say something* --> ne intalnim pentru a asculta cel putin 3-4 propozitii spuse de fiecare participant.
+
+
+
+4. *ad-hoc talks* --> subiectele de discutie pot fi propuse cu cateva zile inaintea intalnirii sau, de ce nu, chiar in ziua stabilita, una dintre cele 3 propozitii spuse de fiecare, ar putea fi o propunere de tema pe marginea careia sa discutam.
+
+
+
+5. *no ads* --> nu ne intalnim pentru a face reclama produselor dezvoltate.
+
+
+
+Spun specialisti, dar ma gandesc la orice persoana interesata de dezvoltarea aplicatiilor web atat timp cat poate satisface punctul 3.
+
+Developers, designers mai putin chibiti[1].
+
+
+
+"Filip":http://www.filipcte.ro/ a reusit sa organizeze anul trecut 3 astfel de intaniri in Oradea si a folosit numele de "Geek Meet":http://www.geekmeet.ro pentru ele. La editia #3 au fost prezente 45 de persoane, un adevarat succes.
+
+
+
+Vrei Geek Meet si in Bucuresti? Putem sa ne intalnim?
+
+
+
+fn1. *chibiti*: persoane care asista la jocul altora, fara sa participe, dar foarte activi in a-l comenta (de "aici":http://discutii.rol.ro/showthread.php?threadid=1331).

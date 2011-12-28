@@ -1,0 +1,32 @@
+---
+id: 70
+url: /archive/2006-10-12-linux-open-alternative-days
+title: Linux Open Alternative Days
+layout: archive
+date: 2006-10-12 23:16:13.000000000 +02:00
+next:
+  url: /archive/2006-10-19-hosting-nou.html
+  title: Hosting nou
+prev:
+  url: /archive/2006-10-11-programatorul-ruby-superb-este-cautat.html
+  title: Programatorul Ruby Super.B este cautat
+
+---
+
+Marti 17 si miercuri 18, Athenee Palace Hilton Bucuresti este gazda evenimentului "LOAD":http://www.load.ro, Linux Open Alternative Days.
+
+
+
+Se anunta un context de discutii si prezentari enterprize incrucisate cu cateva povesti de succes ale unor tineri antreprenori de pe malul Dambovitei.
+
+
+
+"Program":http://www.load.ro/2006/?page_id=6.
+
+
+
+h4. Mai tarziu
+
+
+
+Si eu sunt curios sa vad ce legatura este intre povestea tanarului antreprenor de Bucuresti si Linux Open Alternative Days.

@@ -1,0 +1,160 @@
+---
+id: 13
+url: /archive/2006-03-25-medick-checkboxes
+title: FormHelper::check_box
+layout: archive
+date: 2006-03-25 23:38:57.000000000 +01:00
+next:
+  url: /archive/2006-03-27-border-top-15px-solid-333.html
+  title: ! 'border-top: 15px solid #333;'
+prev:
+  url: /archive/2006-03-24-php-vikinger-2006.html
+  title: PHP Vikinger 2006
+
+---
+
+In "release 0.2.1":http://www.locknet.ro/article/medick-021-released of "medick":http://medick.locknet.ro, the "check_box":http://medick.locknet.ro/api/medick.action.view/helpers/FormHelper.html#check_box control from "FormHelper":http://medick.locknet.ro/api/medick.action.view/helpers/FormHelper.html was broken.
+
+As a temporary fix, you have to explicitly check if the check_box was submitted or not in your controllers.
+
+
+
+Let's see a small sample.
+
+
+
+I will assume that we have an <em>article</em> model with a <em>status</em> defined as INT (1) in the database. This <em>status</em> describes the <em>article</em> state: <em>PUBLISHED</em> or <em>DRAFT</em>.
+
+The <em>article</em> "model":http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html will look like:
+
+
+
+<pre>
+
+class Article extends ActiveRecord {
+
+    const PUBLISHED= 1;
+
+    const DRAFT= 0;
+
+    [...]
+
+}
+
+</pre>
+
+
+
+On the "controller":http://medick.locknet.ro/api/medick.action.controller/ActionController.html side, I will define 2 methods: <em>add</em>, witch will print the form for adding an <em>article</em> and <em>create</em> that will save the <em>article</em> in the database.
+
+
+
+<pre>
+
+class ArticleController extends ApplicationController {
+
+    // prints the form, and assign article template variable
+
+    public function add() {
+
+        $this->article = new Article();
+
+    }
+
+    // saves the article in the database
+
+    public function create() {
+
+        $this->article= new Article($this->request->getParameter('article'));
+
+        // explicit check:
+
+        if (!isset($this->params['article']['status'])) {
+
+            // the check box is not checked, so we define the
+
+            // default value for this case:
+
+            $this->article->status= Article::DRAFT;
+
+        } else {
+
+            // checked check-box:)
+
+            // default value for this case:
+
+            $this->article->status= Article::PUBLISHED;
+
+        }
+
+        // do actions on article, like save and the redirect if succes or render
+
+        // the form again if it`s a failure.
+
+        [...]
+
+    }
+
+}
+
+</pre>
+
+
+
+In the _add_ "view":http://medick.locknet.ro/api/medick.action.view/ActionView.html, we can use the FormHelper to create the check box entry for us:
+
+
+
+<pre>
+
+[...]
+
+&lt;?=FormHelper::check_box($article,'status');?&gt;
+
+[...]
+
+</pre>
+
+
+
+translated in HTML:
+
+
+
+<pre>
+
+&lt;input type="checkbox" id="article_status" name="article[status]"  /&gt;
+
+</pre>
+
+
+
+As I said, this is just a temporary solution untill I will have another ideea.
+
+This includes adding a hidden field with the same name on the form, or anything else that will do.
+
+
+
+Why this checkbox is causing all this troubles?
+
+Because if is not checked, the _article_ that we create at this line:
+
+
+
+<pre>
+
+$this->request->getParameter('article');
+
+</pre>
+
+
+
+will not receive the <em>status</em> as a request parameter.
+
+
+
+The real pain it will be when one will need more than a simple checkbox, and I'm thinking about a "use case":http://en.wikipedia.org/wiki/Use_case where an _article_ "has_many":http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html#$has_many _categories_ and a checkbox control will be used for selecting in what _categories_ the _article_ fits.
+
+
+
+While I mark this problem as fixed, I'm still open to improvements on how can I do this better.

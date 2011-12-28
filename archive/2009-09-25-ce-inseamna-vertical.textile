@@ -1,0 +1,24 @@
+---
+id: 262
+url: /archive/2009-09-25-ce-inseamna-vertical
+title: Ce inseamna "Vertical"?
+layout: archive
+date: 2009-09-25 10:08:26.000000000 +02:00
+next:
+  url: /archive/2009-10-28-30-perechi.html
+  title: 30 perechi
+prev:
+  url: /archive/2009-09-25-openstreetmap.html
+  title: OpenStreetMap
+
+---
+
+Vertical: O chestie perpendiculara pe linia orizontului.
+
+Adica, daca stai in picioare se zice ca esti intr-o pozitie verticala.
+
+Cand faci o integrama sau un rebus, "pe vertical" inseamna de sus in jos.
+
+Orizontal: O chestie paralela cu linia orizontului, si implicit perpendiculara pe verticala.
+
+De exemplu, cand dormi se zice ca esti intr-o pozitie orizontala.

@@ -1,0 +1,36 @@
+---
+id: 90
+url: /archive/2007-03-16-happy-blog-day
+title: Happy blog day
+layout: archive
+date: 2007-03-16 15:49:33.000000000 +01:00
+next:
+  url: /archive/2007-03-18-cat-de-profitabila-este-autofinanarea.html
+  title: Cât de profitabila este autofinanțarea?
+prev:
+  url: /archive/2007-03-11-esecul-timpuriu-al-unui-proiect.html
+  title: Esecul timpuriu al unui proiect
+
+---
+
+Si "a trecut":http://www.locknet.ro/article/hello-world un an de blog pe "locknet.ro":http://www.locknet.ro.
+
+
+
+In acest timp am publicat 74 de articole ce au primit 111 comentarii (34 facute de mine) de la 29 de persoane. Cel mai comentat articol a fost cel despre "schimbarea locului de munca":http://www.locknet.ro/article/o-noua-palarie-fixa.
+
+
+
+In medie, am avut cam 1800 de vizite unice pe luna (cel putin in ultimile 6 luni). Majoritatea ma citesc folosind un feed-reader, iar Firefox este cel mai folosit browser de catre cei ce vin direct pe site.
+
+
+
+De la google primesc persoane interesate de pisici, de unde si cel mai citit articol cred ca este cel despre "demistificarea pisicilor":http://www.locknet.ro/article/pisici-demistificate.
+
+
+
+Am incercat sa trec pe "mephisto":http://mephistoblog.com/ dar am avut ceva probleme cu importul datelor din actualul blog (pierdeam diacritice). Sa vedem, poate in viitorul apropiat.
+
+
+
+Apropos, inca nu am gasit o solutie pentru "algoritm":http://www.locknet.ro/article/caut-algoritm.

@@ -1,0 +1,58 @@
+---
+id: 37
+url: /archive/2006-09-20-marks-face-primii-pasi
+title: Marks face primii pasi
+layout: archive
+date: 2006-09-20 10:23:13.000000000 +02:00
+next:
+  url: /archive/2006-09-20-03-on-medick-future.html
+  title: 0.3, on Medick future
+prev:
+  url: /archive/2006-09-20-popularitate-si-calitate.html
+  title: Popularitate si calitate
+
+---
+
+Mi-am facut ceva timp si am reusit sa schitez in cateva ore partea centrala a aplicatiei "marks":http://marks.29dots.com: salvarea si afisarea bookmarkurilor. si, ta-ta-ta-ta-ta-taguri.
+
+Fata de planul "initial":http://www.locknet.ro/article/marks-my-rails-pet-project, am ales sa fac @modelul@ bookmark cu 
+
+@has_one_and_belongs_to_many :users@. 
+
+Sper sa fie o decizie inteleapta cu toate ca intampin ceva probleme la afisarea unui total pe bookmark, de genul: "acest url a mai fost salvat de alti X utilizatori".
+
+Pentru taguri, am folosit pluginul "Act As Taggable":http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin cu destule "modificari":http://dema.ruby.com.br/articles/2005/09/03/tagging-on-steroids-with-rails ce permit gruparea acestora per user.
+
+
+
+Sunt inca multe lipsuri, de exemplu nu pot edita sau sterge intrarile odata introduse.
+
+Validarea modelului @bookmark@ va veni si ea.
+
+Cateva actiuni sunt inca neimplementate (ex. "save this mark").
+
+Pe Internet Explorer arata cam aiurea, si asta pentru ca folosesc niste margini negative pentru a stiliza anumite elemente HTML (probabil).
+
+"Atat de mult AJAX incat o sa fie de prost gust", in curand.
+
+Plus mailuri cand te inregistrezi, password recovery, RSS, import din alte aplicatii. Si deja am idei pentru urmatorul proiect cu "RubyOnRails":http://www.rubyonrails.com.
+
+Uff, acum imi dau seama cate mai sunt de facut, insa ... toate la timpul lor.
+
+
+
+Totusi, tin insa sa multumesc celor care s-au inregistrat in prima faza, in total suntem cam 12 utilizatori (WOW!!!) banuiesc ca doar vreo 7-8 conturi sunt "pe bune".
+
+
+
+Intr-un viitor articol o sa explic mai pe larg de ce nu tin sa fac codul disponibil sub o licenta open-source.
+
+Acum, o sa spun doar doua idei: 
+
+In primul rand *nu cred* ca programatorii romani prefera sa se implice intr-un proiect ce nu le va aduce satisfactii materiale.
+
+Apoi, exista un proiect asemanator publicat sub "GPL":http://www.opensource.org/licenses/gpl-license.php, "url.markr":http://rubyforge.org/projects/url-markr/. As fi mult mai tentat sa incerc sa ajut aceasta initiativa, daca ar avea o "licenta":http://www.opensource.org/licenses/bsd-license.php mai pe placul meu.
+
+Da stiu, o sa ma gandesc si la un alt nume :)
+
+Ceva idei? :)

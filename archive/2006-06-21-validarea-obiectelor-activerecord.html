@@ -1,0 +1,108 @@
+---
+id: 48
+url: /archive/2006-06-21-validarea-obiectelor-activerecord
+title: Validarea obiectelor ActiveRecord
+layout: archive
+date: 2006-06-21 14:44:55.000000000 +02:00
+next:
+  url: /archive/2006-06-24-medick-023-released.html
+  title: Medick 0.2.3 Released
+prev:
+  url: /archive/2006-06-10-4-lucruri-enervante.html
+  title: 4 lucruri enervante
+
+---
+
+<p>Acesta este un articol destul de lung si poate plictisitor.<br />
+
+Se poate inscrie intr-o serie de articole cu numele <strong>Ce nu imi place la <a href="http://medick.locknet.ro">medick</a>?</strong></p>
+
+<p>Validare in <a href="http://medick.locknet.ro">medick</a> a obiectelor <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a> inainte de salvarea in baza de date se face cu ajutorul filtrelor <code>before_*</code>.<br />
+
+Am tinut foarte mult sa am o sintaxa <strong>citibila</strong> si asemanatoare cu cea din <a href="http://rubyonrails.com">rails</a>.<br />
+
+Astfel, pentru un obiect ActiveRecord &#8211; denumit pentru exemplificare <code>Person</code> avand obligativitatea prezentei numelul si a adresei dar si unicitatea numelul &#8211; cineva poate scrie:</p>
+
+<pre>
+
+class Person extends ActiveRecord {
+
+  protected function before_save() {
+
+    $this-&gt;validates()-&gt;presence_of('name', 'address');
+
+    $this-&gt;validates()-&gt;uniqueness_of('name');
+
+    return TRUE;
+
+  }
+
+[...]
+
+}</pre>
+
+<p>
+
+In primul rand, <a href="http://php.net">php</a>-ul are nevoie de linia <code>return TRUE</code>, fara aceasta &#8211; in momentul in care se incearca salvarea obiectului cu <code>$person-&gt;save()</code> &#8211; vom constata ca valoarea returnata in mod implicit este <code>FALSE</code> iar metoda <code>save</code> isi va termina (<strong>neanuntat!</strong>) executia.</p>
+
+<p>Trecand peste aceasta, sintaxa pare ok. Functionalitatea <strong>este</strong> ok, chiar merge, in <code>save</code> rulez un &#8220;colector de errori&#8221; ce va intercepta validarile facute.</p>
+
+<p>La o privire mai atenta, metoda <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html#validates">validates</a> returneaza un obiect de tip <a href="http://medick.locknet.ro/api/medick.active.record/Validator.html">Validator</a>. Acesta, abuzand de &#8220;magia&#8221; php, foloseste metoda <a href="http://php.net/manual/en/language.oop5.overloading.php#AEN5974">__call</a> pentru a intecepta apelurile catre metode nedefinite.<br />
+
+In __call, am adaugat conditii astfel incat in functie de numele metodei apelate se va incerca trimiterea apeluli mai departe catre metode cunoscute ale obiectului Validator.<br />
+
+Spre exemplificare, <code>presence_of</code> este redistribuita catre <a href="http://medick.locknet.ro/api/medick.active.record/Validator.html#isEmpty">isEmpty</a> cu parametru <a href="http://medick.locknet.ro/api/medick.active.record/Field.html">campul </a>pe care vrem sa il validam, in cazul nostru <code>isEmpty(camp name)</code> si <code>isEmpty(camp address)</code>. Daca valoare campului dat spre validare este egala cu &#8216;&#8217; se adauga automat campului un mesaj de eroare (&#8216;is empty&#8217;) si se returneaza <i>TRUE</i>(da, campul este gol).</p>
+
+<p>Validator-ul meu stie pentru moment doar doua tipuri de verificari: <i>uniqueness_of</i> si <i>presence_of</i>.<br />
+
+Pentru a adauga un nou tip de validare (de exempul verificare lungimii unui camp: <i>length_of</i>) trebuiesc facute modificari directe in framework in metoda <a href="http://medick.locknet.ro/api/medick.active.record/Validator.html#__call">__call</a> a obiectului Validator.<br />
+
+Adaugarea unui mesaj personalizat de eroare este o alta piedica, practic cineva ar trebui sa modifice manual mesajele trimise de Validator.</p>
+
+<p>Revenind la filtrele <code>before_*</code>, am lasat pentru moment o portita de validare, utilizatorul putand adauga validari personalizate folosind de exemplu:</p>
+
+<pre>if (strlen($this-&gt;name) &lt;= 3) {
+
+  $this-&gt;row-&gt;getFieldByName('name')-&gt;addError('should have at least 4 chars.');
+
+}</pre>
+
+<p>pentru a valida dimensiunea campului name.</p>
+
+<p>Intreaga procedura de validare a obiectelor ActiveRecord in <a href="http://medick.locknet.ro">medick</a> este practic inutilizabila in cadrul proiectelor de tip mediu.<br />
+
+Validatorul meu, chiar daca functioneaza si arata bine, este practic inchis. Nu se pot schimba mesajele de eroare si nu se pot adauga alte tipuri de validari.</p>
+
+<p>Vestea buna insa: sunt in cautarea unui nou design al API-uli ce se ocupa de validari. Am cateva ideii, momentan asezate doar pe hartie:<br />
+
+Voi adauga in clasa ActiveRecord metode directe de validare ce vor returna un descendent al obiectului Validator (transformat in obiect abstract):</p>
+
+<pre>[....]
+
+protected function validates_presence_of() {
+
+  return new PresenceOfValidator($this, func_get_args());
+
+}
+
+[...]
+
+class PresenceOfValidator extends Validator {
+
+[...]
+
+}</pre>
+
+<p>Noul Validator va avea metode prin care se vor putea seta parametrii aditionali, de exemplu pentru verificarea dimensiunii unui camp se va putea scrie:<br />
+
+<code>$this-&gt;validates_length_of('name')-&gt;within(1,12);</code><br />
+
+sau pentru a adauga un mesaj de eroare personalizat:</p>
+
+<pre>$this-&gt;validates_presence_of('name')->message('%s trebuie completat!'); // => Name trebuie completat</pre>
+
+
+
+<p>Nu pot spune acum cand o sa modific API-ul de validare sau cum va arata el, sunt inca in cautare de solutii (doar la asta ma gandesc pe <a href="http://www.flickr.com/photos/aurelian/168443164/">41</a>).<br />
+
+In mod sigur insa, <a href="http://medick.locknet.ro">medick</a> are nevoie de un release cat mai curand.</p>

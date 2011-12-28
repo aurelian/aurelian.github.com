@@ -1,0 +1,36 @@
+---
+id: 58
+url: /archive/2006-09-20-ordinea-validarii-in-rails
+title: Ordinea Validarii in Rails
+layout: archive
+date: 2006-09-20 10:16:38.000000000 +02:00
+next:
+  url: /archive/2006-09-20-doar-productivitatea-se-vede.html
+  title: Doar productivitatea se vede
+prev:
+  url: /archive/2006-09-20-medick-030pre2-released.html
+  title: Medick 0.3.0pre2 Released
+
+---
+
+<p>M-am confruntat zilele trecute cu o problema ciudata intr-o aplicatie <a href="http://www.rubyonrails.com">Rails</a>.<br />
+
+Foloseam <code>validates_presence_of :foo</code> pentru a valida prezenta unui camp, dar si o validare specializata, <code>validate :foo_is_not_bar</code> unde asteptam o valoare pentru campului folosit.<br />
+
+Credeam ca in Rails, validarile ajutatoare (validation helpers) sunt executate inaintea metodei mele. Ei bine, este exact invers, si pana acum nu am gasit o modalitate de a schimba oridinea de executare a acestor metode, si, citind sursele metodei <a href="http://api.rubyonrails.com/classes/ActiveRecord/Validations.html#M000800">valid?</a> nici nu cred ca se poate.<br />
+
+Asa ca, nu te astepta sa primesti valoarea unui camp, vei avea <code>nil</code> si o eroare daca respectivul camp nu a fost completat.</p>
+
+    <p>Te poti intalni cu asa ceva, cand folosesti <a href="http://api.rubyonrails.com/classes/ActiveRecord/Validations/ClassMethods.html#M000821">numericality_of</a> si doresti ca numarul primit sa fie pozitiv. Pentru asta, pe langa <code>validates_presence_of :price</code>, <code>validates_numericality_of :price</code> va trebui sa mai adaugi o validare pentru a verifica ca pretul este pozitiv <code>validate :price_should_be_positive</code> exemplul este asemanator cu cel din <a href="http://www.pragmaticprogrammer.com/title/rails1/">Agile Web Development with Rails - First Ediition</a>, pagina 67:</p>
+
+<pre>
+
+def price_should_be_positive
+
+  errors.add(:price, "Should be positive") unless price.nil? || price &gt; 0.0
+
+end
+
+</pre>
+
+    <p>Nu mi se pare normal sa mai adaug si <code>price.nil?</code>, atat timp cat folosesc si <code>validates_presence_of :price</code>.</p>

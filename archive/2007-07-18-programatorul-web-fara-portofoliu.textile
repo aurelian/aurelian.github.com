@@ -1,0 +1,69 @@
+---
+id: 110
+url: /archive/2007-07-18-programatorul-web-fara-portofoliu
+title: Programatorul web fara portofoliu
+layout: archive
+date: 2007-07-18 20:19:00.000000000 +02:00
+next:
+  url: /archive/2007-08-08-jobberro-ro-it-jobs-si-apple-widgets.html
+  title: Jobber.ro, .ro IT Jobs si Apple Widgets
+prev:
+  url: /archive/2007-07-18-despre-minute-net.html
+  title: Despre Minute / Net
+
+---
+
+Acest articol - scris ca draft in septembrie 2006 - poate fi considerat ca un studiu de caz referitor la beneficiile aduse de contributiile in cadrul proiectelor Open Source. Momentan trec printr-o criza de idei (poate si pentru ca este prea cald) si mi-a venit destul de usor sa il revizuiesc putin si sa apas pe "Publish". In plus, acest articol reprezinta o posibilitate prin care un eventual cititor ar putea afla mai multe detalii "despre mine":http://www.locknet.ro/about.
+
+
+
+--
+
+
+
+Imi place sa cred ca sunt Programator Web - adica Web Programmer mai pe intelesul tau - pentru ca tot timpul am lucrat cu tehnologii folosite de cele mai multe ori pentru a dezvolta apicatii... web.
+
+
+
+Totusi, de multe ori sunt intrebat:
+
+
+
+bq. bine-bine programator web, dar unde este portofoliul?
+
+
+
+si analizand experienta acumulata pana acum, este destul de evident ca nu prea am ce portofoliu sa arat.
+
+
+
+M-am angajat in industrie prima data prin 2003 si pentru vreo 6 luni am instalat si cate 10 forumuri phpBB sau magazine online oscommerce pe luna. Si-ar dori cineva sa vada inca un phpBB? Mai mult, nici nu mai stiu cate mai sunt online acum. 
+
+Apoi, pana pe la jumatatea lui 2005 am facut aplicatii VoIP folosind... PHP (ai citit bine). Si-ar dori cineva acum sa sune la un numar de telefon cu tarif special din Franta pentru a auzi cum functioneaza un forum, umm, audio, scris in PHP? 
+
+Urmatorul an l-am petrecut dezvoltand in sfarsit aplicatii web. Am inlocuit ecranul negru al consolei cu browserul, insa, aplicatiile respective erau facute pentru uzul intern al companiei si functioneaza doar acolo. Ai vreo sansa sa vezi ceva din ce am lucrat timp de un an? 
+
+Am continuat cu Rails - pana de curand - si am facut aplicatii folosite pentru... pontaj. O multime de servicii web, ceva low-level network-programming in Ruby pentru a incerca sa leg o conversatie cu diverse terminale (as in hardware) insa in final iar nu am ce sa iti arat.
+
+
+
+Am stiut totusi chiar de cand implementam diverse workflow-uri VoIP ca asa nu am nicio sansa in relaizarea unui portofoliu de aplicatii web care ar putea fi prezentate la cerere. Asa ca m-am implicat sau am initiat diverse proiecte Open Source.
+
+
+
+I can show you the code, baby!
+
+
+
+Acum esti doar la un "click":http://svn.berlios.de/wsvn/medick/trunk/ distanta si vei afla cum stiu eu sa programez in PHP. Doar un "click":http://svn.berlios.de/wsvn/medick/exp/validator_api.php?op=file&rev=0&sc=0 si o sa vezi cum stiu sa rezolv probleme destul de complexe.
+
+Iti pot arata ca sunt la un nivel rezonabil chiar si in "C":http://svn.berlios.de/wsvn/wsm/trunk/ sau ca stiu cum functioneaza PHP-ul ca si limbaj de programare.
+
+Cat de curand o sa poti studia si exemple in "Ruby":http://rubyforge.org/projects/nrr/.
+
+Vrei sa vezi cum pot sa interactionez in cadrul unei echipe? Uite, asa stiu eu sa raportez un "bug":http://bugs.php.net/bug.php?id=34884 si asa stiu "eu":http://creole.tigris.org/servlets/ReadMsg?list=dev&&msgNo=425 sa "trimit":http://creole.tigris.org/servlets/ReadMsg?list=dev&&msgNo=429 "un":http://creole.tigris.org/servlets/ReadMsg?list=dev&&msgNo=424 "patch":http://creole.tigris.org/servlets/ReadMsg?list=dev&&msgNo=431
+
+
+
+Vrei sa te ajut sa rezolvi vreo problema legata de programare? Bring it on! Trebuie doar sa stii sa o explici astfel incat sa o pot intelege. Atunci consider ca sunt 50% gata. Cu toate ca prefer chestiile dinamice sau sa folosesc tehnologii la moda sau "Bleeding Edge":http://en.wikipedia.org/wiki/Bleeding_edge, limbajul de programare nici nu mai conteaza! Ah, si sa am timp.
+

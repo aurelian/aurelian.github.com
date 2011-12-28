@@ -1,0 +1,56 @@
+---
+id: 137
+url: /archive/2007-11-28-gaudeamus-am-fost-wurbe-4-ma-duc
+title: ! 'Gaudeamus: am fost, wurbe #4: ma duc'
+layout: archive
+date: 2007-11-28 12:24:41.000000000 +01:00
+next:
+  url: /archive/2007-12-09-topfinantero-spam.html
+  title: TopFinante.ro - SPAM
+prev:
+  url: /archive/2007-11-27-totcedoresti-nu-doresc-spam.html
+  title: ! 'totcedoresti: Nu doresc SPAM'
+
+---
+
+h4. Gaudeamus
+
+
+
+Duminica am fost si eu ca tot omu' cultivat pe la Targul de Carte Gaudeamus. Personalitati importante, titluri bune la preturi okay si ceva ingramadeala. Dupa vreo 2 ore am plecat cu doua carti de "Tom Hodgkinson":http://en.wikipedia.org/wiki/Tom_Hodgkinson: "_Ghidul Lenesului_":http://www.nemira.ro/autor.asp?id=590&pg=1&ord=1&tid=1093 si "_Cum am ales libertatea_":http://www.nemira.ro/autor.asp?id=590&pg=1&ord=1&tid=1215.
+
+
+
+bq. Ne plictisim de moarte doar ca sa castigam banii pe care apoi ii cheltuim sa scapam de plictis.
+
+
+
+Good stuff si pe intelesul meu.
+
+
+
+!http://assets.locknet.ro/images/42.jpg(Tom Hodgkinson Books)!
+
+
+
+h4. Wurbe #4
+
+
+
+Ultima intalnire a web developerilor din Bucuresti care conteaza si beau bere cu apa plata si masline pe 2007 se va desfasura cel mai probabil pe 10 decembrie. Inca suntem in cautarea unei locatii dar de data asta speram sa o anuntam cu cel putin o zi inainte.
+
+
+
+Detalii pe "site":http://wurbe.ro/2007/11/26/wurbe-4-plan. Tot acolo poti sa iti anunti prezenta sau poti face alte comentarii.
+
+
+
+h4. Geek Meet #1, Cluj
+
+
+
+"Aici":http://www.geekmeet.ro/04-11-2007/geek-meet-1-cluj/ chiar ca nu mai am cum sa ajung (s-au terminat si inscrierile)! Insa lucrurile vor merge foarte bine si fara mine.
+
+"Filip":http://www.filipcte.ro/, teh brain behind, a pregatit o agenda plina de discutii cu vorbitori alesi pe sranceana:
+
+_Emi Gal_ va vorbi despre pasiune (nu o sa fie extenuat pana atunci pentru ca planifica "bine":http://emi.brainient.com/2007/11/27/its-all-about-planning/), _Andrei Serdeliuc_ despre -Zned- Zend Frwk ("fully charged":http://andrei.serdeliuc.ro/article/fully_charged/ deci nu se pune problema de tonus), _Mihai Dragan_ despre diverse "proiecte":http://www.mihaidragan.ro/kindablog/2007/its-not-about-the-money-its-about-the-people/, _Mihai Brehar_ si-a facut si el un framework cu o componenta "SEO":http://www.bbmvc.org/#seo si o sa expice cum functioneaza, _Bogdan Gorganeanu_ despre "tocilari japonezi":http://www.otaku.ro/ si _Filip_ despre "jobberBase":http://www.jobberbase.com/, platforma open-source cu 1111 downloaduri (and counting).

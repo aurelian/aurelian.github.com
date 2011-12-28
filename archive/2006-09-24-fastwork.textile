@@ -1,0 +1,30 @@
+---
+id: 63
+url: /archive/2006-09-24-fastwork
+title: Fastwork
+layout: archive
+date: 2006-09-24 13:31:38.000000000 +02:00
+next:
+  url: /archive/2006-09-24-wsm.html
+  title: WSM
+prev:
+  url: /archive/2006-09-24-windows-service-management-091.html
+  title: Windows Service Management - 0.9.1
+
+---
+
+Fastwork is a Windows Installation Kit for Apache, MySQL and PHP.
+
+The project was started in February 2003, In September 2003 Fastwork was registred to "sourceforge.net":http://sourceforge.net/projects/fastwork/
+
+
+
+After 3 years Fastwork has more than 4000 downloads and more than 26GB of traffic, as reported by the sourceforge "stats":http://sourceforge.net/project/stats/detail.php?group_id=89492&ugn=fastwork&type=prdownload&mode=alltime&package_id=0.
+
+
+
+Fastwork was the first Installation Kit to install PHP 5 or MySQL 5, and is the only one with a "Control Center":http://sourceforge.net/project/screenshots.php?group_id=89492 written completly in PHP with "Winbinder":http://winbinder.org.
+
+
+
+In September 2006, the website of the project was closed ( http://fastwork.locknet.ro ), since I'm unable to mentain it. Also, due to the lack of time I'm unable at this point to give support or to release new versions. In 2003 it was really hard to get the "triad" working on Windows but this days, with the upcomming release of PHP 5.2, the installation procedure has been simplified.
