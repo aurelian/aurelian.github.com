@@ -15,17 +15,13 @@ prev:
 
 <h4>Update: (11.07.2006)</h4>
 
-<p>Incepand cu <a href="http://www.locknet.ro/article/medick-030pre1-released">medick 0.3.0pre1</a> sintaxa pentru validari a fost <a href="http://lists.berlios.de/pipermail/medick-devel/2006-July/000038.html">modificata</a>.<br />Am corectat acest articol pentru a reflecta ultimile schimbari.</p>
+<p>Incepand cu <a href="http://locknet.ro/archive/2006-07-10-medick-030pre1-released.html">medick 0.3.0pre1</a> sintaxa pentru validari a fost <a href="http://lists.berlios.de/pipermail/medick-devel/2006-July/000038.html">modificata</a>.<br />Am corectat acest articol pentru a reflecta ultimile schimbari.</p>
 
-<p><a href="http://www.locknet.ro/article/validarea-obiectelor-activerecord">Vorbeam</a> acum cateva zile despre detalii foarte tehnice legate de validarea obiectelor <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a> in <a href="http://medick.locknet.ro">medick</a>. Spuneam ca aceste validari au loc in filtrele <code>before_*</code>, insa pana acum nu am explicat povestea lor.</p>
+<p><a href="http://locknet.ro/archive/2006-06-21-validarea-obiectelor-activerecord.html">Vorbeam</a> acum cateva zile despre detalii foarte tehnice legate de validarea obiectelor ActiveRecord in medick. Spuneam ca aceste validari au loc in filtrele <code>before_*</code>, insa pana acum nu am explicat povestea lor.</p>
 
-    <p>Din nou, un articol lung, ce poate servi insa ca documentatie pentru framework.</p>
+<p>Din nou, un articol lung, ce poate servi insa ca documentatie pentru framework.</p>
 
-    <p>Filtrele <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a> pentru <a href="http://medick.locknet.ro">medick</a> sunt practic niste metode oferite de framework, dar implementate de utilizator prin care se poate interveni in cel putin doua puncte cheie din viata unui obiect <a href="http://medick.locknet.ro/api/medick.active.record/ActiveRecord.html">ActiveRecord</a>: inaintea sau dupa efectuarea unei operatii legate de baza de date cu acel obiect.<br />
-
-Aceste metode sunt grupate (pentru moment) in doua categorii: before si after.<br />
-
-Voi detalia filtrele before_, urmand ca intr-un articol viitor sa explic ce se intampla in filtrele after.</p>
+<p>Filtrele ActiveRecord pentru medick sunt practic niste metode oferite de framework, dar implementate de utilizator prin care se poate interveni in cel putin doua puncte cheie din viata unui obiect ActiveRecord: inaintea sau dupa efectuarea unei operatii legate de baza de date cu acel obiect.<br />Voi detalia filtrele before_, urmand ca intr-un articol viitor sa explic ce se intampla in filtrele after.</p>
 
     <h4>1) Filtre before_ </h4>
 
@@ -42,43 +38,27 @@ Operatiile posibile (numele metodelor) sunt: </p>
 Poate cel mai bun exemplu este un obiect <code>user</code> care inainte de a fi creat, va trebui sa aibe proprietatea <code>terms_and_conditions</code> cu valoarea 1 pentru a semnala ca user-ul curent a fost de acord cu termenii si conditiile prezentate:</p>
 
 <pre>
-
 class User extends ActiveRecord {
 
   protected function before_insert() {
-
     // conditiile impuse nu au fost aceptate:
-
     if ($this-&gt;terms_and_conditions != 1) {
-
       // adaugam un mesaj de eroare:
-
       $this-&gt;getField('terms_and_conditions')-&gt;addError('Conditiile nu au fost acceptate');
-
       return FALSE;
-
     }
-
     // setarea unui camp cu valoare initiala:
-
     $this-&gt;created_at= time();
-
   }
-
 [ ... ]
-
 }
 
 // utilizare (in controller de exemplu):
 
 $user= new User();
-
 $user-&gt;insert(); // filtrul este executat!
-
 // sau:
-
 $user-&gt;save(); // filtrul este si in acest caz executat!
-
 </pre>
 
     <h5>1b) before_update</h5>
@@ -90,15 +70,10 @@ $user-&gt;save(); // filtrul este si in acest caz executat!
 class User extends ActiveRecord {
 
   protected function before_update() {
-
     [....]
-
     // setarea unui camp cu valoare initiala:
-
     $this-&gt;updated_at= time();
-
     return TRUE;
-
   }
 
 [....]
@@ -106,15 +81,10 @@ class User extends ActiveRecord {
 }
 
 // utilizare:
-
 $user= User::find(1); // gaseste user-ul cu id=1
-
 $user-&gt;update(); // filtrul este executat
-
 // sau:
-
 $user-&gt;save(); // filtrul este executat si in acest caz.
-
 </pre>
 
     <h5>1c) before_save</h5>
@@ -128,11 +98,8 @@ Poate contine, de exemplu, metode comune de validare atat in cazul in care obiec
 class User extends ActiveRecord {
 
   protected function before_update() {
-
     $this-&gt;validates_presence_of('name');
-
     return TRUE;
-
   }
 
 [....]
@@ -140,19 +107,12 @@ class User extends ActiveRecord {
 }
 
 // utilizare:
-
 $user= User::find(1); // gaseste user-ul cu id=1
-
 $user-&gt;save(); // filtrul este executat
-
 // sau
-
 $user= new User();
-
 $user-&gt;name= 'Mihai';
-
 $user-&gt;save(); // filtrul este executat
-
 </pre>
 
     <h5>1d) before_delete</h5>
@@ -166,15 +126,10 @@ class User extends ActiveRecord {
   protected function before_delete() {
 
     // gaseste mesajele detinute de acest user
-
     $messages= Message::find('all', array('condition'=&gt;'user_id=?'), array($this-&gt;id));
-
     // sterge mesajele.
-
     [....]
-
     return TRUE;
-
 }
 
 [....]
@@ -182,13 +137,10 @@ class User extends ActiveRecord {
 }
 
 // utilizare:
-
 $user= User::find(1); // gaseste user-ul cu id=1
-
 $user-&gt;delete(); // filtrul este executat
-
 </pre>
 
-    <p>Cam astea sunt cateva detalii si metode mai intalnite pentru folosirea acestor filtre.<br />
+<p>Cam astea sunt cateva detalii si metode mai intalnite pentru folosirea acestor filtre.<br />
 
 <strong>Foarte important</strong>: nu uita sa adaugi linia <code>return true</code> chiar la sfarsitul filtrului, in caz contrar php va returna in mod implicit false!</p>
