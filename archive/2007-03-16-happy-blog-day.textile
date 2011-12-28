@@ -13,24 +13,14 @@ prev:
 
 ---
 
-Si "a trecut":http://www.locknet.ro/article/hello-world un an de blog pe "locknet.ro":http://www.locknet.ro.
+Si "a trecut":http://locknet.ro/archive/2006-03-15-hello-world.html un an de blog pe "locknet.ro":http://locknet.ro.
 
-
-
-In acest timp am publicat 74 de articole ce au primit 111 comentarii (34 facute de mine) de la 29 de persoane. Cel mai comentat articol a fost cel despre "schimbarea locului de munca":http://www.locknet.ro/article/o-noua-palarie-fixa.
-
-
+In acest timp am publicat 74 de articole ce au primit 111 comentarii (34 facute de mine) de la 29 de persoane. Cel mai comentat articol a fost cel despre "schimbarea locului de munca":http://locknet.ro/archive/2006-07-13-o-noua-palarie-fixa.html.
 
 In medie, am avut cam 1800 de vizite unice pe luna (cel putin in ultimile 6 luni). Majoritatea ma citesc folosind un feed-reader, iar Firefox este cel mai folosit browser de catre cei ce vin direct pe site.
 
-
-
-De la google primesc persoane interesate de pisici, de unde si cel mai citit articol cred ca este cel despre "demistificarea pisicilor":http://www.locknet.ro/article/pisici-demistificate.
-
-
+De la google primesc persoane interesate de pisici, de unde si cel mai citit articol cred ca este cel despre "demistificarea pisicilor":http://locknet.ro/archive/2006-07-16-expozitie-pisici.html.
 
 Am incercat sa trec pe "mephisto":http://mephistoblog.com/ dar am avut ceva probleme cu importul datelor din actualul blog (pierdeam diacritice). Sa vedem, poate in viitorul apropiat.
 
-
-
-Apropos, inca nu am gasit o solutie pentru "algoritm":http://www.locknet.ro/article/caut-algoritm.
+Apropos, inca nu am gasit o solutie pentru "algoritm":http://locknet.ro/archive/2007-03-09-caut-algoritm.html.
