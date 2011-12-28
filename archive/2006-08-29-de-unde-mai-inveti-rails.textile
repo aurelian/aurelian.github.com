@@ -17,27 +17,17 @@ Ai ridicat o "spranceana(Creating a weblog in 15 minutes)":http://media.rubyonra
 
 Ai citit "articole(Planet RubyOnRails)":http://www.planetrubyonrails.org/, ai "cautat(Google)":http://google.com alte "tutoriale(Top 30 Ruby on Rails Tutorials)":http://www.econsultant.com/web-developer/ruby-rails-tutorials/ si ai cumparat "carti(Agile Web Development with Rails)":http://www.pragmaticprogrammer.com/titles/rails2/index.html.
 
-
-
 <div class="mta"><a href="http://assets.locknet.ro/images/20.png" rel="lightbox" title="Mephisto">
 
 !http://assets.locknet.ro/images/20t.png(Mephisto)!
 
 <br />Click on image for a larger view</a></div>
 
+Ti-a placut si ai inceput un "proiect(Marks: my Rails pet project)":http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html de la zero.
 
+Atunci a aparut si prima problema: *nu stiai Ruby* la un nivel acceptabil. Si cum trebuia sa ai un raspuns pregatit pentru aceasta, te-ai intors la "articole(Planet Ruby!)":http://planetruby.0x42.net/, "tutoriale(why's - poignant - guide to ruby)":http://web.archive.org/web/20060615001901/http://www.poignantguide.net/ruby/ si "carti(Programming Ruby - The Pragmatic Programmer's Guide, 2-nd Edition)":http://www.pragmaticprogrammer.com/titles/ruby/index.html.
 
-Ti-a placut si ai inceput un "proiect(Marks: my Rails pet project)":http://www.locknet.ro/article/marks-my-rails-pet-project de la zero.
-
-
-
-Atunci a aparut si prima problema: *nu stiai Ruby* la un nivel acceptabil. Si cum trebuia sa ai un raspuns pregatit pentru aceasta, te-ai intors la "articole(Planet Ruby!)":http://planetruby.0x42.net/, "tutoriale(whyÃ¢â‚¬â„¢s - poignant - guide to ruby)":http://poignantguide.net/ruby/ si "carti(Programming Ruby - The Pragmatic Programmer's Guide, 2-nd Edition)":http://www.pragmaticprogrammer.com/titles/ruby/index.html.
-
-
-
-Te-ai "decis(Adio php, hello Ruby! Adio frustrari, hello happiness!)":http://www.locknet.ro/article/o-noua-palarie-fixa sa faci pasul cel mare, si sa lucrezi full-time cu o tehnologie ce iti permite sa iti imbunatatesti performantele de programator.
-
-
+Te-ai "decis(Adio php, hello Ruby! Adio frustrari, hello happiness!)":http://locknet.ro/archive/2006-07-13-o-noua-palarie-fixa.html sa faci pasul cel mare, si sa lucrezi full-time cu o tehnologie ce iti permite sa iti imbunatatesti performantele de programator.
 
 <div class="mta"><a href="http://assets.locknet.ro/images/21.png" rel="lightbox" title="Tracks">
 
@@ -45,20 +35,11 @@ Te-ai "decis(Adio php, hello Ruby! Adio frustrari, hello happiness!)":http://www
 
 <br />Click on image for a larger view</a></div>
 
-
-
 Poate cel mai bine te perfectionezi studiind codul scris de altii. Acum un an era destul de greu sa gasesti o aplicatie open-source mai serioasa. Acum insa "Rails":http:www.rubyonrails.com a intrat in cel de-al III-lea an de viata si avem de unde alege.
-
-
 
 Cateva surse de inspiratie:
 
-
-
 * "Typo":http://www.typosphere.org/trac/wiki - blogging engine
-
 * "Mephisto":http://mephistoblog.com/ - publishing system
-
 * "RadiantCMS":http://radiantcms.org/ -content management simplified
-
 * "Tracks":http://www.rousette.org.uk/projects/ - doing things properly
