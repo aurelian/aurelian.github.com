@@ -13,122 +13,64 @@ prev:
 
 ---
 
-    <h3><strong>Unde suntem?</strong></h3>
+<h3>Unde suntem?</h3>
 
-    <p>In <a href="http://medick.locknet.ro" title="medick">medick</a>, fisierul central de configuratie ar trebui sa fie <strong>conf/NUMELE_APLICATIEI.xml</strong>.<br />
+<p>In medick, fisierul central de configuratie ar trebui sa fie <strong>conf/NUMELE_APLICATIEI.xml</strong>.<br />Din pacate lucrurile nu stau tocmai asa, iar in cazul in care se doreste mutarea unei aplicatii de pe un server pe altul (de exemplu localhost &#8211; testing server &#8211; pe domeniul-meu.info &#8211; production system) situatia poate fi cu adevarat dureroasa pentru ca vei avea de modificat 3 fisiere:</p>
 
-Din pacate lucrurile nu stau tocmai asa, iar in cazul in care se doreste mutarea unei aplicatii de pe un server pe altul (de exemplu localhost &#8211; testing server &#8211; pe domeniul-meu.info &#8211; production system) situatia poate fi cu adevarat dureroasa pentru ca vei avea de modificat 3 fisiere:</p>
+<ul>
+  <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/public/default.htaccess?op=file&#38;rev=368&#38;sc=0">public/.htaccess</a>
+  <ul>
+    <li>locatia aplicatiei</li>
+  </ul></li>
+  </ul>
+  <ul>
+    <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/public/index.php?op=file&#38;rev=376&#38;sc=0">public/index.php</a>
+  <ul>
+    <li>calea catre fisierul <em>boot.php</em> pus la dispozitie de catre framework</li>
+  </ul></li>
+  </ul>
+  <ul>
+    <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/config/application.xml?op=file&#38;rev=330&#38;sc=0">conf/NUMELE_APLICATIEI.xml</a>
+  <ul>
+    <li>server_name</li>
+    <li>document_root</li>
+    <li>daca se foloseste sistemul de logging in fisiere: calea catre fisierul de log</li>
+    <li>daca se foloseste o baza de date: setarile pentru conectarea la acea baza de date</li>
+  </ul></li>
+</ul>
 
-    <ul>
-
-        <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/public/default.htaccess?op=file&#38;rev=368&#38;sc=0">public/.htaccess</a>
-
-    <ul>
-
-        <li>locatia aplicatiei</li>
-
-    </ul></li>
-
-    </ul>
-
-    <ul>
-
-        <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/public/index.php?op=file&#38;rev=376&#38;sc=0">public/index.php</a>
-
-    <ul>
-
-        <li>calea catre fisierul <em>boot.php</em> pus la dispozitie de catre framework</li>
-
-    </ul></li>
-
-    </ul>
-
-    <ul>
-
-        <li><a href="http://svn.berlios.de/wsvn/medick/trunk/skel/config/application.xml?op=file&#38;rev=330&#38;sc=0">conf/NUMELE_APLICATIEI.xml</a>
-
-    <ul>
-
-        <li>server_name</li>
-
-        <li>document_root</li>
-
-        <li>daca se foloseste sistemul de logging in fisiere: calea catre fisierul de log</li>
-
-        <li>daca se foloseste o baza de date: setarile pentru conectarea la acea baza de date</li>
-
-    </ul></li>
-
-    </ul>
-
-    <p>Aceste modificari se pot vedea si in <a href="http://medick.locknet.ro/getting_started.html">Getting Started :: installing elTodo on your computer</a>.</p>
-
-    <h3><strong>Ce o sa se schimbe prin introducerea &#8220;environments&#8221;?</strong></h3>
-
-    <p>Migrarea se va face mult mai usor, doar <em>public/index.php</em> va trebui modificat.<br />
-
-Normal, in conf/NUMELE_APLICATIEI.xml va trebui sa definim mai multe medii de lucru (environments):</p>
-
+<h3>Ce o sa se schimbe prin introducerea &#8220;environments&#8221;?</h3>
+<p>Migrarea se va face mult mai usor, doar <em>public/index.php</em> va trebui modificat.<br />Normal, in conf/NUMELE_APLICATIEI.xml va trebui sa definim mai multe medii de lucru (environments):</p>
 <pre>&lt;?xml version="1.0" encoding="latin1"?&gt;
-
 &lt;application name="${app.name}"&gt;
-
   &lt;environment name="localhost"&gt;
-
   [.....]
-
   &lt;/environment&gt;
-
   &lt;environment name="test"&gt;
-
   [.....]
-
   &lt;/environment&gt;
-
   &lt;environment name="live"&gt;
-
   [.....]
-
   &lt;/environment&gt;
-
 &lt;/application&gt;</pre>
-
 <p>In cazul in care mutam aplicatia pe un alt sistem, in <em>public/index.php</em> se va schimba in include_once locatia catre fisierul <em>boot.php</em> iar <em>Dispatcher</em>-ul trebuie sa cunoasca locatia catre fisierul de configurare si mediul dorit:</p>
-
 <pre>
-
 // complete path to medick boot.php file.
-
 include_once('${medick.core}${ds}boot.php');
-
 // complete path to ${app.name}.xml 
-
 // &#38; environment to load
-
 $d= new Dispatcher(
-
          ContextManager::load(
-
              ${app.path}${ds}conf${ds}${app.name}.xml',
-
              'localhost'));
-
 $d-&gt;dispatch();
-
 </pre>
 
-    <h3><strong>Beneficii.</strong></h3>
+<h3>Beneficii.</h3>
+<p>Mutarea unei aplicatii intre diferite configuratii va fi floare la ureche.<br />Alte beneficii vor fi vizibile in curand. Si ma gandesc aici la momentul in care medick va genera si unit-teste pentru controllere/modele.</p>
 
-    <p>Mutarea unei aplicatii intre diferite configuratii va fi floare la ureche.<br />Alte beneficii vor fi vizibile in curand. Si ma gandesc aici la momentul in care <a href="http://medick.locknet.ro" title="medick">medick</a> va genera si unit-teste pentru controllere/modele.</p>
+<h3>Dezavantaje.</h3>
+<p>Un fisier mai mare de parsat cu simplexml_load_file.<br />O solutie ar fi ca dupa o parsare initiala sa pastram - intr-un viitor cache - o clasa generata ale carei metode sa returneze plain PHP arrays.</p>
 
-    <h3><strong>Dezavantaje.</strong></h3>
-
-    <p>Un fisier mai mare de parsat cu simplexml_load_file.<br />
-
-O solutie ar fi ca dupa o parsare initiala sa pastram - intr-un viitor cache - o clasa generata ale carei metode sa returneze plain PHP arrays.</p>
-
-    <h3><strong>Cand?</strong></h3>
-
-    <p>Conceptul de <em>environments</em> va fi introdus in versiunea 0.2.1.
-
-</p>
+<h3>Cand?</h3>
+<p>Conceptul de <em>environments</em> va fi introdus in versiunea 0.2.1.</p>
