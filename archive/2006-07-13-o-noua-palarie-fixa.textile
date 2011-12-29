@@ -15,9 +15,7 @@ prev:
 
 Mi-am incheiat colaborarea cu Schlund+Partner.
 
-
-
-Din 12.o6, va incepe un nou capitol in cariera mea.
+Din 12.06, va incepe un nou capitol in cariera mea.
 
 Va fi pentru prima data cand nu mai sunt angajat ca programator php.
 
@@ -25,20 +23,10 @@ M-am gandit foarte mult inainte de a lua aceasta decizie insa sunt sigur ca am f
 
 In plus, sunt foarte nerabdator sa incep treaba si sper sa pot face fata noilor cerinte.
 
-
-
 h4. P.S.:
 
-
-
-# Proiectele open-source in care sunt implicat, dezvoltate in php ("medick":http://medick.locknet.ro sau "WSM":http://wsm.berlios.de) vor fi mentinute in continuare, probabil in acelasi ritm.
-
-# Voi actualiza pagina "about":http://www.locknet.ro/about/, unde voi specifica numele angajatorului meu.
-
+# Proiectele open-source in care sunt implicat, dezvoltate in php (medick sau "WSM":http://wsm.berlios.de) vor fi mentinute in continuare, probabil in acelasi ritm.
 # Politica nu se va schimba pe acest blog, articolele publicate reprezinta opiniile personale.
-
 # Probabil domeniul (si hostingul) 29dots.com va fi dezactivat in curand. Din cauza asta, nu am mai actualizat sau vorbit despre marks in ultimile saptamani.
-
-
 
 Mai pot spune: Adio php, hello Ruby! Adio frustrari, hello "happiness":http://www.google.com/url?sa=X&start=2&oi=define&q=http://en.wikipedia.org/wiki/Happiness!
