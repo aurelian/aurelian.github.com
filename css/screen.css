@@ -1,12 +1,14 @@
 body {
   margin: 1em auto 0.5em auto;
   width: 78%;
-  font-family: "Cagliostro", Georgia, sans-serif;
+  font-size: 1.2em;
+  font-family: "Cagliostro", "Cambria", "Georgia", "Times", "Times New Roman", sans-serif;
+  color: #012034;
 }
 
-a { color: #AA9EC5; }
+a { color: #11333D; }
 
-a:visited { color: #EBD7F4; }
+a:visited { color: #40666A; }
 
 header h1 {
   font-size: 5em;
