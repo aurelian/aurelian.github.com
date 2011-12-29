@@ -13,28 +13,12 @@ prev:
 
 ---
 
-_5 Aprilie 2006, Bucuresti, Drumul Taberei vis-a-vis de restaurantul Primavara_, "locknet.ro":http://www.locknet.ro a hotarat sa participe la parada anuala "CSS Naked Day":http://www.dustindiaz.com/naked-day/.
-
-
+_5 Aprilie 2006, Bucuresti, Drumul Taberei vis-a-vis de restaurantul Primavara_, "locknet.ro":http://locknet.ro a hotarat sa participe la parada anuala "CSS Naked Day":http://www.dustindiaz.com/naked-day/.
 
 Cei care imi vor face o vizita astazi vor vedea cum arata locknet.ro fara CSS.
 
-
-
-<div class="mta"><a href="http://assets.locknet.ro/images/4.png" rel="lightbox" title="CSS Naked Day at locknet.ro">
-
-!http://assets.locknet.ro/images/4t.png(CSS Naked Day at locknet.ro)!
-
-<br />Click on image for a larger view</a></div>
-
-
+<div class="mta"><a href="http://assets.locknet.ro/images/4.png" rel="lightbox" title="CSS Naked Day at locknet.ro">!http://assets.locknet.ro/images/4t.png(CSS Naked Day at locknet.ro)! <br />Click on image for a larger view</a></div>
 
 *Update:* Am revenit la vechea forma, insa am tras un screenshot, pentru posteritate, dar si pentru cei care au ratat evenimentul. Poate la anul.
 
-
-
-"Mai":http://www.siteuri.ro/developer/accessibility.ro.html "multe":http://www.456bereastreet.com/archive/200512/ten_reasons_to_learn_and_use_web_standards/ "linkuri":http://cnata.fcc.ro/WAI/gettingstarted/Overview.html.ro "legate":http://www.w3.org/WAI/ de "accesibilitate":http://www.section508.gov/ sau "standarde":http://www.maxdesign.com.au/presentation/checklist.htm "web":http://en.wikipedia.org/wiki/Web_standards.
-
 Cum arata pagina ta web fara CSS?
-
-<br style="clear:left;"/>
