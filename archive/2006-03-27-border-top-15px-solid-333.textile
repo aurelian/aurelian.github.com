@@ -13,27 +13,19 @@ prev:
 
 ---
 
-"9rules/whitespace":http://9rules.com/whitespace/ au schimbat in acest weekend infatisarea paginii.
+9rules/whitespace au schimbat in acest weekend infatisarea paginii.
 
 Imi place mai noul design, mai curat si poate putin mai intuitiv.
 
 Ma deranjeaza insa foarte mult borderul pe care l-au ales pentru a stiliza elementul @body@:
 
-
-
 <pre>
-
 border-top: 15px solid #333;
-
 </pre>
-
-
 
 Ca o coincidenta, exact aceiasi declaratie o folosesc si eu aici.
 
-
-
-Tema mea este putin inspirata din "simpa":http://thebombsite.com/test/simpla (unde marginea este mai mica, de doar 5px) iar layout-ul este aproximativ acelasi pe care l-am primit odata cu instalarea blogului.
+Tema mea este putin inspirata din simpa (unde marginea este mai mica, de doar 5px) iar layout-ul este aproximativ acelasi pe care l-am primit odata cu instalarea blogului.
 
 Acum, eu ce sa mai inteleg?
 
