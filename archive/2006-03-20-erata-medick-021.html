@@ -13,64 +13,26 @@ prev:
 
 ---
 
-    <h3>Ce nu merge?</h3>
+<h4>Ce nu merge?</h4>
+<ul>
+  <li>FormHelper::check_box nu functioneaza, problema este sub investigatii si va fi fixata in curand.</li>
+  <li>ActiveRecordHelper::error_messages_on metoda nu este inca implementata, va fi insa in urmatorul release.</li>
+  <li>Pastrarea unui obiect ActiveRecord intr-o sesiune are un comportament ciudat, <a href="http://www.php.net/manual/en/language.oop5.magic.php">metodele magice</a> din php __wakeup si __sleep nu reflecta schimbarile pe care le-am adus in ultimul timp in ActiveRecord. Acest lucru va fi fixat in urmatorul release.</li>
+  <li>Chiar daca rewrite este setat pe on, conditia de verificare $rewrite==0 este evaluata TRUE, deci URL-urile au inclus index.php.</li>
+  <li>Validatorul <em>uniqueness_of</em> adaugat in filtrul <em>before_filter()</em> nu functioneaza corect cand se face update. Acest lucru va fi fixat in urmatorul release.</li>
+  <li>Unit-testele nu au fost incluse, pentru ca testele legate de pachetul <em>medick.configurator</em> nu au putut fi fixate la timp.</li>
+</ul>
 
+<h4>Ce lipseste?</h4>
+<ul>
+  <li>Un container sql pentru pastrarea sesiuni. Teoretic, ar trebui scrisa o implementare a interfetei <em>ISessionContainer</em>, adaugarea unei noi setari in fisierul de configurare si modificari minore in <em>HTTPRequest</em> si <em>Session</em>. Acest container va fi adaugat in urmatoarea versiune.</li>
+  <li>Validari ale <em>rutelor</em> prin introducerea Route::requirements. Acestea vor fi adaugate in urmatoarea versiune.</li>
+</ul>
 
-
-    <ul>
-
-        <li><a href="http://medick.locknet.ro/api/medick.action.view/helpers/FormHelper.html#check_box">FormHelper::check_box</a>
-
-nu functioneaza, problema este sub investigatii si va fi fixata in curand.</li>
-
-        <li><a href="http://medick.locknet.ro/api/medick.action.view/helpers/ActiveRecordHelper.html#error_message_on">ActiveRecordHelper::error_messages_on</a>
-
-metoda nu este inca implementata, va fi insa in urmatorul release.</li>
-
-        <li>Pastrarea unui obiect ActiveRecord intr-o sesiune are un comportament ciudat, <a href="http://www.php.net/manual/en/language.oop5.magic.php">metodele magice</a> din php __wakeup si __sleep nu reflecta schimbarile pe care le-am adus in ultimul timp in ActiveRecord. Acest lucru va fi fixat in urmatorul release.</li>
-
-        <li>Chiar daca rewrite este setat pe on, conditia de verificare $rewrite==0 este evaluata TRUE, deci URL-urile au inclus index.php.</li>
-
-        <li>Validatorul <em>uniqueness_of</em> adaugat in filtrul <em>before_filter()</em> nu functioneaza corect cand se face update. Acest lucru va fi fixat in urmatorul release.
-
-        </li>
-
-        <li>Unit-testele nu au fost incluse, pentru ca testele legate de pachetul <a href="http://medick.locknet.ro/api/classtrees_medick.configurator.html">medick.configurator</a>
-
-nu au putut fi fixate la timp.
-
-        </li>
-
-    </ul>
-
-
-
-    <h3>Ce lipseste?</h3>
-
-
-
-    <ul>
-
-        <li>Un container sql pentru pastrarea sesiuni. Teoretic, ar trebui scrisa o implementare a interfetei <a href="http://medick.locknet.ro/api/medick.action.controller/session/ISessionContainer.html">ISessionContainer</a> , adaugarea unei noi setari in fisierul de configurare si modificari minore in <a href="http://medick.locknet.ro/api/medick.action.controller/http/HTTPRequest.html">HTTPRequest</a> si <a href="http://medick.locknet.ro/api/medick.action.controller/session/Session.html">Session</a>. Acest container va fi adaugat in urmatoarea versiune.</li>
-
-        <li>Validari ale <a href="http://medick.locknet.ro/api/medick.action.controller/routing/Route.html">rutelor</a> prin introducerea Route::requirements. Acestea vor fi adaugate in urmatoarea versiune.</li>
-
-    </ul>
-
-
-
-    <h3>Ce urmeaza in medick 0.2.2?</h3>
-
-
-
-    <ul>
-
-        <li>Modificarile amintite mai sus.</li>
-
-        <li>Mai multe Unit-Teste.</li>
-
-        <li>Code Clean-Up in ActiveRecord si in ActionController.</li>
-
-        <li>Inlocuirea <em>include_once</em> cu <em>include</em> (10x em@il), o problema pe care o sa o am in vedere.</li>
-
-    </ul>
+<h4>Ce urmeaza in medick 0.2.2?</h4>
+<ul>
+  <li>Modificarile amintite mai sus.</li>
+  <li>Mai multe Unit-Teste.</li>
+  <li>Code Clean-Up in ActiveRecord si in ActionController.</li>
+  <li>Inlocuirea <em>include_once</em> cu <em>include</em> (10x em@il), o problema pe care o sa o am in vedere.</li>
+</ul>
