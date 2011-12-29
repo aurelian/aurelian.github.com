@@ -29,3 +29,8 @@ pre, code {
   font-size: .8em;
 }
 
+img#f {
+  margin: 1em auto;
+  display: block;
+}
+
