@@ -13,11 +13,9 @@ prev:
 
 ---
 
-"medick":http://medick.locknet.ro version 0.3.0pre1 was released today.
+Medick version 0.3.0pre1 was released today.
 
 For download you can use one of "berlios":http://berlios.de "mirrors":http://developer.berlios.de/project/showfiles.php?group_id=4023.
-
-
 
 Please note that this version is not compatible with older versions.
 
@@ -25,14 +23,8 @@ Learn how to upgrade your medick applications to 0.3.0pre1 from "this message":h
 
 Also, starting with this release, php 5.1.2 or higher is required.
 
-
-
 This version adds a new validation API and fixes a minor bug in Request::toString method.
 
+For a complete list of changes see the CHANGELOG file.
 
-
-For a complete list of changes see the "CHANGELOG":http://medick.locknet.ro/api/ric_CHANGELOG.html file.
-
-
-
-"medick":http://medick.locknet.ro is a PHP 5 Web Framework (not a collection of PHP classes!) released under a BSD style "LICENSE":http://medick.locknet.ro/api/ric_LICENSE.html.
+Medick is a PHP 5 Web Framework (not a collection of PHP classes!) released under a BSD style LICENSE.
