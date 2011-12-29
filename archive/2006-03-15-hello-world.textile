@@ -19,33 +19,17 @@ Foarte greu a fost sa aleg intre "wordpress":http://wordpress.org si "textpatter
 
 Dar dupa ce am distrus vreo 2-3 instalari pe localhost din fiecare, m-am hotarat sa raman cu textpattern.
 
-
-
 De ce am ales textpattern:
 
-
-
 # tema instalata by default imi place foarte mult;
-
 # nu are o tona de biz-biz-uri in sectiunea de administrare;
-
 # pot sa modific toata partea de prezentare (CSS si layout-ul paginilor) fara sa fie nevoie de acces ftp, la fel, cand vine vorba despre instalarea pluginurilor;
-
 # multe din facilitatile[1] oferite de textpattern sunt dezactivate, mai exact nu sunt vizibile.
-
-
 
 "Concluzia(why features don't matter anymore?)":http://www.acm.org/ubiquity/views/v7i07_pfeiffer.html: 
 
-
-
 bq. Mai importanta este experienta pe care o am, decat facilitatile oferite
 
+Chiar si in cazul unui produs software.
 
-
-"Chiar(Complexity causes 50% of product returns: scientist)":http://news.yahoo.com/s/nm/20060306/tc_nm/productreturns_dc si in cazul unui produs software.
-
-
-
-fn1. facilitati === features o "traducere":http://bx.clickmedia.ro/forum/viewtopic.php?p=1326#1326 perfecta in romana.
-
+fn1. facilitati === features o traducere perfecta in romana.
