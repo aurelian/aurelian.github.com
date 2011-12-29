@@ -13,15 +13,13 @@ prev:
 
 ---
 
-Prin nu stiu ce minune, serverul web "apache":http://httpd.apache.org care serveste continut pentru "29dots.com(No more dots)":http://29dots.com stia sa lucreze si cu scripturi scrise in "ruby(Ruby: Programmers' Best Friend)":http://ruby-lang.org/en/ (pe langa php3, php4 sau php5) rulate ca  "CGI(Common Gateway Interface)":http://www.pugmarks.com/support/glossary.htm#6.
+Prin nu stiu ce minune, serverul web "apache":http://httpd.apache.org care serveste continut pentru 29dots.com stia sa lucreze si cu scripturi scrise in "ruby(Ruby: Programmers' Best Friend)":http://ruby-lang.org/en/ (pe langa php3, php4 sau php5) rulate ca  "CGI(Common Gateway Interface)":http://www.pugmarks.com/support/glossary.htm#6.
 
 Mi-am instalat singurel, prin ssh, "RubyGems(RubyGems is the Ruby standard for publishing and managing third party libraries.)":http://rubyforge.org/projects/rubygems si "Rails":http://www.rubyonrails.com ca utilizator neprivilegiat in $HOME.
 
 Toate bune si frumoase, insa Rails are nevoie de ruby versiunea 1.8.2 sau 1.8.4, iar pe server era fix versiunea 1.8.1, normal un debian ultra-stable si ultra-tested.
 
-Inapoi la consola, mi-am compilat si ruby, versiunea 1.8.4, tot ca utilizator obisnuit, si am scris repede un mic "HelloWorld(Hello world program)":http://en.wikipedia.org/wiki/HelloWorld de "test(Hello Ruby World)":http://29dots.com/hw.cgi.
-
-
+Inapoi la consola, mi-am compilat si ruby, versiunea 1.8.4, tot ca utilizator obisnuit, si am scris repede un mic "HelloWorld(Hello world program)":http://en.wikipedia.org/wiki/HelloWorld de test.
 
 Pasul urmator va fi sa imi gasesc un "pet-project[1]" pe care sa il fac cu Rails.
 
@@ -32,7 +30,5 @@ Aplicatia mea trebuie sa fie destul de simpla (cu 2-3 tabele in baza de date) si
 Inca nu am nicio idee concreta, dar de vreo 2-3 zile ma tot gandesc.
 
 Ah, nu trebuie sa fie ceva super-original, m-as multumi si cu o clona a unui sistem existent deja, va fi o aplicatie prin care vreau doar sa vad cum m-as descurca si intr-un alt limbaj de programare.
-
-
 
 fn1. "Wikipedia":http://en.wikipedia.org/wiki/Pet_project: A _pet project_ is a task undertaken out of personal interest instead of necessity.
