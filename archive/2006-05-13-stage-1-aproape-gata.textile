@@ -13,29 +13,16 @@ prev:
 
 ---
 
-"Anuntam":http://www.locknet.ro/article/marks-my-rails-pet-project acum cateva zile intentia de a dezvolta primul meu proiect public in "rails":http://www.rubyonrails.com.
+"Anuntam":http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html acum cateva zile intentia de a dezvolta primul meu proiect public in "rails":http://www.rubyonrails.com.
 
 In prima etapa mi-am propus sa implemetez un sistem pentru gestionarea utilizatorilor cu urmatoarele cerinte:
 
-
-
 * posibilitatea creeri de noi conturi;
-
 * odata autentificat, utilizatorul curent va putea sa isi schimbe parola, adresa de mail sau sa isi stearga contul;
-
 * un utilizator privilegiat va putea sterge/edita conturile altor indivizi;
-
 * privilegiatul poate sa deschida si alte conturi dar sa si vada detalii despre utilizatorii inregistrati (nume, last login, email, etc).
 
-
-
-<div class="mta"><a href="http://assets.locknet.ro/images/16.png" rel="lightbox" title="Marks Code Fixing">
-
-!http://assets.locknet.ro/images/16t.png(Marks Code Fixing)!
-
-<br />Click on image for a larger view</a></div>
-
-
+<div class="mta"><a href="http://assets.locknet.ro/images/16.png" rel="lightbox" title="Marks Code Fixing">!http://assets.locknet.ro/images/16t.png(Marks Code Fixing)!<br />Click on image for a larger view</a></div>
 
 Era mult prea simplu sa folosesc un plugin pentru toata treaba asta si probabil as fi ratat unul din scopurile aceste aplicatii: sa ma familiarizez cu ruby si cu rails.
 
@@ -43,24 +30,14 @@ Am gasit destule exemple de urmat, printre ele
 
 "Acts_As_Authenticated":http://technoweenie.stikipad.com/plugins/show/Acts+as+Authenticated dar si alte aplicatii open-source facute cu rails. 
 
-
-
-Ce a iesit pana acum se poate vedea "aici":http://marks.29dots.com/account.
-
-
+Ce a iesit pana acum se poate vedea pe http://marks.29dots.com/account.
 
 Lipsuri:
 
-
-
 * vreo doua actiuni nu sunt inca implementate: password_recovery si editarea altor conturi de catre super-user;
-
 * trebuie sa "testez":http://manuals.rubyonrails.com/read/chapter/28 mai atent *controllerul* @account@;
-
 * aplicatia arata cam ciudat (look-and-feel) si prezinta ceva inconsistente intre pagini (paginile nu arata toate la fel).
-
-
 
 Am facut deja planul si pentru etapa 2 unde utilizatorul inregistrat va putea sa adauge intrari noi in sistem.
 
-Pentru a fii sigur ca nimeni nu va folosi numele tau de utilizator preferat rezerva-ti un cont chiar "acum":http://marks.29dots.com/account/create :)
+Pentru a fii sigur ca nimeni nu va folosi numele tau de utilizator preferat rezerva-ti un cont chiar acum.
