@@ -15,31 +15,17 @@ prev:
 
 ...doar intr-o saptamana.
 
-
-
 # Posta Romana, pentru ca am primit un colet insa la o alta adresa decat cea din buletin, si astia nu au auzit de adresa de livrare. In plus am stat o ora la coada, degeaba, nu am reusit sa imi iau pachetul. Era o carte trimisa de o librarie din Pitesti, valoare 12RON, ramburs.
-
 # Astral, pentru ca de o saptamana vad printre purici, si e foarte dificil sa gasesti un numar de telefon de la deranjamente. Dupa aia e foarte greu sa treaca cineva sa se uite la cablul ala, sau la ce s-o fi stricat cand a plouat ultima data mai tare.
-
 # Serverul care in mod normal imi rezolva numele la adresele ip corespunzatoare nu a functionat cateva ore astazi (pe romaneste, nu mi-a mers netu`).
-
 # Am uitat care era cea de-a IV-a chestie.
-
-
 
 h4. Update [ lucruri nice ]
 
-
-
 # "Remember The Milk":http://www.rememberthemilk.com/ pentru ca "Ta-da":http://www.tadalist.com/ era prea simpla
-
-# "Filip":http://www.exigo.ro "Geek Meet":http://www.exigo.ro/blog/maine-geek-meet in "Oradea":http://maps.google.com/maps?f=q&hl=en&q=oradea+romania&ll=47.069888,21.920128&spn=0.166493,0.431213&t=k&om=1
-
+# Filip Geek Meet in "Oradea":http://maps.google.com/maps?f=q&hl=en&q=oradea+romania&ll=47.069888,21.920128&spn=0.166493,0.431213&t=k&om=1
 # "Ruby QuickRef":http://www.zenspider.com/Languages/Ruby/QuickRef.html
-
-# "RailsReference":http://blog.invisible.ch/files/rails-reference-1.1.html
-
-
+# RailsReference
 
 Obositor.
 
