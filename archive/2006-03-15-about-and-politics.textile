@@ -8,14 +8,10 @@ next:
   url: /archive/2006-03-15-hello-world.html
   title: Hello World
 prev:
-  url: /archive/2009-12-29-cati-km-de-autostrada-vrei.html
-  title: Cati km. de autostrada vrei?
 
 ---
 
-h3. *Despre ce va fi vorba pe aici*
-
-
+h4. Despre ce va fi vorba pe aici
 
 Sunt Aurelian si voi fi gazda acestui blog.
 
@@ -27,11 +23,7 @@ Voi incerca sa nu fiu o agentie de stiri, insa voi prezenta diferite noutati pe 
 
 Voi incerca sa respect limba romana si nu voi fi niciodata deranjat daca cineva imi va atrage atentia atunci cand folosesc un limbaj de lemn sau fac vreo greseala gramaticala.
 
-
-
-h3. *Politica*
-
-
+h4. Politica
 
 Articolele publicate aici exprima parerea mea.
 
@@ -39,4 +31,3 @@ Comentariile apartin celor care le publica.
 
 Imi rezerv dreptul de a modera comentariile postate pe acest site si de a sterge cu sange rece orice deviere in afara subiectului :)
 
-<!-- Iti poti face un hate locknet.ro blog, nu ma supar. -->
