@@ -13,87 +13,46 @@ prev:
 
 ---
 
-When I started to code on "medick":http://medick.locknet.ro, one of my first goals was to hide all the PHP annoyances, to hide them from me because I will be the main user of this framework and then to hide them from my users. At one point I knew that I will face some of those annoyances, where I will loose more that 15 minutes to solve.
+When I started to code on Medick, one of my first goals was to hide all the PHP annoyances, to hide them from me because I will be the main user of this framework and then to hide them from my users. At one point I knew that I will face some of those annoyances, where I will loose more that 15 minutes to solve.
 
-So, on my "TODO":http://www.locknet.ro/article/erata-medick-021 list for release 0.2.2 I had:
-
-
+So, on my "TODO":http://locknet.ro/archive/2006-03-20-erata-medick-021.html list for release 0.2.2 I had:
 
 bq. An sql container for keeping PHP sessions.
 
-
-
 I searched my HDD, knowing that I wrote something like this, and found it on an old backup folder:
 
-
-
 <pre>
-
 [aurelian@gremlin ~]$ ll /mnt/win_d/30-07-2005/.../CreoleSession.php
-
 -r-xr-xr-x  2 root root 4097 Mar  8  2005 /mnt/win_d/30-07-2005/.../CreoleSession.php*
-
 </pre>
-
-
 
 Last accessed a year ago. Belive it or not, this class is doing his job very well on one of my older projects (with a primitive version of medick). On that server: PHP 5.0.5.
 
+Anyway, I have started to modify this class to match my _ISessionContainer_ interface, a piece of cake. Ended up with a nice class declaration:
 
-
-Anyway, I have started to modify this class to match my "ISessionContainer":http://medick.locknet.ro/api/medick.action.controller/session/ISessionContainer.html interface, a piece of cake. Ended up with a nice class declaration:
-
-
-
-<pre>
-
-class CreoleSessionContainer extends Object implements ISessionContainer
-
-</pre>
-
-
+<pre>class CreoleSessionContainer extends Object implements ISessionContainer</pre>
 
 After that I had to remember what was the PHP function that will register this class as a session handler.
 
 Since I'm not good at remember PHP function names, I started my search with "session_start":http://php.net/session_start on PHP manual, after that I saw "session-set-save-handler":http://php.net/manual/en/function.session-set-save-handler.php on the left side.
 
-
-
-To test somehow, I altered my "Session":http://medick.locknet.ro/api/medick.action.controller/session/Session.html class and made a call to that function in my "start":http://medick.locknet.ro/api/medick.action.controller/session/Session.html#start method, just before session_start:
-
-
+To test somehow, I altered my _Session_ class and made a call to that function in my _start_, just before _session_start_:
 
 <pre>
-
 $container = new CreoleSessionContainer();
-
 session_set_save_handler(array($container, 'open'),
-
                          array($container, 'close'),
-
                          array($container, 'read'),
-
                          array($container, 'write'),
-
                          array($container, 'destroy'),
-
                          array($container, 'gc'));
-
 </pre>
-
-
 
 The result?
 
-
-
 <pre style="background-color:red;color:white;">
-
 Fatal error: Exception thrown without a stack frame in Unknown on line 0
-
 </pre>
-
-
 
 I knew that this is something really nasty, and my first thought was that a SQLException was thrown somehow form my container.
 
@@ -101,54 +60,30 @@ Back to code, I surrounded every sql call with nice "try/catch":http://php.net/m
 
 Back to manual:
 
-
-
 bq. Note: The "write" handler is not executed until after the output stream is closed. Thus, output from debugging statements in the "write" handler will never be seen in the browser. If debugging output is necessary, it is suggested that the debug output be written to a file instead.
-
-
 
 So I replaced all the echo's with $logger->debug calls. No result. Nothing on the log file.
 
-
-
 Back to manual, a WARNING:
-
-
 
 bq. Write and Close handlers are called after destructing objects since PHP 5.0.5. Thus destructors can use sessions but session handler can't use objects. In prior versions, they were called in the opposite order. It is possible to call session_write_close() from the destructor to solve this chicken and egg problem.
 
-
-
 So, there was a _chicken and egg_ thing. I had 5.1.2 installed, and yes, as opposite to many php coders, I was trying to save an object into the session.
 
-
-
 On the manual, I read the "first comment":http://php.net/manual/en/function.session-set-save-handler.php#62260
-
-
 
 bq. That is not the way objects should be saved into session. You should not just assign the entire object to $_SESSION['myObj'] and hope for the best while waiting for the script to end and for the php internal engine to serialize your object, call destructors etc.
 
 You should serialize your object beforehand by specifically calling serialize() on your object and assign the serialized string to a session key.
 
-
-
 The "second":http://php.net/manual/en/function.session-set-save-handler.php#61223 comment? even worse:
-
-
 
 bq. As posted here (http://marc.theaimsgroup.com/?l=php-general&m=113833844422096&w=2) the session module cannot handle objects anymore (tested in 5.1.2).
 
-
-
 So, no objects into the session anymore?
-
-
 
 Well, my friends, after 4 hours of digging (include this post also) my solution for medick is like this:
 
 ActiveRecord::__sleep, *do not close the database connection* who knows in what order the objects are destroyed in PHP? Simple huh?
-
-
 
 The result -will be added soon- *is* under version control.
