@@ -13,42 +13,16 @@ prev:
 
 ---
 
-I'm very proud to annonce you that "medick":http://medick.locknet.ro version 0.2.1 has been "released":http://medick.locknet.ro/download/medick-0.2.1.tgz 15 minutes ago.
+I'm very proud to annonce you that Medick version 0.2.1 has been released 15 minutes ago.
 
-
-
-h3. Whats new?
-
-
+h4. Whats new?
 
 * API docs bundled in the download package
-
 * Medick Environments
-
 * Minor fixes
 
+Read the complete "changelog":http://svn.berlios.de/wsvn/medick/trunk/CHANGELOG?op=file&rev=379&sc=0. Not to many new things one might say, but the most important is the fact that I spend some time on writing some cool documentation.
 
+h4. Update 19.March
 
-Read the complete "changelog":http://svn.berlios.de/wsvn/medick/trunk/CHANGELOG?op=file&rev=379&sc=0.
-
-
-
-Not to many new things one might say, but the most important is the fact that I spend some time on writing some cool documentation:
-
-
-
-* "The Long Intro":http://medick.locknet.ro/documentation.html still a work in progress,
-
-* the "API":http://medick.locknet.ro/api docs,
-
-* a small and aready outdated "screencast":http://medick.locknet.ro/getting_started.html (4MB flash movie).
-
-
-
-h3. Update 19.March
-
-
-
-I have uploded this release also on "berlios":http://berlios.de.
-
-Download "here":http://prdownload.berlios.de/medick/medick-0.2.1.tgz
+I have uploded this release also on "berlios":http://berlios.de. Download "here":http://prdownload.berlios.de/medick/medick-0.2.1.tgz
