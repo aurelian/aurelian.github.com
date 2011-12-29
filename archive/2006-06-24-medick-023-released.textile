@@ -13,16 +13,12 @@ prev:
 
 ---
 
-"medick":http://medick.locknet.ro version 0.2.3 was released today.
+Medick version 0.2.3 was released today.
 
-For download you can use one of "berlios":http://berlios.de "mirrors":http://developer.berlios.de/project/showfiles.php?group_id=4023 or the .ro "copy":http://medick.locknet.ro/download/medick-0.2.3.tgz.
-
-
+For download you can use one of "berlios":http://berlios.de "mirrors":http://developer.berlios.de/project/showfiles.php?group_id=4023.
 
 This is the "still alive" proof release! It includes minor changes and fixes to 0.2.2.
 
-For a complete list of changes see the "CHANGELOG":http://medick.locknet.ro/api/ric_CHANGELOG.html file.
+For a complete list of changes see the CHANGELOG file.
 
-
-
-"medick":http://medick.locknet.ro is a PHP 5 Web Framework released under a BSD style "LICENSE":http://medick.locknet.ro/api/ric_LICENSE.html.
+Medick is a PHP 5 Web Framework released under a BSD style LICENSE.
