@@ -17,14 +17,8 @@ prev:
 
 It seams that everyone saw, touch and get back to php or whatever.
 
-
-
 Well, I'm *wrong*, "rails":http://www.rubyonrails.org/ is even better and today "David":http://www.loudthinking.com/about.html "announced version 1.1":http://weblog.rubyonrails.org/articles/2006/03/28/rails-1-1-rjs-active-record-respond_to-integration-tests-and-500-other-things with more that "500 other things", a impressive list of new features.
 
-
-
 bq. The biggest upgrade in Rails history has finally arrived.
-
-
 
 Welcome.
