@@ -15,9 +15,7 @@ prev:
 
 Recunosc, aproape in fiecare dimineata imi cumpar ziarul "Cotidianul":http://cotidianul.ro/. Trece mai repede timpul pana ajung la munca. Daca as lua "Libertatea", pai, as termina de citit pana la prima statie.
 
-In ziarul de astazi, este publicata o sinteza intitulata "Noul net este aproape":http://cotidianul.ro/index.php?id=44&art=13077&cHash=59aef6d4eb de "Diana Lazar":http://cotidianul.ro/index.php?id=48&aut=246&cHash=21056e01ed si "Mihai Parlea":http://cotidianul.ro/index.php?id=48&aut=287&cHash=50ec5e45b5.
-
-
+In ziarul de astazi, este publicata o sinteza intitulata "Noul net este aproape" de Diana Lazar si Mihai Parlea.
 
 Citind respectiva insemnare, am avut acelasi sentiment ca in fata unei pagini web facuta de o secretara sau de nepotul patronului: total neprofesionalism.
 
@@ -25,21 +23,13 @@ Necunoscatorii vor fi indusi in eroare: Web2.0 se "implementeaza", si este citat
 
 In continuare, acesta spune: 
 
-
-
 bq. "[...]calculatorul trebuie sa tina pasul cu tehnologia, banda de internet folosita trebuie sa fie destul de mare", 
-
-
 
 doua afirmatii *total* eronate, facand referire la sarmanii vizitatori ai saiturilor web20.
 
 Pustanii ce cauta sa invete sa faca un forum pentru reteaua lor de cartier vor afla despre "script-urile ajax" dar si ca: 
 
-
-
 bq. "[...]prima pagina a Yahoo foloseste limbajul de scripting Ajax, adica Web 2.0[...]".
-
-
 
 "Cotidianul" poate mai mult.
 
