@@ -15,20 +15,10 @@ prev:
 
 "ezSystems":http://ez.no/ plans to host a "Midsummer":http://en.wikipedia.org/wiki/Midsummer conference as well as a celabration for the PHP community.
 
-
-
 This event is called PHP Vikinger and it will take place in Skien, Norway on 24-25 June, this year.
-
-
 
 There is a 20 EURO registration fee, all the money will go to the Free Software and Free Culture organizations. There will be free food and free sleeping arrangements.
 
 Also, a cool list of attendees including Christopher Kunz, Ilia Alshanetsky, Marcus Boerger or Rasmus Lerdorf.
-
-
-
-More "details":http://zak.greant.com/2006/02/php-vikinger.html.
-
-
 
 Let's see how can I get a cheap flight to Norway.
