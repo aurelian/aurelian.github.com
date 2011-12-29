@@ -13,112 +13,61 @@ prev:
 
 ---
 
-<p>Da, trebuie sa recunosc, de cateva zile lucrez (as freelance) la un proiect web ce va folosi <a href="http://medick.locknet.ro">medick</a>.<br />
+<p>Da, trebuie sa recunosc, de cateva zile lucrez (as freelance) la un proiect web ce va folosi Medick.<br />Experienta aceasta va imbunatati cu siguranta calitatea frameworkului, in primul rand pentru ca in felul asta pot adauga noi facilitati &#8211; vad mai bine lipsurile &#8211; apoi, am o motivatie in plus: voi primi o suma de bani pentru proiectul respectiv.</p>
 
-Experienta aceasta va imbunatati cu siguranta calitatea frameworkului, in primul rand pentru ca in felul asta pot adauga noi facilitati &#8211; vad mai bine lipsurile &#8211; apoi, am o motivatie in plus: voi primi o suma de bani pentru proiectul respectiv.</p>
+<p>Aplicatiea este destul de simpla: &#8220;<strong>un fel de</strong>&#8221; magazin, momentan doar de prezentare a produselor.<br />Aceste produse sunt caracterizate de un producator (has_one company) si de o categorie in care sunt inscrise (has_one category), pe langa proprietati simple de tipul pret, cantitate, nume sau descriere.</p>
 
-    <p>Aplicatiea este destul de simpla: &#8220;<strong>un fel de</strong>&#8221; magazin, momentan doar de prezentare a produselor.<br />
-
-Aceste produse sunt caracterizate de un producator (has_one company) si de o categorie in care sunt inscrise (has_one category), pe langa proprietati simple de tipul pret, cantitate, nume sau descriere.</p>
-
-    <p>Am ales sa folosesc modelul <a href="http://www.dbmsmag.com/9604d06.html">Nested Set</a> pentru a stoca arborele categoriilor tinand cont si de &#8220;target database&#8221;: MySQL 4.1.<br />
+<p>Am ales sa folosesc modelul <a href="http://www.dbmsmag.com/9604d06.html">Nested Set</a> pentru a stoca arborele categoriilor tinand cont si de &#8220;target database&#8221;: MySQL 4.1.<br />
 
 Un articol foarte bun: <a href="http://dev.mysql.com/tech-resources/articles/hierarchical-data.html">Managing Hierarchical Data in MySQL</a> de <a href="http://www.openwin.org/mike/">Mike Hillyer</a> dar si <a href="http://www.openwin.org/mike/index.php/presentations/managing-hierarchical-data-in-mysql/">prezentarea sa</a> cu acelasi nume sustinuta la <a href="http://conf.phpquebec.org/en/cdrom2005/">PHP Quebec 2005</a>.<br />
 
-
-
 Arborele meu are un nod central numit <code>root</code> (exact ca in exemplul prezentat in articolul de mai sus, nod denumit 'ELECTONICS'), insa acest nod nu va fi afisat niciodata.</p>
 
-    <p>Cea mai mare bucurie a acestui proiect - pana acum - a fost data de transformarea arborelui rezultat in urma unui SELECT intr-o <a href="http://www.december.com/html/x1/element/ul.html">lista ne-ordonata</a>, folosita, de exemplu, pentru a afisa un &#8220;site-map&#8221; sau pentru afisarea unui meniu de navigare.</p>
+<p>Cea mai mare bucurie a acestui proiect - pana acum - a fost data de transformarea arborelui rezultat in urma unui SELECT intr-o <a href="http://www.december.com/html/x1/element/ul.html">lista ne-ordonata</a>, folosita, de exemplu, pentru a afisa un &#8220;site-map&#8221; sau pentru afisarea unui meniu de navigare.</p>
 
-    <p>De doua zile stau si admir rezultatul si avantajele acestui model:<br />
+<p>De doua zile stau si admir rezultatul si avantajele acestui model:<br />un SQL SELECT si nici o recursivitate!</p>
 
-un SQL SELECT si nici o recursivitate!</p>
-
-    <p>Selectul:</p>
-
+<p>Selectul:</p>
 <pre>
-
 SELECT node.*, (COUNT(parent.name) - 1) AS depth
-
   FROM categories AS node, categories AS parent 
-
 WHERE
-
   node.lft BETWEEN parent.lft AND parent.rgt
-
   AND parent.id !=1 
-
 GROUP BY node.name ORDER BY node.lft;
-
 </pre>
 
 <p>
+<code>depth</code> reprezinta &#8220;adancimea&#8221; in arbore a nodului curent sau distanta fata de primul nod (acesta are &#8220;adancime&#8221; 0)<br /><code>parent.id!=1</code> pentru ca nu vreau primul nod (root) in lista rezultata.</p>
 
-<code>depth</code> reprezinta &#8220;adancimea&#8221; in arbore a nodului curent sau distanta fata de primul nod (acesta are &#8220;adancime&#8221; 0)<br />
+<p>Rezultatul este un <a href="http://creole.phpdb.org/docs/api/creole/ResultSet.html">ResultSet</a> produs de <a href="http://creole.phpdb.org">creole</a>.</p>
 
-<code>parent.id!=1</code> pentru ca nu vreau primul nod (root) in lista rezultata.</p>
-
-    <p>Rezultatul este un <a href="http://creole.phpdb.org/docs/api/creole/ResultSet.html">ResultSet</a> produs de <a href="http://creole.phpdb.org">creole</a>.</p>
-
-    <p>Parcurgerea:</p>
+<p>Parcurgerea:</p>
 
 <pre>
-
 $last_depth = -1;
-
 $output= '&lt;ul&gt;';  // rezultatul final
-
-
-
 while($rs-&gt;next()) {
-
   $current_depth = $rs-&gt;getInt('depth'); // adancimea nodului curent
-
   // conditie cheie:
-
   if ($last_depth &gt; $current_depth) {
-
     $output .= str_repeat('&lt;/ul&gt;&lt;/li&gt;', ($last_depth - $current_depth));
-
   }
-
   $output .= '&lt;li&gt;' . $rs-&gt;getString('name');
-
-
-
   // conditie echivalenta cu intrebarea hasChildren()?,
-
   // urmata de getChilds() si parcurgerea recursiva 
-
   // a noului arbore
-
   if ($rs-&gt;getInt('rgt') - 1 != $rs-&gt;getInt('lft')) {
-
     $output .= '&lt;ul&gt;';
-
   } else {
-
     $output .= '&lt;/li&gt;';
-
   }
-
   $last_depth = $current_depth;
-
 }
-
 echo $output . '&lt;/ul&gt;';
-
 </pre>
 
 <p>Unde mai pui ca rezultatul este valid XHTML.</p>
 
 <h4>Lectura suplimentara:</h4>
-
-<p>
-
-<a href="http://www.artfulsoftware.com/mysqlbook/sampler/mysqled1ch20.html" title="Working with Graphs in MySQL">Working with Graphs in MySQL</a> (vezi si biografia atasata)<br />
-
-<a href="http://www.amazon.com/gp/product/1558609202/002-9778723-1492859?n=283155" title="Joe Celko's Trees and Hierarchies in SQL for Smarties">Joe Celko's Trees and Hierarchies in SQL for Smarties</a>
-
-</p>
+<p><a href="http://www.artfulsoftware.com/mysqlbook/sampler/mysqled1ch20.html" title="Working with Graphs in MySQL">Working with Graphs in MySQL</a> (vezi si biografia atasata)<br /><a href="http://www.amazon.com/gp/product/1558609202/002-9778723-1492859?n=283155" title="Joe Celko's Trees and Hierarchies in SQL for Smarties">Joe Celko's Trees and Hierarchies in SQL for Smarties</a></p>
