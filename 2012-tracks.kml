@@ -29,7 +29,7 @@
   </Style>
   <Placemark>
     <name>Track 1</name>
-    <description><![CDATA[<div dir="ltr">2.81km</div>]]></description>
+    <description><![CDATA[<div dir="ltr">2.81km<br />Attempts: 6<br />Best: 17:21 -- 3rd of June, 2012 10:50am, Temp: 24°C, H: 57%, 2 red traffic lights</div>]]></description>
     <styleUrl>#style2</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
@@ -90,7 +90,7 @@
   </Placemark>
   <Placemark>
     <name>Track 2</name>
-    <description><![CDATA[<div dir="ltr">3.36km</div>]]></description>
+    <description><![CDATA[<div dir="ltr">3.36km<br />Attempts: 7<br />Best: 17:21 -- 10th of June, 2012 10:40am, 2 red traffic lights</div>]]></description>
     <styleUrl>#style1</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
@@ -154,7 +154,7 @@
   </Placemark>
   <Placemark>
     <name>Track 3</name>
-    <description><![CDATA[<div dir="ltr">3.44km</div>]]></description>
+    <description><![CDATA[<div dir="ltr">3.44km<br />Attempts: 3<br />Best: 21:34 -- 28th of June, 2012 9:34pm, 3 red traffic lights</div>]]></description>
     <styleUrl>#style4</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
@@ -209,7 +209,7 @@
   </Placemark>
   <Placemark>
     <name>Track 4</name>
-    <description><![CDATA[<div dir="ltr">4.55km</div>]]></description>
+    <description><![CDATA[<div dir="ltr">4.55km<br />Attempts: 8<br />Best: 27:33 -- 15th of July, 2012 2:15pm, 3 red traffic lights</div>]]></description>
     <styleUrl>#style3</styleUrl>
     <LineString>
       <tessellate>1</tessellate>
