@@ -3,25 +3,29 @@
   <header>
     <hgroup>
       <h1><a href="/">lock</a>Net.ro</h1>
-      <h2><a href="/archive.html">archive</a></h2>
+      <h2><a href="/running.html">running</a></h2>
     </hgroup>
   </header>
   <article id="{{ page.id }}">
-    <h3 class="title"><a href="{{ page.permalink }}" rel="bookmark">{{ page.title }}</a></h3>
+    <h3 class="title"><a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a></h3>
     <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+    
+    <dl class="race-details">
+      <dt>Distance</dt><dd>{{ page.distance }}</dd>
+      <dt>Result</dt><dd>{{ page.result }}</dd>
+      {% if page.time %}<dt>Start Time</dt><dd>{{ page.time }}</dd>{% endif %}
+      {% if page.weather %}<dt>Weather</dt><dd>{{ page.weather }}</dd>{% endif %}
+      {% if page.race %}<dt>About the Race</dt><dd>{{ page.race }}</dd>{% endif %}
+    </dl>
+
+    <div class="map">
+      {{ page.map }}
+    </div>
+
     <section class="content">
       {{ content }}
     </section>
 
-    <nav>
-      {% if page.prev %}
-      &laquo; <a href="{{ page.prev.url }}" rel="prev" title="{{ page.prev.title }}">{{ page.prev.title }}</a>
-      {% endif %}
-      &mdash;
-      {% if page.next %}
-        <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}">{{ page.next.title }}</a> &raquo; 
-      {% endif %}
-    </nav>
   </article>
   <footer>
     (c) 2006 - 2012 Aurelian Oancea

@@ -1,23 +1,9 @@
-<!doctype html>
-<head>
-  <meta charset="utf-8">
-  <title>.: locknet.ro - {{ page.title }} :.</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
-  <link rel="stylesheet" href="css/screen.css">
-  <link rel="openid.server" href="http://www.myopenid.com/server">
-  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
-  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
-  <link rel="openid2.provider" href="http://www.myopenid.com/server">
-  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
-  <meta name="geo.position" content="41.370748;2.144268">
-  <meta name="author" content="Aurelian Oancea">
-</head>
+{% include head.html %}
 <body>
   <header>
     <hgroup>
       <h1><a href="/">lock</a>Net.ro</h1>
-      <h2>hellow</h2>
+      <h2>{{ page.subtitle }}</h2>
     </hgroup>
   </header>
 
