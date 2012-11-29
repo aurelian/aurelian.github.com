@@ -1,5 +1,12 @@
 pygments:    false
+permalink: /:categories/:year-:month-:day-:title.html
 exclude: 
   - README.textile
   - import.rb
   - post.html
+  - s3
+  - lib
+  - Rakefile
+  - config.yaml
+  - Gemfile
+  - Gemfile.lock
