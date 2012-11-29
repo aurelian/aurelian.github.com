@@ -37,6 +37,6 @@ end
 
 desc "starts jekyll server"
 task :server do
-  system "jekyll --server"
+  system "jekyll --server --auto"
 end
 
