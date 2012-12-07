@@ -43,3 +43,31 @@ dl.race-details dt {
   font-weight: bold;
 }
 
+div#running table {
+  margin-bottom: 20px;
+  width:100%;
+}
+
+div#running table th {
+  vertical-align: bottom;
+  padding: 4px 5px;
+  font-weight: bold;
+}
+
+div#running table td {
+  vertical-align: top;
+  text-align:left;
+  border-top: 1px solid #c3c3c3;
+  padding: 4px 5px;
+}
+
+div#running table th,
+div#running table td {
+  text-align:left;
+  line-height:20px;
+}
+
+div#running table tr.pr td {
+  background-color: #D9EDF7;
+}
+
