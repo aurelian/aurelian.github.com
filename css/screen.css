@@ -39,6 +39,12 @@ img#f {
   display: block;
 }
 
+dl.race-details {
+  width:34em;
+  float:left;
+  display: inline;
+}
+
 dl.race-details dt {
   font-weight: bold;
 }
