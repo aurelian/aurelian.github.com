@@ -1,4 +1,6 @@
-pygments:    false
+pygments: false
+safe: true
+lsi: false
 permalink: /:categories/:year-:month-:day-:title.html
 exclude: 
   - README.textile
