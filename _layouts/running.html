@@ -14,7 +14,7 @@
   </header>
   <article id="{{ page.id }}">
     <h3 class="title"><a href="{{ page.url }}" rel="bookmark">{{ page.title }}</a></h3>
-    <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+    <time datetime="{{ page.date }}">{{ page.date | date: "%d %B %Y" }}</time>
 
     <div>
       <dl class="race-details">
