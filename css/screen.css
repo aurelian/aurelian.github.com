@@ -77,3 +77,7 @@ div#running table tr.pr td {
   background-color: #D9EDF7;
 }
 
+div#running table tr.trail td {
+  background-color: #F3E5AF;
+}
+
