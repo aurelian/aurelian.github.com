@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>perf</title>
+  <script src="js/d3.v3.1.10.min.js"></script>
+  <script src="js/jquery-2.0.0.min.js"></script>
+  <script src="js/bootstrap-popover.2.3.2.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap-popover.2.3.2.min.css"/>
+
+  <style>
+
+    svg, div.popover {
+      font: 12px "Consolas", "Monaco", monspaced;
+      /*"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;*/
+      box-shadow: 1px 2px 5px #5679b4;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #437cff;
+      stroke-width: 2px;
+      shape-rendering: crispEdges;
+    }
+
+    path.line {
+      fill: none;
+      stroke-width:2px;
+      stroke: #50edfe;
+    }
+
+    circle.dot {
+      fill: #50edfe;
+      stroke: #437cff;
+      stroke-width: 2.5px;
+    }
+
+    .times line,
+    .dates line {
+      fill: none;
+      stroke: #437cff;
+      stroke-width: .1337px;
+    }
+
+    .times line#time-45-00, .dates line#date-jan-2013 {
+      stroke-width: .4011px;
+    }
+
+    div.popover {
+      opacity: 0.9;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <svg id="chart">
+    <text x="200" y="50" class="title" font-size="28" font-weight="bold">10k progress - season 2012-2013</text>
+    <defs>
+      <filter id="circleShadow" height="200%" width="200%" x="-40%" y="-40%">
+        <feOffset result="offOut" in="SourceAlpha" dx="4" dy="6" />
+        <feGaussianBlur result="blurOut" in="offOut" stdDeviation="8" />
+        <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+      </filter>
+    </defs>
+  </svg>
+
+<script type="text/javascript">
+
+  // http://tributary.io/tributary/3922684
+  d3.selection.prototype.moveToFront = function() {
+    return this.each(function() {
+      this.parentNode.appendChild(this);
+    });
+  };
+
+  var margin = {top: 80, right: 60, bottom: 50, left: 60};
+  var width  = 800 - margin.left - margin.right;
+  var height = 600 - margin.top - margin.bottom;
+
+  var formatTime = d3.time.format("%M:%S");
+  var formatMinutes = function(d) { return formatTime(new Date(1978, 10, 15, 0, 0, d)); };
+  var formatDate = d3.time.format("%b %Y");
+  var formatMonths = function(d) { return formatDate(d); };
+
+  var performances = [
+    {created_at: new Date("16 Sep 2012"), time: 55*60 + 44, race: "34a. Cursa de la Merçè"},
+    {created_at: new Date("14 Oct 2012"), time: 51*60 + 09, race: "Correbarri 2012"},
+    {created_at: new Date("04 Nov 2012"), time: 51*60 + 53, race: "34è Cros Popular de Sants"},
+    {created_at: new Date("18 Nov 2012"), time: 49*60 + 44, race: "89 Jean Bouin Open"},
+    {created_at: new Date("20 Jan 2013"), time: 48*60 + 32, race: "35a Cursa Barri Sant Antoni"},
+    {created_at: new Date("21 Apr 2013"), time: 46*60 + 21, race: "Cursa Bombers Barcelona"},
+    {created_at: new Date("12 May 2013"), time: 45*60 + 56, race: "27a Cursa Popular Nou Barris"},
+    {created_at: new Date("09 Jun 2013"), time: 45*60 + 21, race: "XI Cursa de Pineda de Mar"}
+  ];
+
+  var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
+  var dates = [
+    new Date("1 Sep 2012"),
+    new Date("1 Nov 2012"),
+    new Date("1 Jan 2013"),
+    new Date("1 Mar 2013"),
+    new Date("1 May 2013"),
+    new Date("1 Jul 2013"),
+  ];
+
+  var x = d3.time.scale().range([0, width]);
+  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("30 Jul 2013")])); // 2012-2013 season
+
+  var y = d3.scale.linear().range([height, 0]);
+  y.domain(d3.extent([30*60, 59*60])); // 30:00 - 1:05:00
+
+  var xAxis = d3.svg.axis().scale(x).orient("bottom")
+    .tickFormat(formatMonths).tickValues(dates);
+  var yAxis = d3.svg.axis().scale(y).orient("left")
+    .tickFormat(formatMinutes).tickValues(times);
+
+  var line = d3.svg.line()
+    .x(function(d){ return x(d.created_at); })
+    .y(function(d){ return y(d.time); });
+
+  var chart = d3.select("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + ", " + margin.top + ")");
+
+  chart.append("g").attr("class", "x axis").attr("transform", "translate(0, " + height + ")").call(xAxis);
+  chart.append("g").attr("class", "y axis").call(yAxis);
+
+  chart.append("g").attr("class", "times")
+      .selectAll(".times").data(times).enter()
+    .append("line")
+      .attr("id", function(d) { return "time-" + formatMinutes(d).replace(/:/, "-"); })
+      .attr("x1", 0)
+      .attr("y1", function(d) { return y(d); })
+      .attr("x2", width)
+      .attr("y2", function(d) { return y(d); });
+
+  chart.append("g").attr("class", "dates")
+      .selectAll(".dates").data(dates).enter()
+    .append("line")
+      .attr("id", function(d) { return "date-" + formatMonths(d).replace(/ /,"-").toLowerCase();})
+      .attr("x1", function(d) { return x(d); })
+      .attr("y1", 0)
+      .attr("x2", function(d) { return x(d); })
+      .attr("y2", height);
+
+  chart.append("path").datum(performances).attr("d", line).attr("class", "line");
+
+  chart.append("g").attr("class", "performances")
+      .selectAll(".performance").data(performances).enter()
+    .append("circle")
+      .attr({
+        "data-toggle": "popover",
+        "data-placement": "top",
+        "data-container": "body",
+        "data-html": true,
+        "data-original-title": function(d) { return d.race; },
+        "data-content": function(d) {
+          return "Date: "+ d3.time.format("%d %B %Y")(d.created_at)+"<br />Time: "+formatMinutes(d.time);
+        }
+      })
+      .attr("class", "dot")
+      .attr("cx", function(d) { return x(d.created_at); })
+      .attr("cy", function(d) { return y(d.time); })
+      .attr("r", 4)
+      .on("mouseover", function(d, i) {
+        $(this).popover('show').attr("r", 8);
+      })
+      .on("mousemove", function(d, i) {
+        $(this).popover('show');
+      })
+      .on("mouseout",  function(d, i) {
+        $(this).popover('hide').attr("r", 4);
+      });
+
+</script>
+</body>
