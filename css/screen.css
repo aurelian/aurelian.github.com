@@ -85,3 +85,13 @@ div#running table tr.trail td {
   background-color: #F3E5AF;
 }
 
+div#running table caption {
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 12px;
+}
+
+div#running table th:nth-of-type(-n+3) {
+  width: 17%
+}
+
