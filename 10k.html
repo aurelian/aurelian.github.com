@@ -41,7 +41,7 @@
       stroke-width: .1337px;
     }
 
-    .times line#time-45-00, .dates line#date-jan-2013 {
+    .times line#time-45-00, .dates line#date-jul-2013 {
       stroke-width: .4011px;
     }
 
@@ -55,7 +55,7 @@
 <body>
 
   <svg id="chart">
-    <text x="200" y="50" class="title" font-size="28" font-weight="bold">10k progress - season 2012-2013</text>
+    <text x="275" y="50" class="title" font-size="28" font-weight="bold">10k progress</text>
     <!--
     <defs>
       <filter id="circleShadow" height="200%" width="200%" x="-40%" y="-40%">
@@ -94,7 +94,12 @@
     {created_at: new Date("21 Apr 2013"), time: 46*60 + 21, race: "Cursa Bombers Barcelona"},
     {created_at: new Date("12 May 2013"), time: 45*60 + 56, race: "27a Cursa Popular Nou Barris"},
     {created_at: new Date("09 Jun 2013"), time: 45*60 + 21, race: "XI Cursa de Pineda de Mar"},
-    {created_at: new Date("30 Jun 2013"), time: 44*60 + 56, race: "Cursa Vila Olímpica Barcelona"}
+    {created_at: new Date("30 Jun 2013"), time: 44*60 + 56, race: "Cursa Vila Olímpica Barcelona"},
+    {created_at: new Date("15 Sep 2013"), time: 45*60 + 55, race: "35a. Cursa de la Merçe"},
+    {created_at: new Date("29 Sep 2013"), time: 44*60 + 55, race: "33a Cursa Popular El Prat"},
+    {created_at: new Date("13 Oct 2013"), time: 43*60 + 49, race: "Cursa Tardor Sant Andreu de la Barca"},
+    {created_at: new Date("03 Nov 2013"), time: 44*60 + 00, race: "35è Cros Popular de Sants"},
+    {created_at: new Date("17 Nov 2013"), time: 42*60 + 58, race: "34a Cursa Popular El Clot"}
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
@@ -105,10 +110,13 @@
     new Date("1 Mar 2013"),
     new Date("1 May 2013"),
     new Date("1 Jul 2013"),
+    new Date("1 Sep 2013"),
+    new Date("1 Nov 2013"),
+    new Date("1 Jan 2014"),
   ];
 
   var x = d3.time.scale().range([0, width]);
-  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("30 Jul 2013")])); // 2012-2013 season
+  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Feb 2014")])); // 2012-2013 season
 
   var y = d3.scale.linear().range([height, 0]);
   y.domain(d3.extent([30*60, 59*60])); // 30:00 - 1:05:00
