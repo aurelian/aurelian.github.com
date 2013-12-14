@@ -77,6 +77,10 @@ div#running table tr.pr td {
   background-color: #D9EDF7;
 }
 
+div#running table tr.track td {
+  border-bottom: 1px solid orange;
+}
+
 div#running table tr.sb {
   border-left: 2px solid #770807;
 }
