@@ -1,14 +1,14 @@
 $:.unshift File.expand_path(File.join(File.dirname(__FILE__), '../lib'))
 require 'yaml'
 require 'rubygems'
-require 's3'
-require 'textpattern'
 
 @config= YAML.load_file('config.yaml')
 
 namespace :s3 do
+
   desc "sync s3 folder with aws s3"
   task :sync do
+    require 's3'
     Jekyll::S3.sync @config[:s3]
   end
 end
@@ -22,6 +22,7 @@ namespace :txp do
 
   desc "import txp blog"
   task :import do
+    require 'textpattern'
     Jekyll::TextPattern.process @config[:database]
   end
 
@@ -39,4 +40,3 @@ desc "starts jekyll server"
 task :server do
   system "jekyll --server --auto"
 end
-
