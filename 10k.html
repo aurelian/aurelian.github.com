@@ -56,25 +56,23 @@
 
   <svg id="chart">
     <text x="275" y="50" class="title" font-size="28" font-weight="bold">10k progress</text>
-    <!--
-    <defs>
+    <!--<defs>
       <filter id="circleShadow" height="200%" width="200%" x="-40%" y="-40%">
         <feOffset result="offOut" in="SourceAlpha" dx="4" dy="6" />
         <feGaussianBlur result="blurOut" in="offOut" stdDeviation="8" />
         <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
       </filter>
-    </defs>
-    -->
+    </defs>-->
   </svg>
 
 <script type="text/javascript">
 
   // http://tributary.io/tributary/3922684
-  d3.selection.prototype.moveToFront = function() {
-    return this.each(function() {
-      this.parentNode.appendChild(this);
-    });
-  };
+  // d3.selection.prototype.moveToFront = function() {
+  //   return this.each(function() {
+  //     this.parentNode.appendChild(this);
+  //   });
+  // };
 
   var margin = {top: 80, right: 60, bottom: 50, left: 60};
   var width  = 800 - margin.left - margin.right;
@@ -102,7 +100,8 @@
     {created_at: new Date("17 Nov 2013"), time: 42*60 + 58, race: "34a Cursa Popular El Clot"},
     {created_at: new Date("19 Jan 2014"), time: 42*60 + 33, race: "36a Cursa Barri Sant Antoni"},
     {created_at: new Date("13 Apr 2014"), time: 42*60 + 27, race: "Cursa Bombers Barcelona"},
-    {created_at: new Date("26 Apr 2014"), time: 41*60 + 21, race: "Cursa Nocturna Ciutat de L'Hospitalet"}
+    {created_at: new Date("26 Apr 2014"), time: 41*60 + 21, race: "Cursa Nocturna Ciutat de L'Hospitalet"},
+    {created_at: new Date("18 May 2014"), time: 40*60 + 20, race: "XII Cursa de Can Mercader"}
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
