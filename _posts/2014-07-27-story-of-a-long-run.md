@@ -24,7 +24,7 @@ Apropiindu-mă de pompă am văzut că avea țeava ruptă. Uh. Îmi era sete. Am
 Am intrat în părculeț de data asta chair că trebuia să beau. La pompă un grup de vreo 10 copii gălăgioși se jucau cu apa, erau uzi până la piele, se stropeau și își încărcau pistoalele cu apă. Unul își storcea tricoul ud chiar sub jet. M-am uitat urât fără să zic nimic. Câțiva mi-au vazut privirea și s-au îndepărtat dar un grup de vreo 4 copii au rămas pur și simplu lipiți de pompă concentrați în jocul lor.
 
 Mă gândeam ca poate nu au vazut niciodată apă și am plecat, știam că la câțiva metri mai este o altă cișmea. Ajuns acolo, 2 fetițe s-au apropiat și ele și în fugă au ajuns înaintea mea. Le-am rugat frumos să mă lase sa beau.
-Mi-au spus că nu mă lasă pentru că o sa le stropesc una dintre ele începând să tragă cu un pistol cu apă în mine.
+Mi-au spus că nu mă lasă pentru că o să le stropesc iar una dintre ele a început să tragă cu un pistol cu apă în mine.
 
 De unde l-a scos?
 
