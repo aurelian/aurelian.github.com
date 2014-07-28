@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% if page.lang %}
+<html lang="{{ page.lang }}">
+{% else %}
+<html lang="ro">
+{% endif %}
+{% include head.html %}
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>Net.ro</h1>
+      <h2><a href="/{{ page.category }}.html">{{ page.category }}</a></h2>
+    </hgroup>
+  </header>
+  <article>
+    <h3 class="title"><a href="{{ page.permalink }}" rel="bookmark">{{ page.title }}</a></h3>
+    <time datetime="{{ page.date }}">{{ page.date | date: "%d %B %Y" }}</time>
+    <section class="content">
+      {{ content }}
+    </section>
+  </article>
+  {% include footer.html %}
+</body>
+</html>
