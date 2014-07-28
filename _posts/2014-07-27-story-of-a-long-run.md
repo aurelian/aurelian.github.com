@@ -28,7 +28,7 @@ Mi-au spus că nu mă lasă pentru că o să le stropesc iar una dintre ele a î
 
 De unde l-a scos?
 
-Surprins nu am putut face altceva decât să zâmbesc deschizând brațele promițându-le ca nu o să le stropesc. S-au oprit și mă lasă să mă apropii de cișmea. În sfârșit pot bea. În timp ce înumăram înghțiturile de apă, un puștan de vreo 5 ani se apropie cu un pistol de fața mea și mă întreabă dacă nu vreau sa beau de la el. Ăsta de unde a aparut? Îi zic că nu. Termin a zecea înghițitură, îmi pun niște apă în cap să mă răcoresc, le mulțumesc frumos și plec. Decid să ies din parc pe unde am intrat, întorcându-mă pe la prima cișmea. liberă de data asta. Ma opresc iar și mai iau niște înghițituri. Cred că am baut prea mult. Glop-glop glop-glop.
+Surprins nu am putut face altceva decât să zâmbesc deschizând brațele promițându-le ca nu o să le stropesc. S-au oprit lăsându-mă să mă apropii de cișmea. În sfârșit beau! În timp ce înumăram înghțiturile, un puștan de vreo 5 ani se apropie cu un pistol de apă de fața mea și mă întreabă dacă nu vreau să beau de la el. Ăsta de unde a aparut? Îi zic că nu. Termin a zecea înghițitură, îmi pun niște apă în cap să mă răcoresc, le mulțumesc frumos și plec. Decid să ies din parc pe unde am intrat, întorcându-mă pe la prima cișmea liberă de data asta. Ma opresc iar și mai iau niște înghițituri. Cred că am baut prea mult. Glop-glop glop-glop.
 
 Mai am 2 kilometrii și termin.
 
