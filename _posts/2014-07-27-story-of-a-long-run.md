@@ -14,7 +14,7 @@ Parcă îmi era puțin foame? Mi se pare. Am mâncat acum 2 ore, dar parcă ar f
 
 Respir adânc și cu ritm: 4 pași exipir, 4 inspir.
 
-Nu mi-am dat seama dar începusem deja sa accelerez. Și mă simt bine în continuare. Kilometrul 5: 28 minute. Opresc la wc-ul public pentru un pipi rapid. Îl plănuisem de ceva timp. Un semnal bun, cu căldura asta eram poate prea hidratat. Maieul era fleașcă de transpirație. Evident, nu îmi era sete, așa că după kilometrul 6 am intrat direct în secțiunea de iarbă unde știam că nu o să mai am de unde bea apă în următoarea jumătate de oră. Oh, și am tras tare prin iarbă. Mă simțeam excelent și am scos câtiva kilometrii buni aproape sau chair sub 5:00 min/km.
+Nu mi-am dat seama dar începusem deja sa accelerez. Și mă simt bine în continuare. Kilometrul 5: 28 minute. Opresc la wc-ul public pentru un pipi rapid. Îl plănuisem de ceva timp. Un semnal bun, cu căldura asta eram poate prea hidratat. Maieul era fleașcă de transpirație. Evident, nu îmi era sete, așa că după kilometrul 6 am intrat direct în secțiunea de iarbă unde știam că nu o să mai am de unde bea apă în următoarea jumătate de oră. Oh, și am tras tare prin iarbă. Mă simțeam excelent și am scos câtiva kilometrii buni, aproape sau chair sub 5:00 min/km.
 
 Am lungit-o prin poligonul industrial căutând în permanență umbra. La km 12 ies spre parcul de lângă IKEA să beau apă.
 Apropiindu-mă de pompă am văzut că avea țeava ruptă. Uh. Îmi era sete. Am apăsat pe buton cu deznădejde și am vazut cum vine apa. Mi-am băgat degetele prin ruptură și am încercat să mă stropesc pe fața. Ridicol. Urmatoarea e la vreo 2 kilometrii distanța așa că mai bine aș pleca imediat.
