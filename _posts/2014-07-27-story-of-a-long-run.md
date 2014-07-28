@@ -8,7 +8,7 @@ date: 2014-07-27 15:52:57.000000000 +01:00
 
 A fost destul de cald astăzi, 28°C cu 66% umiditate, așa că am plecat prudent, aveam chef de alergat și nu vroiam să termin antrenamentul facut praf. 6:45, seara, nu mi-am luat șapca și nici ochelarii de soare. “Umbră, aleargă la umbră” îmi ziceam.
 
-"Bliump". Garminul mă anunță că am alerg de 3 kilometrii, ultimul terminat în 6:04 minute. Sunt foarte lent, dar surprinzător gândul ăsta mă liniștește și mă făcea să mă simt bine.
+"Bliump". Garminul mă anunță că alerg de 3 kilometrii, ultimul terminat în 6:04 minute. Sunt foarte lent, dar surprinzător gândul ăsta mă liniștește și mă făcea să mă simt bine.
 
 Parcă îmi era puțin foame? Mi se pare. Am mâncat acum 2 ore, dar parcă ar fi fost bine dacă aș fi avut gelul la mine. Am ratat o ocazie bună să îl testez. "În anii ’70 nu existau geluri". Senzația de foame dispare.
 
