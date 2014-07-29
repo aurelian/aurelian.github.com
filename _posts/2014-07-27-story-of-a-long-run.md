@@ -6,15 +6,15 @@ date: 2014-07-27 15:52:57.000000000 +01:00
 
 ---
 
-A fost destul de cald astăzi, 28°C cu 66% umiditate, așa că am plecat prudent, aveam chef de alergat și nu vroiam să termin antrenamentul facut praf. 6:45, seara, nu mi-am luat șapca și nici ochelarii de soare. “Umbră, aleargă la umbră” îmi ziceam.
+A fost destul de cald astăzi, 28°C cu 66% umiditate, așa că am plecat prudent, aveam chef de alergat și nu vroiam să termin antrenamentul facut praf. 6:45, seara, nu mi-am luat șapca și nici ochelarii de soare. "Umbră, aleargă la umbră" îmi ziceam.
 
 "Bliump". Garminul mă anunță că alerg de 3 kilometrii, ultimul terminat în 6:04 minute. Sunt foarte lent, dar surprinzător gândul ăsta mă liniștește și mă făcea să mă simt bine.
 
-Parcă îmi era puțin foame? Mi se pare. Am mâncat acum 2 ore, dar parcă ar fi fost bine dacă aș fi avut gelul la mine. Am ratat o ocazie bună să îl testez. "În anii ’70 nu existau geluri". Senzația de foame dispare.
+Parcă îmi era puțin foame? Mi se pare. Am mâncat acum 2 ore, dar parcă ar fi fost bine dacă aș fi avut gelul la mine. Am ratat o ocazie bună să îl testez. "În anii ’70 nu existau geluri".
 
 Respir adânc și cu ritm: 4 pași exipir, 4 inspir.
 
-Nu mi-am dat seama dar începusem deja sa accelerez. Și mă simt bine în continuare. Kilometrul 5: 28 minute. Opresc la wc-ul public pentru un pipi rapid. Îl plănuisem de ceva timp. Un semnal bun, cu căldura asta eram poate prea hidratat. Maieul era fleașcă de transpirație. Evident, nu îmi era sete, așa că după kilometrul 6 am intrat direct în secțiunea de iarbă unde știam că nu o să mai am de unde bea apă în următoarea jumătate de oră. Oh, și am tras tare prin iarbă. Mă simțeam excelent și am scos câtiva kilometrii buni, aproape sau chair sub 5:00 min/km.
+Nu mi-am dat seama dar începusem deja sa accelerez. Și mă simt bine în continuare. Maieul era fleașcă de transpirație. Kilometrul 5: 28 minute. Opresc la wc-ul public pentru un #1 rapid. Îl plănuisem de ceva timp. Un semnal bun, cu căldura asta eram poate prea hidratat. Evident, nu îmi era sete, așa că după kilometrul 6 am intrat direct în secțiunea de iarbă unde știam că nu o să mai am de unde bea apă în următoarea jumătate de oră. Oh, și am tras tare prin iarbă. Mă simțeam excelent și am scos câtiva kilometrii buni, aproape sau chair sub 5:00 min/km.
 
 Am lungit-o prin poligonul industrial căutând în permanență umbra. La km 12 ies spre parcul de lângă IKEA să beau apă.
 Apropiindu-mă de pompă am văzut că avea țeava ruptă. Uh. Îmi era sete. Am apăsat pe buton cu deznădejde și am vazut cum vine apa. Mi-am băgat degetele prin ruptură și am încercat să mă stropesc pe fața. Ridicol. Urmatoarea e la vreo 2 kilometrii distanța așa că mai bine aș pleca imediat.
