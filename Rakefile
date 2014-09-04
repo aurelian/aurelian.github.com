@@ -40,5 +40,5 @@ end
 
 desc "starts jekyll server"
 task :server do
-  system "bundle exec jekyll serve --watch"
+  system "bundle exec jekyll serve --watch --drafts"
 end
