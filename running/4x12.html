@@ -1,0 +1,145 @@
+<!dOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <title>4x12 progress</title>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!--
+  <script src="http://underscorejs.org/underscore-min.js"></script>
+  <script src="../js/d3.v3.1.10.min.js"></script>
+  <script src="../js/jquery-2.0.0.min.js"></script>
+  -->
+  <script src="../js/bootstrap-popover.2.3.2.min.js"></script>
+  <link rel="stylesheet" href="../css/bootstrap-popover.2.3.2.min.css"/>
+
+  <style>
+
+    svg, div.popover {
+      font: 12px "Consolas", "Monaco", monspaced;
+      box-shadow: 1px 2px 5px #5679b4;
+    }
+
+    div.popover {
+      opacity: 0.9;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    /*.bar {
+      fill: steelblue;
+    }*/
+
+    /*.x.axis path {
+      display: none;
+    }*/
+  </style>
+
+</head>
+
+<body>
+
+  <svg id="chart">
+    <text x="200" y="50" class="title" font-size="28" font-weight="bold">4x1200</text>
+  </svg>
+
+<script type="text/javascript">
+
+  var formatTime = d3.time.format("%M:%S");
+  var formatMinutes = function(d) { return formatTime(new Date(1978, 10, 15, 0, 0, d)); };
+  var formatDate = d3.time.format("%b %Y");
+  var formatMonths = function(d) { return formatDate(d); };
+
+  var margin = {top: 60, right: 50, bottom: 30, left: 50};
+  var width  = 500 - margin.left - margin.right;
+  var height = 300 - margin.top - margin.bottom;
+
+  var color = d3.scale.ordinal()
+    .range(["#20A324", "#A3205B", "#6b486b", "#d0743c"]);
+
+  var performances = [
+    {created_at: new Date("1 Nov 2013"), repeats: [4*60 + 54, 4*60 + 54, 4*60 + 50, 4*60 + 46]},
+    {created_at: new Date("1 Jan 2014"), repeats: [4*60 + 39, 4*60 + 37, 4*60 + 36, 4*60 + 33]},
+    {created_at: new Date("1 Apr 2014"), repeats: [4*60 + 38, 4*60 + 34, 4*60 + 42, 4*60 + 42]},
+    {created_at: new Date("1 Jul 2014"), repeats: [4*60 + 43, 4*60 + 33, 4*60 + 39, 4*60 + 34]}
+  ];
+
+  var repeats = performances
+    .map(function(d) {return d.repeats; })
+    .reduce(function(a, b) {return a.concat(b); });
+
+  var chart = d3.select("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  var x0 = d3.scale.ordinal().rangeRoundBands([0, width], .2); // date
+  var x1 = d3.scale.ordinal(); // repeats
+
+  var y = d3.scale.linear().range([height, 0]);
+
+  var xAxis = d3.svg.axis().scale(x0).orient("bottom")
+    .tickFormat(formatMonths).tickValues( performances.map(function(d) { return d.created_at }) );
+
+  var yAxis = d3.svg.axis().scale(y).orient("left").tickFormat(formatMinutes);
+
+  x0.domain(performances.map(function(d) { return d.created_at; }));
+  x1.domain(repeats).rangeRoundBands([0, x0.rangeBand()]);
+
+  y.domain([d3.min(repeats)-30, d3.max(repeats)+5]);
+
+  chart.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis);
+  chart.append("g").attr("class", "y axis").call(yAxis);
+
+  var state = chart.selectAll(".group")
+      .data(performances)
+    .enter().append("g")
+      .attr("class", "g")
+      .attr("class", "group")
+      .attr("transform", function(d, i) { return "translate(" + x0(d.created_at) + ",0)"; });
+
+  state.selectAll("rect")
+      .data(function(d) { return d.repeats; })
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr({
+        "data-toggle": "popover",
+        "data-placement": "top",
+        "data-container": "body",
+        "data-html": false,
+        "data-content": function(d) {
+          return formatMinutes.apply(this, [d]);
+        }
+      })
+      .attr("x", function(d, k) { return (3 * x1.rangeBand() * k) + 3; })
+      // .attr("x", function(d, k) { return (x1.rangeBand() * k) + 1 })
+      .attr("y", function(d) { return y(d); })
+      .style("fill", function(d, k) { return color(k); })
+      .attr("height", function(d) { return height - y(d); })
+      // .attr("width", x1.rangeBand())
+      .attr("width", (x1.rangeBand() * 3) - 3)
+      .on("mouseover", function(d, i) {
+        $(this).popover("show");
+      })
+      .on("mouseout", function(d, i) {
+        $(this).popover("hide");
+      });
+
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</body>
