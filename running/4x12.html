@@ -65,7 +65,8 @@
     {created_at: new Date("1 Nov 2013"), repeats: [4*60 + 54, 4*60 + 54, 4*60 + 50, 4*60 + 46]},
     {created_at: new Date("1 Jan 2014"), repeats: [4*60 + 39, 4*60 + 37, 4*60 + 36, 4*60 + 33]},
     {created_at: new Date("1 Apr 2014"), repeats: [4*60 + 38, 4*60 + 34, 4*60 + 42, 4*60 + 42]},
-    {created_at: new Date("1 Jul 2014"), repeats: [4*60 + 43, 4*60 + 33, 4*60 + 39, 4*60 + 34]}
+    {created_at: new Date("1 Jul 2014"), repeats: [4*60 + 43, 4*60 + 33, 4*60 + 39, 4*60 + 34]},
+    {created_at: new Date("1 Aug 2014"), repeats: [4*60 + 40, 4*60 + 37, 4*60 + 36, 4*60 + 35]}
   ];
 
   var repeats = performances
@@ -116,13 +117,13 @@
           return formatMinutes.apply(this, [d]);
         }
       })
-      .attr("x", function(d, k) { return (3 * x1.rangeBand() * k) + 3; })
+      .attr("x", function(d, k) { return (4 * x1.rangeBand() * k) + 3; })
       // .attr("x", function(d, k) { return (x1.rangeBand() * k) + 1 })
       .attr("y", function(d) { return y(d); })
       .style("fill", function(d, k) { return color(k); })
       .attr("height", function(d) { return height - y(d); })
       // .attr("width", x1.rangeBand())
-      .attr("width", (x1.rangeBand() * 3) - 3)
+      .attr("width", (x1.rangeBand() * 4) - 1)
       .on("mouseover", function(d, i) {
         $(this).popover("show");
       })
