@@ -94,6 +94,17 @@ Hansons. De ce. Long Run.
  * Sabado: 13km 5:21 min/km - horrible. tuvo que salir a las 5 de la tarde con 28°C
  * Domingo: 28km 5:08 min/km
 
+### Semana 7: 22.09 - 28.09 => 82.8 km 7h 14m
+
+ * Lunes: 8km 6:13 min/km recuperación - tuvo que parar por problemas estomacales
+ * Martes: 6x1600 (total: 14km) - 6:57, 6:56, 6:52, 6:53, 6:51, 6:52
+ * Jueves: 16km 5:21 min/km tirada larga
+ * Viernes: 13km 5:15 min/km suave
+ * Sabado: 8km 5:45 min/km recuperación
+ * Domingo: Mitja de Sant Cugat (+calientamiento: 23.4km) 1:34:18 MMP ritmo de 4:26 min/km
+
+
+
 ### Strategia de cursa
 
 ## Primul Maraton
