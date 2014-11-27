@@ -29,6 +29,12 @@ header h2 {
   text-align: center;
 }
 
+figcaption {
+  color: #666;
+  font-size: 80%;
+  font-style: italic;
+}
+
 pre, code {
   font-family: "Monaco", "Consolas", "Ubuntu Monospace", "courier new", monospace;
   font-size: .8em;

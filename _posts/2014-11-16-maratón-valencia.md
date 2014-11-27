@@ -1,5 +1,5 @@
 ---
-title: Maratón Valencia
+title: Maratón Valencia 2014
 layout: mainframe
 category: running
 date: 2014-11-16 15:52:57.000000000 +01:00
@@ -8,7 +8,7 @@ date: 2014-11-16 15:52:57.000000000 +01:00
 
 ### Version corta
 
-He entrenado bien, me he puesto objetivos realistas y alcanzables. He ejecutado un plan de carrera sin precipitarme. Sin dudas, en condiciones *perfectas* podría haber sacado mejor tiempo, pero también se podría haber acabado peor, así que estoy contentísimo con el resultado y con la experiencia vivida.
+He entrenado bien, me he puesto objetivos realistas y alcanzables. He ejecutado un plan de carrera sin precipitarme. Sin dudas, en condiciones **perfectas** podría haber sacado mejor tiempo, pero también se podría haber acabado peor, así que estoy contentísimo con el resultado y con la experiencia vivida.
 
 Si quieres debutar o hacer marca en maratón, recomiendo Valencia. Ambiente: 10, Voluntarios: 10. Organizadores: pueden mejorar (había cerveza GRATIS?!? y jo no me enterado?!?!?).
 
@@ -48,29 +48,29 @@ Sábado un poco de turismo por el centro. Para cenar teníamos una reservación 
 Bueno esta era la idea. Nervios, emociones, ruido en la calle. Uh, es que no puedo pegar los ojos. En fin… no se como ha pasado la noche pero no he podido descansar mucho.
 
 Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. Me pongo en una mesa con un belga. Charlamos un poco para matar los nervios pero no puedo comer mas de dos trocitos de pan - uno con mantequilla y miel y el otro con jamón dulce y queso. Cafe: Espresso Double. Nos deseamos suerte.
-8am - ya fuera a encontrar els companys. Foto juntos. Chaos en la guardaroba así que vuelvo en el hotel para dejar la bolsa. Casi sin calentar entro en el calaix blau a las 8:45, donde veo a Jorfer y ManoloM.
+8am - ya fuera a encontrar els companys. Foto juntos. Chaos en la guardaroba así que vuelvo en el hotel para dejar la bolsa. Casi sin calentar entro en el calaix blau a las 8:45, donde veo a **Jorfer** y **ManoloM**.
 
 <figure style="float:right; margin-left:20px;">
-  <img src="http://i.guim.co.uk/static/w-620/h--/q-95/sys-images/Guardian/Pix/pictures/2014/11/24/1416830497657/Peter-Pan-cartoon-012.jpg" style="width:320px;height:320px;">
-  <figcaption>una mica cagat</figcaption>
+  <img src="http://assets.locknet.ro/img/coffee-in-the-morning.jpg" style="width:299px;height:400px;">
+  <figcaption>abans de sortir del hotel estava una mica cagat</figcaption>
 </figure>
 
 #### Cursa
 
 En el calaix me encuentro entre los dos grupos: los de 3h08 que es claro que van a salir muy fuerte para mi y los de 3h20. Explico un poco con ManoloM mi estrategia de empezar con unos 16km a ritmo cerca de 4:37 - 4:40 para subir luego. En este momento mi idea era de salir con la barqueta de 3h20.
 
-**START** Nos movemos. OHH no me he enterado que ManoloM se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. “Tira que se van” dice AnRol58 refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura… casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
-
-<figure style="float:left; margin-right:20px;">
-  <img src="http://i.guim.co.uk/static/w-620/h--/q-95/sys-images/Guardian/Pix/pictures/2014/11/24/1416830497657/Peter-Pan-cartoon-012.jpg" style="width:320px;height:320px;">
-  <figcaption>trafico</figcaption>
-</figure>
+**START** Nos movemos. OHH no me he enterado que ManoloM se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. _“Tira que se van”_ dice **AnRol58** refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura… casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
 
 **KM3** coloco las gafas de sol encima de la cabeza. ERROR! Una racha de viento los hace volar. Question de milisegundos pero me paro y hago un paso detrás para levantarlas. Suerte que nadie le han pisado y los que venían han visto que pasó.
 
 **KM4** todavía con trafico, mi ritmo sigue bastante lento para lo que quería. Ademas tengo delante el liebre de 3h30’ con un grupito compacto. Iban muy rápido, jo no he podido con ellos a 4:40. Tuvo que forzar unos metros mas para salir de allá.
 
 **KM5** <span style="color:blue;">puesto 2350</span> 23:40 Agua. Mi mantra paciencia-paciencia-paciencia. Me engaño que Kimetto hizo lo mismo en Berlin, su primer parcial de 5km ha sido el mas lento. Bueno, 10 minutos mas rápido que el mío.
+
+<figure style="float:left; margin-right:20px;">
+  <img src="http://assets.locknet.ro/img/traffic.jpeg" style="width:320px;height:320px;">
+  <figcaption>trafico</figcaption>
+</figure>
 
 **KM6** me entero que he perdido las tiritas que deberían de tapar _els pezons_. Sin vaselina por allá esto pintaba a carnicería. De momento bien, en la _Mitja de Sant Cugat_ con la nueva _samarreta de tirants_ de <span style="color:orange">CoRReDoRS</span> en condiciones similares no he tenido problemas.
 
@@ -111,7 +111,7 @@ Rampita para bajar al rio. Los quadriceps me avisan pero esto se esta acabando. 
 Levanto la _samarreta_ y me toco la barriga. Es un gesto para distraerme y romper mi burbuja de concentracion. Se acabo. Agradezco a mi cuerpo por llevarme hasta aqui.
 
 <figure>
-  <img src="http://i.guim.co.uk/static/w-620/h--/q-95/sys-images/Guardian/Pix/pictures/2014/11/24/1416830497657/Peter-Pan-cartoon-012.jpg" style="height:600px;">
+  <img src="http://assets.locknet.ro/img/lineup-web.jpeg" style="height:90%;width:90%">
   <figcaption>lineup</figcaption>
 </figure>
 
