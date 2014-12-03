@@ -19,8 +19,8 @@ Si quieres debutar o hacer marca en maratón, recomiendo Valencia. Ambiente: 10,
 Antes de meterme en cualquier cosa me gusta estar preparado, hizo la inscripción para correr el Maraton de Valencia en Abril 2014, 7 meses antes.
 
 <figure style="float:right; margin-left:20px;">
-  <img src="http://i.guim.co.uk/static/w-620/h--/q-95/sys-images/Guardian/Pix/pictures/2014/11/24/1416830497657/Peter-Pan-cartoon-012.jpg" style="width:300px;height:600px;">
-  <figcaption>Plan de entreno</figcaption>
+  <img src="http://assets.locknet.ro/img/training-plan.jpg" style="width:300px;height:534px;">
+  <figcaption>Plan de entreno (18 semanas)</figcaption>
 </figure>
 
 Empecé estudiando planes para entrenar y después de analizar 4 o 5 decidí seguir el plan para novatos de [Hansons Marathon Method](http://www.amazon.es/Hansons-Marathon-Method-Renegade-Fastest/dp/1934030856). Los hermanos Hanson llevan el centro de entrenamiento para atletas profesionales [Hansons-Brooks Distance Project](https://www.facebook.com/HansonsBrooksDistanceProject), donde en los últimos años han salido nombres de primer rango en EEUU. La version del libro es mas o menos lo que hacen con los elites pero escalado para aficionados. Osea que no es un plan al azar.
@@ -48,7 +48,7 @@ Sábado un poco de turismo por el centro. Para cenar teníamos una reservación 
 Bueno esta era la idea. Nervios, emociones, ruido en la calle. Uh, es que no puedo pegar los ojos. En fin… no se como ha pasado la noche pero no he podido descansar mucho.
 
 Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. Me pongo en una mesa con un belga. Charlamos un poco para matar los nervios pero no puedo comer mas de dos trocitos de pan - uno con mantequilla y miel y el otro con jamón dulce y queso. Cafe: Espresso Double. Nos deseamos suerte.
-8am - ya fuera a encontrar els companys. Foto juntos. Chaos en la guardaroba así que vuelvo en el hotel para dejar la bolsa. Casi sin calentar entro en el calaix blau a las 8:45, donde veo a **Jorfer** y **ManoloM**.
+8am - ya fuera a encontrar _els companys correcats_. Foto juntos. Chaos en la guardaroba así que vuelvo en el hotel para dejar la bolsa. Casi sin calentar entro en el _calaix blau_ a las 8:45, donde veo a **Jorfer** y **ManoloM**.
 
 <figure style="float:right; margin-left:20px;">
   <img src="http://assets.locknet.ro/img/coffee-in-the-morning.jpg" style="width:299px;height:400px;">
@@ -57,9 +57,9 @@ Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. 
 
 #### Cursa
 
-En el calaix me encuentro entre los dos grupos: los de 3h08 que es claro que van a salir muy fuerte para mi y los de 3h20. Explico un poco con ManoloM mi estrategia de empezar con unos 16km a ritmo cerca de 4:37 - 4:40 para subir luego. En este momento mi idea era de salir con la barqueta de 3h20.
+En el _calaix_ me encuentro entre los dos grupos: los de 3h08 que es claro que van a salir muy fuerte para mi y los de 3h20. Explico un poco con **ManoloM** mi estrategia de empezar con unos 16km a ritmo cerca de 4:37 - 4:40 para subir luego. En este momento mi idea era de salir con la barqueta de 3h20.
 
-**START** Nos movemos. OHH no me he enterado que ManoloM se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. _“Tira que se van”_ dice **AnRol58** refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura… casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
+**START** Nos movemos. OHH no me he enterado que **ManoloM** se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. _“Tira que se van”_ dice **AnRol58** refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura… casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
 
 **KM3** coloco las gafas de sol encima de la cabeza. ERROR! Una racha de viento los hace volar. Question de milisegundos pero me paro y hago un paso detrás para levantarlas. Suerte que nadie le han pisado y los que venían han visto que pasó.
 
