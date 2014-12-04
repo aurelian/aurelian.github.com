@@ -2,9 +2,11 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - locknet.ro</title>
   <link rel="stylesheet" href="/css/normalize.css">
+
   <!--
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
   -->
+
   <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/screen.css">
   <link rel="openid.server" href="http://www.myopenid.com/server">
@@ -13,5 +15,25 @@
   <link rel="openid2.provider" href="http://www.myopenid.com/server">
   <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
   <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
   <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+
+  <meta property="og:title" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+
+  {% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  {% endif %}
+  {% if page.description %}
+  <meta property="og:description" content="{{ page.description }}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% endif %}
+
+  <meta property="og:url" content="http://locknet.ro{{ page.url }}">
+
 </head>
