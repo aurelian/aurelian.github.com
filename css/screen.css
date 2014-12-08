@@ -55,6 +55,14 @@ dl.race-details dt {
   font-weight: bold;
 }
 
+div#running {
+  font-size: 85%;
+}
+
+div#running ul.pr-list {
+  font-size: 88%;
+}
+
 div#running table {
   margin-bottom: 20px;
   width:100%;

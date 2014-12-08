@@ -10,7 +10,7 @@
   <style>
 
     svg, div.popover {
-      font: 12px "Consolas", "Monaco", monspaced;
+      font: 10px "Consolas", "Monaco", monspaced;
       box-shadow: 1px 2px 5px #5679b4;
     }
 
@@ -55,7 +55,7 @@
 <body>
 
   <svg id="chart">
-    <text x="275" y="50" class="title" font-size="28" font-weight="bold">10k progress</text>
+    <text x="275" y="30" class="title" font-size="24" font-weight="bold">10k progress</text>
     <!--<defs>
       <filter id="circleShadow" height="200%" width="200%" x="-40%" y="-40%">
         <feOffset result="offOut" in="SourceAlpha" dx="4" dy="6" />
@@ -74,9 +74,9 @@
   //   });
   // };
 
-  var margin = {top: 80, right: 60, bottom: 50, left: 60};
+  var margin = {top: 40, right: 45, bottom: 30, left: 45};
   var width  = 800 - margin.left - margin.right;
-  var height = 600 - margin.top - margin.bottom;
+  var height = 400 - margin.top - margin.bottom;
 
   var formatTime = d3.time.format("%M:%S");
   var formatMinutes = function(d) { return formatTime(new Date(1978, 10, 15, 0, 0, d)); };
@@ -101,29 +101,25 @@
     {created_at: new Date("19 Jan 2014"), time: 42*60 + 33, race: "36a Cursa Barri Sant Antoni"},
     {created_at: new Date("13 Apr 2014"), time: 42*60 + 27, race: "Cursa Bombers Barcelona"},
     {created_at: new Date("26 Apr 2014"), time: 41*60 + 21, race: "Cursa Nocturna Ciutat de L'Hospitalet"},
-    {created_at: new Date("18 May 2014"), time: 40*60 + 20, race: "XII Cursa de Can Mercader"}
+    {created_at: new Date("18 May 2014"), time: 40*60 + 20, race: "XII Cursa de Can Mercader"},
+    {created_at: new Date("30 Nov 2014"), time: 42*60 + 43, race: "36è Cros Popular de Sants"}
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
   var dates = [
     new Date("1 Sep 2012"),
-    // new Date("1 Nov 2012"),
-    new Date("1 Jan 2013"),
-    // new Date("1 Mar 2013"),
-    new Date("1 May 2013"),
-    // new Date("1 Jul 2013"),
+    new Date("1 Mar 2013"),
     new Date("1 Sep 2013"),
-    // new Date("1 Nov 2013"),
-    new Date("1 Jan 2014"),
-    // new Date("1 Mar 2014"),
-    new Date("1 May 2014"),
+    new Date("1 Mar 2014"),
+    new Date("1 Sep 2014"),
+    new Date("1 Mar 2015"),
   ];
 
   var x = d3.time.scale().range([0, width]);
-  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Aug 2014")]));
+  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Apr 2015")]));
 
   var y = d3.scale.linear().range([height, 0]);
-  y.domain(d3.extent([30*60, 59*60])); // 30:00 - 1:05:00
+  y.domain(d3.extent([34*60, 59*60])); // 35:00 - 1:05:00
 
   var xAxis = d3.svg.axis().scale(x).orient("bottom")
     .tickFormat(formatMonths).tickValues(dates);

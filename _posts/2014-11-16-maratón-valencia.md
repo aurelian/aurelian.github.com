@@ -92,6 +92,11 @@ Tengo sensación de hambre. ¿Y si cogería algo solido en un avituallamiento?
 **KM26-KM29** Algo raro ha pasado, aunque sigo constante con el mismo ritmo de 4:30 min/km me siento muy raro. Puede ser algo psicológico porque es la primera vez que cruzo esta barrera de kilómetros.
 Creo que fue por aquí donde vi a **Mattu**. Le grite algo… no se que… ¿Anims? Me parecía que estaba caminando tomando su gel. Pensamientos negativos… ha petado? Pero cuando sera mi turno? Por que no me he quedado con el a ver que tal. Pero si que esta bien, este tío hace 15 kilómetros sub 4:00 y los llama suaves.
 
+<figure style="float:right; margin-left:20px;">
+  <img src="http://assets.locknet.ro/img/focus.jpeg" style="width:600px;height:400px;">
+  <figcaption>concentracion maxima hasta en los ultimos metros.</figcaption>
+</figure>
+
 La verdad es que en este tramo <span style="font-size:105%">**lo he pasado fatal**</span> en plan mental. Empiezo a ver mas corredores caminando. Uno tirado en el asfalto haciendo estiramientos. Intento concentrarme pero no se ni en que kilometro me encuentro. Es el 27 o el 28? Aun así sigo adelantando. Como un despertador el Garmin me avisa que ha sido el 29. Aun no veo el marcaje oficial pero todo empieza a tener sentido otra vez. Me muevo corredor a corredor lo mas cerca que puedo de la linea azul. No ha sido el muro, pero no puedo esperar hasta el 32 para tomar el proximo gel o hacer algo para cambiar la dinámica.
 
 **KM30** <span style="color:blue;">puesto 1892</span> 2h18:45 Cruzo la alfombra levantando los brazos. Ya he ganado! Cojo una botella de agua y saco mi arma secreta: el **Salty Caramel de GU con cafeina**. Un poco arriesgado, nunca lo he probado en entrenamientos. Ademas, los geles con cafeina me han dado una sensacion de sed. Esto parece ok. Agua. Acabo todo el gel.
@@ -112,7 +117,7 @@ Levanto la _samarreta_ y me toco la barriga. Es un gesto para distraerme y rompe
 
 <figure>
   <img src="http://assets.locknet.ro/img/lineup-web.jpeg" style="margin:0px auto; display:block; width: 90%;">
-  <figcaption>lineup</figcaption>
+  <figcaption>entrada en la meta.</figcaption>
 </figure>
 
 **META** <span style="color:blue;">puesto 1423</span> 3h13:08. Paro el Garmin en 3h13:13. Pero no se que tengo que hacer: caer o caminar? Ai, todo lo que me va a costar levantarme. Tengo la medalla y la bolsa de finisher. Agua. Isotonica. Algo solido para comer.
@@ -126,4 +131,5 @@ Cuento la jugada en 2 minutos con **Polgi**, **Pol26**, **Genis15** y **Asana** 
 #### Conclusiones
 
 He buscado el muro que nunca llego. He acabado fuerte con los últimos 2195 metros en menos de 10 minutos. Con temperaturas mas bajas, sin viento, sin trafico al principio, con un ritmo constante dentro de un grupo, descansar mejor la noche antes, comer mas en el desayuno puede ser que me podría haber acercado a un **3h10**. Pero dejo este objetivo para la próxima, o porque no ...un día **“solo” con un 7% de mejora podría estar en 2h59**.
+
 
