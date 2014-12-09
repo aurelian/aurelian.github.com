@@ -3,7 +3,8 @@ title: Maratón Valencia 2014
 layout: mainframe
 category: running
 date: 2014-11-16 15:52:57.000000000 +01:00
-
+image: http://assets.locknet.ro/img/focus.jpeg
+description: "El 16 de Noviembre 2014 hizo mi primero maraton en Valencia corriendo la distancia de 42 kilometros y 195 metros en 3 horas 13 minutos y 8 segundos. Esta es la historia."
 ---
 
 ### Version corta
