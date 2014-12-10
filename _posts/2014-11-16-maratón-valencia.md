@@ -17,7 +17,7 @@ Si quieres debutar o hacer marca en maratón, recomiendo Valencia. Ambiente: 10,
 
 #### Preparación
 
-Antes de meterme en cualquier cosa me gusta estar preparado, hizo la inscripción para correr el Maraton de Valencia en Abril 2014, 7 meses antes.
+Antes de meterme en cualquier cosa me gusta estar preparado, hize la inscripción para correr el Maraton de Valencia en Abril 2014, 7 meses antes.
 
 <figure style="float:right; margin-left:20px;">
   <img src="http://assets.locknet.ro/img/training-plan.jpg" style="width:300px;height:534px;">
@@ -30,7 +30,7 @@ En su momento, esto ha sido el plan que para mi tenia todo el sentido del mundo.
 
 Con unos cambios pequeños tuvo la suerte de cumplir 80 de los 84 entrenamientos que tienen en las ultimas __14 semanas__. Me han salido un poco __mas de 1000km__. El plan es para novatos del maratón no para corredores al principio o para los que simplemente quieren acabar uno.
 
-Y si alguien me dice que con un sub 41" en 10.000 puedo sacar un 3h08 en maratón pues al menos **tengo la obligación de intentarlo**. Se que las estimaciones son en el lado optimista pero **empecé usar 3h08** como base para los ritmos de entreno.
+Y si alguien me dice que con un sub 41" en 10.000 puedo sacar un 3h08 en maratón pues al menos **tengo la obligación de intentarlo**. Se que las estimaciones estan en el lado optimista pero **empecé usar 3h08** como base para los ritmos de entreno.
 
 Las series y intervalos me han salido todo el tiempo mas rápido de lo previsto. *Muy mal*. Hizo la Mitja de Sant Cugat (medio maratón) a ritmo de maratón en 1:34:18, me sentí bien, probe cosas para el maratón (tomar geles a 4:30 min/km, samarreta de tirants, pantalones) pero la verdad es que el esfuerzo ha sido mas grande de lo que tocaba simplemente por el desnivel. Luego, en las semanas de +80km, ya no he podido mantener el 4:26 min/km en tiradas a ritmo de 16km, pero contento y sin obsesionarme si un entreno salía a 4:32 en vez de 4:26. Importante era llegar a la linea de salida sin hacerme daño.
 
@@ -60,7 +60,7 @@ Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. 
 
 En el _calaix_ me encuentro entre los dos grupos: los de 3h08 que es claro que van a salir muy fuerte para mi y los de 3h20. Explico un poco con **ManoloM** mi estrategia de empezar con unos 16km a ritmo cerca de 4:37 - 4:40 para subir luego. En este momento mi idea era de salir con la barqueta de 3h20.
 
-**START** Nos movemos. OHH no me he enterado que **ManoloM** se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. _“Tira que se van”_ dice **AnRol58** refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura… casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
+**START** Nos movemos. OHH no me he enterado que **ManoloM** se queda al lado derecho a esperar el resto de la barqueta de 3:20. Nada, seguro que me van a coger en los primeros kilómetros. Cruzamos la puente. _“Tira que se van”_ dice **AnRol58** refiriéndose al grupo de 3:08 que ya aceleran unos metros en frente. Instintivamente hago 3-4 pasos mas rápidos intentando seguirlos. Pero esto es locura, casi no se podia correr. Paro de hacer zig-zags y sigo con paciencia sin gastar energia. Espero ventanas para poder adelantar.
 
 **KM3** coloco las gafas de sol encima de la cabeza. ERROR! Una racha de viento los hace volar. Question de milisegundos pero me paro y hago un paso detrás para levantarlas. Suerte que nadie le han pisado y los que venían han visto que pasó.
 
@@ -132,5 +132,4 @@ Cuento la jugada en 2 minutos con **Polgi**, **Pol26**, **Genis15** y **Asana** 
 #### Conclusiones
 
 He buscado el muro que nunca llego. He acabado fuerte con los últimos 2195 metros en menos de 10 minutos. Con temperaturas mas bajas, sin viento, sin trafico al principio, con un ritmo constante dentro de un grupo, descansar mejor la noche antes, comer mas en el desayuno puede ser que me podría haber acercado a un **3h10**. Pero dejo este objetivo para la próxima, o porque no ...un día **“solo” con un 7% de mejora podría estar en 2h59**.
-
 
