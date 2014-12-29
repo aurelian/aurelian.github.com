@@ -29,14 +29,6 @@
       stroke: #000;
       shape-rendering: crispEdges;
     }
-
-    /*.bar {
-      fill: steelblue;
-    }*/
-
-    /*.x.axis path {
-      display: none;
-    }*/
   </style>
 
 </head>
@@ -44,29 +36,38 @@
 <body>
 
   <svg id="chart">
-    <text x="200" y="50" class="title" font-size="28" font-weight="bold">4x1200</text>
+    <text x="50" y="50" class="title" font-size="28" font-weight="bold">4x1200</text>
   </svg>
 
 <script type="text/javascript">
 
   var formatTime = d3.time.format("%M:%S");
   var formatMinutes = function(d) { return formatTime(new Date(1978, 10, 15, 0, 0, d)); };
-  var formatDate = d3.time.format("%b %Y");
+  var formatDate = d3.time.format("%m/%Y");
   var formatMonths = function(d) { return formatDate(d); };
 
   var margin = {top: 60, right: 50, bottom: 30, left: 50};
-  var width  = 500 - margin.left - margin.right;
-  var height = 300 - margin.top - margin.bottom;
+  var width  = 700 - margin.left - margin.right;
+  var height = 250 - margin.top - margin.bottom;
 
+  // this is basically an array of colors
   var color = d3.scale.ordinal()
-    .range(["#20A324", "#A3205B", "#6b486b", "#d0743c"]);
+    .range(["#20A324", "#6b486b", "#A3205B", "#d0743c"]);
+
+  // sorts the repeats list, picks the postion of element in it
+  // and returns a color based on this postion
+  var pickColor = function(repeats, element) {
+    var idx = repeats.slice(0).sort(d3.descending).indexOf(element);
+    return color(idx);
+  }
 
   var performances = [
     {created_at: new Date("1 Nov 2013"), repeats: [4*60 + 54, 4*60 + 54, 4*60 + 50, 4*60 + 46]},
     {created_at: new Date("1 Jan 2014"), repeats: [4*60 + 39, 4*60 + 37, 4*60 + 36, 4*60 + 33]},
     {created_at: new Date("1 Apr 2014"), repeats: [4*60 + 38, 4*60 + 34, 4*60 + 42, 4*60 + 42]},
     {created_at: new Date("1 Jul 2014"), repeats: [4*60 + 43, 4*60 + 33, 4*60 + 39, 4*60 + 34]},
-    {created_at: new Date("1 Aug 2014"), repeats: [4*60 + 40, 4*60 + 37, 4*60 + 36, 4*60 + 35]}
+    {created_at: new Date("1 Aug 2014"), repeats: [4*60 + 40, 4*60 + 37, 4*60 + 36, 4*60 + 35]},
+    {created_at: new Date("1 Dec 2014"), repeats: [4*60 + 37, 4*60 + 43, 4*60 + 33, 4*60 + 46]}
   ];
 
   var repeats = performances
@@ -79,7 +80,7 @@
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  var x0 = d3.scale.ordinal().rangeRoundBands([0, width], .2); // date
+  var x0 = d3.scale.ordinal().rangeRoundBands([0, width], .1); // date
   var x1 = d3.scale.ordinal(); // repeats
 
   var y = d3.scale.linear().range([height, 0]);
@@ -92,7 +93,7 @@
   x0.domain(performances.map(function(d) { return d.created_at; }));
   x1.domain(repeats).rangeRoundBands([0, x0.rangeBand()]);
 
-  y.domain([d3.min(repeats)-30, d3.max(repeats)+5]);
+  y.domain([d3.min(repeats)-15, d3.max(repeats)+15]);
 
   chart.append("g").attr("class", "x axis").attr("transform", "translate(0," + height + ")").call(xAxis);
   chart.append("g").attr("class", "y axis").call(yAxis);
@@ -105,7 +106,7 @@
       .attr("transform", function(d, i) { return "translate(" + x0(d.created_at) + ",0)"; });
 
   state.selectAll("rect")
-      .data(function(d) { return d.repeats; })
+      .data(function(d, k) { return d.repeats; })
     .enter().append("rect")
       .attr("class", "bar")
       .attr({
@@ -117,13 +118,12 @@
           return formatMinutes.apply(this, [d]);
         }
       })
-      .attr("x", function(d, k) { return (4 * x1.rangeBand() * k) + 3; })
-      // .attr("x", function(d, k) { return (x1.rangeBand() * k) + 1 })
+      .attr("x", function(d, k) { return (2 * x1.rangeBand() * k) + 23; })
       .attr("y", function(d) { return y(d); })
-      .style("fill", function(d, k) { return color(k); })
+      // current value, current index, current index in nested list
+      .style("fill", function(value, k, i) { return pickColor(performances[i].repeats, value); })
       .attr("height", function(d) { return height - y(d); })
-      // .attr("width", x1.rangeBand())
-      .attr("width", (x1.rangeBand() * 4) - 1)
+      .attr("width", function(d) { return x1.rangeBand() + 4;})
       .on("mouseover", function(d, i) {
         $(this).popover("show");
       })
