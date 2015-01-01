@@ -75,8 +75,8 @@
   // };
 
   var margin = {top: 40, right: 45, bottom: 30, left: 45};
-  var width  = 800 - margin.left - margin.right;
-  var height = 400 - margin.top - margin.bottom;
+  var width  = 960 - margin.left - margin.right;
+  var height = 350 - margin.top - margin.bottom;
 
   var formatTime = d3.time.format("%M:%S");
   var formatMinutes = function(d) { return formatTime(new Date(1978, 10, 15, 0, 0, d)); };
@@ -102,7 +102,8 @@
     {created_at: new Date("13 Apr 2014"), time: 42*60 + 27, race: "Cursa Bombers Barcelona"},
     {created_at: new Date("26 Apr 2014"), time: 41*60 + 21, race: "Cursa Nocturna Ciutat de L'Hospitalet"},
     {created_at: new Date("18 May 2014"), time: 40*60 + 20, race: "XII Cursa de Can Mercader"},
-    {created_at: new Date("30 Nov 2014"), time: 42*60 + 43, race: "36è Cros Popular de Sants"}
+    {created_at: new Date("30 Nov 2014"), time: 42*60 + 43, race: "36è Cros Popular de Sants"},
+    {created_at: new Date("31 Dec 2014"), time: 39*60 + 47, race: "Cursa dels Nassos"}
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
