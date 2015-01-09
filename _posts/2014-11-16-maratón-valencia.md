@@ -45,7 +45,7 @@ Después de acabar el ultimo entrenamiento de calidad con 10 días antes me he q
 
 Arribo en Valencia el viernes por la mañana. Hasta las 13 ya tenia el hotel y el dorsal. Salgo a correr un poco por el rio con la vuelta por los últimos kilómetros del maratón para mentalizar la llegada a la meta.
 
-Sábado un poco de turismo por el centro. Para cenar teníamos una reservación a la cantinella un restaurante italiano muy bueno. Cumplimos los años, comemos unos fusli bonísims y a las 23:00 ya en cama a dormir.
+Sábado un poco de turismo por el centro. Para cenar teníamos una reservación a [la cantinella](http://lacantinellarestaurante.com/) un restaurante italiano muy bueno. Cumplimos los años, comemos unos fusli bonísims y a las 23:00 ya en cama a dormir.
 Bueno esta era la idea. Nervios, emociones, ruido en la calle. Uh, es que no puedo pegar los ojos. En fin… no se como ha pasado la noche pero no he podido descansar mucho.
 
 Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. Me pongo en una mesa con un belga. Charlamos un poco para matar los nervios pero no puedo comer mas de dos trocitos de pan - uno con mantequilla y miel y el otro con jamón dulce y queso. Cafe: Espresso Double. Nos deseamos suerte.
