@@ -133,3 +133,12 @@ Cuento la jugada en 2 minutos con **Polgi**, **Pol26**, **Genis15** y **Asana** 
 
 He buscado el muro que nunca llego. He acabado fuerte con los últimos 2195 metros en menos de 10 minutos. Con temperaturas mas bajas, sin viento, sin trafico al principio, con un ritmo constante dentro de un grupo, descansar mejor la noche antes, comer mas en el desayuno puede ser que me podría haber acercado a un **3h10**. Pero dejo este objetivo para la próxima, o porque no ...un día **“solo” con un 7% de mejora podría estar en 2h59**.
 
+#### EDIT Despues de casi un mes - Dec. 2014.
+
+Todo mi respeto para todos los que tienen la valentía de inscribirse en un maratón y de ponerse en la linea de salida, independientemente de su preparación, sus objetivos o de como o si acaben al final la carrera. Igual para todos que se han metido en esto pero días antes han decidido renunciar por culpa de lesiones. Yo que ellos no se que haría.
+
+Para mi, el maratón ha sido la suma de todos los entrenamientos donde he entrado en una zona muy oscura buscando mis limites y he salido aun mas fuerte.
+
+Llevo mas de 2 años corriendo. Digo que he cambiado una addicion (el tabaco) con otra: el running.
+Antes de entrar en la aventura del maraton he buscado el porque. No estaba muy claro al principio pero un día
+
