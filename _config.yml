@@ -1,4 +1,4 @@
-pygments: false
+highlighter: false
 safe: true
 lsi: false
 permalink: /:categories/:year-:month-:day-:title.html
