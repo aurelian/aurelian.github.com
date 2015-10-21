@@ -11,13 +11,17 @@ description: "La marató és això... 32kms de tirada llarga i 10,195m de cursa.
 
 ### Preparació
 
-TBD...
+En març ja tenia molt clar que al tardor fare la Marató de Munich i a mitjans del mateix mes vaig començar a entrenar amb mes seriositat.
+Abans de entrar en el plan de marató vaig posar unes 17-18 setmanas amb un promig de 45-50 quilòmetres amb dies de de qualitat especifiques per milliorar la velocidat en 10.000.
+En maig va caure la meva marca en 10K (39:16) i despres acostumar-me a un volumen setmanal mes alt i amb 5 sortides a la setmana.
+Vaig intentar sacar extra quilòmetres a unes vambes gastades i aixo m'ha deixat amb molesties de PF.
+Vaig parar completament una setmana per fer vacances i despres de altra setmana molt suau (20 de juliol) vaig començar les ultimes 11 del plan de Hanson's en versio Advanced amb petits camvis. Al principi molt desanimat. La PF em molestava molt i les ritmes en casi plen estiu no em sortian.
 
 ### Objectiús
 
 TBD...
 
-### Estratègia
+### Estratègia de cursa
 
 TBD...
 
