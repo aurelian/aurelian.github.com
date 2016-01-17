@@ -55,7 +55,7 @@
 <body>
 
   <svg id="chart">
-    <text x="275" y="30" class="title" font-size="24" font-weight="bold">10k progress</text>
+    <text x="275" y="30" class="title" font-size="24" font-weight="bold">10K progress</text>
     <!--<defs>
       <filter id="circleShadow" height="200%" width="200%" x="-40%" y="-40%">
         <feOffset result="offOut" in="SourceAlpha" dx="4" dy="6" />
@@ -105,6 +105,7 @@
     {created_at: new Date("30 Nov 2014"), time: 42*60 + 43, race: "36è Cros Popular de Sants"},
     {created_at: new Date("31 Dec 2014"), time: 39*60 + 47, race: "Cursa dels Nassos"},
     {created_at: new Date("17 May 2015"), time: 39*60 + 16, race: "XIII Cursa de Can Mercader"},
+    {created_at: new Date("17 Feb 2016"), time: 38*60 + 43, race: "38a Cursa Barri Sant Antoni"},
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
@@ -115,11 +116,12 @@
     new Date("1 Mar 2014"),
     new Date("1 Sep 2014"),
     new Date("1 Mar 2015"),
-    new Date("1 Sep 2015")
+    new Date("1 Sep 2015"),
+    new Date("1 Mar 2016")
   ];
 
   var x = d3.time.scale().range([0, width]);
-  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Oct 2015")]));
+  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Oct 2016")]));
 
   var y = d3.scale.linear().range([height, 0]);
   y.domain(d3.extent([34*60, 59*60])); // 35:00 - 1:05:00
