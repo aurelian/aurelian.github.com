@@ -28,6 +28,12 @@
       stroke: #50edfe;
     }
 
+    path.key-date-line {
+      fill: none;
+      stroke-width:2px;
+      stroke: #eee444;
+    }
+
     circle.dot {
       fill: #50edfe;
       stroke: #437cff;
@@ -85,7 +91,7 @@
 
   var performances = [
     {created_at: new Date("16 Sep 2012"), time: 55*60 + 44, race: "34a. Cursa de la Merçè"},
-    {created_at: new Date("14 Oct 2012"), time: 51*60 + 09, race: "Correbarri 2012"},
+    {created_at: new Date("14 Oct 2012"), time: 51*60 + 9,  race: "Correbarri 2012"},
     {created_at: new Date("04 Nov 2012"), time: 51*60 + 53, race: "34è Cros Popular de Sants"},
     {created_at: new Date("18 Nov 2012"), time: 49*60 + 44, race: "89 Jean Bouin Open"},
     {created_at: new Date("20 Jan 2013"), time: 48*60 + 32, race: "35a Cursa Barri Sant Antoni"},
@@ -96,7 +102,7 @@
     {created_at: new Date("15 Sep 2013"), time: 45*60 + 55, race: "35a. Cursa de la Merçe"},
     {created_at: new Date("29 Sep 2013"), time: 44*60 + 55, race: "33a Cursa Popular El Prat"},
     {created_at: new Date("13 Oct 2013"), time: 43*60 + 49, race: "Cursa Tardor Sant Andreu de la Barca"},
-    {created_at: new Date("03 Nov 2013"), time: 44*60 + 00, race: "35è Cros Popular de Sants"},
+    {created_at: new Date("03 Nov 2013"), time: 44*60,      race: "35è Cros Popular de Sants"},
     {created_at: new Date("17 Nov 2013"), time: 42*60 + 58, race: "34a Cursa Popular El Clot"},
     {created_at: new Date("19 Jan 2014"), time: 42*60 + 33, race: "36a Cursa Barri Sant Antoni"},
     {created_at: new Date("13 Apr 2014"), time: 42*60 + 27, race: "Cursa Bombers Barcelona"},
@@ -109,31 +115,43 @@
   ];
 
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
+  var kilometers = [200, 400, 600, 800, 1000, 1200];
   var dates = [
-    new Date("1 Sep 2012"),
-    new Date("1 Mar 2013"),
-    new Date("1 Sep 2013"),
-    new Date("1 Mar 2014"),
-    new Date("1 Sep 2014"),
-    new Date("1 Mar 2015"),
-    new Date("1 Sep 2015"),
-    new Date("1 Mar 2016")
+    {distance: 312.89, started_at: new Date("1 May 2012")}, // distance ran between this date
+    {distance: 891.74, started_at: new Date("1 Nov 2012")}, // and one day before this one.
+    {distance: 0, started_at: new Date("1 May 2013")},
+    {distance: 0, started_at: new Date("1 Nov 2013")},
+    {distance: 0, started_at: new Date("1 May 2014")},
+    {distance: 0, started_at: new Date("1 Nov 2014")},
+    {distance: 0, started_at: new Date("1 May 2015")},
+    {distance: 0, started_at: new Date("1 Nov 2015")},
+    {distance: 0, started_at: new Date("1 May 2016")}
   ];
 
   var x = d3.time.scale().range([0, width]);
-  x.domain(d3.extent([new Date("1 Aug 2012"), new Date("1 Oct 2016")]));
+  x.domain(d3.extent([new Date("1 Mar 2012"), new Date("1 Jan 2017")]));
 
   var y = d3.scale.linear().range([height, 0]);
   y.domain(d3.extent([34*60, 59*60])); // 35:00 - 1:05:00
 
+  var ry = d3.scale.linear().range([height, 0]);
+  ry.domain(d3.extent([0, 1400]));
+
   var xAxis = d3.svg.axis().scale(x).orient("bottom")
-    .tickFormat(formatMonths).tickValues(dates);
+    .tickFormat(formatMonths).tickValues(dates.map(function(e) { return e.started_at}));
+
   var yAxis = d3.svg.axis().scale(y).orient("left")
     .tickFormat(formatMinutes).tickValues(times);
+
+  var ryAxis = d3.svg.axis().scale(ry).orient("right").tickValues(kilometers);
 
   var line = d3.svg.line()
     .x(function(d){ return x(d.created_at); })
     .y(function(d){ return y(d.time); });
+
+  var distances = d3.svg.line()
+    .x(function(d) { return x(d.started_at); })
+    .y(function(d) { return ry(d.distance); });
 
   var chart = d3.select("svg")
     .attr("width", width + margin.left + margin.right)
@@ -143,6 +161,7 @@
 
   chart.append("g").attr("class", "x axis").attr("transform", "translate(0, " + height + ")").call(xAxis);
   chart.append("g").attr("class", "y axis").call(yAxis);
+  chart.append("g").attr("class", "ry axis").call(ryAxis);
 
   chart.append("g").attr("class", "times")
       .selectAll(".times").data(times).enter()
@@ -154,7 +173,7 @@
       .attr("y2", function(d) { return y(d); });
 
   chart.append("g").attr("class", "dates")
-      .selectAll(".dates").data(dates).enter()
+      .selectAll(".dates").data(dates.map(function(e) { return e.started_at})).enter()
     .append("line")
       .attr("id", function(d) { return "date-" + formatMonths(d).replace(/ /,"-").toLowerCase();})
       .attr("x1", function(d) { return x(d); })
@@ -163,6 +182,9 @@
       .attr("y2", height);
 
   chart.append("path").datum(performances).attr("d", line).attr("class", "line");
+
+  chart.append("path").datum(dates).attr("d", distances).attr("class", "key-date-line");
+
 
   chart.append("g").attr("class", "performances")
       .selectAll(".performance").data(performances).enter()
