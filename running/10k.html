@@ -2,7 +2,8 @@
 <meta charset="utf-8">
 <head>
   <title>10K progress</title>
-  <script src="../js/d3.v3.1.10.min.js"></script>
+  <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <!--<script src="../js/d3.v3.1.10.min.js"></script>-->
   <script src="../js/jquery-2.0.0.min.js"></script>
   <script src="../js/bootstrap-popover.2.3.2.min.js"></script>
   <link rel="stylesheet" href="../css/bootstrap-popover.2.3.2.min.css"/>
@@ -119,13 +120,13 @@
   var dates = [
     {distance: 312.89, started_at: new Date("1 May 2012")}, // distance ran between this date
     {distance: 891.74, started_at: new Date("1 Nov 2012")}, // and one day before this one.
-    {distance: 0, started_at: new Date("1 May 2013")},
-    {distance: 0, started_at: new Date("1 Nov 2013")},
-    {distance: 0, started_at: new Date("1 May 2014")},
-    {distance: 0, started_at: new Date("1 Nov 2014")},
-    {distance: 0, started_at: new Date("1 May 2015")},
-    {distance: 0, started_at: new Date("1 Nov 2015")},
-    {distance: 0, started_at: new Date("1 May 2016")}
+    {distance: 200, started_at: new Date("1 May 2013")},
+    {distance: 200, started_at: new Date("1 Nov 2013")},
+    {distance: 200, started_at: new Date("1 May 2014")},
+    {distance: 200, started_at: new Date("1 Nov 2014")},
+    {distance: 200, started_at: new Date("1 May 2015")},
+    {distance: 200, started_at: new Date("1 Nov 2015")},
+    {distance: 200, started_at: new Date("1 May 2016")}
   ];
 
   var x = d3.time.scale().range([0, width]);
@@ -161,7 +162,7 @@
 
   chart.append("g").attr("class", "x axis").attr("transform", "translate(0, " + height + ")").call(xAxis);
   chart.append("g").attr("class", "y axis").call(yAxis);
-  chart.append("g").attr("class", "ry axis").call(ryAxis);
+  chart.append("g").attr("class", "ry axis").attr("transform", "translate(" + width + " ,0)").call(ryAxis);
 
   chart.append("g").attr("class", "times")
       .selectAll(".times").data(times).enter()
@@ -184,7 +185,6 @@
   chart.append("path").datum(performances).attr("d", line).attr("class", "line");
 
   chart.append("path").datum(dates).attr("d", distances).attr("class", "key-date-line");
-
 
   chart.append("g").attr("class", "performances")
       .selectAll(".performance").data(performances).enter()
