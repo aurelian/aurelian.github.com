@@ -115,18 +115,20 @@
     {created_at: new Date("17 Feb 2016"), time: 38*60 + 43, race: "38a Cursa Barri Sant Antoni"},
   ];
 
+  // p.map{|e| e["value"]}.each_slice(5){|sl| sl.reduce(&:+)/1000}
+
   var times = [58*60, 55*60, 50*60, 45*60, 40*60, 35*60, 31*60];
   var kilometers = [200, 400, 600, 800, 1000, 1200];
   var dates = [
     {distance: 312.89, started_at: new Date("1 May 2012")}, // distance ran between this date
     {distance: 891.74, started_at: new Date("1 Nov 2012")}, // and one day before this one.
-    {distance: 200, started_at: new Date("1 May 2013")},
-    {distance: 200, started_at: new Date("1 Nov 2013")},
-    {distance: 200, started_at: new Date("1 May 2014")},
-    {distance: 200, started_at: new Date("1 Nov 2014")},
-    {distance: 200, started_at: new Date("1 May 2015")},
-    {distance: 200, started_at: new Date("1 Nov 2015")},
-    {distance: 200, started_at: new Date("1 May 2016")}
+    {distance: 761.34, started_at: new Date("1 May 2013")},
+    {distance: 680.09, started_at: new Date("1 Nov 2013")},
+    {distance: 951.77, started_at: new Date("1 May 2014")},
+    {distance: 958.28, started_at: new Date("1 Nov 2014")},
+    {distance: 1256.75, started_at: new Date("1 May 2015")},
+    {distance: 352.99, started_at: new Date("1 Nov 2015")},
+    {distance: 0, started_at: new Date("1 May 2016")}
   ];
 
   var x = d3.time.scale().range([0, width]);
