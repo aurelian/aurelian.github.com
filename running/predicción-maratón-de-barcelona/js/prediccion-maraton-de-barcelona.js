@@ -1,6 +1,6 @@
 var Prediction = React.createClass({
   render: function() {
-    return (<h5>{this.props.value}</h5>);
+    return (<h3>Predicción {this.props.value}</h3>);
   }
 });
 
@@ -20,13 +20,11 @@ var Race = React.createClass({
   render: function() {
     var identifier = "race-" + this.props.id;
     return (
-      <div className="row">
         <div className="input-field col s12">
           <input id={identifier} required="true" pattern="([0-9]|0[0-9]|1[0-9]|2[0-3])(:[0-5][0-9]){2}" type="text" className="validate"
               placeholder="HH:mm:ss" onChange={this.handleChange} />
           <label htmlFor={identifier} className="active">{this.props.name}</label>
         </div>
-      </div>
     );
   }
 });
@@ -52,23 +50,18 @@ var RaceList = React.createClass({
   render: function() {
     var raceNodes = this.props.data.map(function(race) {
       return (
-        <li key={race.id} className="collection-item">
-          <form className="row">
-            <Race distance={race.distance} name={race.name} coefs={race.coefs} id={race.id} handleChange={this.raceChange} />
-          </form>
-        </li>
+            <Race key={race.id} distance={race.distance} name={race.name} coefs={race.coefs} id={race.id} handleChange={this.raceChange} />
       );
     }, this);
     return (
-      <div className="row">
-        <div className="col s6">
-          <h4>Tus carreras</h4>
-          <ul className="collection">
-            {raceNodes}
-          </ul>
+      <div>
+        <div className="col m12 l6">
+            <div className="rox">
+              <h3>Tus carreras</h3>
+              {raceNodes}
+            </div>
         </div>
-        <div className="col s6">
-          <h4>Predicción</h4>
+        <div className="col m12 l6">
           <Prediction value={this.state.prediction} />
         </div>
       </div>

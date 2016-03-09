@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
     <title>Predicción Maratón de Barcelona</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
@@ -17,24 +20,22 @@
   <body>
     <header>
       <div class="container">
-        <h2>Predicción Maratón de Barcelona</h2>
+        <h2 class="header">Predicción Maratón de Barcelona</h2>
       </div>
     </header>
 
     <main>
       <div class="container">
         <div class="row">
-          <div class="col s12 m4">
-            <p class="light">Puedes predecir tu tiempo en la maratón de Barcelona utilizando un modelo de <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal">regresión lineal</a> obtenido cruzando los resultados en carreras populares de los años pasados.</p>
+          <div class="col s12">
+            <p>Puedes predecir tu tiempo en la maratón de Barcelona utilizando un modelo de <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal">regresión lineal</a> obtenido cruzando los resultados en carreras populares de los años pasados.</p>
+            <p>Es muy importante de entender que este modelo de predicción lleva un error, las predicciones son "pesimistas": del tiempo predecido deberías de descontar 5 minutos para corredores cerca de 3 horas, 10 minutos para los de 4 horas, llegando casi al 15 minutos para los de 4:30.</p>
           </div>
-
-          <div class="col s12 m4">
-            <p class="light">Etiam vitae tortor. Etiam feugiat lorem non metus. Proin faucibus arcu quis ante. Fusce ac felis sit amet ligula pharetra condimentum. Donec venenatis vulputate lorem.</p>
-          </div>
-
-          <div class="col s12 m4">
+<!--
+          <div class="col m12 l6">
             <img src="venn.jpg" class="responsive"/>
           </div>
+-->
         </div>
 
         <div class="row">
@@ -44,9 +45,9 @@
     </main>
 
     <footer class="page-footer white">
-      <div class="footer-copyright">
+      <div class="footer-copyright white">
         <div class="container">
-          <p class="black-text text-lighten-4">&copy; Aurelian Oancea 2006-2016, <a href="https://twitter.com/ao12">@ao12</a> <span class="right">Hecho a mano con  💖  en Sants, Barcelona</p>
+          <p class="black-text text-lighten-4">&copy; Aurelian Oancea 2006-2016, <a href="https://twitter.com/ao12">@ao12</a> <span class="right">Hecho a mano con 💖  en Sants, Barcelona</p>
         </div>
       </div>
     </footer>
