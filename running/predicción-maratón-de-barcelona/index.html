@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
     <style type="text/css">
       ul.collection { border: none; }
+      img.responsive { width:80%; margin: 0 auto; display: block;}
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js"></script>
@@ -14,29 +15,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-duration-format/1.3.0/moment-duration-format.min.js"></script>
   </head>
   <body>
-    <div class="container">
-
-      <div class="section">
+    <header>
+      <div class="container">
         <h2>Predicción Maratón de Barcelona</h2>
-        <p>In auctor lobortis lacus. In auctor lobortis lacus. Cras non dolor. Praesent egestas tristique nibh. Maecenas malesuada.</p>
-        <p>Etiam vitae tortor. Etiam feugiat lorem non metus. Proin faucibus arcu quis ante. Fusce ac felis sit amet ligula pharetra condimentum. Donec venenatis vulputate lorem.</p>
-
-        <p>Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Duis vel nibh at velit scelerisque suscipit. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Maecenas malesuada.</p>
-
-        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In ac felis quis tortor malesuada pretium. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Vivamus in erat ut urna cursus vestibulum. Ut a nisl id ante tempus hendrerit.</p>
       </div>
-      <div class="divider"></div>
+    </header>
 
-      <div class="section">
-        <div id="app"></div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4">
+            <p class="light">Puedes predecir tu tiempo en la maratón de Barcelona utilizando un modelo de <a href="https://es.wikipedia.org/wiki/Regresi%C3%B3n_lineal">regresión lineal</a> obtenido cruzando los resultados en carreras populares de los años pasados.</p>
+          </div>
+
+          <div class="col s12 m4">
+            <p class="light">Etiam vitae tortor. Etiam feugiat lorem non metus. Proin faucibus arcu quis ante. Fusce ac felis sit amet ligula pharetra condimentum. Donec venenatis vulputate lorem.</p>
+          </div>
+
+          <div class="col s12 m4">
+            <img src="venn.jpg" class="responsive"/>
+          </div>
+        </div>
+
+        <div class="row">
+          <div id="app"></div>
+        </div>
       </div>
-
-    </div>
+    </main>
 
     <footer class="page-footer white">
       <div class="footer-copyright">
         <div class="container">
-          <p class="black-text text-lighten-4">&copy; Aurelian Oancea 2006-2016, <a href="https://twitter.com/ao12">@ao12</a> <span class="right">Handcrafted with 💖  in Sants, Barcelona</p>
+          <p class="black-text text-lighten-4">&copy; Aurelian Oancea 2006-2016, <a href="https://twitter.com/ao12">@ao12</a> <span class="right">Hecho a mano con  💖  en Sants, Barcelona</p>
         </div>
       </div>
     </footer>
