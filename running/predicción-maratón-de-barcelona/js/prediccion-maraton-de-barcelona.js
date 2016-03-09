@@ -1,6 +1,6 @@
 var Prediction = React.createClass({
   render: function() {
-    return (<h3>Predicción {this.props.value}</h3>);
+    return (<div className="rox"><h3>Predicción</h3><h5 class="blue-text">{this.props.value}</h5></div>);
   }
 });
 
