@@ -2,9 +2,9 @@ body {
   margin: 1em auto 0.5em auto;
   width: 78%;
   font-size: 14px;
-  line-height: 1.32em;
+  line-height: 1.5;
   text-rendering: optimizelegibility;
-  font-family: "PT Mono", "PTSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier", sans-serif;
   color: #012034;
 }
 

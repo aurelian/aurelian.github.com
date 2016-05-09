@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Luni, la Wurbe #5 - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Luni, la Wurbe #5">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2008-01-21-luni-la-wurbe-5.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="157">
+    <h3 class="title"><a href="" rel="bookmark">Luni, la Wurbe #5</a></h3>
+    <time datetime="2008-01-21 09:51:45 +0100">21 January 2008</time>
+    <section class="content">
+      <p>Pare greu de crezut, insa toate locurile pentru wurbe #5 au fost ocupate! Sincer, tema propusa a fost de super nisa (sa fiu si eu in trend) si nu ma (<a href="http://wurbe.ro">ne</a>) asteptam ca un numar atat de mare de persoane sa se arate  <a href="http://www.eventbrite.com/event/92260955">interesate</a> de <a href="http://en.wikipedia.org/wiki/Test-driven_development">test driven development</a> / <a href="http://en.wikipedia.org/wiki/Behavior_Driven_Development">behavioral driven development</a>.</p>
+<p>Probabil discutiile vor acoperi aspecte generale sau frameworkuri pentru testare, insa sper sa vad prezentatori ce vor rula unit-teste pe o aplicatie &#8220;reala&#8221;. Vreau sa vad ceva mai mult decat hello test world. Cu cat mai multe &#8220;failures&#8221;, cu atat mai bine!</p>
+<pre>
+[aurelian@stalingrad slobod.xxx]$ rake
+...
+15 tests, 0 assertions, 0 failures, 30 errors
+</pre>
+<p>Povestea mea despre unit testing se continua pe site, nu prea lunga dar poate destul de plictisitoare. Tu cand ai scris ultimul test case?</p>
+<p>Okay, sa fi trecut deja un an si jumatate &#8211; cel putin &#8211; de cand am scris ultimul Test Case. Imi aduc aminte cum am lucrat vreo 7-8 zile pentru a incerca sa acopar cu teste o aplicatie existenta. In tot acest timp am descoperit si fixat destul de multe probleme. Insa, atunci cand s-au introdus facilitati noi in aplicatie restul echipei a considerat ca un unit test este un task degradant pentru un &#8220;senior programmer&#8221; &#8211; mai pompos denumit &#8220;software architect&#8221; &#8211; iar idea a fost abandonata.</p>
+<p>Eu am fost luat de valul asta &#8220;agile&#8221; cam prin 2004. Totul a pornit de la un individ (mentorul meu, persoana importanta- nu il cunosti) care incerca sa ma convinga cat de misto e sa iti poti testa toata aplicatia apasand o singura data pe <span class="caps">ENTER</span>.</p>
+<p>Ideea m-a atras si am folosit modelul proaspat invatat &#8211; de a testa inainte de a scrie implementarea &#8211; si in practica atunci cand a fost nevoie sa scriu un mic programel in java. Vai ce satisfactie simteam cand plecam acasa si vedeam cum indicatorul de progres era complet verde.. A fost un succes total, iar initiativa mea a fost adoptata destul de usor de inca vreo doi colegi.</p>
+<p>Mai tarziu, am avut sarcina de a scrie un <span class="caps">API</span>, si cum specificatiile erau destul de vagi descriind concepte destul de abstracte ..am cerut unit teste. Spre multumirea mea le-am primit iar restul este istorie &#8211; in cateva zile implementarea era gata.</p>
+<p>Web testing? sigur, am fixat odata un bug &#8211; din ala pus pe bugzilla &#8211; cu <a href="http://www.lastcraft.com/simple_test.php">simple test</a> plecand de la descrierea problemei aparute si a pasilor pentru a o reproduce. Bine, mai intai am intampinat ceva dificultati chiar cu <a href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=1408928&amp;group_id=76550&amp;atid=547455">frameworkul</a> insa odata rezolvate, am putut sa produc un fix fara a incarca pagina web in browser, poate doar o singura data inainte de a pune codul in productie.</p>
+<p>O <a href="http://locknet.ro/archive/2006-09-20-acoperire-cu-rcov.html">perioada</a> am cochetat si cu code coverage dar nu atat de mult incat sa devin dependent.</p>
+<p>rSpec? inca nu, si probabil nu si in viitorul apropiat. Poate dupa wurbe #5 ma apuca vreo pasiunea, cine stie&#8230;</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2008-01-16-10-tickets-to-go.html" rel="prev" title="10 tickets to go">10 tickets to go</a>
+      
+      &mdash;
+      
+        <a href="/archive/2008-01-21-procrastination-of-the-day.html" rel="prev" title="Procrastination of the Day">Procrastination of the Day</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

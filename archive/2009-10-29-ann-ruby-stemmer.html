@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>[ANN] Ruby-Stemmer - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="[ANN] Ruby-Stemmer">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2009-10-29-ann-ruby-stemmer.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="152">
+    <h3 class="title"><a href="" rel="bookmark">[ANN] Ruby-Stemmer</a></h3>
+    <time datetime="2009-10-29 00:49:22 +0100">29 October 2009</time>
+    <section class="content">
+      <p>I&#8217;m very proud to announce the first release of Ruby-Stemmer, an implementation of <a href="http://en.wikipedia.org/wiki/Stemmer">Stemming Algorithm</a> using <a href="http://snowball.tartarus.org/">SnowBall</a> <span class="caps">API</span> from <a href="http://snowball.tartarus.org/download.php">libstemmer_c</a>.</p>
+<p>That&#8217;s it. Is <strong>not</strong> a pure ruby implementation, but the external library it&#8217;s included with the download so you don&#8217;t need to install anything else, just run: <code>gem install ruby-stemmer</code>.</p>
+<p>The usage is very simple:</p>
+<pre>
+require 'lingua/stemmer'
+s = Lingua::Stemmer.new
+s.stem "installation" # ==&gt; install
+</pre>
+<p>You can change the language or the encoding by passing them to the Stemmer constructor. For example to run the Romanian algorithm with <span class="caps">ISO</span>-8859-2 as encoding just use:</p>
+<pre>
+s = Lingua::Stemmer.new(:language =&gt; 'ro', :encoding =&gt; 'ISO_8859_2')
+s.stem "găinațul" #==&gt; găinaț
+</pre>
+<p>You can read the complete list of algorithms in <a href="http://github.com/aurelian/ruby-stemmer/blob/master/libstemmer_c/libstemmer/modules.txt">modules.txt</a></p>
+<p>The code, released under the terms of <span class="caps">MIT</span>-<span class="caps">LICENSE</span>, is available also on <a href="http://github.com/aurelian/ruby-stemmer">github</a></p>
+<pre>
+git clone git://github.com/aurelian/ruby-stemmer.git
+</pre>
+<h4>Note</h4>
+<p>Please use the infrastructure provided by github to report <a href="http://github.com/aurelian/ruby-stemmer/issues">issues</a>.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2009-10-28-30-perechi.html" rel="prev" title="30 perechi">30 perechi</a>
+      
+      &mdash;
+      
+        <a href="/archive/2009-12-07-tirile-sportive-la-protv.html" rel="prev" title="Știrile sportive la ProTV">Știrile sportive la ProTV</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

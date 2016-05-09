@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>IBAN validation and Beast - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="IBAN validation and Beast">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2008-01-09-iban-validation-and-beast.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="153">
+    <h3 class="title"><a href="" rel="bookmark">IBAN validation and Beast</a></h3>
+    <time datetime="2008-01-09 14:40:09 +0100">09 January 2008</time>
+    <section class="content">
+      <h5>I) Short snippet</h5>
+<pre>
+  validates_each :iban do | record, attr, value |
+    record.errors.add attr, 'IBAN is mandatory' and next if value.blank?
+    # IBAN code should start with country code (2letters)
+    record.errors.add attr, 'Country code is missing from the IBAN code' and next unless value.to_s =~ /^[A-Z]{2}/i
+    iban = value.gsub(/[A-Z]/) { | p | p[0]-55 }
+    record.errors.add attr, 'Invalid IBAN format' unless (iban[6..iban.length-1].to_s+iban[0..5].to_s).to_i % 97 == 1
+  end
+</pre>
+<p><a href="http://xkcd.com/208/"><img src="http://imgs.xkcd.com/comics/regular_expressions.png" title="Regular Expressions" alt="Regular Expressions" /></a></p>
+<p>More on <a href="http://en.wikipedia.org/wiki/IBAN#Calculating_and_Validating_IBAN_checksums"><span class="caps">IBAN</span></a> numbers and validation.</p>
+<h5>II) Load <a href="http://beast.caboo.se/">Beast</a> plugins with script/console</h5>
+<pre>
+
+[aurelian@stalingrad beastapp]$ script/console
+Loading development environment (Rails 2.0.2)
+beastapp&gt; profile = User.find(:first).profile
+NoMethodError: undefined method `profile' for #&lt;User:0x32b72a0&gt;
+beastapp&gt; Dispatcher.new($stdout).prepare_application
+=&gt; false
+beastapp&gt; profile = User.find(:first).profile
+=&gt; #&lt;Profile id: 1, user_id: 4, title: "Mr.", [...]
+</pre>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2008-01-03-2008_2007_3.html" rel="prev" title="2008 = 2007*3">2008 = 2007*3</a>
+      
+      &mdash;
+      
+        <a href="/archive/2008-01-16-10-tickets-to-go.html" rel="prev" title="10 tickets to go">10 tickets to go</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

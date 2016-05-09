@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Subscribers: va raspund cu 301! - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Subscribers: va raspund cu 301!">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2008-05-08-subscribers-va-raspund-cu-301.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="201">
+    <h3 class="title"><a href="" rel="bookmark">Subscribers: va raspund cu 301!</a></h3>
+    <time datetime="2008-05-08 01:02:21 +0200">08 May 2008</time>
+    <section class="content">
+      <p>Okay, am trecut peste <a href="http://locknet.ro/archive/2008-02-21-subscribers.html">lene</a> și mi-am pus și eu feed-ul la prăjit pe feedburner.</p>
+<p>Noul <span class="caps">URL</span> este: <a href="http://feeds.feedburner.com/locknet/ro">http://feeds.feedburner.com/locknet/ro</a> și te rog sa acționezi ca atare!</p>
+<p>Dacă citești postul asta într-un feed-reader, înseamnă că acesta se descurcă când serverul web ii spune <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html#sec10.3.2">301 Moved Permanently</a> și îi indica noua locație.</p>
+<p>În cazul asta, dacă ți se pare complicat (adică lene), nu trebuie să acționezi în niciun fel.</p>
+<p>Apoi, <a href="http://blogs.feedburner.com/feedburner/archives/2008/04/movin_on_up.php">am ințeles</a> că în curând voi putea folosi Google Accounts pentru autentificare. O parolă mai puțin.</p>
+<p>Prin martie am experimentat initial pe utilizatorii care au preferat versiunea <span class="caps">ATOM</span> (erau doar 4 conform statisticilor), nu s-a plans nimeni si sper sa mearga si acum. Din aprilie am schimbat referintele de pe blog catre noul <span class="caps">URL</span>.</p>
+<p>Pentru hackerul iubitor de <a href="http://www.textpattern.com">Textpattern</a>, redirectarea se poate face cu ceva de genul:</p>
+<pre>
+RewriteCond %{HTTP_USER_AGENT} FeedBurner
+RewriteRule ^(rss|atom)/?$ http://www.locknet.ro/rss/index.rss [QSA,L]
+RewriteCond %{HTTP_USER_AGENT} !FeedBurner
+RewriteRule ^(rss|atom)/?$ http://feeds.feedburner.com/locknet/ro [R=301,L]
+</pre>
+<p>în <code>.htaccess</code>. Am găsit și eu bucata asta de cod pe net, și parcă merge.</p>
+<p>Apropos, mă poți contacta dacă ai nelămuriri sau intâlnești vreo problemă.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2008-04-23-de-sant-jordi.html" rel="prev" title="de Sant Jordi">de Sant Jordi</a>
+      
+      &mdash;
+      
+        <a href="/archive/2008-05-29-obstrusivionam.html" rel="prev" title="Obstrusivionam?">Obstrusivionam?</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

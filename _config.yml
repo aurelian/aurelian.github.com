@@ -1,11 +1,12 @@
-highlighter: pygments
+highlighter: rouge
 safe: true
 lsi: false
 permalink: /:categories/:year-:month-:day-:title.html
 markdown: kramdown
-exclude: 
-  - README.textile
+exclude:
+  - README.md
   - import.rb
+  - archive/*.textile
   - post.html
   - s3
   - lib

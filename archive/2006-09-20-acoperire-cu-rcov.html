@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Acoperire cu rcov - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Acoperire cu rcov">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-09-20-acoperire-cu-rcov.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="36">
+    <h3 class="title"><a href="" rel="bookmark">Acoperire cu rcov</a></h3>
+    <time datetime="2006-09-20 10:33:30 +0200">20 September 2006</time>
+    <section class="content">
+      <p><a href="http://locknet.ro/archive/2006-05-13-stage-1-aproape-gata.html">Spuneam</a> ca sunt putin nefericit din cauza ca testele pentru controllerul <code>account</code> sunt cam subtiri.</p>
+<div class="mta"><a href="http://assets.locknet.ro/images/17.png" rel="lightbox" title="Marks Account-Controller Code Coverage"><br />
+<img src="http://assets.locknet.ro/images/17t.png" title="Code Coverage" alt="Code Coverage" /><br />
+<br />Click on image for a larger view</a></div>
+<p>Vineri seara am descoperit <a href="http://eigenclass.org/hiki.rb?rcov">rcov</a>. Pe scurt, rcov este o aplicatie care identifica acoperirea codului cu unit-teste pentru ruby, destul de greu de explicat in romana.</p>
+<p>Se poate vedea alaturat, ca dupa prima rulare, la 121 de linii de cod in <code>account_controller</code>, doar 16,1 % erau acoperite de teste. O cifra acceptabila ar fi 75%, dar pentru o aplicatie atat de mica ar fi fost pacat sa nu am 100% <a href="http://en.wikipedia.org/wiki/Code_coverage">code coverage</a>.</p>
+<blockquote>
+<p>rcov is a code coverage tool for Ruby</p>
+</blockquote>
+<p>si,</p>
+<blockquote>
+<p>Code coverage shouldn&#8217;t be abused (in few words, C0 coverage guarantees nothing) but it&#8217;s still useful for testing: it will at least tell you when your tests need more work, and most importantly where.</p>
+</blockquote>
+<p>Dupa cateva ore, folosind pasi marunti de genul: scrie unit-test, ruleaza, regeneraza graficul de acoperire am ajuns la 100%.</p>
+<p>Revenind la marks &#8211; http://marks.locknet.ro, nu am reusit sa imi fac timp pentru a adauga facilitati noi, insa cel putin acum sunt mai sigur ca partea de management al utlizatorilor va functiona corect.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-09-20-03-on-medick-future.html" rel="prev" title="0.3, on Medick future">0.3, on Medick future</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-09-20-marks-my-rails-pet-project.html" rel="prev" title="Marks: my Rails pet project">Marks: my Rails pet project</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Despre Circus Politicus - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Despre Circus Politicus">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2009-09-09-despre-circus-politicus.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="260">
+    <h3 class="title"><a href="" rel="bookmark">Despre Circus Politicus</a></h3>
+    <time datetime="2009-09-09 19:29:22 +0200">09 September 2009</time>
+    <section class="content">
+      <p><a href="http://circ.heroku.com/">Circus Politicus</a> este un mic experiment &#8230;ce genereaza automat discursuri politice &#8230;folosind un pseudo-corpus cules din interviuri acordate (pe bune) de politicieni.</p>
+<p>Tehnic, se extrage la intamplare din corpus un n-gram (de 3), apoi se foloseste un procesor Markov pentru a completa &#8220;gandurile&#8221; politicianului.</p>
+<p>Deocamdata doar Basescu si Vanghelie sunt &#8220;inscrisi&#8221;.</p>
+<p>Suntem in 2009, asa ca aplicatia are si un <span class="caps">API</span> simplu (iPhone ready!!!):</p>
+<pre>
+GET http://circ.heroku.com/${politician}.[xml|json|rss] | ultimile aberatii
+POST http://circ.heroku.com/${politician}.[xml|json] | creaza aberatie noua
+DELETE http://${user}:${password}@circ.heroku.com/${politician}/${id_aberatie}.[xml|json] | sterge draciu
+</pre>
+<p>Buzz-Words: sinatra, dm, haml, ajax, jquery, api, rgc. Momentan, aplicatia ruleaza intr-un mediu destul de strict (max. 5MB) la <a href="http://heroku.com">heroku</a>.</p>
+<p>Cateva idei:</p>
+<ul>
+	<li>ar fi chiar interesant de stiut daca exista vreun validator morfo-sintactic pentru romana, asa as putea corecta unele dezacoarde in mod automat&#8230; daca nu, ramane pe un alt weekend :)</li>
+</ul>
+<ul>
+	<li>cum ar fi un chat cu Base :D ?</li>
+</ul>
+<p>Nu exista plan de monetizare.</p>
+<p>Tu ce zici? (In afara de &#8220;ai prea mult timp liber&#8221;)</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2009-07-05-vecin.html" rel="prev" title="Vecin">Vecin</a>
+      
+      &mdash;
+      
+        <a href="/archive/2009-09-25-openstreetmap.html" rel="prev" title="OpenStreetMap">OpenStreetMap</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

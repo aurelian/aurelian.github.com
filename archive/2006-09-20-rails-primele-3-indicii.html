@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rails, primele 3 indicii - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Rails, primele 3 indicii">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-09-20-rails-primele-3-indicii.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="29">
+    <h3 class="title"><a href="" rel="bookmark">Rails, primele 3 indicii</a></h3>
+    <time datetime="2006-09-20 10:36:11 +0200">20 September 2006</time>
+    <section class="content">
+      <p>Am incercat in ultimele zile sa ma familiarizez cu <a href="http://rubyonrails.com">RubyOnRails</a> si sa incerc sa fac o aplicatie de la zero.</p>
+<p>In mod normal primul lucru pe care il facem este tipicul HelloWorld pentru a testa mediul in care o sa dezvoltam in continuare.</p>
+<p>Dupa un weekend on Rails, pot da urmatoarele sfaturi:</p>
+<ul>
+	<li>Foloseste FastCGI!</li>
+</ul>
+<p>Daca se foloseste combinatia <a href="http://www.modruby.net/">Apache/mod_ruby</a> sau <a href="http://httpd.apache.org/docs/2.0/howto/cgi.html">Apache/<span class="caps">CGI</span></a> performanta aplicatiilor scrise in <a href="http://ruby-lang.org">ruby</a> si implicit in rails scade simtitor.</p>
+<p>Lucrurile se schimba insa cu <a href="http://www.lighttpd.net/">Lighty</a>  + <a href="http://www.fastcgi.com/">FastCGI</a> (recomandat) sau <a href="http://freshmeat.net/projects/mod_fastcgi/">Apache cu FastCGI</a>.</p>
+<p>Am aflat si de <a href="http://www.mems-exchange.org/software/scgi/" title="Simple Common Gateway Interface"><span class="caps">SCGI</span></a> (via <a href="http://blog.peat.org/articles/2006/04/13/rails-scgi-lighttpd-planet-argon">blog.peat.org</a>) insa nu stiu momentan daca as putea instala asa ceva intr-un mediu in care nu am acces direct la serverul web (apache in cazul meu). Se pare insa ca Lighty/<span class="caps">SCGI</span> este o <a href="http://www.zedshaw.com/projects/scgi_rails/">solutie buna</a> pentru cei care ofera hosting cu rails.</p>
+<ul>
+	<li>Foloseste setup-uri asemanatoare pe masina pe care se face dezvoltarea si sistemul unde o sa publici aplicatia (production)!</li>
+</ul>
+<p>Am pierdut <strong>foarte mult</strong> timp (probabil ca acum as rezolva problema mult mai repede) sa imi mut aplicatia dezvoltata pe localhost cu Lighty/<span class="caps">FCGI</span> pe Apache/<span class="caps">CGI</span>. Cautari fara raspuns pe <a href="http://google.com">google</a> (nu prea se foloseste Apache/<span class="caps">CGI</span>?), intrebari pe <a href="http://www.rubyonrails.org/community">#rubyonrails</a> si intr-un final cu ajutorul unei console de debug pentru <span class="caps">CGI</span> (practic examinarea erorilor din fiserul de log al serverului web) am rezolvat problema, cam 5-6 ore in total. Si asta cu noroc, pentru ca dupa vreo 4 ore am decis sa ma culc putin.</p>
+<p>Ma gandesc cat timp as fi pierdut daca foloseam windows cu <a href="http://www.webrick.org/">WEBrick</a>.</p>
+<ul>
+	<li>Foloseste o metoda de deploy automata!</li>
+</ul>
+<p>Deploy: adica publicarea aplicatiei pe net.</p>
+<p>De cele mai multe ori, transferul prin ftp este incomod.</p>
+<p>Daca se poate, foloseste <a href="http://manuals.rubyonrails.com/read/book/17">capistrano</a> (fost SwitchTower), daca nu cauta metode alternative, de exemplu <a href="http://wiki.rubyonrails.com/rails/pages/HowtoUseRsyncToDeployYourApplication">rsync</a> sau orice alt script care iti va muta fisierele rapid pe serverul live.</p>
+<p>Apropos, inca <a href="http://locknet.ro/archive/2006-04-14-am-hosting-cu-rails-mai-departe.html">nu m-am hotarat</a> ce fel de aplicatie o sa fac (ei bine, de fapt am niste idei), insa, primii pasi cu o aplicatie dezvoltata in rails si publicata pe internet i-am facut aici &#8211; http://marks.29dots.com/main/index.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-09-20-marks-my-rails-pet-project.html" rel="prev" title="Marks: my Rails pet project">Marks: my Rails pet project</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-09-20-75-la-suta-mai-putin-continut.html" rel="prev" title="75% mai putin continut">75% mai putin continut</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

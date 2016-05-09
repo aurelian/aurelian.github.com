@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caut algoritm - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Caut algoritm">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2007-03-09-caut-algoritm.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="87">
+    <h3 class="title"><a href="" rel="bookmark">Caut algoritm</a></h3>
+    <time datetime="2007-03-09 21:51:45 +0100">09 March 2007</time>
+    <section class="content">
+      <p>Cum ar fi daca comentariile adaugate unui articol ar fi auto-moderate de catre vizitatori prin acordarea unui vot (pozitiv sau negativ)?</p>
+<p>Ideea de baza ar fi ca in urma acestor voturi, stilul folosit pentru afisarea comentariul respectiv isi va schimba culoarea cu care este afisat. Mai tarziu, s-ar putea modela si pentru a schimba dimensiunea fontului.</p>
+<p>Sa zicem ca avem alb, rgb(255,255,255), pentru fundal, si un gri (culoare de mijloc) rgb(127,127,127) pentru a scrie comentariile cu 0 voturi, astfel incat un comentariu cu voturi foarte putine ar fi afisat cu o culoare apropiata de culoarea de fundal a paginii, iar unul bine cotat va fi cat mai inchis la culoare, aproape de rgb(0,0,0).</p>
+<p>Cam asta ar fi problema.</p>
+<p>Initial am incercat sa fac o media a tuturor comentariilor adaugate unui articol, si sa impart votul comentariului la aceasta medie, rezultatul il imulteam cu&#8230;.</p>
+<p><img src="http://assets.locknet.ro/images/30.png" alt="" /></p>
+<p>Parea un punct de plecare bun, dar a cazut cand am testat cu o medie egala cu zero.</p>
+<p><del>O rezolvare mai simpla ar fi sa definesc sa zicem 10 stiluri, si cu un calcul ( modulo? ) sa aleg un stil din aceasta lista.</del></p>
+<p>Alte idei?</p>
+<h4>Update 09-03, Mai multe detalii</h4>
+<p>Pe &#8220;cercul&#8221; <span class="caps">RGB</span>, combinatiile alb/negru sunt definite ca avand valorile R(ed),G(reen) si B(lue) egale (RGB).</p>
+<p>Mai stim :</p>
+<ul>
+	<li>numarul total de comentarii adaugate unui articol ( pozitiv );</li>
+	<li>numarul total de voturi primite de toate comentariile asociate unui articol ( negativ sau pozitiv );</li>
+	<li>numarul de voturi pentru comentariul curent ( negativ sau pozitiv );</li>
+	<li>pentru un comentariu cu zero voturi culoarea este R=G=B=127;</li>
+	<li>pentru un articol cu un sigur comentariu, culoarea cu care va fi scris comentariul este R=G=B=127;</li>
+</ul>
+<p>Teoretic, as putea rezuma problema la gasirea unui &#8220;pas&#8221; ce va fi adaugat / scazut la 127 astfel incat rezultatele sa se incadreze in intervalul 0..255.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2007-01-05-why-do-i-hate-gem.html" rel="prev" title="Why do I hate gem?">Why do I hate gem?</a>
+      
+      &mdash;
+      
+        <a href="/archive/2007-03-11-esecul-timpuriu-al-unui-proiect.html" rel="prev" title="Esecul timpuriu al unui proiect">Esecul timpuriu al unui proiect</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

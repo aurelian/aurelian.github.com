@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jobber.ro, .ro IT Jobs si Apple Widgets - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Jobber.ro, .ro IT Jobs si Apple Widgets">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2007-08-08-jobberro-ro-it-jobs-si-apple-widgets.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="111">
+    <h3 class="title"><a href="" rel="bookmark">Jobber.ro, .ro IT Jobs si Apple Widgets</a></h3>
+    <time datetime="2007-08-08 05:01:32 +0200">08 August 2007</time>
+    <section class="content">
+      <p>Au trecut deja <a href="http://www.jobber.ro/blog/14-07-2007/ce-este-jobber/">doua saptamani</a> de cand <a href="http://www.filipcte.ro">Filip</a> a lansat <a href="http://www.jobber.ro">Jobber.ro</a>, o alternativa simpla si eficienta de recrutare IT.</p>
+<p><div class="mta"><a href="http://assets.locknet.ro/images/32.png" rel="lightbox" title="Front Side"><img src="http://assets.locknet.ro/images/32t.png" title="Front Side" alt="Front Side" height="200" width="240"/></a></div></p>
+<p>Dar nu despre Jobber vreau sa iti povestesc, ci despre o noua modalitate de a fi la curent cu ultimile anunturi adaugate. Si asta  direct pe <a href="http://www.apple.com/downloads/dashboard/">dashbord</a> cu ajutorul unui <a href="http://www.apple.com/downloads/dashboard/">Widget</a>.</p>
+<p>Cum este prima mea isprava de acest fel, as vrea sa detaliez putin procesul.</p>
+<p>In primul rand, un widget este o combinatie de <span class="caps">HTML</span>, <span class="caps">CSS</span> si JavaScript unde toate fisierele necesare sunt puse intr-un director al carui nume se termina in <code>.wdgt</code>.</p>
+<p>Workflow-ul este destul de simplu, iar pe site-ul Apple sunt destule exemple de widget-uri care preiau stiri sub forma <span class="caps">RSS</span>.</p>
+<p>In cateva cuvinte, documentul <span class="caps">HTML</span> are atasat pe elementul body un eveniment declansat la <code>onload</code>, eveniment ce face un request folosind XmlHTTPRequest pentru a prelua fluxul <span class="caps">RSS</span>. Acesta este apoi parsat si introdus in document.</p>
+<p>Am ales <a href="http://mootools.net" title="is teh new black">mootools</a> pentru JavaScript mai mult pentru ca eram curios sa vad cum se misca frameworkul decat pentru efecte sau reqesturi <span class="caps">AJAX</span> cross-browser.</p>
+<p><div class="mta"><a href="http://assets.locknet.ro/images/33.png" rel="lightbox" title="Back Side"><img src="http://assets.locknet.ro/images/33t.png" title="Back Side" alt="Back Side" height="100" width="180"></a></div></p>
+<p>Singura problema intampinata a fost legata de feed-ul oferit de <a href="http://www.jobber.ro">Jobber.ro</a> din cauza ca acesta este generat in formatul <a href="http://en.wikipedia.org/wiki/RSS_(file_format)#RSS_1.0"><span class="caps">RSS</span>-1.0</a>.</p>
+<p>Din cauza namespace-urilor (cred) nu puteam sa selectez din feed titlul si linkul corespunzator fiecarei intrari. Lucru destul de ciudat, pentru ca in <a href="http://www.apple.com/safari/download/" title="3.0.3">Safari</a> aveam rezultatul dorit. Acum, <code>getElementsByTagName('link')</code> mergea in browser dar nu si in dashboard si asa am ajuns la concluzia ca sunt folosite versiuni diferite de <a href="http://developer.apple.com/documentation/Cocoa/Conceptual/DisplayWebContent/DisplayWebContent.html#//apple_ref/doc/uid/10000164-138404">WebKit</a>. In dashboard puteam accesa doar descrierea si data unei intrari, titlul si linkul fiind returnate ca un singur element Text.</p>
+<p>Dupa cateva ore de lupta cu <span class="caps">RSS</span>-ul, am renuntat si am ales sa folosesc <a href="http://www.jobber.ro/blog/04-08-2007/schimbari-la-widget-api/"><span class="caps">API</span>-ul</a> oferit in varianta cu raspuns in format <span class="caps">XML</span>. 10 minute mai tarziu aplicatia era gata.</p>
+<p>Pe viitor, as vrea sa adaug si o sectiune unde sa iti poti configura diversi parametrii, de exemplu sa poti alege doar anunturile publicate intr-o anumita categorie.</p>
+<p>Pana atunci, download de <a href="http://www.jobber.ro/files/jobber.wdgt.zip">aici</a>.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2007-07-18-programatorul-web-fara-portofoliu.html" rel="prev" title="Programatorul web fara portofoliu">Programatorul web fara portofoliu</a>
+      
+      &mdash;
+      
+        <a href="/archive/2007-08-27-nevermind.html" rel="prev" title="Nevermind">Nevermind</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

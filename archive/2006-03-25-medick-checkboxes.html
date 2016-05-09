@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>FormHelper::check_box - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="FormHelper::check_box">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-03-25-medick-checkboxes.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="13">
+    <h3 class="title"><a href="" rel="bookmark">FormHelper::check_box</a></h3>
+    <time datetime="2006-03-25 23:38:57 +0100">25 March 2006</time>
+    <section class="content">
+      <p>In <a href="http://locknet.ro/archive/2006-03-19-medick-021-released.html">release 0.2.1</a> of Medick, the <em>check_box</em> control from <em>FormHelper</em> was broken.</p>
+<p>As a temporary fix, you have to explicitly check if the check_box was submitted or not in your controllers.</p>
+<p>Let&#8217;s see a small sample.</p>
+<p>I will assume that we have an <em>article</em> model with a <em>status</em> defined as <span class="caps">INT</span> (1) in the database. This <em>status</em> describes the <em>article</em> state: <em><span class="caps">PUBLISHED</span></em> or <em><span class="caps">DRAFT</span></em>.</p>
+<p>The <em>article</em> model</p>
+<pre>
+class Article extends ActiveRecord {
+    const PUBLISHED= 1;
+    const DRAFT= 0;
+    [...]
+}
+</pre>
+<p>On the <em>controller</em> side, I will define 2 methods: <em>add</em>, witch will print the form for adding an <em>article</em> and <em>create</em> that will save the <em>article</em> in the database.</p>
+<pre>
+class ArticleController extends ApplicationController {
+    // prints the form, and assign article template variable
+    public function add() {
+        $this-&gt;article = new Article();
+    }
+    // saves the article in the database
+    public function create() {
+        $this-&gt;article= new Article($this-&gt;request-&gt;getParameter('article'));
+        // explicit check:
+        if (!isset($this-&gt;params['article']['status'])) {
+            // the check box is not checked, so we define the
+            // default value for this case:
+            $this-&gt;article-&gt;status= Article::DRAFT;
+        } else {
+            // checked check-box :)
+            // default value for this case:
+            $this-&gt;article-&gt;status= Article::PUBLISHED;
+        }
+        // do actions on article, like save and the redirect if succes or render
+        // the form again if it`s a failure.
+        [...]
+    }
+}
+</pre>
+<p>In the <em>add</em> view, we can use the <em>FormHelper</em> to create the check box entry for us:</p>
+<pre>
+[...]
+&amp;lt;?=FormHelper::check_box($article,'status');?&amp;gt;
+[...]
+</pre>
+<p>translated in <span class="caps">HTML</span>:</p>
+<pre>
+&amp;lt;input type="checkbox" id="article_status" name="article[status]"  /&amp;gt;
+</pre>
+<p>As I said, this is just a temporary solution untill I will have another ideea.</p>
+<p>This includes adding a hidden field with the same name on the form, or anything else that will do.</p>
+<p>Why this checkbox is causing all this troubles?</p>
+<p>Because if is not checked, the <em>article</em> that we create at this line:</p>
+<pre>
+$this-&gt;request-&gt;getParameter('article');
+</pre>
+<p>will not receive the <em>status</em> as a request parameter.</p>
+<p>The real pain it will be when one will need more than a simple checkbox, and I&#8217;m thinking about a <a href="http://en.wikipedia.org/wiki/Use_case">use case</a> where an <em>article</em> <em>has_many</em> <em>categories</em> and a checkbox control will be used for selecting in what <em>categories</em> the <em>article</em> fits.</p>
+<p>While I mark this problem as fixed, I&#8217;m still open to improvements on how can I do this better.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-03-24-php-vikinger-2006.html" rel="prev" title="PHP Vikinger 2006">PHP Vikinger 2006</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-03-27-border-top-15px-solid-333.html" rel="prev" title="border-top: 15px solid #333;">border-top: 15px solid #333;</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

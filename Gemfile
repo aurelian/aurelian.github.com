@@ -1,4 +1,4 @@
-ruby "2.2.2"
+ruby "2.2.3"
 
 source "http://rubygems.org"
 
@@ -7,6 +7,6 @@ source "http://rubygems.org"
 #gem "sequel"
 #gem "mime-types"
 
-gem "jekyll",     "~>2.5.3"
-gem "kramdown",   "~>1.9.0"
-gem "RedCloth",   "=4.2.9"
+gem "jekyll",     "~>3.1.3"
+#gem "kramdown",   "~>1.9.0"
+#gem "RedCloth",   "=4.2.9"

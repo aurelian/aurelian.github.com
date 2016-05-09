@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Marks face primii pasi - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Marks face primii pasi">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-09-20-marks-face-primii-pasi.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="37">
+    <h3 class="title"><a href="" rel="bookmark">Marks face primii pasi</a></h3>
+    <time datetime="2006-09-20 10:23:13 +0200">20 September 2006</time>
+    <section class="content">
+      <p>Mi-am facut ceva timp si am reusit sa schitez in cateva ore partea centrala a aplicatiei marks &#8211; http://marks.29dots.com: salvarea si afisarea bookmarkurilor. si, ta-ta-ta-ta-ta-taguri.</p>
+<p>Fata de planul <a href="http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html">initial</a>, am ales sa fac <code>modelul</code> bookmark cu</p>
+<p><code>has_one_and_belongs_to_many :users</code>.</p>
+<p>Sper sa fie o decizie inteleapta cu toate ca intampin ceva probleme la afisarea unui total pe bookmark, de genul: &#8220;acest url a mai fost salvat de alti X utilizatori&#8221;.</p>
+<p>Pentru taguri, am folosit pluginul <a href="http://web.archive.org/web/20060424173833/http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin">Act As Taggable</a> cu destule <a href="http://web.archive.org/web/20060721231754/http://dema.ruby.com.br/articles/2005/09/03/tagging-on-steroids-with-rails">modificari</a> ce permit gruparea acestora per user.</p>
+<p>Sunt inca multe lipsuri, de exemplu nu pot edita sau sterge intrarile odata introduse.</p>
+<p>Validarea modelului <code>bookmark</code> va veni si ea.</p>
+<p>Cateva actiuni sunt inca neimplementate (ex. &#8220;save this mark&#8221;).</p>
+<p>Pe Internet Explorer arata cam aiurea, si asta pentru ca folosesc niste margini negative pentru a stiliza anumite elemente <span class="caps">HTML</span> (probabil).</p>
+<p>&#8220;Atat de mult <span class="caps">AJAX</span> incat o sa fie de prost gust&#8221;, in curand.</p>
+<p>Plus mailuri cand te inregistrezi, password recovery, <span class="caps">RSS</span>, import din alte aplicatii. Si deja am idei pentru urmatorul proiect cu <a href="http://www.rubyonrails.com">RubyOnRails</a>.</p>
+<p>Uff, acum imi dau seama cate mai sunt de facut, insa &#8230; toate la timpul lor.</p>
+<p>Totusi, tin insa sa multumesc celor care s-au inregistrat in prima faza, in total suntem cam 12 utilizatori (<span class="caps">WOW</span>!!!) banuiesc ca doar vreo 7-8 conturi sunt &#8220;pe bune&#8221;.</p>
+<p>Intr-un viitor articol o sa explic mai pe larg de ce nu tin sa fac codul disponibil sub o licenta open-source.</p>
+<p>Acum, o sa spun doar doua idei:</p>
+<p>In primul rand <strong>nu cred</strong> ca programatorii romani prefera sa se implice intr-un proiect ce nu le va aduce satisfactii materiale.</p>
+<p>Apoi, exista un proiect asemanator publicat sub <a href="http://www.opensource.org/licenses/gpl-license.php"><span class="caps">GPL</span></a>, <a href="http://rubyforge.org/projects/url-markr/">url.markr</a>. As fi mult mai tentat sa incerc sa ajut aceasta initiativa, daca ar avea o <a href="http://www.opensource.org/licenses/bsd-license.php">licenta</a> mai pe placul meu.</p>
+<p>Da stiu, o sa ma gandesc si la un alt nume :)</p>
+<p>Ceva idei? :)</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-09-20-popularitate-si-calitate.html" rel="prev" title="Popularitate si calitate">Popularitate si calitate</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-09-20-03-on-medick-future.html" rel="prev" title="0.3, on Medick future">0.3, on Medick future</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

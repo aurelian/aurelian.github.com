@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wurbe#2 - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Wurbe#2">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2007-10-03-wurbe2.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="119">
+    <h3 class="title"><a href="" rel="bookmark">Wurbe#2</a></h3>
+    <time datetime="2007-10-03 05:15:37 +0200">03 October 2007</time>
+    <section class="content">
+      <p>Aseara a fost intalnirea <a href="http://wurbe.ro">wurbe#2</a>, organizata de <a href="http://wurbe.ro/despre">comitetul wurbe</a> si gazduita de <a href="http://myadobe.ro/2007/09/12/adobe-gazduieste-urmatoarea-intalnire-wurbe/">Adobe Romania</a> Gazdele au pus la bataie o sala destul de incapatoare (wifi, proiector, scaune &amp;), badgeuri, sucuri si pizza pentru toata lumea &#8212; vreo 50-60 persoane (nu stiu o cifra exacta).</p>
+<p><img src="http://assets.locknet.ro/images/35.jpg" alt="" /></p>
+<p>Acum, imagineaza-ti o sala &#8212; ceva poze pentru exercitiul asta sunt pe <a href="http://www.flickr.com/photos/tags/wurbe2">flickr</a> &#8212; cu (sa zicem) 50 de dezvoltatori web care se intalnesc destul de rar. Au fost 5 prezentari de cate 20-30-sau mai multe minute si 6 lightning talks intr-un interval de 4-5 ore. Un adevarat maraton! Subiectele expuse fiind destul de interesante s-au prelungit uneori mai mult decat era cazul, pentru ca cei 50 simteau nevoia sa discute, sa intrebe si sa intoarca pe toate fetele. Orice.</p>
+<p>Din aceasta cauza, pauzele au fost destul de mici (cam 45 minute in total) deci, posibilitatile de socializare au fost reduse. In plus (acum observ) 2 prezentari scurte au fost reporogramate (Dragos Ionita cu <span class="caps">PHP</span> __autoload() si Adrian Tanase cu <span class="caps">SEO</span> with <span class="caps">GSA</span>).</p>
+<p>Una peste alta, a fost <strong>super</strong> ok si tin sa remarc abilitatile lui <a href="http://andreimaxim.ro">Andrei Maxim</a> care a reusit sa se descurce foarte bine fiind asaltat de tot felul de intrebari si discutii dar si ideea de a introduce in program prezentari de tip fulger (5-10 minute).</p>
+<p>Or sa fie si slideuri online in curand, si probabil un wurbe#3 mai spre sfarsitul lunii, de data asta cred ca la o bere &#8212; vedem &#8211; analizam:)</p>
+<h5>Update</h5>
+<p>Dupa intalinrea de aseara, am invatat cateva jmecherii <span class="caps">CSS</span>, asa ca pentru incepatori de la <a href="http://evil.che.lu">Cristi Balan</a>:</p>
+<ol>
+	<li>hack-ul cu zoom:1 (has layout in IE6)</li>
+	<li>float: left; display: inline; (nici nu stiam de ce am margine dubla in IE 6)</li>
+	<li>gruparea declaratiilor pentru selectori</li>
+</ol>
+<p>Apoi, am inteles care e treaba cu Flex si OpenLaszlo (chiar daca nu cred ca o sa ma lovesc de asa ceva prea curand) de la <a href="http://eblogs.ro/sorin">Sorin Mocanu</a>.</p>
+<p><a href="http://beanon.com/">Viorel Cojocaru</a> spune sa folosesc liste pentru a afisa posturile pe blog, cica asa ar fi mai semantic si persoanele cu screenreadere ar fi ajutate sa inteleaga unde incepe si se termina un articol. Si sa pun abbr pe data cu un format <span class="caps">ISO</span> sa vada toata lumea cand a fost adaugat / actualizat un articol.</p>
+<p>Cool.</p>
+<h4><span class="caps">RFSDS</span></h4>
+<p>Ok, eu am vorbit cateva minute despre <span class="caps">RFSDS</span>, un sistem simplu de deploy al aplicatiilor cu arhitectura simpla. Din pacate, am fost si singurul fara slideuri sau notite si presat fiind si de timp, nu stiu daca toata lumea a inteles despre ce era vorba.</p>
+<p>De fapt, am avut un singur <a href="http://assets.locknet.ro/files/remote.rake.html">slide</a>.</p>
+<p><span class="caps">RFSDS</span> este o alternativa pentru capistrano sau vlad. Aveam nevoie de o modalitate rapida pentru a face delpoy sau a controla serviciile Rails dintr-o singura comanda rulata local.</p>
+<p>Capistrano este o unealta excelenta, insa incearca sa rezolve prea multe probleme. Mai mult poti pierde timp destul de pretios pentru a invata cum se foloseste sau pentru a realiza primul sistem de deploy care sa mearga. Fiind la inceput, o sa ai nevoie si de un sistem de test pentru a experimenta. Apoi, eu am constatat ca ai nevoie de pasi suplimentari, de exemplu in cazul in care ai o aplicatie care face upload de fisiere.</p>
+<p>Nevoile mele sunt mult mai simple:</p>
+<ol>
+	<li>trebuie sa am un sistem care sa faca foarte usor actualizari ale codului din version control. Acest lucru implica si posibilitatea de a face rollback in cazul in care am introdus cine stie ce eroare.</li>
+	<li>trebuie sa am o modalitate simpla de a controla mongrel, serverul de aplicatii folosit.</li>
+	<li>vreau sa rulez taskuri rake (in special rake db:migrate) pe sistemul remote.</li>
+</ol>
+<p>Am grupat aceste cerinte in <del>5</del> 6 taskuri rake. Am adaugat si ceva condimente (ruby-growl pentru notificari cool pe Mac OS X) si am avut in mai putin de o ora un sistem de deploy care ma ajuta sa imi fac treaba.</p>
+<p>Cand o sa am o aplicatie ce va necesita actualizari pe mai multe masini, o sa adaug si aceasta posibilitate, si am experienta, pentru ca am realizat si ceva similar in trecut.</p>
+<p><span class="caps">RFSDS</span> foloseste libraria ruby <a href="http://net-ssh.rubyforge.org/">Net::<span class="caps">SSH</span></a> la fel ca si <a href="http://capify.org/">capistrano</a>. Sistemul merge pentru <a href="http://subversion.tigris.org/">Subversion</a> si <a href="http://mongrel.rubyforge.org/">mongrel cluster</a>.</p>
+<p>Nu exista posibilitatea de a adauga si parola, pentru ca in mod normal eu folosesc autentificare ssh cu chei publice / private, insa se poate mofica foarte usor daca este cazul.</p>
+<p>Probabil ca merge si pe windows cu <a href="http://the.earth.li/~sgtatham/putty/0.53b/htmldoc/Chapter8.html#8.2">PuTTY</a> insa eu nu am posibilitatea sa incerc.</p>
+<p style="color:#ccc;font-size:75%;"><strong>photo credit</strong>: Grant Neufeld, <a href="http://www.flickr.com/photos/grantneufeld/256963081/">Green Party of Alberta <span class="caps">AGM</span>, 2006</a> on flickr. Released under: <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en-us">Creative Commons</a>.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2007-09-29-more-updates.html" rel="prev" title="More Updates">More Updates</a>
+      
+      &mdash;
+      
+        <a href="/archive/2007-10-15-a-venit-netu.html" rel="prev" title="A venit netu'">A venit netu'</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

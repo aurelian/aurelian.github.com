@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>4 hours on session - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="4 hours on session">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-03-29-4-hours-on-session.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="15">
+    <h3 class="title"><a href="" rel="bookmark">4 hours on session</a></h3>
+    <time datetime="2006-03-29 11:10:11 +0200">29 March 2006</time>
+    <section class="content">
+      <p>When I started to code on Medick, one of my first goals was to hide all the <span class="caps">PHP</span> annoyances, to hide them from me because I will be the main user of this framework and then to hide them from my users. At one point I knew that I will face some of those annoyances, where I will loose more that 15 minutes to solve.</p>
+<p>So, on my <a href="http://locknet.ro/archive/2006-03-20-erata-medick-021.html"><span class="caps">TODO</span></a> list for release 0.2.2 I had:</p>
+<blockquote>
+<p>An sql container for keeping <span class="caps">PHP</span> sessions.</p>
+</blockquote>
+<p>I searched my <span class="caps">HDD</span>, knowing that I wrote something like this, and found it on an old backup folder:</p>
+<pre>
+[aurelian@gremlin ~]$ ll /mnt/win_d/30-07-2005/.../CreoleSession.php
+-r-xr-xr-x  2 root root 4097 Mar  8  2005 /mnt/win_d/30-07-2005/.../CreoleSession.php*
+</pre>
+<p>Last accessed a year ago. Belive it or not, this class is doing his job very well on one of my older projects (with a primitive version of medick). On that server: <span class="caps">PHP</span> 5.0.5.</p>
+<p>Anyway, I have started to modify this class to match my <em>ISessionContainer</em> interface, a piece of cake. Ended up with a nice class declaration:</p>
+<pre>class CreoleSessionContainer extends Object implements ISessionContainer</pre>
+<p>After that I had to remember what was the <span class="caps">PHP</span> function that will register this class as a session handler.</p>
+<p>Since I&#8217;m not good at remember <span class="caps">PHP</span> function names, I started my search with <a href="http://php.net/session_start">session_start</a> on <span class="caps">PHP</span> manual, after that I saw <a href="http://php.net/manual/en/function.session-set-save-handler.php">session-set-save-handler</a> on the left side.</p>
+<p>To test somehow, I altered my <em>Session</em> class and made a call to that function in my <em>start</em>, just before <em>session_start</em>:</p>
+<pre>
+$container = new CreoleSessionContainer();
+session_set_save_handler(array($container, 'open'),
+                         array($container, 'close'),
+                         array($container, 'read'),
+                         array($container, 'write'),
+                         array($container, 'destroy'),
+                         array($container, 'gc'));
+</pre>
+<p>The result?</p>
+<pre style="background-color:red;color:white;">
+Fatal error: Exception thrown without a stack frame in Unknown on line 0
+</pre>
+<p>I knew that this is something really nasty, and my first thought was that a SQLException was thrown somehow form my container.</p>
+<p>Back to code, I surrounded every sql call with nice <a href="http://php.net/manual/en/language.exceptions.php">try/catch</a> blocks and added an <a href="http://php.net/echo">echo</a> to debug the Exception message. No result.</p>
+<p>Back to manual:</p>
+<blockquote>
+<p>Note: The &#8220;write&#8221; handler is not executed until after the output stream is closed. Thus, output from debugging statements in the &#8220;write&#8221; handler will never be seen in the browser. If debugging output is necessary, it is suggested that the debug output be written to a file instead.</p>
+</blockquote>
+<p>So I replaced all the echo&#8217;s with $logger&#8594;debug calls. No result. Nothing on the log file.</p>
+<p>Back to manual, a <span class="caps">WARNING</span>:</p>
+<blockquote>
+<p>Write and Close handlers are called after destructing objects since <span class="caps">PHP</span> 5.0.5. Thus destructors can use sessions but session handler can&#8217;t use objects. In prior versions, they were called in the opposite order. It is possible to call session_write_close() from the destructor to solve this chicken and egg problem.</p>
+</blockquote>
+<p>So, there was a <em>chicken and egg</em> thing. I had 5.1.2 installed, and yes, as opposite to many php coders, I was trying to save an object into the session.</p>
+<p>On the manual, I read the <a href="http://php.net/manual/en/function.session-set-save-handler.php#62260">first comment</a></p>
+<blockquote>
+<p>That is not the way objects should be saved into session. You should not just assign the entire object to $_SESSION[&#8216;myObj&#8217;] and hope for the best while waiting for the script to end and for the php internal engine to serialize your object, call destructors etc.</p>
+</blockquote>
+<p>You should serialize your object beforehand by specifically calling serialize() on your object and assign the serialized string to a session key.</p>
+<p>The <a href="http://php.net/manual/en/function.session-set-save-handler.php#61223">second</a> comment? even worse:</p>
+<blockquote>
+<p>As posted here (http://marc.theaimsgroup.com/?l=php-general&amp;m=113833844422096&amp;w=2) the session module cannot handle objects anymore (tested in 5.1.2).</p>
+</blockquote>
+<p>So, no objects into the session anymore?</p>
+<p>Well, my friends, after 4 hours of digging (include this post also) my solution for medick is like this:</p>
+<p>ActiveRecord::__sleep, <strong>do not close the database connection</strong> who knows in what order the objects are destroyed in <span class="caps">PHP</span>? Simple huh?</p>
+<p>The result <del>will be added soon</del> <strong>is</strong> under version control.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-03-28-is-the-hype-over.html" rel="prev" title="Is the hype over?">Is the hype over?</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-03-31-medick-no-html-filtering.html" rel="prev" title="Medick, no HTML filtering">Medick, no HTML filtering</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

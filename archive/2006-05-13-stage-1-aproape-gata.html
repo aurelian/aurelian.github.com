@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stage 1, aproape gata - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Stage 1, aproape gata">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-05-13-stage-1-aproape-gata.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="34">
+    <h3 class="title"><a href="" rel="bookmark">Stage 1, aproape gata</a></h3>
+    <time datetime="2006-05-13 18:27:11 +0200">13 May 2006</time>
+    <section class="content">
+      <p><a href="http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html">Anuntam</a> acum cateva zile intentia de a dezvolta primul meu proiect public in <a href="http://www.rubyonrails.com">rails</a>.</p>
+<p>In prima etapa mi-am propus sa implemetez un sistem pentru gestionarea utilizatorilor cu urmatoarele cerinte:</p>
+<ul>
+	<li>posibilitatea creeri de noi conturi;</li>
+	<li>odata autentificat, utilizatorul curent va putea sa isi schimbe parola, adresa de mail sau sa isi stearga contul;</li>
+	<li>un utilizator privilegiat va putea sterge/edita conturile altor indivizi;</li>
+	<li>privilegiatul poate sa deschida si alte conturi dar sa si vada detalii despre utilizatorii inregistrati (nume, last login, email, etc).</li>
+</ul>
+<div class="mta"><a href="http://assets.locknet.ro/images/16.png" rel="lightbox" title="Marks Code Fixing"><img src="http://assets.locknet.ro/images/16t.png" title="Marks Code Fixing" alt="Marks Code Fixing" /><br />Click on image for a larger view</a></div>
+<p>Era mult prea simplu sa folosesc un plugin pentru toata treaba asta si probabil as fi ratat unul din scopurile aceste aplicatii: sa ma familiarizez cu ruby si cu rails.</p>
+<p>Am gasit destule exemple de urmat, printre ele</p>
+<p><a href="http://technoweenie.stikipad.com/plugins/show/Acts+as+Authenticated">Acts_As_Authenticated</a> dar si alte aplicatii open-source facute cu rails.</p>
+<p>Ce a iesit pana acum se poate vedea pe http://marks.29dots.com/account.</p>
+<p>Lipsuri:</p>
+<ul>
+	<li>vreo doua actiuni nu sunt inca implementate: password_recovery si editarea altor conturi de catre super-user;</li>
+	<li>trebuie sa <a href="http://manuals.rubyonrails.com/read/chapter/28">testez</a> mai atent <strong>controllerul</strong> <code>account</code>;</li>
+	<li>aplicatia arata cam ciudat (look-and-feel) si prezinta ceva inconsistente intre pagini (paginile nu arata toate la fel).</li>
+</ul>
+<p>Am facut deja planul si pentru etapa 2 unde utilizatorul inregistrat va putea sa adauge intrari noi in sistem.</p>
+<p>Pentru a fii sigur ca nimeni nu va folosi numele tau de utilizator preferat rezerva-ti un cont chiar acum.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-05-05-oradea-geek-meet-plan.html" rel="prev" title="Oradea: Geek Meet plan">Oradea: Geek Meet plan</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-05-13-5-aprilie-css-naked-day-locknetro.html" rel="prev" title="5 Aprilie - CSS Naked Day @ locknet.ro">5 Aprilie - CSS Naked Day @ locknet.ro</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

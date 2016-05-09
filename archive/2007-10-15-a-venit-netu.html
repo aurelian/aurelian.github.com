@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>A venit netu' - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="A venit netu'">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2007-10-15-a-venit-netu.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="120">
+    <h3 class="title"><a href="" rel="bookmark">A venit netu'</a></h3>
+    <time datetime="2007-10-15 09:38:32 +0200">15 October 2007</time>
+    <section class="content">
+      <p>Nici nu stii ce saptamana fara internet am avut!</p>
+<p>Cat ma bucuram sa ies pana la mall sa beau un capuccino si sa imi iau mailul. wifi frate!. O data pe zi, vreo ora- cel mult, apoi nu mai dadeam prea bine.</p>
+<p><img src="http://assets.locknet.ro/images/36.jpg" alt="" /></p>
+<p>Insa, eram convins ca fara conexiune as fi mai productiv. Da de unde! Eram foarte stresat, verificam tot timpul sa vad daca raspunde cineva la ping si nu puteam sa ma concentrez.</p>
+<p><span class="caps">ISP</span>-ul meu a fost chiar ok:</p>
+<blockquote>
+<p>- azi la 2 vine baiatu sa lipeasca firu pe stalp!</p>
+</blockquote>
+<p>Asa imi zicea din doua in doua zile.</p>
+<blockquote>
+<p>- nu poate ca a plouat afara si nu se prinde fibra bine!</p>
+</blockquote>
+<p>Mi-a oferit in permanenta sprijin si m-a tinut la curent cu ultimile noutati, cand il sunam eu. A naibii fibra, ca nu am inteles inca de ce anume trebuia sa se prinda.</p>
+<p>Foarte posibil sa fi pierdut vreo <a href="http://en.wikipedia.org/wiki/Markov_chains" title="good shit">doua contracte</a> &#8211; adica bani &#8211; in saptamana asta lipsa, si la fel de posibil sa fiu bagat in categoria &#8220;freelancer care dispare&#8221;. Mai ales ca acum cateva zile mi-am facut si telefonul varza. Unu sigur e pierdut. Si imi pare foarte rau ca era din ala de tip &#8220;easy money&#8221;. Sa vad, poate mai am cum sa il salvez pe al-ii-lea.</p>
+<p>In sfrasit. Intre timp am descoperit o chestie ciudata in <a href="http://prototypejs.org">prototype</a>:</p>
+<p>Daca ai un mare formular, sa zicem cu vreo 50 de campuri, bunul simt iti zice ca ar fi bine sa faci ceva de genul &#8220;wizard&#8221;: mai multe paginii cu &#8220;Next&#8230; Next&#8230;, Back&#8230;..&#8221;, ca la windows. Si cum aveam deja si ceva colturi rotunjite (adica web2.0), requesturile intre paginii se fac cu <span class="caps">AJAX</span>.</p>
+<p>Ei bine, nu este atat de simplu pe cat pare, pentru ca din motive elucidate <a href="http://dev.rubyonrails.org/browser/spinoffs/prototype/trunk/src/form.js?rev=7852#L6" title="in functia aia parca era buba!">doar pe jumatate</a>, daca ai un formular cu mai multe inputuri de tip sumbit, prototype trimite doar valoare si numele primului (din <span class="caps">DOM</span>) &#8211; chiar daca au nume diferit (unu next, iar celalat prev). In acest caz, nu aveam cum sa imi dau seama daca utilizatorul a dat click pe next pentru a afisa pagina urmatoare sau pe back pentru precedenta, merita totusi incercat un random ceva:</p>
+<blockquote>
+<p>- apasa tasta 1 daca ai dat click pe <a href="http://en.wikipedia.org/wiki/The_Pool_Guy" title="Kramer era Moviefone!!!">Next</a>, 2 pentru&#8230; sau mai bine spune-mi pe ce ai apasat!</p>
+</blockquote>
+<p>Workaroundul a fost sa nu mai observ formularul la submit (cum incercam initial) ci butoanele. Bleah, ugly as hell, da merge.</p>
+<p>Plus ca am si un file upload pe acolo. Normal cu progress bar rotund.</p>
+<p>Acum totul pare OK cu conexiunea. Serverul de <span class="caps">DNS</span> se cam balbie si mi le rezolva mai greu, da na&#8217;h, trec peste asta. Viata merge inainte.</p>
+<p style="color:#ccc;font-size:75%;"><strong>photo credit</strong>: celebdu, <a href="http://www.flickr.com/photos/celebdu/491535753/">Karaoke: The Guys</a> on flickr. Released under: <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/deed.en-us">Creative Commons</a>.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2007-10-03-wurbe2.html" rel="prev" title="Wurbe#2">Wurbe#2</a>
+      
+      &mdash;
+      
+        <a href="/archive/2007-10-15-my-textpattern-template.html" rel="prev" title="My Textpattern Template">My Textpattern Template</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

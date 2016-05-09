@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Committed revision 1 - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Committed revision 1">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-04-10-committed-revision-1.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="27">
+    <h3 class="title"><a href="" rel="bookmark">Committed revision 1</a></h3>
+    <time datetime="2006-04-10 09:47:48 +0200">10 April 2006</time>
+    <section class="content">
+      <p>I have migrated <a href="http://wsm.berlios.de/"><span class="caps">WSM</span></a> from <a href="http://www.nongnu.org/cvs/"><span class="caps">CVS</span></a> to <a href="http://subversion.tigris.org/">Subversion</a> today, basically  re-imported the sources into the new repository since I&#8217;m more comfortable with svn.</p>
+<p>Because I&#8217;m a linux user now, the development on <span class="caps">WSM</span>  is somehow discontinued.</p>
+<p>The good news is that I have found a great OS emulator, <a href="http://fabrice.bellard.free.fr/qemu/">qemu</a> , installed windows XP as a guest OS on my computer, the free microsoft compiler and now I&#8217;m ready to code on <span class="caps">WSM</span>.</p>
+<p>My <span class="caps">TODO</span> list:</p>
+<ul>
+	<li><a href="http://wsm.berlios.de/pmwiki.php/Main/WSMServiceCreate">WSMService::create</a> should return a WSMService object</li>
+	<li>More <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/base/service_functions.asp">methods</a> related with windows services</li>
+	<li>Use <span class="caps">WSM</span> to control a service on a network computer (tests)</li>
+	<li>Update <a href="http://wsm.berlios.de/pmwiki.php/Main/API"><span class="caps">API</span> docs</a> from <span class="caps">WSM</span> web-site</li>
+	<li>Create a new relase.</li>
+	<li>Compile it with windows gcc (a Makefile, anyone?)</li>
+	<li>Add methods to create a service from a php script (like win32service has).</li>
+	<li>Rule the World.</li>
+</ul>
+<p>Don&#8217;t know when I can finish this list, but if you can help me with:</p>
+<ul>
+	<li><strong>code</strong>: if you are familiar with <span class="caps">PHP</span> internals or with windows <span class="caps">API</span></li>
+	<li><strong>tests</strong>: get the sources, compile them and load the wsm extension</li>
+	<li><strong>web-site</strong> maintenance (what skills you need for this?).</li>
+</ul>
+<p>please, do contact me.</p>
+<p>In return, you can add a new line in your resume:</p>
+<blockquote>
+<p>I did task X for a nice open-source project, <span class="caps">WSM</span></p>
+</blockquote>
+<p>or you can add your name on the credits, or you can just learn something new.</p>
+<p><span class="caps">WSM</span> (Windows Service Management) is a great <span class="caps">PHP</span> extension (not published with pecl) witch provides a nice OO <span class="caps">API</span> that will help you to control windows services (start/stop, create/remove, query) from php.</p>
+<h3>Update 10.April.2006</h3>
+<p>The sync was made on the berlios servers and the subversion service is available. Checkout the code with:</p>
+<pre>
+svn checkout svn://svn.berlios.de/wsm
+</pre>
+<p>&#8220;More info on how to get <span class="caps">WSM</span> source from berlios svn &quot;:http://developer.berlios.de/svn/?group_id=2873.</p>
+<p><strong>on</strong> <span class="caps">WSM</span> future:</p>
+<ul>
+	<li>Step 0.5: Finish tasks from my <span class="caps">TODO</span> list</li>
+	<li>Step 1: Create a clone of <a href="http://aspn.activestate.com/ASPN/docs/ActivePython/2.4/pywin32/win32service.html">win32 module from python</a> to php.</li>
+	<li>Step 2: Port other <a href="http://aspn.activestate.com/ASPN/docs/ActivePython/2.4/pywin32/win32_modules.html">cool</a> win32 modules to php.</li>
+</ul>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-04-09-medick-022-released.html" rel="prev" title="Medick 0.2.2 Released">Medick 0.2.2 Released</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-04-14-am-hosting-cu-rails-mai-departe.html" rel="prev" title="Am hosting cu Rails, mai departe?">Am hosting cu Rails, mai departe?</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>

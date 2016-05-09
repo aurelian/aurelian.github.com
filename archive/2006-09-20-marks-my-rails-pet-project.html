@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <title>Marks: my Rails pet project - locknet.ro</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+
+  <!--
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cagliostro&subset=latin,latin-ext">
+  -->
+
+  <link href='http://fonts.googleapis.com/css?family=PT+Mono|Cagliostro&subset=latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/screen.css">
+  <link rel="openid.server" href="http://www.myopenid.com/server">
+  <link rel="openid.delegate" href="http://aurelian.myopenid.com/">
+  <link rel="openid2.local_id" href="http://aurelian.myopenid.com">
+  <link rel="openid2.provider" href="http://www.myopenid.com/server">
+  <meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=aurelian.myopenid.com">
+  <meta name="geo.position" content="41.370748;2.144268">
+  <meta property="fb:admins" content="670661168" />
+  <meta property="og:site_name" content="Aurelian's locknet.ro">
+
+  <meta name="author" content="Aurelian Oancea">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@ao12">
+  <meta property="og:title" content="Marks: my Rails pet project">
+  
+  
+  <meta property="og:url" content="http://locknet.ro/archive/2006-09-20-marks-my-rails-pet-project.html">
+</head>
+
+<body>
+  <header>
+    <hgroup>
+      <h1><a href="/">lock</a>net.ro</h1>
+      <h2><a href="/archive.html">archive</a></h2>
+    </hgroup>
+  </header>
+  <article id="30">
+    <h3 class="title"><a href="" rel="bookmark">Marks: my Rails pet project</a></h3>
+    <time datetime="2006-09-20 10:34:43 +0200">20 September 2006</time>
+    <section class="content">
+      <p>Marks va fi titlul primului meu proiect facut in <a href="http://ruby-lang.org">ruby</a> folosind <a href="http://rubyonrails.com">Ruby on Rails</a>.</p>
+<p>Marks vine de la Book*marks* si, <span class="caps">TADA</span>: va fi o clona dupa <a href="http://del.icio.us">del.icio.us</a>.</p>
+<p>Asa <a href="http://locknet.ro/archive/2006-09-20-rails-primele-3-indicii.html">cum</a> <a href="http://locknet.ro/archive/2006-04-14-am-hosting-cu-rails-mai-departe.html">ziceam</a>, este doar un pet project, nu caut celebritatea in domeniul asta, si nici nu incerc sa intru pe piata celor care ofera &#8220;Social Bookmarks&#8221; (din unele statistici, cica ar fi peste 20 de astfel de aplicatii).</p>
+<p><strong>Just for fun</strong>.</p>
+<p>Sper totusi sa fiu primul care foloseste acest nume.</p>
+<p>Sa spun adevarul pana la capat, dupa ce am descoperit ca voi putea folosi Ruby on Rails si dupa ce m-am gandit cateva zile, aveam deja planul initial pentru &#8220;marks&#8221;.</p>
+<p>Saptamana asta o sa incep si implementarea.</p>
+<p><strong>Marks, Application Workflow</strong></p>
+<p>Un utilizator va putea sa vada linkurile adaugate, insa va avea nevoie de un cont pentru a putea introduce un <span class="caps">URL</span> in sistem.</p>
+<p>Gruparea se va face pe &#8220;taguri&#8221;, pe utilizatori sau pe tagurile unui utilizator.</p>
+<p>Pentru inceput:</p>
+<ul>
+	<li>Va fi un sistem in care nu va exista posibilitatea adaugarii de comentarii pentru o anumita intrare.</li>
+	<li>Validare utilizatorilor nou creati se va face automat, totusi, in viitor fiecare va trebui sa isi valideze contul folosind un link primit pe mail.</li>
+</ul>
+<p><strong>Marks, Database</strong></p>
+<p>Tabelul central al aplicatiei va fi denumit <strong>bookmarks</strong> si va avea campurile:</p>
+<ul>
+	<li>url</li>
+	<li>title</li>
+	<li>user_id</li>
+</ul>
+<p>Fiecare bookmark va avea asociat un user, deci tabelul pentru pastrarea utilizatorilor, <strong>users</strong>, va arata cam asa:</p>
+<ul>
+	<li>username</li>
+	<li>password</li>
+	<li>email</li>
+</ul>
+<p>Pentru taguri va fi folosit pluginul <a href="http://web.archive.org/web/20060424173833/http://wiki.rubyonrails.org/rails/pages/Acts+As+Taggable+Plugin">Acts As Taggable</a></p>
+<p><strong>Marks, Frontend</strong></p>
+<p>In partea de prezentare voi folosi foarte mult <span class="caps">AJAX</span>, atat de mult incat va fi de prost gust.</p>
+<p>Foarte importanta mi se pare insa validarea campurilor completate de utlizatori si mesajele de eroare care vor fi afisate in cazul in care se intampla ceva gresit.</p>
+<p>La fel de important: as vrea ca aceasta aplicatie sa fie functionabila si pe browsere fara javascript.</p>
+<p>Cam acesta este <span class="caps">PLANUL</span>.</p>
+<p>Pentru o versiune viitoare, as avea nevoie de:</p>
+<ul>
+	<li>Un maestru in chestiuni de usabilitate si/sau un guru specializat in desenarea interfetelor web,</li>
+	<li>Un server mai rapid.</li>
+</ul>
+<p>Sincer, ma astept sa apara un destept cu ideea ca ar putea face acest proiect in <span class="caps">ASM</span> sau <span class="caps">PHP</span> in 10 minute, iti zic inca de acum: felicitari!</p>
+<p>Un altul imi va atrage atentia ca nu va folosi niciodata aceasta aplicatie pentru ca exista deja X sau Y: foarte bine ramai cu X.</p>
+<p>Daca nu v-ati prins deja, repet: este un proiect pe care il fac doar din placere, si pentru a avea parte de bucurii adevarate trebuie sa folosesc ruby si Ruby on Rails.</p>
+<p>Poti vedea cum progreseaza <span class="caps">PLANUL</span> pe http://marks.locknet.ro. O sa anunt cand va fi gata pentru testare.</p>
+    </section>
+
+    <nav>
+      
+      &laquo; <a href="/archive/2006-09-20-acoperire-cu-rcov.html" rel="prev" title="Acoperire cu rcov">Acoperire cu rcov</a>
+      
+      &mdash;
+      
+        <a href="/archive/2006-09-20-rails-primele-3-indicii.html" rel="prev" title="Rails, primele 3 indicii">Rails, primele 3 indicii</a> &raquo;
+      
+    </nav>
+  </article>
+  <footer>
+  (c) 2006 - 2016 Aurelian Oancea
+ </footer>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-320013-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</body>
+</html>
