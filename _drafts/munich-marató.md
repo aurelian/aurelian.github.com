@@ -43,7 +43,7 @@ També el divendres vaig recollir el dorsal i la bolsa del corredor sense cua, i
 
 No vull entrar en detalls però hem fet turisme, hem fet carbo-loading amb birras i hem provat el Schweinshaxe en HB. Dissabte res de cervezas però sí el típic plat de espaguetis a la boloñesa en un italia (Ristorante Roma) amb un got de vi blanc. Estava plovent, i això em preocupava. No us conto la segona preocupació amb una tovalla...
 
-En fi... diumenge em desperto sense despertador a les 7:20, prenc un café i un breze amb mantega. Fred, 5-6°, boire, ratxes de vent cortas peró res de plutja. Tinc tot preparat així que vaig al tram. Un segon cafeto per emportar amb un pastis i pujo el tram on veig el Tiny amb el seus. Ens fem fotos, i li explico la meva estratègia que ja ha avalat en jaume86. A mes volia afluixar una mica en Englischer Garten per por de la humitat. He tingut que deixar la bossa a Kleiderabgabe, així que ens hem separat.
+En fi... diumenge em desperto sense despertador a les 7:20, prenc un café i un breze amb mantega. Fred, 5-6°, boire, ratxes de vent cortas peró res de plutja. Tinc tot preparat així que vaig al tram. Un segon cafeto per emportar amb un pastis i pujo el tram on veig el Tiny amb el seus. Ens fem fotos, i li explico la meva estratègia que ja ha avalat en jaume86 **+**. A mes volia afluixar una mica en Englischer Garten per por de la humitat. He tingut que deixar la bossa a _Kleiderabgabe_, així que ens hem separat.
 
 Com equipacio porto la samarreta de tirants de correcat, un mocador tip buf que acabarà en el cap, manguitos, guants i els pantalons Inferno de Saucony. Estic abrigat amb el paravent de MITJAM ARATO per deixar-lo en el calaix abans de la sortida.
 
