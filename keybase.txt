@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/aurelian
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://locknet.ro
+  * I am aurelian (https://keybase.io/aurelian) on keybase.
+  * I have a public key with fingerprint C2A7 DC09 A8A4 6FD3 8C8E  D34C 718C EC43 D520 4F1D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b5c45e21a4f7cbb48d4aa6f8ffea3b3e7aaf53cd40de800fc7b223a1600010350a",
+            "fingerprint": "c2a7dc09a8a46fd38c8ed34c718cec43d5204f1d",
+            "host": "keybase.io",
+            "key_id": "718cec43d5204f1d",
+            "kid": "0101b5c45e21a4f7cbb48d4aa6f8ffea3b3e7aaf53cd40de800fc7b223a1600010350a",
+            "uid": "619c0ed1bd04fe92662396e96de93419",
+            "username": "aurelian"
+        },
+        "service": {
+            "hostname": "locknet.ro",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472672645,
+    "expire_in": 157680000,
+    "prev": "95b758f80a24eeb4ad5ed4764175d8a390df0afd9690cc166746d7b8f690ed80",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJbSBRRGN4tXXXp9pZdiBolKhY7M3PmzMxSll20yK4v2YW2M+ecscl1
+Zt0drWWVILBCywKjwAeDIqJ6qqCLSLVZbGE3TIsKysAItiB6KKjUOiP11mNw4PD/
+fN/3f9/Pf3fieF/Qf7p9UV7raOUdf2/6eL1vc0ZuTgmGQ5NCOCXUsLGPRSlLuJEa
+iwphAYhANBQCFSaJGJoqMQyoUYgxMjXTZFg2ZKZibCoyoRBQpgFgEtWQJBmLCABO
+lxWAhZBgWnY1i8filu1yWSJhlRKgYw1DZFJZIxqjMiSqqBFGoEwVCUBTpJy4y0l4
+DG7OwAlWYjm8x4vImL1/4P+z7/oxOSTqBDAqGpSPYbqEkCTriOmIMl2Gou4BEyxu
+41rG0bg+zqIWtoWmkMC7DRZh3mK9JH8QUYfU2MwtiXtpYnHHdYgT5f1drhsLezQ3
+GfNwe5gR+aMQMSyb8iVyQgOLJyzHFsIiRxLX8iRFqEqIP6iEBLY3ZsVZxPIQiop4
+NgC8MayBS+qKoSqaqQEsQcYMiKnCKFQRFFWFaljWATUBNqmOdECIiJAKEVUNzeQ1
+oxoQvEx1tiOEJW4TV3PJhFVtY5eHFpru3N6e4/MHfYHccd5x+YIFU/6e3BV/vu9Y
+0ez8iuTNtamFqw5+Nz5HzmzrMudFltzLZKcPZBfHdic+ljeny4Yurt/549DGQPBH
+ccupju6sP9A7tKD95/mh7tJAclvVgHm3dIcw7e1w08lZ658Y1wbfbfyVP7zM2pqX
+u3PRpAcXsiu/bFpeHFr2rXXpizP9By6Pfm3PFojS68ud9z+czXR9zvQVfeor6xl4
+s2BDz/vHbeLV1fOfjpyofHWpsPVo9HTpin2ocPDp61tKeUWBsWZmpHZuTvThi45H
+VvO6N3508NXuyv79mZdzGiv96S1i543Je9JXu4+0nZs9MiUVTTe25BWhqVWDE6K1
+Wmed+uxjVejwu5LRqlOB68/bZiR/A/5aQ1Q=
+=/COL
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aurelian
+
+==================================================================
