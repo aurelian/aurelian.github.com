@@ -19,7 +19,7 @@ Si quieres debutar o hacer marca en maratón, recomiendo Valencia. Ambiente: 10,
 
 Antes de meterme en cualquier cosa me gusta estar preparado, hice la inscripción para correr el Maraton de Valencia en Abril 2014, 7 meses antes.
 
-<figure style="float:right; margin-left:20px;">
+<figure class="right">
   <img src="http://assets.locknet.ro/img/training-plan.jpg" style="width:300px;height:534px;">
   <figcaption>Plan de entreno (18 semanas)</figcaption>
 </figure>
@@ -39,7 +39,7 @@ Después de acabar el ultimo entrenamiento de calidad con 10 días antes me he q
 #### Valencia
 
 <figure>
-  <img style="margin:0px auto; display:block; width: 90%;" src="http://assets.locknet.ro/img/city-of-running.jpg" alt="Valencia City of Running"/>
+  <img style="margin:0px auto; display:block;" src="http://assets.locknet.ro/img/city-of-running.jpg" alt="Valencia City of Running"/>
   <figcaption>Valencia - City of Running (foto: <a href="https://www.facebook.com/Fede192fotografia" target="_blank">Fotografia Fede</a>)</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ Bueno esta era la idea. Nervios, emociones, ruido en la calle. Uh, es que no pue
 Domingo: 7am - desayuno en el hotel. La sala de mesas llenísima de corredores. Me pongo en una mesa con un belga. Charlamos un poco para matar los nervios pero no puedo comer mas de dos trocitos de pan - uno con mantequilla y miel y el otro con jamón dulce y queso. Cafe: Espresso Double. Nos deseamos suerte.
 8am - ya fuera a encontrar _els companys correcats_. Foto juntos. Chaos en la guardaroba así que vuelvo en el hotel para dejar la bolsa. Casi sin calentar entro en el _calaix blau_ a las 8:45, donde veo a **Jorfer** y **ManoloM**.
 
-<figure style="float:right; margin-left:20px;">
+<figure class="right">
   <img src="http://assets.locknet.ro/img/coffee-in-the-morning.jpg" style="width:299px;height:400px;">
   <figcaption>abans de sortir del hotel estava una mica cagat</figcaption>
 </figure>
@@ -68,7 +68,7 @@ En el _calaix_ me encuentro entre los dos grupos: los de 3h08 que es claro que v
 
 **KM5** <span style="color:blue;">puesto 2350</span> 23:40 Agua. Mi mantra paciencia-paciencia-paciencia. Me engaño que Kimetto hizo lo mismo en Berlin, su primer parcial de 5km ha sido el mas lento. Bueno, 10 minutos mas rápido que el mío.
 
-<figure style="float:left; margin-right:20px;">
+<figure class="left">
   <img src="http://assets.locknet.ro/img/traffic.jpeg" style="width:320px;height:320px;"/>
   <figcaption>Trafico (foto: <a href="https://www.facebook.com/newsvalencia" target="_blank">Militis Photography</a>)</figcaption>
 </figure>
@@ -93,8 +93,8 @@ Tengo sensación de hambre. ¿Y si cogería algo solido en un avituallamiento?
 **KM26-KM29** Algo raro ha pasado, aunque sigo constante con el mismo ritmo de 4:30 min/km me siento muy raro. Puede ser algo psicológico porque es la primera vez que cruzo esta barrera de kilómetros.
 Creo que fue por aquí donde vi a **Mattu**. Le grite algo… no se que… ¿Anims? Me parecía que estaba caminando tomando su gel. Pensamientos negativos… ha petado? Pero cuando sera mi turno? Por que no me he quedado con el a ver que tal. Pero si que esta bien, este tío hace 15 kilómetros sub 4:00 y los llama suaves.
 
-<figure style="float:right; margin-left:20px;">
-  <img src="http://assets.locknet.ro/img/focus.jpeg" style="width:600px;height:400px;">
+<figure class="right">
+  <img src="http://assets.locknet.ro/img/focus.jpeg" style="width:594px;height:396px;">
   <figcaption>concentracion maxima hasta en los ultimos metros.</figcaption>
 </figure>
 
@@ -117,7 +117,7 @@ Rampita para bajar al rio. Los quadriceps me avisan pero esto se esta acabando. 
 Levanto la _samarreta_ y me toco la barriga. Es un gesto para distraerme y romper mi burbuja de concentracion. Se acabo.
 
 <figure>
-  <img src="http://assets.locknet.ro/img/lineup-web.jpeg" style="margin:0px auto; display:block; width: 90%;">
+  <img src="http://assets.locknet.ro/img/lineup-web.jpeg" style="margin:0px auto; display:block;">
   <figcaption>entrada en la meta.</figcaption>
 </figure>
 

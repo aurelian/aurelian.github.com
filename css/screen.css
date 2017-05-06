@@ -1,5 +1,5 @@
 html {
-	font-size:16px
+	font-size:16px;
 }
 
 html,* {
@@ -35,6 +35,7 @@ div#running table th
 h1 {
 	font-size:2rem
 }
+
 h2 {
 	font-size:1.6875rem
 }
@@ -48,9 +49,11 @@ h4, div#running table th
 {
 	font-size:1.1875rem
 }
+
 h5 {
 	font-size:1rem
 }
+
 h6 {
 	font-size:.8125rem
 }
@@ -62,19 +65,66 @@ header h1, header h1 a {
   font-size: 8rem;
   line-height: 1;
   letter-spacing: -2px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 header h2, header h2 a {
   font-family: "Cagliostro", "Cambria", "Georgia", "Times", "Times New Roman", sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   margin-top: 0;
   line-height: 1.25;
   text-align: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  header h1, header h1 a {
+    font-size: 4rem;
+  }
+  header h2, header h2 a {
+    font-size: 2rem;
+  }
+}
+
+time {
+  font-size: .8125rem;
+}
+
+h3.title {
+  margin-bottom: 12px;
+}
+
+h3.title a {
+  font-size: 1.5rem;
+}
+
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 1rem;
+  border-left: 5px solid #868F3E;
+}
+
+blockquote p {
+  margin: 0 auto;
+}
+
+figure.left {
+  float:left;
+  margin-right:1rem;
+}
+
+figure.right {
+  float:right;
+  margin-left:1rem;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
 figcaption {
   color: #666;
-  font-size: 80%;
   font-style: italic;
   text-align: center;
 }
@@ -98,16 +148,6 @@ dl.race-details {
 dl.race-details dt {
   font-weight: bold;
 }
-
-/*
-div#running {
-  font-size: 85%;
-}
-
-div#running ul.pr-list {
-  font-size: 88%;
-}
-*/
 
 div#running table caption {
   padding-bottom: 1em;
