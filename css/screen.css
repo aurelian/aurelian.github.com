@@ -76,15 +76,6 @@ header h2, header h2 a {
   text-align: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  header h1, header h1 a {
-    font-size: 4rem;
-  }
-  header h2, header h2 a {
-    font-size: 2rem;
-  }
-}
-
 time {
   font-size: .8125rem;
 }
@@ -96,7 +87,6 @@ h3.title {
 h3.title a {
   font-size: 1.5rem;
 }
-
 
 blockquote {
   margin: 20px 0;
@@ -121,6 +111,14 @@ figure.right {
 figure img {
   max-width: 100%;
   height: auto;
+}
+
+figure img.75 {
+  transform: scale(0.75, 0.75);
+}
+
+figure img.half {
+  transform: scale(0.5, 0.5);
 }
 
 figcaption {
@@ -193,4 +191,29 @@ div#running table tr.other td {
 div#running table th:nth-of-type(-n+3) {
   width: 17%
 }
+
+/** media queries **/
+
+@media only screen and (max-width: 1024px) {
+  header h1, header h1 a {
+    font-size: 4rem;
+  }
+
+  header h2, header h2 a {
+    font-size: 2rem;
+  }
+
+  figure.left, figure.right {
+    float: none;
+    margin: 0;
+    display: block;
+  }
+
+  figure img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
 

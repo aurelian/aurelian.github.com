@@ -94,7 +94,7 @@ Tengo sensación de hambre. ¿Y si cogería algo solido en un avituallamiento?
 Creo que fue por aquí donde vi a **Mattu**. Le grite algo… no se que… ¿Anims? Me parecía que estaba caminando tomando su gel. Pensamientos negativos… ha petado? Pero cuando sera mi turno? Por que no me he quedado con el a ver que tal. Pero si que esta bien, este tío hace 15 kilómetros sub 4:00 y los llama suaves.
 
 <figure class="right">
-  <img src="http://assets.locknet.ro/img/focus.jpeg" style="width:594px;height:396px;">
+  <img class="half" src="http://assets.locknet.ro/img/focus.jpeg" />
   <figcaption>concentracion maxima hasta en los ultimos metros.</figcaption>
 </figure>
 
