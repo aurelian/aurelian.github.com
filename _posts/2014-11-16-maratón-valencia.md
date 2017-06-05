@@ -94,8 +94,8 @@ Tengo sensación de hambre. ¿Y si cogería algo solido en un avituallamiento?
 Creo que fue por aquí donde vi a **Mattu**. Le grite algo… no se que… ¿Anims? Me parecía que estaba caminando tomando su gel. Pensamientos negativos… ha petado? Pero cuando sera mi turno? Por que no me he quedado con el a ver que tal. Pero si que esta bien, este tío hace 15 kilómetros sub 4:00 y los llama suaves.
 
 <figure class="right">
-  <img class="half" src="http://assets.locknet.ro/img/focus.jpeg" />
-  <figcaption>concentracion maxima hasta en los ultimos metros.</figcaption>
+  <img src="http://assets.locknet.ro/img/focus.jpeg" />
+  <figcaption>concentracion maxima hasta los ultimos metros.</figcaption>
 </figure>
 
 La verdad es que en este tramo <span style="font-size:105%">**lo he pasado fatal**</span> en plan mental. Empiezo a ver mas corredores caminando. Uno tirado en el asfalto haciendo estiramientos. Intento concentrarme pero no se ni en que kilometro me encuentro. Es el 27 o el 28? Aun así sigo adelantando. Como un despertador el Garmin me avisa que ha sido el 29. Aun no veo el marcaje oficial pero todo empieza a tener sentido otra vez. Me muevo corredor a corredor lo mas cerca que puedo de la linea azul. No ha sido el muro, pero no puedo esperar hasta el 32 para tomar el proximo gel o hacer algo para cambiar la dinámica.

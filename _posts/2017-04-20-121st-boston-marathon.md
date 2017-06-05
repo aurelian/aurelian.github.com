@@ -15,17 +15,18 @@ Estic esmorzant un _egg & cheese_ en un _pumpernickel bagel_ amb suplement de _b
 
 Acabo de fer el _check-out_ del hotel començant aixì l'última etapa del viatge a Boston, aquella de turista. Les cames em confirman que ahir vagi corre una marató, quan em fixo en la cançon que es feia sentir a la ràdio del bar.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/h81Ojd3d2rY?rel=0" frameborder="0" allowfullscreen></iframe>
-
-> Monday, Monday, can't trust that day
->
-> Monday, Monday, sometimes it just turns out that way
->
-> Oh Monday mornin' you gave me no warnin' of what was to be
->
-> Oh Monday, Monday, how could you leave and not take me
+<figure>
+  <iframe class="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/h81Ojd3d2rY?rel=0" frameborder="0" allowfullscreen></iframe>
+  <figcaption><blockquote class="plain">
+Monday, Monday, can't trust that day<br>
+Monday, Monday, sometimes it just turns out that way<br>
+Oh Monday mornin' you gave me no warnin' of what was to be<br>
+Oh Monday, Monday, how could you leave and not take me</blockquote></figcaption>
+</figure>
 
 Somric, això és màgic. Boston, amb la seva marató i el seus bostonians, és l'HÒSTIA.
+
+<aside id="training">
 
 #### Preparació
 
@@ -38,7 +39,9 @@ It is a tough and serious marathon plan: 1-2 weekly workouts over hills, either 
 My MP (tempo) runs were [at around 4:11/km](https://www.strava.com/activities/920963246) heavily influenced by wind, so my A goal was realistic. Long runs were done most of the times lonely and I transformed the distance and time in a pleasant routine. Pace for the long runs was 4:40/km to [5:00/km when going over hills](https://www.strava.com/activities/905717393). Speed workouts involving running [comfortable and fast downhills](https://www.strava.com/activities/909275620) made my quads Boston ready.
 
 I could not reach 75M peak, but constantly put 55-65 miles. In total, I ran around 1000 miles in 18 weeks, the biggest training cycle I ever done. All of this while having a full time job, having to do house chores and hitting the ski slopes on a regular basis.
+</aside>
 
+<aside id="travel">
 #### Viatge, 1 setmana abans
 
 Arrived in Boston late Tuesday with plenty of time to adjust to timezone and temperature. Wednesday ran [the whole Commwealth Ave](https://www.strava.com/activities/939146121) so I know what to expect of the Newton Hills. Thursday [Beacon ST to Washington ST](https://www.strava.com/activities/940454567) with a lap of the Chestnut Hill Reservoir.
@@ -50,22 +53,33 @@ Saturday [the shakeout](https://www.strava.com/activities/943850358) and then ha
 At this point I had more knowledge of the Boston course than every other marathon I ran before and ...it scared me. One one hand was good, because I was aware of the toughness of the later hills, but on the other hand I couldn't remember my [20 miler with almost 900m of elevation gain](https://www.strava.com/activities/888336538) done in 2h 44.
 
 Sunday morning another [brief shakeout](https://www.strava.com/activities/944735449) this time with the HCS group. At 9am I was having a coffee outside at a Starbucks and couldn't help but notice how Sun was burning my skin.
+</aside>
 
 #### Dimarts 17 d'Abril, Marató de Boston
 
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
-Dins del Village em trobo amb els companys d'ARTC. Ens asseiem sobre l'herba en una de les tendas de campanya. Parlem de tot: running, mecànica dels fluids i sediments del riu Mississippi, difèrencias culturals, tot això mentre feia els últims preparatius - crema de sol, vaselina, cordons, _caramel cheesecake_, aigua, meitat de _bagel_ i un doble espresso comprat el dia abans en un Starbucks.
+<figure class="left">
+  <img src="https://cdn-s3.si.com/s3fs-public/2016/04/14/hopkinton-start-boston-marathon-course-guide.jpg" style="width:355px;height:200px;">
+  <figcaption>It all starts here</figcaption>
+</figure>
+
+Dins del Village em trobo els companys d'un club que tenim en Strava. Ens asseiem sobre l'herba en una de les tendas de campanya. Parlem de tot: running, mecànica dels fluids i sediments del riu Mississippi, difèrencias culturals, tot això mentre feia els últims preparatius - crema de sol, vaselina, cordons, _caramel cheesecake_, aigua, meitat de _bagel_ i un doble espresso comprat el dia abans en un Starbucks.
 
 Hi ha de tot en el _Athlete's Village_, inclòs una cola per ser fotografiat amb el cartell ["It all starts here"](http://apcook15.me.holycross.edu/files/2015/04/71.jpg).
 
 A les 9:05 ens cridan als del _Wave 1_ per dirigir-nos a sortida. Hi ha 800 metres fins els calaixus i aprofito per escalfar una mica. Abans d'entrar-hi faig un últim riu en els lavabos del parking de supermercat.
 
-9:35 estic dins del calaix. Condicions ideals per fer una barbacoa amb els amics, uns 18-19°C sense rostre de núvuls. La senyera mericana confirma la dirreció del vent d'esquena mentrestant un senyor ens interpreta una versió falseta de l'himne.
+9:35 estic dins del calaix. Condicions ideals per fer una barbacoa amb els amics, uns 18-19°C sense rostre de núvuls. La senyera americana confirma la dirreció del vent d'esquena mentrestant un senyor ens interpreta una versió falseta de l'himne.
 
 ##### Start - KM10
 
 Del _corral 4_ vagi trigar 2 minuts en creuar la sortida i arancar la meva 4-a marató - primera Major i primera fora d'Europa.
+
+<figure class="right">
+  <img src="https://c1.staticflickr.com/8/7136/26877139444_a9b7bccd86_b.jpg" style="width:466px;height:350px;">
+  <figcaption>Entering Brookline</figcaption>
+</figure>
 
 Som molts, tots amb un nivell espectacular i costa correr en una carretera amb un carril per cada sentit. Estic posicionat al meitat del carrer i no vull gastar res esquivant la gent, prefereixo avançar quan trobo forats. Fa una baixada brutal, vam perdre 40-45 metres d'altura en el primer quilòmetre que'l vagi passar en 4 minuts i 13 segons.
 
@@ -73,9 +87,9 @@ Hi han avituallaments cada milla (1.6km) amb gots de gatorade i aigua, primer en
 
 Em poso més a l'esquerra per estar segur que al proper puc beuré. Al km2, molt aviat, prenc el primer gel que em serveix per recordar a regular el ritmé. És un camvi d'estragia ja que normalment utilizo 4 gels en una marató, aquesta vegada vagi introduir un cinque molt aviat que en retrospectiva m'ha anat bé, es que el cos gasta més energia per refredar-se.
 
-M'ha fet molta gracia ver un group d'espectadors amb el cartell ["Entering Brookline"](https://c1.staticflickr.com/8/7136/26877139444_a9b7bccd86_b.jpg) quan ens apropàvem al _Ashland_, quin sentit d'humor tenen aquests! Aviat el **quilòmetre 5 en 21:02 a 4:12/km** tal i com tenia plantejat.
+M'ha fet molta gracia ver un group d'espectadors amb el cartell _Entering Brookline_ quan ens apropàvem al _Ashland_, quin sentit d'humor tenen aquests! Aviat el **quilòmetre 5 en 21:02 a 4:12/km** tal i com tenia plantejat.
 
-S'ha de dir que hi han relotjes ben visibles marcant el temps oficial començat del 10:00 del matí (primera sortida) situats a cada milla i 5 quilòmetres. A part de les milles a vegades veig també els punts quilòmetrics marcats però no puc dir si tot el recorregut és aixì.
+S'ha de dir que hi han relotjes ben visibles marcant el temps oficial començat del 10:00 del matí (primera sortida) situats a cada milla i cada 5 quilòmetres. A part de les milles a vegades veig també els punts quilòmetrics marcats però no puc dir si tot el recorregut és aixì.
 
 La calor es nota, el vent d'esquena no tant i no refresca gaire.
 
@@ -87,6 +101,11 @@ El **quilòmetre 10 cau en 42:17 (4:14/km)**. És on deixo anar definitivament e
 
 El public cada vegada més nombrós em fascina: aqui uns que han sortit amb tota la família per montar un avituallament improvisat amb aigua i taronjes. Ara uns que fan una festa. Uns han sacat el lit fora de casa per veure amb tot el confort i de la primera fila els maratonians. Altres, boratxus, comparteixen les seves birras. Crec que és molt d'hora fotre'm una en el km 10.
 
+<figure class="right">
+  <img src="https://content-eu.drive.amazonaws.com/cdproxy/templink/DA_pPtWYZdKDsqYda_aU4Ae9C3OcchDKWEb0XwpbsNspX92IB?viewBox=1430" style="width:461px;height:230px">
+  <figcaption>Lake Cochituate, foto Google Street View</figcaption>
+</figure>
+
 Entrem en **Natick**, en papel la part "plana" de la Marató, també és on la xafogor puja. No hi ha ombra en tot el recorregut que va de l'oest al l'est. Un corredor em dona una ampolla de aigua freda que m'ho tiro damunt.
 
 El lac _Cochituate_ on, diu la llegenda, [Ellison "Tarzan" Brown](https://www.goodreads.com/book/show/338583.Ellison_Tarzan_Brown) ha fet un bany en una edició de la marató amb una calor com la d'avui. No sembla una mala idea i per uns segons m'ho estic pensant seriosament.
@@ -95,19 +114,29 @@ Deixo enrere el **quilòmetre 15 en 1:03:30 (4:14/km)**. Milla 10 és on comence
 
 No sé si adelanto on m'adelantan, intento fer converses amb els que tinc al voltant i segueixo gaudint de l'ambient, llegint cartells i halucinant amb la penya que ha sortit a animar.
 
-El passeig pel _Wellesley College_ és tota una experiència, encara dubto si ha sigut real. Primer, és diu "Scream Tunnel" però no hi ha un tunel (em fa molta gracia aquesta broma), segon, pell de gallina és poc perquè tots els pels (i tinc molts) se m'estiren. Era una oportunidad única per deixar uns petons però no ho he fet per por de ser atropellat al camviar la dirrecció de correr. Ho se. Una menció per la noia amb el cartel [url="https://www.google.es/webhp?q=florida+woman&hl=en&tbm=nws"]I'm not from Florida"[/url], una referencia que m'ha fet somriure.
+<figure class="left">
+  <img src="http://image.masslive.com/home/mass-media/width960/img/republican/photo/2017/04/17/-d8b7b8eb49302a26.JPG" style="width:390px;height:260px;">
+  <figcaption>Scream Tunnel at Wellesley College</figcaption>
+</figure>
+
+El passeig pel _Wellesley College_ és tot una experiència, encara dubto si ha sigut real. Primer, és diu "Scream Tunnel" però no hi ha un tunel (em fa molta gracia aquesta broma), segon, pell de gallina és poc perquè tots els pels (i tinc molts) se m'estiren. Era una oportunidad única per deixar uns petons però no ho he fet per por de ser atropellat al camviar la dirrecció de correr. Ho se. Una menció per la noia amb el cartel [I'm not from Florida](https://www.google.es/webhp?q=florida+woman&hl=en&tbm=nws), una referencia que m'ha fet somriure.
 
 Al sortir del "tunnel" passo el **quilòmetre 20 en 1:24:49 (4:14/km)** i poc després en el centre de _Wellesley_ la **mitja en 1:29:23 (4:15/km)**.
 
 Tothom és a l'expectativa de les pujades que s'apropen. El ritmé no m'ha desgastat fins ara, a vegades veia 4:0x en el Garmin, doncs si realment vull el puc incrementar i el sub 3 és factible. Això si, tinc sed.
 
-**quilòmetre 25 1:46:20 (4:15/km)** i és on comença. Primer amb una baixada d'uns 35 metres per arribar en _Newton Lower Falls_ i sense descans pujem rapidament tot el que hem guanyat per creuar la _Interstate_. Els xofers ens acompanyan el pas amb claxons. Per flipar encare més. Al final del pont a la part esquerra hi ha un aspersor i faig un "détour" per aprofitar-lo. "Déu n'hi do, podrian montar un d'aquests cada milla", commento amb una corredora. Ens ha mullat bé. Em prenc el quart gel GU en el quilòmetre 27.
+**quilòmetre 25 1:46:20 (4:15/km)** La marató comença ara. Primer amb una baixada d'uns 35 metres per arribar en _Newton Lower Falls_ i sense descans pujem rapidament tot el que hem guanyat per creuar la _Interstate_. Els xofers ens acompanyan el pas amb claxons. Per flipar encare més. Al final del pont a la part esquerra hi ha un aspersor i faig un "détour" per aprofitar-lo. "Déu n'hi do, podrian montar un d'aquests cada milla", commento amb una corredora. Ens ha mullat bé. Em prenc el quart gel GU en el quilòmetre 27.
 
 ##### Newton Hills
 
 _Right at Newton Fire Station_: dies avanç, vagi calcular que tinc una hora d'aquí fins al finish. Vinga nanu. Els bombers animant a la part dreta. També hi ha un altre aspersor i els lavabos que he usat el dimecres quan he fet el reconeixement del reccoregut.
 
 Però la imatge que em va marcar és la de millers de corredors atacant la primera pujada. De la distancia semblan un serpent gigant xocant contra un mur o una banda d'orcs saltant en una recol·lectora per ser classificats. Qui ha fet els deures? És una carnisseria, però ho pujo bé.
+
+<figure class="left">
+  <img src="https://content-eu.drive.amazonaws.com/cdproxy/templink/sn-8va_t3NuhM8UhnCWt8aQWh-iul_WMy363wzDNNFcpX92IB?viewBox=1628" style="height:480px;width:318px">
+  <figcaption>Dizzy but still in one piece <br>at the Top of the Heartbreak Hill</figcaption>
+</figure>
 
 **quilòmetre 30, 2:08:51 (4:18/km)**, 12 quilòmetres en 52 minuts. Ho puc fer.
 
@@ -121,7 +150,7 @@ I em queda una.
 
 _"Do. Not. Walk. On Heartbreak Hill."_
 
-A la dreta la tenda "Heartbreak Hill Running Company" i el marcatje de 20 miles. Un tiu amb un cartell amb la cara d'un metre d'en Lionel Richie [url=https://www.youtube.com/watch?v=PDZcqBgCS74]"Hello, is it me you're looking for?"[/url].
+A la dreta la tenda "Heartbreak Hill Running Company" i el marcatje de 20 miles. Un tiu amb un cartell amb la cara d'un metre d'en Lionel Richie ["Hello, is it me you're looking for?"](https://www.youtube.com/watch?v=PDZcqBgCS74).
 
 Somriu! Ets en Heartbreak Hill, la marató de Boston, el lloc on tothom somia ser-hi un día. 5:04, el quilòmetre més lent que he fet en totes les maratóns fins ara. El noi amb el "Top of the Heartbreak Hill".
 
@@ -131,15 +160,17 @@ Estic marejat, les gambades trepijan un paviment que sembla instabil. El pollast
 
 ##### Fins l'aribada
 
-Em prenc el cinque i últim, gel GU, _Salty Caramel_ com sempre. Tinc insolació com si fos tot el dia a la platja, en el avituallament de la milla 24 trotejo lentament mentres bec 5-6 gots sencers d'aigua. Avui, el temps final no té rellevància.
+Em prenc el cinque, l'últim, gel GU, _Salty Caramel_ com sempre. Tinc insolació com si fos tot el dia a la platja, en el avituallament de la milla 24 trotejo lentament mentres bec 5-6 gots sencers d'aigua. Avui, el temps final no té rellevància.
 
-_Left on Beacon St_. La pujada del _Washington Sq_. Un nen em dona una taronja. Deliciósa. _Coolidge Corner_. El termomentre indicant 71°F a l'ombra. _Trader's Joe_. Milla 25 i un altre avituallament on faig el mateix. Estic buscant amb la mirada a algu amb una birra en un public de 4 filas. O un _Med-Tent_ (creu-vermella) per demanar assistència. O a **socanna**. No estic tot segur. Vegi un corredor sortint d'un lavabo i sense pensar entro. Dins, els parets de plastic gris es mouen. El Garmin és para. M'adono que avui no era posat en modo cursa.
+_Left on Beacon St_. La pujada del _Washington Sq_. Un nen em dona una taronja. Deliciósa. _Coolidge Corner_. El termomentre indicant 71°F a l'ombra. _Trader's Joe_. Milla 25 i un altre avituallament on faig el mateix. Estic buscant amb la mirada a algu amb una birra en un public de 4 filas. O un _Med-Tent_ (creu-vermella) per demanar assistència. No estic tot segur. Vegi un corredor sortint d'un lavabo i sense pensar entro. Dins, els parets de plastic gris és mouen. El Garmin és para. M'adono que avui no era posat en modo cursa.
 
 **quilòmetre 40, 2:58:05 (4:27/km)**. _Over-pass Mass Pike_. _Kenmore Sq._ amb els fans de Red Sox. El CITGO i "One mile to go". _Under-pass Commonwealth Av_. El dessenyador del recorregut deu haber estat begut quan l'ha posat aquí.
 
 _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Boston.
 
 600 metres fins l'arc d'arribada. El lloc dels atentats de 2013. Ho has de deixar tot però és un passeig que no vull que s'acabi mai.
+
+**3h 08min 58sec**
 
 ##### Post cursa
 
@@ -151,8 +182,6 @@ En l'habitacio d'hotel vagi necessitar 2 hores més en una tovallola humida per 
 
 ##### Que ha anat mal?
 
-M'he deixat les conclusions i el resultat final: **3h 08min 58sec** (1:29:13/1:39:45). No és PMP.
-
 Em vagi escalfar massa i he acabat una mica deshidratat. Sí, ha fet calor, no ho pots controlar i tothom ha tingut les mateixas condicions.
 Però, hi han detalls que hagin pogut fer la differencia: vagi corre a la meitat del carrer realment per por de ser atropellat o quedar-me sense espai. Doncs així no he pugut aprofitar dels avituallaments improvisats on gent molt maca et donavan per exemple, aigua en ampollas o cubs de gel. És clar que l'aigua del got no m'era suficient ni per hidratar-me ni per refrescar-me. O bé, afluixar i deixar 10-15 seg / avituallament.
 Vagi notar molt la calor del km 10 a la mitja encara que el cos respondia bé. La part que m'ha confos molt i el rao per no prendre aquestes decisions en cursa ha sigut la sensació de pixar, _"nervous energy"_ em va dir el coach.
@@ -163,20 +192,14 @@ Estic molt satisfet amb tota la preparació que vagi fer: crec que 1600 quilòme
 
 Despres, la marató de Boston és una institució. 121 anys seguits que ho organizan, competir de la meva manera en la mateixa cursa que Bill Rodgers o John "The Younger" Kelly és tot un privilegi.
 
--- end
-
-
-Ens vam juntar a la llegada per Es el corredor que apareix en la foto que tinc en Strava.
-
- que el deixo enrere en **21:02** a 4:12/km .
-
-Després de l'himne (m'ha semblat una interpretació falseta) ens donen el tret de sortida.
-
-Podria dir que per la calor no ha sigut el dia i tancar el tema, però què ha pasat el dilluns?
-
-
-
-Qui no somina fer totes les _Majors_ en la seva carrera de maratonia?
-
-
-
+<script>
+  var k = document.querySelectorAll("figure img");
+  k.forEach(function(el) {
+    el.addEventListener('click',
+      function() {
+        console.log(this.src);
+      },
+      false
+    );
+  });
+</script>

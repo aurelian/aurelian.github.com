@@ -10,7 +10,7 @@ html,* {
 }
 
 * {
-	font-size:1rem;
+	font-size:.92rem;
 }
 
 body {
@@ -98,6 +98,10 @@ blockquote p {
   margin: 0 auto;
 }
 
+blockquote.plain {
+  border: none;
+}
+
 figure.left {
   float:left;
   margin-right:1rem;
@@ -129,7 +133,13 @@ figcaption {
 
 pre, code, figcaption, div#running table td {
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
-  font-size: .8rem;
+  font-size: .72rem;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+  float: none;
 }
 
 img#f {
@@ -192,6 +202,11 @@ div#running table th:nth-of-type(-n+3) {
   width: 17%
 }
 
+iframe.center {
+  display: block;
+  margin: 0 auto;
+}
+
 /** media queries **/
 
 @media only screen and (max-width: 1024px) {
@@ -215,5 +230,6 @@ div#running table th:nth-of-type(-n+3) {
   }
 }
 
+aside { display: none; }
 
 
