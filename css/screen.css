@@ -137,6 +137,20 @@ pre, code, figcaption, div#running table td {
   font-size: .72rem;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+
 .clearfix {
   overflow: auto;
   zoom: 1;

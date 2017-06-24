@@ -3,3 +3,4 @@ s3/
 *.swp
 config.yaml
 .DS_Store
+_assets

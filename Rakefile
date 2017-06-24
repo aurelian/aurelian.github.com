@@ -2,35 +2,9 @@ $:.unshift File.expand_path(File.join(File.dirname(__FILE__), '../lib'))
 require 'yaml'
 require 'rubygems'
 
-def config
-  @config ||= YAML.load_file('config.yaml')
-end
-
-namespace :s3 do
-
-  desc "sync s3 folder with aws s3"
-  task :sync do
-    require 's3'
-    Jekyll::S3.sync config[:s3]
-  end
-end
-
-namespace :txp do
-
-  desc "removes archive"
-  task :clean do
-    system "rm -rf archive"
-  end
-
-  desc "import txp blog"
-  task :import do
-    require 'textpattern'
-    Jekyll::TextPattern.process config[:database]
-  end
-
-  desc "redo"
-  task :redo => [:clean, :import]
-
+desc "sync assets"
+task :sync do
+  system "aws s3 sync _assets s3://assets.locknet.ro/"
 end
 
 desc "removes _site"

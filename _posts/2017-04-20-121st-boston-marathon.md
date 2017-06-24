@@ -16,7 +16,9 @@ Estic esmorzant un _egg & cheese_ en un _pumpernickel bagel_ amb suplement de _b
 Acabo de fer el _check-out_ del hotel començant aixì l'última etapa del viatge a Boston, aquella de turista. Les cames em confirman que ahir vagi corre una marató, quan em fixo en la cançon que es feia sentir a la ràdio del bar.
 
 <figure>
+  <div class="video-container">
   <iframe class="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/h81Ojd3d2rY?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
   <figcaption><blockquote class="plain">
 Monday, Monday, can't trust that day<br>
 Monday, Monday, sometimes it just turns out that way<br>
@@ -60,13 +62,14 @@ Sunday morning another [brief shakeout](https://www.strava.com/activities/944735
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
 <figure class="left">
-  <img src="https://cdn-s3.si.com/s3fs-public/2016/04/14/hopkinton-start-boston-marathon-course-guide.jpg" style="width:355px;height:200px;">
+  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-it-all-starts-here-sign.jpg" 
+       style="width:355px;height:200px;">
   <figcaption>It all starts here</figcaption>
 </figure>
 
 Dins del Village em trobo els companys d'un club que tenim en Strava. Ens asseiem sobre l'herba en una de les tendas de campanya. Parlem de tot: running, mecànica dels fluids i sediments del riu Mississippi, difèrencias culturals, tot això mentre feia els últims preparatius - crema de sol, vaselina, cordons, _caramel cheesecake_, aigua, meitat de _bagel_ i un doble espresso comprat el dia abans en un Starbucks.
 
-Hi ha de tot en el _Athlete's Village_, inclòs una cola per ser fotografiat amb el cartell ["It all starts here"](http://apcook15.me.holycross.edu/files/2015/04/71.jpg).
+Hi ha de tot en el _Athlete's Village_, inclòs una cola per ser fotografiat amb el cartell "It all starts here".
 
 A les 9:05 ens cridan als del _Wave 1_ per dirigir-nos a sortida. Hi ha 800 metres fins els calaixus i aprofito per escalfar una mica. Abans d'entrar-hi faig un últim riu en els lavabos del parking de supermercat.
 
@@ -77,7 +80,8 @@ A les 9:05 ens cridan als del _Wave 1_ per dirigir-nos a sortida. Hi ha 800 metr
 Del _corral 4_ vagi trigar 2 minuts en creuar la sortida i arancar la meva quarta marató - primera [major](https://www.facebook.com/wmmajors/) i primera fora d'Europa.
 
 <figure class="right">
-  <img src="https://c1.staticflickr.com/8/7136/26877139444_a9b7bccd86_b.jpg" style="width:466px;height:350px;">
+  <img src="//assets.locknet.ro/posts/2017-04-17/entering-brookline.jpg"
+       style="width:466px;height:350px;">
   <figcaption>Entering Brookline</figcaption>
 </figure>
 
@@ -102,7 +106,8 @@ El **quilòmetre 10 cau en 42:17 (4:14/km)**. És on deixo anar definitivament e
 El public cada vegada més nombrós em fascina: aqui uns que han sortit amb tota la família per montar un avituallament improvisat amb aigua i taronjes. Ara uns que fan una festa. Uns han sacat el lit fora de casa per veure amb tot el confort i de la primera fila els maratonians. Altres, boratxus, comparteixen les seves birras. Crec que és molt d'hora fotre'm una en el km 10.
 
 <figure class="right">
-  <img src="https://content-eu.drive.amazonaws.com/cdproxy/templink/DA_pPtWYZdKDsqYda_aU4Ae9C3OcchDKWEb0XwpbsNspX92IB?viewBox=1430" style="width:461px;height:230px">
+  <img src="//assets.locknet.ro/posts/2017-04-17/lake-cochituate.jpg" 
+       style="width:461px;height:230px">
   <figcaption>Lake Cochituate, foto Google Street View</figcaption>
 </figure>
 
@@ -115,7 +120,8 @@ Deixo enrere el **quilòmetre 15 en 1:03:30 (4:14/km)**. Milla 10 és on comence
 No sé si adelanto on m'adelantan, intento fer converses amb els que tinc al voltant i segueixo gaudint de l'ambient, llegint cartells i al•lucinant amb la penya que ha sortit a animar.
 
 <figure class="left">
-  <img src="http://image.masslive.com/home/mass-media/width960/img/republican/photo/2017/04/17/-d8b7b8eb49302a26.JPG" style="width:390px;height:260px;">
+  <img src="//assets.locknet.ro/posts/2017-04-17/scream-tunnel-at-wellesley-college.jpg"
+       style="width:390px;height:260px;">
   <figcaption>Scream Tunnel at Wellesley College</figcaption>
 </figure>
 
@@ -134,7 +140,8 @@ _Right at Newton Fire Station._ Dies avanç, vagi calcular que tinc una hora d'a
 Però la imatge que em va marcar és la de millers de corredors atacant la primera pujada. De la distancia semblan un serpent gigant xocant contra un mur o una banda d'orcs saltant en una recol·lectora per ser classificats. Qui ha fet els deures? És una carnisseria, però ho pujo bé.
 
 <figure class="left">
-  <img src="https://content-eu.drive.amazonaws.com/cdproxy/templink/sn-8va_t3NuhM8UhnCWt8aQWh-iul_WMy363wzDNNFcpX92IB?viewBox=1628" style="height:480px;width:318px">
+  <img src="//assets.locknet.ro/posts/2017-04-17/top-of-heartbreak-hill.jpg"
+       style="height:467px;width:280px">
   <figcaption>Dizzy but still in one piece <br>at the Top of the Heartbreak Hill</figcaption>
 </figure>
 
@@ -156,13 +163,19 @@ Somriu! Ets en Heartbreak Hill, la marató de Boston, el lloc on tothom somia se
 
 Estic marejat, les gambades trepijan un paviment que sembla instabil. El pollastre s'ha rotisat bé. _Boston College_. Deixo les cames lliures en la baixada. 4:23.
 
-**quilòmetre 35, 2:32:10 (4:21/km)**. Ara bé, si em despertes al 3 del matí per fer 7195 metres en 27:49, ho faig, cap problema! Però avui no.
+**quilòmetre 35, 2:32:10 (4:21/km)**. Ara bé, si em despertes al 3 del matí per fer 7195 metres en 27 minuts i 49 segons, ho faig, cap problema! Però avui no.
 
 ##### Fins l'aribada
 
 Em prenc el cinque, l'últim, gel GU, _Salty Caramel_ com sempre. Tinc insolació com si fos tot el dia a la platja, en el avituallament de la milla 24 trotejo lentament mentres bec 5-6 gots sencers d'aigua. Avui, el temps final no té rellevància.
 
-_Left on Beacon St._ La pujada del _Washington Sq._ Un nen em dona una taronja. Deliciósa. _Coolidge Corner._ El termomentre indicant 71°F a l'ombra. _Trader's Joe._ Milla 25 i un altre avituallament on faig el mateix. Estic buscant amb la mirada a algu amb una birra en un public de 4 filas. O un _Med-Tent_ (creu-vermella) per demanar assistència. No estic tot segur. Vegi un corredor sortint d'un lavabo i sense pensar entro. Dins, els parets de plastic gris és mouen. El Garmin és para. M'adono que avui no era posat en modo cursa.
+_Left on Beacon St._ La pujada del _Washington Sq._ Un nen em dona una taronja. Deliciósa. _Coolidge Corner._ El termomentre indicant 71°F a l'ombra. _Trader's Joe._ Milla 25 i un altre avituallament on faig el mateix. Estic buscant amb la mirada a algu amb una birra en un public de 4 filas. O un _Med-Tent_ (creu-vermella) per demanar assistència. No estic tot segur. Vegi un corredor sortint d'un lavabo i sense pensar entro. Dins, els parets de plastic gris és mouen. El Garmin es para. M'adono que avui no era posat en mode cursa.
+
+<figure class="right">
+  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
+       style="height:467px;width:280px">
+  <figcaption>Dizzy but still in one piece <br>at the Top of the Heartbreak Hill</figcaption>
+</figure>
 
 **quilòmetre 40, 2:58:05 (4:27/km)**. _Over-pass Mass Pike._ _Kenmore Sq._ amb els fans de Red Sox. El CITGO i "One mile to go". _Under-pass Commonwealth Av._ El dessenyador del recorregut deu haber estat begut quan l'ha posat aquí.
 
