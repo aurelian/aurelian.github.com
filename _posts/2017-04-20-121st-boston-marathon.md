@@ -6,7 +6,7 @@ lang: ca
 permalink: /running/ca/2017-04-17-boston-marathon.html
 date: 2017-04-17 18:31:47.000000000 +01:00
 image: http://assets.locknet.ro/img/focus.jpeg
-description: "La marató és"
+description: ""
 ---
 
 #### Dimarts 18 d'Abril, 1 día despres
@@ -171,12 +171,6 @@ Em prenc el cinque, l'últim, gel GU, _Salty Caramel_ com sempre. Tinc insolaci�
 
 _Left on Beacon St._ La pujada del _Washington Sq._ Un nen em dona una taronja. Deliciósa. _Coolidge Corner._ El termomentre indicant 71°F a l'ombra. _Trader's Joe._ Milla 25 i un altre avituallament on faig el mateix. Estic buscant amb la mirada a algu amb una birra en un public de 4 filas. O un _Med-Tent_ (creu-vermella) per demanar assistència. No estic tot segur. Vegi un corredor sortint d'un lavabo i sense pensar entro. Dins, els parets de plastic gris és mouen. El Garmin es para. M'adono que avui no era posat en mode cursa.
 
-<figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
-       style="height:467px;width:280px">
-  <figcaption>Dizzy but still in one piece <br>at the Top of the Heartbreak Hill</figcaption>
-</figure>
-
 **quilòmetre 40, 2:58:05 (4:27/km)**. _Over-pass Mass Pike._ _Kenmore Sq._ amb els fans de Red Sox. El CITGO i "One mile to go". _Under-pass Commonwealth Av._ El dessenyador del recorregut deu haber estat begut quan l'ha posat aquí.
 
 _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Boston.
@@ -188,6 +182,13 @@ _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Bosto
 ##### Post cursa
 
 Un voluntari m'adjuda mantenir-m'hi en equilibri. Li dic que puc caminar i pregunto si hi ha birra. Em diu que hi ha al final de tot i que camini. Confio i el crec, també he perdut punts del coeficient d'intel•ligència. Una noia em penja la medalla i li fagi una abraçada. Fotos. Menjo i bec tot el que em donen. Intercanvio opinions amb tots. Em quedo amb el noi romanes per debatre la jugada i despres amb una noia que un dia voll fer de lliebre en una marató.
+
+<figure class="right">
+  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
+       alt="Really happy to get the medal At Boston Marathon finish line 2017"
+       style="height:467px;width:280px">
+  <figcaption>Really happy to get the medal<br/>At Boston Marathon finish line 2017</figcaption>
+</figure>
 
 El "T" em deixa al hotel d'en _Kenmore Sq._ on en el recorregut vegi el rellotge marcant 4:35:... Encara hi han corredors donant batalles. La temperatura ha baixat, el front atmosfèric d'aire fred ha arribat potser 3 hores més tard.
 
