@@ -28,9 +28,22 @@ Oh Monday, Monday, how could you leave and not take me</blockquote></figcaption>
 
 Somric, això és màgic. Boston, amb la seva marató i el seus bostonians, és l'HÒSTIA.
 
-<aside id="training">
+#### Preparació i objectius
 
-#### Preparació
+Vaig preparar els 3 maratóns que he fet fins ara amb el mètode <a target="_blank" href="https://www.amazon.es/gp/product/1937715485/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=1937715485&linkCode=as2&tag=au0e2-21&linkId=90e6ac4128fc575a8f38b163e168e0a2">Hanson's Marathon Method</a><img src="//ir-es.amazon-adsystem.com/e/ir?t=au0e2-21&l=am2&o=30&a=1937715485" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> i m'ha anat bé: [3:13, Valencia 2014](https://www.strava.com/activities/220041948) (14 setmanes beginner), [3:04, Munic 2015](https://www.strava.com/activities/410803159) (12 setmanes advanced) i [2:59, Rotterdam 2016](https://www.strava.com/activities/541202770) (8 setmanes advanced).
+
+El plantajement inicial per Boston era de fer-ho com a viatje d'oci sense tenir un objectiu molt concret, però despres de rebre la confirmacio he cambiat de xip i m'he proposat buscar un **sub 2:55 (plan A)** que em donaria el billet per NY el 2018. El plan B era de fer MMP, o sigui **sub 3:00**, i per fi, el plan C de gaudir de la marató.
+
+Sapiguent que aquest mètode d'entrenament em va bé, em vaig matricular en un grup virtual d'entrenament especific per preparar la marató de Boston dirigits pel [Luke Humphrey](https://hansonscoachingservices.com/coaches/bio/) (maratónia, entrenador i l'autor del libre) a través de la plataforma web Final Surge. Tenian 3 plans estándards de 18 setmanes diferenciats pel volum que ets disposat a fer (55 millas, 75M, 100M) i vaig optar pel de 75M (6-7 díes, 120km/setmana).
+
+S'ha de dir que no hi ha res personalisat al perfil del corredor ja que tothom fara els mateixos entrenaments, però la subscripció em va donar accés a molts recursos, foros, articles, videos, plans nutricionals, i sesions setmanales de Q&A amb tot el grup via webminars amb el entrenador. 
+
+Cada setmana tenia un o dos entrenaments amb desnivel per preparar les cames al perfil de Boston: series curtas en pujada i baixada, series de 3-5 quilòmetres a un esforç equivalent al de marató o tirades llargues acumulant desnivel (500-900metres).
+
+
+
+
+<aside id="training">
 
 For my previous 3 marathons I've been using Hanson's Marathon Method. It worked well for me and ran [3:13](https://www.strava.com/activities/220041948) (beginner last 14 weeks), [3:04](https://www.strava.com/activities/410803159) (advanced last 12 weeks) and [2:59](https://www.strava.com/activities/541202770) (advanced last 8 weeks coming out of Pfitz for half).
 
@@ -181,14 +194,14 @@ _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Bosto
 
 ##### Post cursa
 
-Un voluntari m'adjuda mantenir-m'hi en equilibri. Li dic que puc caminar i pregunto si hi ha birra. Em diu que hi ha al final de tot i que camini. Confio i el crec, també he perdut punts del coeficient d'intel•ligència. Una noia em penja la medalla i li fagi una abraçada. Fotos. Menjo i bec tot el que em donen. Intercanvio opinions amb tots. Em quedo amb el noi romanes per debatre la jugada i despres amb una noia que un dia voll fer de lliebre en una marató.
-
 <figure class="right">
   <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
-       alt="Really happy to get the medal At Boston Marathon finish line 2017"
+       alt="Happy to get the medal At Boston Marathon finish line 2017"
        style="height:467px;width:280px">
-  <figcaption>Really happy to get the medal<br/>At Boston Marathon finish line 2017</figcaption>
+  <figcaption>Happy to get the medal<br/>At Boston Marathon finish line 2017</figcaption>
 </figure>
+
+Un voluntari m'adjuda mantenir-m'hi en equilibri. Li dic que puc caminar i pregunto si hi ha birra. Em diu que hi ha al final de tot i que camini. Confio i el crec, també he perdut punts del coeficient d'intel•ligència. Una noia em penja la medalla i li fagi una abraçada. Fotos. Menjo i bec tot el que em donen. Intercanvio opinions amb tots. Em quedo amb el noi romanes per debatre la jugada i despres amb una noia que un dia voll fer de lliebre en una marató.
 
 El "T" em deixa al hotel d'en _Kenmore Sq._ on en el recorregut vegi el rellotge marcant 4:35:... Encara hi han corredors donant batalles. La temperatura ha baixat, el front atmosfèric d'aire fred ha arribat potser 3 hores més tard.
 
@@ -198,7 +211,7 @@ En l'habitacio d'hotel vagi necessitar 2 hores més en una tovallola humida per 
 
 Em vagi escalfar massa i he acabat una mica deshidratat. Sí, ha fet calor, no ho pots controlar i tothom ha tingut les mateixas condicions.
 Però, hi han detalls que hagin pogut fer la differencia: vagi corre a la meitat del carrer realment per por de ser atropellat o quedar-me sense espai. Doncs així no he pugut aprofitar dels avituallaments improvisats on gent molt maca et donavan per exemple, aigua en ampollas o cubs de gel. És clar que l'aigua del got no m'era suficient ni per hidratar-me ni per refrescar-me. O bé, afluixar i deixar 10-15 seg / avituallament.
-Vagi notar molt la calor del km 10 a la mitja encara que el cos respondia bé. La part que m'ha confos molt i el rao per no prendre aquestes decisions en cursa ha sigut la sensació de pixar, _"nervous energy"_ em va dir el coach.
+Vaig notar molt la calor del km 10 a la mitja encara que el cos respondia bé. La part que m'ha confos molt i el rao per no prendre aquestes decisions en cursa ha sigut la sensació de pixar, _"nervous energy"_ em va dir el coach.
 
 La marató de Boston pateix ultimament per les onades de calor, vagi pensar que entrenant en el hivern de Barcelona em donaria l'aclimatizacio necesaria, peró quan corres despullat (vull dir en samarreta i pantalons) en El Prat a 17°C no t'acostumas.
 
