@@ -2,12 +2,12 @@
 title: Munich Marató
 layout: mainframe
 category: running
+lang: ca
 date: 2015-10-11 18:31:47.000000000 +01:00
+permalink: /running/ca/2015-10-11-munich-marathon.html
 image: http://assets.locknet.ro/img/focus.jpeg
 description: "La marató és això... 32kms de tirada llarga i 10,195m de cursa. He fet molt bé els primers 32kms però no he pugut mantenir el ritme fins al final perque m'he deixat las anteojeras en Barcelona. Despres de 32kms de manual he perdut 6-7 seg/km en els ultims 10. 3:04:07 el temps final de la meva segona marató, medalla d'argent però amb sabor de victoria."
 ---
-
-<span style="font-size:75%">No pretenc ser Lluís Llac ni guanyar el català del any 2012, a veure sí em surt bé això, no em molesta sí algú em corregeix [twitter @ao12](https://twitter.com/ao12).</span>
 
 ### De on vinc?
 
@@ -114,4 +114,6 @@ M'han faltat 68 segons per cumplir el Objectiu A. O en 11 mesos he millorat la m
 ### I ara que?
 
 TBD...
+
+<span style="font-size:75%">No pretenc ser Lluís Llac ni guanyar el català del any 2012, a veure sí em surt bé això, no em molesta sí algú em corregeix [twitter @ao12](https://twitter.com/ao12).</span>
 
