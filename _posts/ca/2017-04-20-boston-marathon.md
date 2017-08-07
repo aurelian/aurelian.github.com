@@ -38,26 +38,13 @@ Sapiguent que aquest mètode d'entrenament em va bé, em vaig matricular en un g
 
 S'ha de dir que no hi ha res personalisat al perfil del corredor ja que tothom fara els mateixos entrenaments, però la subscripció em va donar accés a molts recursos, foros, articles, videos, plans nutricionals, i sesions setmanales de Q&A amb tot el grup via webminars amb el entrenador. 
 
-Cada setmana tenia un o dos entrenaments amb desnivel per preparar les cames al perfil de Boston: series curtas en pujada i baixada, series de 3-5 quilòmetres a un esforç equivalent al de marató o tirades llargues acumulant desnivel (500-900metres).
+El 12 de Desembre va ser el primer día del plan.
 
+Cada setmana tenia un o dos entrenaments amb desnivel per preparar les cames al perfil de Boston: series curtas en pujada i baixada, series de 3-5 quilòmetres a un esforç equivalent al de marató o tirades llargues acumulant desnivel (500-900metres). És un plan molt serios: vagi acabar amb 6 tirades llargues de 30qms o més (4x30 + 2x32) i molts entrenaments específics a ritme de cursa (el més llarg de 16qms). He fet record de volumen: 440qms en el mes de Març i 1600qms en toda la preparació. Molt bé fisicament i amb ganes per fer una bona cursa, els entrenaments claus m'han donant confiança que el sub2:55 és posible.
 
-
-
-<aside id="training">
-
-For my previous 3 marathons I've been using Hanson's Marathon Method. It worked well for me and ran [3:13](https://www.strava.com/activities/220041948) (beginner last 14 weeks), [3:04](https://www.strava.com/activities/410803159) (advanced last 12 weeks) and [2:59](https://www.strava.com/activities/541202770) (advanced last 8 weeks coming out of Pfitz for half).
-
-For Boston I signed up for the Hanson's Coaching Services virtual running group on Final Surge on a specific group for the Boston Marathon 2017. They have 3 custom 18 weeks plans for Boston based on mileage 55 miles, 75 miles and 100 miles. My choice was the 75 M plan. You get access to bunch of resources, forums and live webinars where the same Luke hits various topics and does some Q&A. Help on specific questions is provided but there's nothing personalized e.g. _I know for me a longer speed build-up works better what kind of workouts should I do?_. For that you'd have to go a higher subscription that includes a personal coach.
-
-It is a tough and serious marathon plan: 1-2 weekly workouts over hills, either speed (short up/down hills) or strength (3x3 miles @marathon effort). For long runs you do 3 times 18 miles with some marathon pace thrown in and twice 20 milers over hilly terrain. It goes above the typical Hanson's 16 miles because you do much volume than what's in the book.
-
-My MP (tempo) runs were [at around 4:11/km](https://www.strava.com/activities/920963246) heavily influenced by wind, so my A goal was realistic. Long runs were done most of the times lonely and I transformed the distance and time in a pleasant routine. Pace for the long runs was 4:40/km to [5:00/km when going over hills](https://www.strava.com/activities/905717393). Speed workouts involving running [comfortable and fast downhills](https://www.strava.com/activities/909275620) made my quads Boston ready.
-
-I could not reach 75M peak, but constantly put 55-65 miles. In total, I ran around 1000 miles in 18 weeks, the biggest training cycle I ever done. All of this while having a full time job, having to do house chores and hitting the ski slopes on a regular basis.
-</aside>
+#### Dies previs
 
 <aside id="travel">
-#### Viatge, 1 setmana abans
 
 Arrived in Boston late Tuesday with plenty of time to adjust to timezone and temperature. Wednesday ran [the whole Commwealth Ave](https://www.strava.com/activities/939146121) so I know what to expect of the Newton Hills. Thursday [Beacon ST to Washington ST](https://www.strava.com/activities/940454567) with a lap of the Chestnut Hill Reservoir.
 
