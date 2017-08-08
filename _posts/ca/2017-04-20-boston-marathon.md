@@ -9,7 +9,7 @@ image: http://assets.locknet.ro/img/focus.jpeg
 description: ""
 ---
 
-#### Dimarts 18 d'Abril, 1 día despres
+### Dimarts 18 d'Abril, 1 día despres
 
 Estic esmorzant un _egg & cheese_ en un _pumpernickel bagel_ amb suplement de _bacon_ dins d'un barret en _Kenmore Sq_. Trobo molt curiós que no tenen espresso i tinc que conformar-me amb el tipic mig litre de alguna cosa simliar al cafè.
 
@@ -28,7 +28,7 @@ Oh Monday, Monday, how could you leave and not take me</blockquote></figcaption>
 
 Somric, això és màgic. Boston, amb la seva marató i el seus bostonians, és l'HÒSTIA.
 
-#### Preparació i objectius
+### Preparació i objectius
 
 Vaig preparar els 3 maratóns que he fet fins ara amb el mètode <a target="_blank" href="https://www.amazon.es/gp/product/1937715485/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=1937715485&linkCode=as2&tag=au0e2-21&linkId=90e6ac4128fc575a8f38b163e168e0a2">Hanson's Marathon Method</a><img src="//ir-es.amazon-adsystem.com/e/ir?t=au0e2-21&l=am2&o=30&a=1937715485" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> i m'ha anat bé: [3:13, Valencia 2014](https://www.strava.com/activities/220041948) (14 setmanes beginner), [3:04, Munic 2015](https://www.strava.com/activities/410803159) (12 setmanes advanced) i [2:59, Rotterdam 2016](https://www.strava.com/activities/541202770) (8 setmanes advanced).
 
@@ -42,7 +42,7 @@ El 12 de Desembre va ser el primer día del plan.
 
 Cada setmana tenia un o dos entrenaments amb desnivel per preparar les cames al perfil de Boston: series curtas en pujada i baixada, series de 3-5 quilòmetres a un esforç equivalent al de marató o tirades llargues acumulant desnivel (500-900metres). És un plan molt serios: vagi acabar amb 6 tirades llargues de 30qms o més (4x30 + 2x32) i molts entrenaments específics a ritme de cursa (el més llarg de 16qms). He fet record de volumen: 440qms en el mes de Març i 1600qms en toda la preparació. Molt bé fisicament i amb ganes per fer una bona cursa, els entrenaments claus m'han donant confiança que el sub2:55 és posible.
 
-#### Dies previs
+### Dies previs
 
 <aside id="travel">
 
@@ -57,7 +57,7 @@ At this point I had more knowledge of the Boston course than every other maratho
 Sunday morning another [brief shakeout](https://www.strava.com/activities/944735449) this time with the HCS group. At 9am I was having a coffee outside at a Starbucks and couldn't help but notice how Sun was burning my skin.
 </aside>
 
-#### Dimarts 17 d'Abril, Marató de Boston
+### Dimarts 17 d'Abril, Marató de Boston
 
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
@@ -75,7 +75,7 @@ A les 9:05 ens cridan als del _Wave 1_ per dirigir-nos a sortida. Hi ha 800 metr
 
 9:35 estic dins del calaix. Condicions ideals per fer una barbacoa amb els amics, uns 18-19°C sense rostre de núvuls. La senyera americana confirma la dirreció del vent d'esquena mentrestant un senyor ens interpreta una versió falseta de l'himne.
 
-##### Start - KM10
+#### Start - KM10
 
 Del _corral 4_ vagi trigar 2 minuts en creuar la sortida i arancar la meva quarta marató - primera [major](https://www.facebook.com/wmmajors/) i primera fora d'Europa.
 
@@ -101,7 +101,7 @@ Després d'una pujdeta suau entrem en _Framingham_, la carretera s'abre donant m
 
 El **quilòmetre 10 cau en 42:17 (4:14/km)**. És on deixo anar definitivament el plan A de fer **sub 2:55**. La predicció era que les temperatures baixaran durant la cursa i que el vent pot adjudar però la realitat era diferenta: estic com un pollastre en un forn. Em prenc el segon gel GU, segueixo amb la mateixa sensació de orinar però pel altre costat encara que bec 2-3 glops d'aigua cada milla (6:40-7:00 minuts) sento que no és suficient.
 
-##### KM 10 - Newton Fire Station
+#### KM 10 - Newton Fire Station
 
 El public cada vegada més nombrós em fascina: aqui uns que han sortit amb tota la família per montar un avituallament improvisat amb aigua i taronjes. Ara uns que fan una festa. Uns han sacat el lit fora de casa per veure amb tot el confort i de la primera fila els maratonians. Altres, boratxus, comparteixen les seves birras. Crec que és molt d'hora fotre'm una en el km 10.
 
@@ -133,7 +133,7 @@ Tothom és a l'expectativa de les pujades que s'apropen. El ritmé no m'ha desga
 
 **quilòmetre 25 1:46:20 (4:15/km)** La marató comença ara. Primer amb una baixada forta d'uns 35 metres per arribar en _Newton Lower Falls_ i sense descans pujem rapidament tot el que hem guanyat per creuar la _Interstate_. Els xofers ens acompanyan el pas amb claxons. Per flipar encara més. Al final del pont a la part esquerra hi ha un aspersor i faig un "détour" per aprofitar-lo. "Déu n'hi do, podrian montar un d'aquests cada milla", commento amb una corredora. Ens ha mullat bé. Em prenc el quart gel GU en el quilòmetre 27.
 
-##### Newton Hills
+#### Newton Hills
 
 _Right at Newton Fire Station._ Dies avanç, vagi calcular que tinc una hora d'aquí fins al _finish_. **Vinga nanu**. Els bombers animant a la part dreta. També hi ha un altre aspersor i el lavabo que he usat el dimecres quan he fet el reconeixement del reccoregut.
 
@@ -165,7 +165,7 @@ Estic marejat, les gambades trepijan un paviment que sembla instabil. El pollast
 
 **quilòmetre 35, 2:32:10 (4:21/km)**. Ara bé, si em despertes al 3 del matí per fer 7195 metres en 27 minuts i 49 segons, ho faig, cap problema! Però avui no.
 
-##### Fins l'aribada
+#### Fins l'aribada
 
 Em prenc el cinque, l'últim, gel GU, _Salty Caramel_ com sempre. Tinc insolació com si fos tot el dia a la platja, en el avituallament de la milla 24 trotejo lentament mentres bec 5-6 gots sencers d'aigua. Avui, el temps final no té rellevància.
 
@@ -179,7 +179,7 @@ _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Bosto
 
 **3h 08min 58sec**
 
-##### Post cursa
+#### Post cursa
 
 <figure class="right">
   <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
@@ -194,7 +194,7 @@ El "T" em deixa al hotel d'en _Kenmore Sq._ on en el recorregut vegi el rellotge
 
 En l'habitacio d'hotel vagi necessitar 2 hores més en una tovallola humida per refredar-me abans d'anar a la festa de la _Milla 27_ on per fi han caigut un par de birras.
 
-##### Que ha anat mal?
+#### Que ha anat mal?
 
 Em vagi escalfar massa i he acabat una mica deshidratat. Sí, ha fet calor, no ho pots controlar i tothom ha tingut les mateixas condicions.
 Però, hi han detalls que hagin pogut fer la differencia: vagi corre a la meitat del carrer realment per por de ser atropellat o quedar-me sense espai. Doncs així no he pugut aprofitar dels avituallaments improvisats on gent molt maca et donavan per exemple, aigua en ampollas o cubs de gel. És clar que l'aigua del got no m'era suficient ni per hidratar-me ni per refrescar-me. O bé, afluixar i deixar 10-15 seg / avituallament.
