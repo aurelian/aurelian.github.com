@@ -11,14 +11,14 @@ description: "La marató és aixi"
 
 ### Versió curta
 
-**2:59:32. 1:29:28/1:30:04**. No puc dir res. O vaig clavar. Vaig tenir sort i ho vaig clavar. La part llarga d'aquesta vivència es molt similar amb la dels companys d'expedicio, us estalviareu llegir un bric de text que sembla una mica surrealista: 16km pensant que el ritme és fàcil, 16km mes a un ritme que vaig fer cada dijous i els últims 10.195 metres lluitats fins al final. Si en Munich vaig treure força del public, ara ha sigut diferent.
+**2:59:32. 1:29:28/1:30:04**. No puc afagir res. O vaig clavar. Vaig tenir sort i ho vaig clavar! La part llarga d'aquesta vivència es molt similar amb la dels companys d'expedicio, us estalviareu llegir un bric de text que sembla una mica surrealista: 16km pensant que el ritme és fàcil, 16km mes a un ritme que vaig fer cada dijous i els últims 10.195 metres lluitats fins al final. Si en Munich vaig treure força del public, ara ha sigut diferent.
 
 ### Versió Llarga: Rotterdam... la meva 3a marató.
 
-Ja sabeu els entrenaments que m'he parit i la meva manera de preparar una maratò, ja us he anticipat els meus objetius amb l'estratègia de cursa: d'arribar al KM32 en 2h 15 - 2h 17. El que no sabeu es que per el número d'errades que vaig cometre en les últimes setmanes ho vaig deixar molt fàcil per que la senyora marató acabés d'hora amb mi.
+Ja sabeu els entrenaments que m'he parit i la meva manera de preparar una maratò, ja us he anticipat els meus objetius amb l'estratègia de cursa molt sencilla d'arribar al KM32 en 2h 15 - 2h 17. El que no sabeu es que per el número d'errades que vaig cometre en les últimes setmanes ho vaig deixar molt fàcil per que la senyora marató acabés d'hora amb mi.
 Fins Rotterdam, m'ha cuidat bé: 3:13 al debut en VLC (Nov 2014) í 3:04 a la segona en Munich (Oct 2015) gaudint com un boig.
 
-Ara que coneixem el resultat de diumenge passat no te sentit analitzar totes les *fails*, sé on puc milliorar i ho tendre en compte per prepar la propera. La nit abans he pensat molt en tot el que he fet bé i aixo em va adjudar en descansar i aixecar-me sense despertador a les 6:50.
+Ara que coneixem el resultat no te sentit analitzar totes les _fails_, sé on puc milliorar i ho tendre en compte per prepar la propera. La nit abans he pensat molt en tot el que he fet bé i aixo em va adjudar en descansar i aixecar-me sense despertador a les 6:50.
 Uso el número de trobades matinals amb el Sr. Roca com a unitat per mesurar el nivell de tranquil·litat. L'he saludat dues vagades, nivell de día normal, a més l'última una mica forçat perquè em vaig posar nerviós per ser tan relaxat.
 
 Puntual a las 9 faig un *double espresso* i un pastís amb molt caramel en el *Starbucks* de *Rotterdam Centraal*, li vaig dir que soc en Roger quan m'han demant el nom. Després amb la bolsa en la guardarroba i els satellits preparats en Garmin em marxo al punt d'reunio amb el trio *sub2:55*. A les 9:35 m'adono que m'equivocat, no conec la zona així que millior si busco el calaix.
