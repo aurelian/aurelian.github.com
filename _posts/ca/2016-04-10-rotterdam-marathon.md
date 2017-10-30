@@ -25,7 +25,7 @@ Puntual a las 9 faig un *double espresso* i un pastís amb molt caramel en el *S
 
 Tinc *Start Wave 1* - sub 3:30 sense comprovant de marca, i en la part esquerra de la sortida del meu calaix puc estar detras dels atletas sub2:45 (calaixos élit, A i B). Em poso molt avançat dins, a uns 10-15metres de la linea. No veig les llebres però no em sembla que estic mal colocat.
 
-Una vegada en la sortida, la marató és un cursa que 90% se desenvolupa en el teu cap i 10% en el plan mental. Estic aquí, ho tinc que provar, prefereixo dir que lo he intentat però que lo vaig cagar en el intent que quedar-me amb dubtes de *what if's* ...què hagués passat si...
+Una vegada en la sortida, la marató és un cursa que 90% es desenvolupa en el teu cap i 10% en el plan mental. Estic aquí, ho tinc que provar, no vull quedar-me amb dubtes de *what if's* ...què hagués passat si...
 
 Lee Towers - aquest *icon* de Rotterdam - ens alegra amb el seu [You never walk alone](https://www.youtube.com/watch?v=W0zDojdboI4), millers de corredors acompanyant el refren acapella fan pell de gallina. Estic saltant, fent últims moviments per calentar amb l'adrenalina a maxim i el cervell nedant en un mar de sucre (del pastís crec).
 
