@@ -132,7 +132,7 @@ figcaption {
   text-align: center;
 }
 
-pre, code, figcaption, div#running table td {
+pre, code, figcaption, div#running table td, article section.content table td {
   font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;
   font-size: .72rem;
 }
@@ -237,6 +237,16 @@ div#running table tr.other td {
 
 div#running table th:nth-of-type(-n+3) {
   width: 17%
+}
+
+article section.content table th,
+article section.content table td {
+  padding: 6px 13px;
+  border: 1px solid #c3c3c3;
+}
+
+article section.content table tr:nth-child(2n) {
+  background-color: #e2e2e2;
 }
 
 iframe.center {
