@@ -102,6 +102,10 @@ blockquote.plain {
   border: none;
 }
 
+figure {
+  padding-bottom: 10px;
+}
+
 figure.center img {
   display:block;
   margin: 0 auto;
