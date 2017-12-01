@@ -1,10 +1,10 @@
 ---
-title: Donostia / San Sebastian marató 2017
+title: Donosti / Sant Sebastia marató 2017
 layout: mainframe
 category: running
 lang: ca
-permalink: /running/ca/2017-04-17-donostia-san-sebastian-marathon.html
-date: 2017-04-17 18:31:47.000000000 +01:00
+permalink: /running/ca/2017-11-26-donosti-sant-sebastia-marato.html
+date: 2017-11-26 15:22:47.000000000 +01:00
 image: http://assets.locknet.ro/img/focus.jpeg
 description: ""
 ---
