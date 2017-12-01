@@ -42,9 +42,9 @@ El 12 de Desembre va ser el primer día del plan.
 
 Cada setmana tenia un o dos entrenaments amb desnivel per preparar les cames al perfil de Boston: series curtas en pujada i baixada, series de 3-5 quilòmetres a un esforç equivalent al de marató o tirades llargues acumulant desnivel (500-900metres). És un plan molt serios: vagi acabar amb 6 tirades llargues de 30qms o més (4x30 + 2x32) i molts entrenaments específics a ritme de cursa (el més llarg de 16qms). He fet record de volumen: 440qms en el mes de Març i 1600qms en toda la preparació. Molt bé fisicament i amb ganes per fer una bona cursa, els entrenaments claus m'han donant confiança que el sub2:55 és posible.
 
-### Dies previs
-
 <aside id="travel">
+
+### Dies previs
 
 Arrived in Boston late Tuesday with plenty of time to adjust to timezone and temperature. Wednesday ran [the whole Commwealth Ave](https://www.strava.com/activities/939146121) so I know what to expect of the Newton Hills. Thursday [Beacon ST to Washington ST](https://www.strava.com/activities/940454567) with a lap of the Chestnut Hill Reservoir.
 
