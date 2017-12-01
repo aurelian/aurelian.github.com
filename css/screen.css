@@ -4,7 +4,7 @@ html {
 
 html,* {
 	font-family:-apple-system, BlinkMacSystemFont,"Segoe UI","Roboto", "Droid Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height:1.5;
+	line-height:1.3;
 	-webkit-text-size-adjust:100%
   text-rendering: optimizelegibility;
 }
@@ -100,6 +100,11 @@ blockquote p {
 
 blockquote.plain {
   border: none;
+}
+
+figure.center img {
+  display:block;
+  margin: 0 auto;
 }
 
 figure.left {

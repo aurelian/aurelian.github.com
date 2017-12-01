@@ -5,8 +5,8 @@ category: running
 lang: ca
 permalink: /running/ca/2017-04-17-boston-marathon.html
 date: 2017-04-17 18:31:47.000000000 +01:00
-image: http://assets.locknet.ro/img/focus.jpeg
-description: ""
+image: "http://assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
+description: "12 quilòmetres en 52 minuts. Ho puc fer."
 ---
 
 ### Dimarts 18 d'Abril, 1 día despres

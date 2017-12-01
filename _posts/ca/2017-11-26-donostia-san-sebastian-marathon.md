@@ -1,46 +1,38 @@
 ---
-title: Donosti / Sant Sebastia marató 2017
+title: Donostia / Sant Sebastià maratò 2017
 layout: mainframe
 category: running
 lang: ca
-permalink: /running/ca/2017-11-26-donosti-sant-sebastia-marato.html
+permalink: /running/ca/2017-11-26-donostia-sant-sebastia-marato.html
 date: 2017-11-26 15:22:47.000000000 +01:00
 image: http://assets.locknet.ro/img/focus.jpeg
 description: ""
 ---
 
-### Preparació
+### Previa
 
-La meva 5a marató, resultat 2:57:09 (1:28:57/1:28:12), MMP previes: 38:43 (Gen. 2016), 1:26:50 (Feb. 2016), 2:59:32 (Apr.2016)
+La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar amb una amargor dificil d'identificar al principi. Hi vaig donar moltes i moltes voltes. Que és el que em generava una certa tristesa? Vagi fer moltes d'aquestes voltes en Zona Franca on per fi vaig encontrar la resposta: a Boston vaig deixar de lluitar massa facil. La linea que separa el: "Ja soc sub3, no tinc rés a demonstrar" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència. Si, no era el día, però jo soc pragmatic.
 
-La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar amb una amargor dificil d'identificar al principi.
+<figure class="right">
+  <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
+  <figcaption>Cert, la celebració a-la Shalane era també ensenyada.</figcaption>
+</figure>
 
-Li vaig donar moltes i moltes voltes. Que és el que em generava una certa tristesa? Vagi fer moltes d'aquestes voltes en Zona Franca on per fi vaig trouvar la resposta: a Boston vaig deixar de lluitar massa facil. La linea que separa el: "Ja soc sub3, no tinc rés a demonstrar" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència. Si, no era el día, però jo soc molt pragmatic.
-
-I el pragmatisme que porto a dins també volia tenir clar el "per què". Per què vull córrer la marató de San Sebastian i que espero fer? A tot això s'afageix la tendinitis, una molestia fisica.
+I el pragmatisme que porto a dins també volia tenir clar el "per què". Per què vull córrer la marató de Sant Sebastià i que espero fer? A tot això s'afageix la tendinitis del talo d'Aquilles, una molestia fisica.
 
 El camí no ha sigut fàcil.
 
-Em vaig apuntar 1 mes abans cuan tenia respostes a totes les preguntes.
+Em vaig apuntar un mes abans nomes cuan tenia respostes a totes les preguntes.
 
-<blockquote class="plain">
+<blockquote>
 Crec que ara estic per fer una marató a 4:11-4:14/km, diumenge sortire a 4:14 amb l'idea d'arribar al KM 32 en 2h13-2h16. L'objectiu A és d'apropar-me tot el que pugui a la barrera dels 2h 55. El plan B és de fer marca: 2h 59 30. No tinc plan C.
 </blockquote>
 
 No és una arrogància: amb tota la preparació fisica i mental vaig convertir la mítica distància en previsible.
 
-No he tingut Plan C per què a la Marató de Doností has d'anar per fer una bona marca. Potser plegaria al km 32 si no arribés en 2h 16.
+No he tingut Plan C per què a la Maratoia de Donostia has d'anar per fer una bona marca. Potser plegaria al km 32 si no arribés en 2h 16.
 
-Cuan els factors que no controles (temperatura/pluja/vent) juguen a tu favor nomes has d'executar el plan sense pensar massa. I gaudir del día. I aquesta és la meva manera de fer-lo. Així és com gaudeixo.
-
-<figure>
-  <div class="video-container">
-    <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
-  </div>
-  <figcaption>
-    Cert, la celebració a-la Shalane era també ensenyada.
-  </figcaption>
-</figure>
+Cuan els factors que no controles (temperatura/pluja/vent) juguen a tu favor nomes has d'executar el plan sense pensar massa. I gaudir del día. I aquesta és la meva manera de fer-ho. Així és com gaudeixo.
 
 ### Sant Sebastià
 
@@ -48,7 +40,7 @@ Vagi arribar el divendres per la nit, m'allotjo al hotel Anoeta, prop de tot el 
 
 La marató de diumenge? La veritat és que no hi han moltes històries per explicar.
 
-Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica és trova en el fus horari equivocat.
+Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica s'encontra en el fus horari equivocat.
 
 Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes, **Manu1.1** amb MMP: felicitats nanu.
 
@@ -75,14 +67,14 @@ Segon GU al KM 16. Al KM 18-19 estic desitjant que arribi la segona volta. Les c
 #### mitja - KM 30: 2:06:13
 El tercer GU al KM 24.
 
-Potser al KM 28, t'adones que encara queda molt. Es on notas un corredor/corredora que et guanya metres. Poc a poc la distancia s'incrementa. Comences pensar i et preguntas si val la pena anar amb el/ella o deixar-lo anar. Es una marató, tens temp per pensar-ho. Veus com amb cada segonda que pasa s'allunya una xiqueta més.
+Potser al KM 28, t'adones que encara queda molt. Es on notas un corredor/corredora que et guanya metres. Poc a poc la distancia s'incrementa. Comences pensar i et preguntas si val la pena anar amb el/ella o deixar-lo anar. És una marató, tens temp per pensar-ho. Veus com s'allunya una mica més amb cada segonda que pasa.
 
-Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar anar amb el/ella. Primer pas: fagi un esforç per posar-me al mateix ritme. Aguanto i ara ja estic recuperant la distancia. Aixó s'anomena competir. És la rao per què he vingut a San Sebastian.
+Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar seguir amb el/ella. Primer pas: fagi un esforç per posar-me al mateix ritme. Aguanto i ara ja estic recuperant la distancia. Aixó s'anomena competir. És la rao per què he vingut a Sant Sebastià.
 
-No tinc ni idea si de veritat aquest corredor/ra ha sigut real o on ha desaparregut. Ni m'importa. De la meva manera estic competint i recollint victimes de la marató. I cuan aixó no functiona doncs em queda treure forces del public o del peisatje.
+No tinc ni idea si de veritat aquest corredor/ra ha sigut real o que li ha passa i on ha desaparregut. Ni m'importa. De la meva manera estic competint i recollint victimes de la marató. I cuan aixó no functiona em queda treure forces del public o del peisatje.
 
 #### KM 30 - arribada: 2:57:09
-Prenc el últim GU, Salty Caramel, al KM 33 
+Prenc l'últim GU, Salty Caramel, al KM 33. Veig el cartel del KM37 a l'altre constat del carrer. La tornada. Estic competint amb una certa precaució ja que m'espera el pas subterani. Per pasar-lo dues vagades. Penso que del 37 quedara un 5k. Ja en el 34. El que em resta fins al 37 s'ha evaporat. 
 
 <aside>
 
@@ -90,4 +82,26 @@ KM 33 is where I take the last GU. I'm racing, holding back and waiting that out
 
 With 4k to go I start to think in miles. 2 is less than 4, just because is a small number. A quick glimpse at the watch and I accidentally drop a 4:00/k split (39 to 40k) but that was all the juice I had left so I'm back on cruising mode to the finish line. A sharp 180° turn and the final 200m on the track. I celebrate Shelane style.
 </aside>
+
+<div class="lightbox"><img id="lightbox" src=""></div>
+
+<script>
+  document.querySelectorAll("body")[0].addEventListener("click", function(){
+    var lightbox = document.querySelectorAll("div.lightbox")[0];
+    lightbox.style.display = "none";
+  }, true);
+  var k = document.querySelectorAll("figure img");
+  k.forEach(function(el) {
+    el.addEventListener("click",
+      function() {
+        var i = document.getElementById("lightbox");
+        i.src = this.src;
+        i.parentElement.style.display = "block";
+        i.parentElement.style.outline = "none";
+      },
+      false
+    );
+  });
+</script>
+
 

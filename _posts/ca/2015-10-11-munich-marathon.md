@@ -9,7 +9,7 @@ image: http://assets.locknet.ro/img/focus.jpeg
 description: "La marató és això... 32kms de tirada llarga i 10,195m de cursa. He fet molt bé els primers 32kms però no he pugut mantenir el ritme fins al final perque m'he deixat las anteojeras en Barcelona. Despres de 32kms de manual he perdut 6-7 seg/km en els ultims 10. 3:04:07 el temps final de la meva segona marató, medalla d'argent però amb sabor de victoria."
 ---
 
-### De on vinc?
+### D'on vinc?
 
 En març ja tenia molt clar que al tardor fare la Marató de Munich i a mitjans del mateix mes vaig començar a entrenar amb mes seriositat.
 Abans de entrar en el plan de marató vaig posar unes 17-18 setmanas amb un promig de 45-50 quilòmetres amb dies de de qualitat especifiques per milliorar la velocidat.
