@@ -87,7 +87,7 @@ Del km30 vaig saltar avituallaments i en del 36 prenc un gulp d'aigua d'una bote
 Em quedan 4 km i començo a fer calculs en millas. 40 m'avisa Garmin. 4:01. Potser m'he flipat una mica i noto com m'entra un flato. 2h 46 46 de Garmin i em faltan uns 200-300 metres per arribar al 40 real. Doncs al ritme de sempre. "Que bé que corres tiu". Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi.
 Com sempre em trec els mucs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
 
-<figure>
+<figure class="left">
   <img src="//assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
        style="width:500px;height:500px;">
   <figcaption>foto marathon-photos</figcaption>

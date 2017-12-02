@@ -24,6 +24,7 @@ footer {
   text-align: right;
   font-weight: bold;
   font-size: .90rem;
+  clear: both;
 }
 
 a { color: #40673B; }
