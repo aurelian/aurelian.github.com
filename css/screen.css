@@ -20,6 +20,12 @@ body {
   width: 86%;
 }
 
+footer {
+  text-align: right;
+  font-weight: bold;
+  font-size: .90rem;
+}
+
 a { color: #40673B; }
 
 a:visited { color: #868F3E; }
@@ -305,6 +311,8 @@ iframe.center {
   figure img {
     display: block;
     margin: 0 auto;
+    height: 100% !important;
+    width: 100% !important;
   }
 }
 

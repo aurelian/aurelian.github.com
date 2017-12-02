@@ -11,18 +11,18 @@ description: ""
 
 ### Previa
 
-La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar amb una amargor dificil d'identificar al principi. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes en Zona Franca on per fi vaig trobar que em generava el malestar: a Boston vaig deixar de lluitar massa facil. La linea que separa el: "ja soc sub3, aquest sufriment no té sentit" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
+La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar una amargor amb origen difícil d'establecer. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes entrenant en Zona Franca on per fi vaig trobar el font del malestar: a Boston vaig comentre errors que es podien evitar. A més, m'ha semblat que vaig parat de lluitar massa facil. La linea que separa el: "ja soc sub3, aquest sufriment no té sentit" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
 
 <figure class="right">
   <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
-  <figcaption>La celebració al estil Shalane també era ensenyada.</figcaption>
+  <figcaption>També tenia la celebració al estil Shalane parcticada.</figcaption>
 </figure>
 
-I el pragmatisme que porto a dins també volia tenir clar el "per què". Per què vull córrer la marató de Sant Sebastià i que espero fer? A tot això s'afageix la tendinitis del talo d'Aquilles, una molestia fisica.
+El pragmatisme que porto a dins també volia tenir clar el "per què", per què vull córrer la marató de Sant Sebastià i que espero encontrar? A tot aquest embolic mental s'afageix una molestia fisica, la tendinitis del talo d'Aquilles.
 
 El camí no ha sigut fàcil.
 
-Em vaig apuntar un mes abans despres de tenir respostes a totes les preguntes.
+Em vaig apuntar un mes abans, després de tenir respostes a totes les preguntes.
 
 <blockquote>
 Crec que ara estic per fer una marató a 4:11-4:14/km, diumenge sortiré a 4:14 amb l'idea d'arribar al KM 32 en 2h13-2h16. L'objectiu A és d'apropar-me tot el que pugui a la barrera dels 2h 55. El plan B és de fer marca: 2h 59 30. No tinc plan C.
@@ -65,9 +65,9 @@ Comença a ploure, però el cel és bastant clar. Effectivament, para de ploure.
 </figure>
 
 #### KM 10 - KM15: 1:03:15
-TInc una situació graciosa amb les llebres de sub3 que van en **bici** i no entenc molt bé el ritme que marquen.
+Tinc una situació graciosa amb les llebres de sub3 que van en **bici** i no entenc molt bé el ritme que marquen.
 
-Estem en un tram llarg d'ida - anada que passa per un pas subterani i acaba amb un gir de 180°. N'hi han uns 5-6 girs de 180 en tota la marató.
+Estem en un tram llarg d'ida - anada que passa per un pas subterani i acaba amb un gir de 180°. N'hi han uns 5-6 girs de 180 en tota la marató i amb l'asfalt mullat et rompen el ritme.
 
 #### KM 15 - mitja: 1:28:57
 Segon GU al KM 16. Al KM 18-19 estic desitjant que arribi la segona volta. Les cames bé, estic concentrat en competir sense mirar massa el relotje. Conec el ritme de marató.
@@ -83,13 +83,19 @@ No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa.
 
 #### KM 30 - arribada: 2:57:09
 Prenc l'últim GU, Salty Caramel, al KM 33. Veig el cartel del KM37 a l'altre constat del carrer. La tornada. Estic competint amb una certa precaució ja que m'espera el pas subterrani. Per pasar-lo dues vagades. Penso que del 37 quedara un 5k. Ja en el 34. És com el que em resta fins al 37 s'ha evaporat. Mantinc el ritme de sempre. Estic convençut que la marca caura.
+Del km30 vaig saltar avituallaments i en del 36 prenc un gulp d'aigua d'una botella. Em deixa sense respiració. Prefereixo respirar, avui no és el dia per morir deshidratat.
+Em quedan 4 km i començo a fer calculs en millas. 40 m'avisa Garmin. 4:01. Potser m'he flipat una mica i noto com m'entra un flato. 2h 46 46 de Garmin i em faltan uns 200-300 metres per arribar al 40 real. Doncs al ritme de sempre. "Que bé que corres tiu". Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi.
+Com sempre em trec els mucs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
 
-<aside>
+<figure>
+  <img src="//assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
+       style="width:500px;height:500px;">
+  <figcaption>foto marathon-photos</figcaption>
+</figure>
 
-KM 33 is where I take the last GU. I'm racing, holding back and waiting that out and back section where we would pass that under-pass. Twice. Out and back. On the other side of the road I see KM 37 and I'm still at 34. And somehow I start to think that once at 37 I'll have only 5k to go. And maybe then I can pickup the pace a bit. Is like the next 3k to actually get there and the under-pass that had to be done twice didn't even exist. Things are getting a bit blurry but my pace stays the same as before. I'm convinced I'll PR and finish under 3.
+### Post cursa
 
-With 4k to go I start to think in miles. 2 is less than 4, just because is a small number. A quick glimpse at the watch and I accidentally drop a 4:00/k split (39 to 40k) but that was all the juice I had left so I'm back on cruising mode to the finish line. A sharp 180° turn and the final 200m on the track. I celebrate Shelane style.
-</aside>
+blah. blah. blah. xoxoxo
 
 <div class="lightbox"><img id="lightbox" src=""></div>
 
@@ -99,7 +105,12 @@ With 4k to go I start to think in miles. 2 is less than 4, just because is a sma
     lightbox.style.display = "none";
   }, true);
   var k = document.querySelectorAll("figure img");
+
   k.forEach(function(el) {
+    // if (window.matchMedia("(max-width: 1024px)").matches) {
+      // el.style.width= "100%";
+      // el.style.height= "100%";
+    // }
     el.addEventListener("click",
       function() {
         var i = document.getElementById("lightbox");
@@ -111,5 +122,4 @@ With 4k to go I start to think in miles. 2 is less than 4, just because is a sma
     );
   });
 </script>
-
 
