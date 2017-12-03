@@ -15,7 +15,7 @@ La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.h
 
 <figure class="right">
   <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
-  <figcaption>També tenia la celebració al estil Shalane parcticada.</figcaption>
+  <figcaption>la celebració al estil Shalane estava parcticada.</figcaption>
 </figure>
 
 El pragmatisme que porto a dins també volia tenir clar el "per què", per què vull córrer la marató de Sant Sebastià i que espero encontrar? A tot aquest embolic mental s'afageix una molestia fisica, la tendinitis del talo d'Aquilles.
@@ -46,7 +46,9 @@ Vaig arribar el divendres per la nit, m'allotjo al hotel Anoeta, prop de tot el 
 
 La marató de diumenge? La veritat és que no hi han moltes històries per explicar.
 
-Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica s'encontra en el fus horari equivocat. L'úlitm dubte era l'equipació i al final decideixo posar-me la samaterrata de tirants *bootleng* - la que ha sortit vermella - de corredors.cat, els manguitos Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
+Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica s'encontra en el fus horari equivocat.
+
+L'úlitm dubte era l'equipació i al final decideixo posar-me la samaterrata de tirants *bootleng* - la que ha sortit vermella - de corredors.cat, els _manguitos_ Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
 
 Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes, **Manu1.1** amb MMP: felicitats nanu.
 
@@ -100,13 +102,13 @@ Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. 
 
 ### Post cursa
 
-La 5a marató s'acabat.
+La meva 5a marató s'acabat.
 
-Veig a la grada als xipiruns que estan euforics. Em canta el nom. Ho celebrem junts.
+Veig a la grada els xipiruns que estan euforics. Que frikis! Em canta el nom. Ho celebrem junts.
 
 Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per donar-li drama al moment.
 
-Amb **Chute** i molta esperança per veure a **Hansi** arribar però tinc fred i finalment em vaig.
+Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra però tinc fred i finalment em vaig.
 
 <figure class="center">
   <img src="//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
@@ -114,6 +116,11 @@ Amb **Chute** i molta esperança per veure a **Hansi** arribar però tinc fred i
   <figcaption>foto jonibegut</figcaption>
 </figure>
 
+<div class="clearfix"></div>
+
+### Ara que?
+
+BCN 2018.
 
 <div class="lightbox"><img id="lightbox" src=""></div>
 
