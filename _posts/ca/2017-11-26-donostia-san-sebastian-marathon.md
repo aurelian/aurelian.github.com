@@ -5,7 +5,7 @@ category: running
 lang: ca
 permalink: /running/ca/2017-11-26-donostia-san-sebastian-marathon.html
 date: 2017-11-26 15:22:47.000000000 +01:00
-image: http://assets.locknet.ro/img/focus.jpeg
+image: http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg
 description: ""
 ---
 
@@ -32,7 +32,7 @@ Amb tota la preparació fisica i mental vaig convertir la mítica distància en 
 
 No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona marca. Potser plegaria al km 32 si no arribés en 2h 16.
 
-Quan els factors que no controles (temperatura/pluja/vent) juguen a tu favor només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
+Quan els factors que no controles, com les condicions meteó estan al teu costat només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
 <figure class="left">
   <img src="//assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
@@ -72,13 +72,13 @@ Comença a ploure i cau fort, però el cel és bastant clar. Efectivament, para 
 #### KM 10 - KM15: 1:03:15 (4:13/km)
 Tinc una situació graciosa amb les llebres de sub3 que van en **bici** i no entenc molt bé el ritme que marquen.
 
-Correm en un tram llarg d'anada-tornada que passa per un pas subterani i acaba amb un gir de 180°. N'hi han uns 5-6 girs de 180 en tota la marató i amb l'asfalt mullat et trenca el ritme de creuer.
+Correm en un tram llarg d'anada-tornada que passa per un pas subterani i acaba amb un gir de 180°. N'hi ha uns 5-6 en tota la marató i amb l'asfalt mullat et trenca el ritme de creuer.
 
 #### KM 15 - mitja: 1:28:57 (4:13/km)
-Segon GU al KM 16. Al KM 18-19 estic desitjant que arribi la segona volta. Les cames bé, no miro massa el relotje per que em conec el ritme de marató. Fins ara la sensació és d'espera, de paciència. Arribara el moment.
+Segon GU al KM 16. Al KM 18-19 estic desitjant que arribi la segona volta. Les cames bé, no miro massa el relotje per què em conec el ritme de marató. Fins ara la sensació és d'espera, de paciència. Arribara el moment.
 
 #### mitja - KM 30: 2:06:13 (4:12/km)
-El tercer GU al KM 24. **Khryz** que em fa signals com per entrar en el grup i m'anima molt. Després, algu que reconeix la samarreta correcat i em diu: "que bé que corres tiu". Déu n'hi do.
+El tercer GU al KM 24. **Khryz** que em fa senyals com per entrar en el grup i m'anima molt. Després, algu que reconeix la samarreta correcat i em diu: "que bé que corres tiu". Déu n'hi do.
 
 Potser al KM 28, t'adones que encara queda molt. Es on notas un corredor/corredora que et guanya metres. Poc a poc la distància s'incrementa. Comences a pensar i et preguntes si val la pena anar amb el/ella o deixar-lo anar. És una marató, tens temp per pensar-ho. Veus com s'allunya una mica més amb cada segona que pasa.
 
@@ -98,7 +98,7 @@ Prenc l'últim GU, Salty Caramel, al KM 33. Veig el cartel del KM37 a l'altre co
 Del km30 vaig saltar avituallaments i en del 36 prenc un gulp d'aigua d'una botella. Em deixa sense respiració. Prefereixo respirar, avui no morire deshidratat.
 Em quedan 4 km i començo a fer calculs en millas. 40 m'avisa Garmin. 4:01. Potser m'he flipat una mica i noto com m'entra un flato. 2:46:46 de Garmin i em faltan uns 200-300 metres per arribar al 40 real. Doncs al ritme de sempre. **"Que bé que corres tiu"**
 
-Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. Em trec els mucs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
+Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. Em trec els mocs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
 
 ### Post cursa
 
@@ -108,7 +108,7 @@ Veig a la grada els xipiruns que estan euforics. Que frikis! Em canta el nom. Ho
 
 Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per donar-li drama al moment.
 
-Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra però tinc fred i finalment em vaig.
+Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra, però tinc fred i finalment em vaig.
 
 <figure class="center">
   <img src="//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
