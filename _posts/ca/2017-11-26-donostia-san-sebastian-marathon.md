@@ -11,7 +11,7 @@ description: ""
 
 ### Previa
 
-La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar una amargor amb origen difícil d'establecer. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes entrenant en Zona Franca on per fi vaig trobar el font del malestar: a Boston vaig comentre errors que es podien evitar. A més, m'ha semblat que vaig parar de lluitar massa facil. La linea que separa el: "ja soc sub3, aquest sufriment no té sentit" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
+La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar una amargor amb origen difícil d'establecer. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes entrenant en Zona Franca on per fi vaig trobar la font del malestar: a Boston vaig comentre errors que es podien evitar. A més, m'ha semblat que vaig parar de lluitar massa facil. La linea que separa el: "ja soc sub3, aquest sufriment no té sentit" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
 
 <figure class="right">
   <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
@@ -32,7 +32,7 @@ Amb tota la preparació fisica i mental vaig convertir la mítica distància en 
 
 No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona marca. Potser plegaria al km 32 si no arribés en 2h 16.
 
-Quan els factors que no controles (temperatura/pluja/vent) juguen a tu favor nomes has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
+Quan els factors que no controles (temperatura/pluja/vent) juguen a tu favor només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
 <figure class="left">
   <img src="//assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
