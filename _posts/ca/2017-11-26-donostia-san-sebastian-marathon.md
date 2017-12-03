@@ -48,7 +48,7 @@ La marató de diumenge? La veritat és que no hi han moltes històries per expli
 
 Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica s'encontra en el fus horari equivocat.
 
-L'últim dubte era l'equipació i al final decideixo posar-me la samaretta de tirants *bootleng* - la que ha sortit vermella - de corredors.cat, els _manguitos_ Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
+L'últim dubte era l'equipació i al final decideixo posar-me la samarreta de tirants *bootleg* - la que ha sortit vermella - de corredors.cat, els _manguitos_ Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
 
 Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes, **Manu1.1** amb MMP: felicitats nanu.
 
