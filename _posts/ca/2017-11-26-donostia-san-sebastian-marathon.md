@@ -48,7 +48,7 @@ La marató de diumenge? La veritat és que no hi han moltes històries per expli
 
 Em desperto a les 6:20 per esmorzar pensant que aquest troç de península Ibèrica s'encontra en el fus horari equivocat.
 
-L'úlitm dubte era l'equipació i al final decideixo posar-me la samaterrata de tirants *bootleng* - la que ha sortit vermella - de corredors.cat, els _manguitos_ Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
+L'últim dubte era l'equipació i al final decideixo posar-me la samaretta de tirants *bootleng* - la que ha sortit vermella - de corredors.cat, els _manguitos_ Hoka, els guants de la Cursa de Sant Antoni (millior obsequi que he rebut en una cursa) i la cinta del cap de la Cursa Nocturna de l'Hospitalet 2014. Abans de sortir del hotel menjo el tipic pastis de fromatge amb caramel, i bec molt rapid el segon café del día. Deixo una bolsa petita al pabello i em poso una crema per calentar la musculatura - la tipica que rebem a les curses. Vaselina i apa a correr.
 
 Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes, **Manu1.1** amb MMP: felicitats nanu.
 
@@ -62,27 +62,27 @@ Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes
 
 Vaig trigar 1 minut en creuar la linea, sortida estreta amb molts corredors que estaven mal colocats. El primer km lent. Que hi farem? Un segon rapidet i estic en ritme.
 
-Per allà les recordo a uns recortadors que li sortira (una marató) corta. "Si, pero no tan corta".
+Per allà les recordo a uns recortadors que li sortira (una marató) curta. "Si, pero no tan corta".
 
 Al km 3 deixo la cinta del cap al amic xipirun **jonibegut**. M'escalfat.
 
 #### KM 5 - KM10: 42:09 (4:13/km)
-Comença a ploure i cau fort, però el cel és bastant clar. Effectivament, para de ploure. El primer GU al KM 8.
+Comença a ploure i cau fort, però el cel és bastant clar. Efectivament, para de ploure. El primer GU al KM 8.
 
 #### KM 10 - KM15: 1:03:15 (4:13/km)
 Tinc una situació graciosa amb les llebres de sub3 que van en **bici** i no entenc molt bé el ritme que marquen.
 
-Correm en un tram llarg d'anada-turnada que passa per un pas subterani i acaba amb un gir de 180°. N'hi han uns 5-6 girs de 180 en tota la marató i amb l'asfalt mullat et trenca el ritme de creuer.
+Correm en un tram llarg d'anada-tornada que passa per un pas subterani i acaba amb un gir de 180°. N'hi han uns 5-6 girs de 180 en tota la marató i amb l'asfalt mullat et trenca el ritme de creuer.
 
 #### KM 15 - mitja: 1:28:57 (4:13/km)
 Segon GU al KM 16. Al KM 18-19 estic desitjant que arribi la segona volta. Les cames bé, no miro massa el relotje per que em conec el ritme de marató. Fins ara la sensació és d'espera, de paciència. Arribara el moment.
 
 #### mitja - KM 30: 2:06:13 (4:12/km)
-El tercer GU al KM 24. **Khryz** que em fa signals com per entrar en el group i m'anima molt. Després, algu que reconeix la samarreta correcat i em diu: "que bé que corres tiu". Déu n'hi do.
+El tercer GU al KM 24. **Khryz** que em fa signals com per entrar en el grup i m'anima molt. Després, algu que reconeix la samarreta correcat i em diu: "que bé que corres tiu". Déu n'hi do.
 
 Potser al KM 28, t'adones que encara queda molt. Es on notas un corredor/corredora que et guanya metres. Poc a poc la distància s'incrementa. Comences a pensar i et preguntes si val la pena anar amb el/ella o deixar-lo anar. És una marató, tens temp per pensar-ho. Veus com s'allunya una mica més amb cada segona que pasa.
 
-Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar seguir amb el/ella. Primer pas: fagi un esforç per posar-me al mateix ritme. Aguanto i ara ja estic recuperant la distància. Aixó s'anomena competir. És la rao per què he vingut a Sant Sebastià.
+Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar seguir amb el/ella. Primer pas: faig un esforç per posar-me al mateix ritme. Aguanto i ara ja estic recuperant la distància. Aixó s'anomena competir. És la rao per què he vingut a Sant Sebastià.
 
 No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa. De la meva manera estic competint recollint victimes de la marató. "Que bé que corres tiu". Poques victimes avui, el nivell és espectacular.
 
