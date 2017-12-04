@@ -122,29 +122,4 @@ Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** co
 
 BCN 2018.
 
-<div class="lightbox"><img id="lightbox" src=""></div>
-
-<script>
-  document.querySelectorAll("body")[0].addEventListener("click", function(){
-    var lightbox = document.querySelectorAll("div.lightbox")[0];
-    lightbox.style.display = "none";
-  }, true);
-  var k = document.querySelectorAll("figure img");
-
-  k.forEach(function(el) {
-    // if (window.matchMedia("(max-width: 1024px)").matches) {
-      // el.style.width= "100%";
-      // el.style.height= "100%";
-    // }
-    el.addEventListener("click",
-      function() {
-        var i = document.getElementById("lightbox");
-        i.src = this.src;
-        i.parentElement.style.display = "block";
-        i.parentElement.style.outline = "none";
-      },
-      false
-    );
-  });
-</script>
-
+{% include lightbox.html %}

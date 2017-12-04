@@ -36,7 +36,7 @@ El plantajement inicial per Boston era de fer-ho com a viatje d'oci sense tenir 
 
 Sapiguent que aquest mètode d'entrenament em va bé, em vaig matricular en un grup virtual d'entrenament especific per preparar la marató de Boston dirigits pel [Luke Humphrey](https://hansonscoachingservices.com/coaches/bio/) (maratónia, entrenador i l'autor del libre) a través de la plataforma web Final Surge. Tenian 3 plans estándards de 18 setmanes diferenciats pel volum que ets disposat a fer (55 millas, 75M, 100M) i vaig optar pel de 75M (6-7 díes, 120km/setmana).
 
-S'ha de dir que no hi ha res personalisat al perfil del corredor ja que tothom fara els mateixos entrenaments, però la subscripció em va donar accés a molts recursos, foros, articles, videos, plans nutricionals, i sesions setmanales de Q&A amb tot el grup via webminars amb el entrenador. 
+S'ha de dir que no hi ha res personalisat al perfil del corredor ja que tothom fara els mateixos entrenaments, però la subscripció em va donar accés a molts recursos, foros, articles, videos, plans nutricionals, i sesions setmanales de Q&A amb tot el grup via webminars amb el entrenador.
 
 El 12 de Desembre va ser el primer día del plan.
 
@@ -62,7 +62,7 @@ Sunday morning another [brief shakeout](https://www.strava.com/activities/944735
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
 <figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-it-all-starts-here-sign.jpg" 
+  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-it-all-starts-here-sign.jpg"
        style="width:355px;height:200px;">
   <figcaption>It all starts here</figcaption>
 </figure>
@@ -106,7 +106,7 @@ El **quilòmetre 10 cau en 42:17 (4:14/km)**. És on deixo anar definitivament e
 El public cada vegada més nombrós em fascina: aqui uns que han sortit amb tota la família per montar un avituallament improvisat amb aigua i taronjes. Ara uns que fan una festa. Uns han sacat el lit fora de casa per veure amb tot el confort i de la primera fila els maratonians. Altres, boratxus, comparteixen les seves birras. Crec que és molt d'hora fotre'm una en el km 10.
 
 <figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-04-17/lake-cochituate.jpg" 
+  <img src="//assets.locknet.ro/posts/2017-04-17/lake-cochituate.jpg"
        style="width:461px;height:230px">
   <figcaption>Lake Cochituate, foto Google Street View</figcaption>
 </figure>
@@ -206,24 +206,4 @@ Estic molt satisfet amb tota la preparació que vagi fer: crec que 1600 quilòme
 
 Despres, la marató de Boston és una institució. 121 anys seguits que ho organizan, competir de la meva manera en la mateixa cursa que Bill Rodgers o John "The Younger" Kelly és tot un privilegi.
 
-<div class="lightbox"><img id="lightbox" src=""></div>
-
-<script>
-  document.querySelectorAll("body")[0].addEventListener("click", function(){
-    var lightbox = document.querySelectorAll("div.lightbox")[0];
-    lightbox.style.display = "none";
-  }, true);
-  var k = document.querySelectorAll("figure img");
-  k.forEach(function(el) {
-    el.addEventListener("click",
-      function() {
-        var i = document.getElementById("lightbox");
-        i.src = this.src;
-        i.parentElement.style.display = "block";
-        i.parentElement.style.outline = "none";
-      },
-      false
-    );
-  });
-</script>
-
+{% include lightbox.html %}

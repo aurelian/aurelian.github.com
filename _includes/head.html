@@ -26,14 +26,18 @@
 
   <meta name="author" content="Aurelian Oancea">
   <meta property="og:type" content="article">
+
   <meta name="twitter:card" content="summary">
   <meta name="twitter:creator" content="@ao12">
+  <meta name="twitter:site" content="@ao12">
   <meta property="og:title" content="{{ page.title }}">
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image }}">
+  {% if page.image != "" %}
+  <meta property="og:image" content="{{ page.image }}" itemprop="thumbnailUrl">
+  <meta name="twitter:image" content="{{ page.image }}">
   {% endif %}
-  {% if page.description %}
+  {% if page.description != "" %}
   <meta property="og:description" content="{{ page.description }}">
+  <meta property="twitter:description" content="{{ page.description }}">
   {% endif %}
   <meta property="og:url" content="http://locknet.ro{{ page.url }}">
 </head>
