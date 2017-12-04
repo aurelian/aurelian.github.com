@@ -11,11 +11,11 @@ images:
   - path: "http://assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
     position: "left"
     style: "width:454px;height:341px;"
-    caption: "amb Manu1.1 abans de entrar al calaix. foto de jonibegut"
+    caption: "amb Manu1.1 abans de entrar al calaix. foto jonibegut"
   - path: "http://assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
     position: "right"
-    style: "width:253px;height:500px;"
-    caption: "tirant la cinta. foto de jonibegut"
+    style: "width:190px;height:375px;"
+    caption: "tirant la cinta. foto jonibegut"
   - path: "http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
     position: "left"
     style: "width:500px;height:500px;"
@@ -39,6 +39,15 @@ La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.h
 El pragmatisme que porto a dins també volia tenir clar el "per què", per què vull córrer la marató de Sant Sebastià i que espero encontrar? A tot aquest embolic mental s'afageix una molestia fisica, la tendinitis del talo d'Aquilles.
 
 El camí no ha sigut fàcil.
+
+<aside>
+### Preparació
+MMPs: 38:43 (38:58), 1:26:50 (n/a), 2:59:32 (3:08:58)
+Primera setama: 7.08.
+Primer reto: Super Week setmana 4.09-11.09 - 115km
+Segon reto: Correbarri: MMP o sub39
+Tirades llargues.
+</aside>
 
 Em vaig apuntar un mes abans, després de tenir respostes a totes les preguntes.
 
@@ -121,6 +130,8 @@ Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** co
 
 {% assign img=page.images[3] %}
 {% include figure.html image=img %}
+
+**2:57:09** - 1:28:57/1:28:12, nova millior marca personal (MMP) en marató amb *negative split*. Necessito temps per assimilar el que acaba de passar. Estic mirant els parcials de Garmin a partir del km 32 fins l'arribada amb poca credibilidad. El mur m'ha respectat i no ha apparegut. Més, aquest últims 10k de la marató han sigut els més rapids de tota la cursa.
 
 <div class="clearfix"></div>
 
