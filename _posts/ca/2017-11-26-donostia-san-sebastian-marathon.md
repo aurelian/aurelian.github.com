@@ -8,22 +8,22 @@ date: 2017-11-26 15:22:47.000000000 +01:00
 image: http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg
 description: "Amb tota la preparació fisica i mental vaig convertir la mítica distància en previsible."
 images:
-  - path: "//assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
+  - path: "http://assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
     position: "left"
     style: "width:454px;height:341px;"
     caption: "amb Manu1.1 abans de entrar al calaix. foto de jonibegut"
-  - path: "//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
+  - path: "http://assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
     position: "right"
     style: "width:253px;height:500px;"
     caption: "tirant la cinta. foto de jonibegut"
-  - path: "//assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
+  - path: "http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
     position: "left"
     style: "width:500px;height:500px;"
     caption: "Soc la Shalane. foto marathon-photos"
-  - path: "//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
+  - path: "http://assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
     position: "center"
     style: "width:620px;height:445px;"
-    caption: "foto jonibegut"
+    caption: "Amb els xipis. foto jonibegut"
 
 ---
 
@@ -53,11 +53,7 @@ No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona m
 Quan els factors que no controles, com les condicions meteó estan al teu costat només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
 {% assign img=page.images[0] %}
-{% include figure.html
-      position=img.position
-      path=img.path
-      style=img.style
-      caption=img.caption %}
+{% include figure.html image=img %}
 
 ### Donostia
 
@@ -74,11 +70,7 @@ Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes
 #### Sortida - KM 5: 21:16 (4:15/km)
 
 {% assign img=page.images[1] %}
-{% include figure.html
-      position=img.position
-      path=img.path
-      style=img.style
-      caption=img.caption %}
+{% include figure.html image=img %}
 
 Vaig trigar 1 minut en creuar la linea, sortida estreta amb molts corredors que estaven mal colocats. El primer km lent. Que hi farem? Un segon rapidet i estic en ritme.
 
@@ -107,11 +99,7 @@ Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar seguir amb e
 No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa. De la meva manera estic competint recollint victimes de la marató. "Que bé que corres tiu". Poques victimes avui, el nivell és espectacular.
 
 {% assign img=page.images[2] %}
-{% include figure.html
-      position=img.position
-      path=img.path
-      style=img.style
-      caption=img.caption %}
+{% include figure.html image=img %}
 
 #### KM 30 - arribada: 2:57:09 (4:12/km)
 
@@ -132,11 +120,7 @@ Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per dona
 Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra, però tinc fred i finalment em vaig.
 
 {% assign img=page.images[3] %}
-{% include figure.html
-      position=img.position
-      path=img.path
-      style=img.style
-      caption=img.caption %}
+{% include figure.html image=img %}
 
 <div class="clearfix"></div>
 
