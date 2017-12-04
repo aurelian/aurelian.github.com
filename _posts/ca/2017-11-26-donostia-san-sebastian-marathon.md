@@ -6,12 +6,30 @@ lang: ca
 permalink: /running/ca/2017-11-26-donostia-san-sebastian-marathon.html
 date: 2017-11-26 15:22:47.000000000 +01:00
 image: http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg
-description: ""
+description: "Amb tota la preparació fisica i mental vaig convertir la mítica distància en previsible."
+images:
+  - path: "//assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
+    position: "left"
+    style: "width:454px;height:341px;"
+    caption: "amb Manu1.1 abans de entrar al calaix. foto de jonibegut"
+  - path: "//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
+    position: "right"
+    style: "width:253px;height:500px;"
+    caption: "tirant la cinta. foto de jonibegut"
+  - path: "//assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
+    position: "left"
+    style: "width:500px;height:500px;"
+    caption: "Soc la Shalane. foto marathon-photos"
+  - path: "//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
+    position: "center"
+    style: "width:620px;height:445px;"
+    caption: "foto jonibegut"
+
 ---
 
 ### Previa
 
-La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar una amargor amb origen difícil d'establecer. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes entrenant en Zona Franca on per fi vaig trobar la font del malestar: a Boston vaig comentre errors que es podien evitar. A més, m'ha semblat que vaig parar de lluitar massa facil. La linea que separa el: "ja soc sub3, aquest sufriment no té sentit" i "vinga nanu apreta el cul una mica" és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
+La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.html) em va deixar una amargor amb origen difícil d'establecer. Sí, no era el día però li vaig donar moltes i moltes voltes. Vaig fer moltes d'aquestes voltes entrenant en Zona Franca on per fi vaig trobar la font del malestar: a Boston vaig comentre errors que es podien evitar. A més, m'ha semblat que vaig parar de lluitar massa facil. La linea que separa el: **"ja soc sub3, aquest sufriment no té sentit"** i **"vinga nanu apreta el cul una mica"** és massa fina. La ment necessita mil·lisegons per posar-se en modo supervivència.
 
 <figure class="right">
   <img src="https://media.giphy.com/media/3o6fJeVf8RjB2Zhs3e/giphy.gif"/>
@@ -34,11 +52,12 @@ No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona m
 
 Quan els factors que no controles, com les condicions meteó estan al teu costat només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
-<figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
-       style="width:454px;height:341px;">
-  <figcaption>amb Manu1.1 abans de entrar al calaix. foto de jonibegut</figcaption>
-</figure>
+{% assign img=page.images[0] %}
+{% include figure.html
+      position=img.position
+      path=img.path
+      style=img.style
+      caption=img.caption %}
 
 ### Donostia
 
@@ -54,11 +73,12 @@ Estic dins del calaix amb **Manu1.1** i **Danistal**. Les dos faran bones mitjes
 
 #### Sortida - KM 5: 21:16 (4:15/km)
 
-<figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
-       style="width:253px;height:500px;">
-  <figcaption>tirant la cinta. foto de jonibegut</figcaption>
-</figure>
+{% assign img=page.images[1] %}
+{% include figure.html
+      position=img.position
+      path=img.path
+      style=img.style
+      caption=img.caption %}
 
 Vaig trigar 1 minut en creuar la linea, sortida estreta amb molts corredors que estaven mal colocats. El primer km lent. Que hi farem? Un segon rapidet i estic en ritme.
 
@@ -86,11 +106,12 @@ Doncs, cada vegada la resposta ha de ser la mateixa: has d'intentar seguir amb e
 
 No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa. De la meva manera estic competint recollint victimes de la marató. "Que bé que corres tiu". Poques victimes avui, el nivell és espectacular.
 
-<figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
-       style="width:500px;height:500px;">
-  <figcaption>Soc la Shalane. foto marathon-photos</figcaption>
-</figure>
+{% assign img=page.images[2] %}
+{% include figure.html
+      position=img.position
+      path=img.path
+      style=img.style
+      caption=img.caption %}
 
 #### KM 30 - arribada: 2:57:09 (4:12/km)
 
@@ -110,11 +131,12 @@ Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per dona
 
 Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra, però tinc fred i finalment em vaig.
 
-<figure class="center">
-  <img src="//assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
-       style="width:620px;height:445px;">
-  <figcaption>foto jonibegut</figcaption>
-</figure>
+{% assign img=page.images[3] %}
+{% include figure.html
+      position=img.position
+      path=img.path
+      style=img.style
+      caption=img.caption %}
 
 <div class="clearfix"></div>
 
