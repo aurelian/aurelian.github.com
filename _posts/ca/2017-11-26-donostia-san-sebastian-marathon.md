@@ -113,7 +113,7 @@ No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa.
 #### KM 30 - arribada: 2:57:09 (4:12/km)
 
 Prenc l'últim GU, Salty Caramel, al KM 33. Veig el cartel del KM37 a l'altre constat del carrer. La tornada. Encara corro amb una certa precaució ja que m'espera el pas subterrani. Per pasar-lo dues vagades. Penso que del 37 em resta un 5k. Ja en el 34. És com el que em queda fins el 37 s'ha evaporat. Mantinc el ritme de sempre. Estic convençut que la marca caura.
-Del km30 vaig saltar avituallaments i en del 36 prenc un gulp d'aigua d'una botella. Em deixa sense respiració. Prefereixo respirar, avui no morire deshidratat.
+Del km30 vaig saltar avituallaments i en del 36 prenc un golp d'aigua d'una botella. Em deixa sense respiració. Prefereixo respirar, avui no morire deshidratat. Vaig buidar l'ampolla sencera d'aigua d'amunt sense pensar-hi. Bé, potser un reflex adquirit després de Boston.
 Em quedan 4 km i començo a fer calculs en millas. 40 m'avisa Garmin. 4:01. Potser m'he flipat una mica i noto com m'entra un flato. 2:46:46 de Garmin i em faltan uns 200-300 metres per arribar al 40 real. Doncs al ritme de sempre. **"Que bé que corres tiu"**
 
 Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. Em trec els mocs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
@@ -122,7 +122,7 @@ Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. 
 
 La meva 5a marató s'acabat.
 
-Veig a la grada els xipiruns que estan euforics. Que frikis! Em canta el nom. Ho celebrem junts.
+Veig a la grada els xipiruns que estan euforics. Que frikis! M'estan cantat el nom. Ho celebrem junts.
 
 Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per donar-li drama al moment.
 
