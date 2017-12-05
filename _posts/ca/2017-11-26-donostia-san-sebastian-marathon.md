@@ -42,6 +42,9 @@ El camí no ha sigut fàcil.
 
 <aside>
 ### Preparació
+
+Amb pocs 200-220km fets en les meses del principi d'estiu juny i juliol
+
 MMPs: 38:43 (38:58), 1:26:50 (n/a), 2:59:32 (3:08:58)
 Primera setama: 7.08.
 Primer reto: Super Week setmana 4.09-11.09 - 115km
@@ -113,7 +116,9 @@ No en tinc ni idea si en realidad aquest corredor/ra hagi existit. Ni m'importa.
 #### KM 30 - arribada: 2:57:09 (4:12/km)
 
 Prenc l'últim GU, Salty Caramel, al KM 33. Veig el cartel del KM37 a l'altre constat del carrer. La tornada. Encara corro amb una certa precaució ja que m'espera el pas subterrani. Per pasar-lo dues vagades. Penso que del 37 em resta un 5k. Ja en el 34. És com el que em queda fins el 37 s'ha evaporat. Mantinc el ritme de sempre. Estic convençut que la marca caura.
+
 Del km30 vaig saltar avituallaments i en del 36 prenc un golp d'aigua d'una botella. Em deixa sense respiració. Prefereixo respirar, avui no morire deshidratat. Vaig buidar l'ampolla sencera d'aigua d'amunt sense pensar-hi. Bé, potser un reflex adquirit després de Boston.
+
 Em quedan 4 km i començo a fer calculs en millas. 40 m'avisa Garmin. 4:01. Potser m'he flipat una mica i noto com m'entra un flato. 2:46:46 de Garmin i em faltan uns 200-300 metres per arribar al 40 real. Doncs al ritme de sempre. **"Que bé que corres tiu"**
 
 Anoeta. L'hotel i altre gir per entrar en la pista d'atletisme del mini-estadi. Em trec els mocs, m'en arraglo la cua, la samarreta i els pantalons i ho celebro a-la Shalane. FUCK YEAH!!
