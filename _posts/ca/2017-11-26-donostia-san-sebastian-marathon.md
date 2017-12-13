@@ -43,9 +43,9 @@ El camí no ha sigut fàcil.
 <aside>
 ### Preparació
 
-Amb pocs 200-220km fets en les meses del principi d'estiu juny i juliol
-
 MMPs: 38:43 (38:58), 1:26:50 (n/a), 2:59:32 (3:08:58)
+
+La preparacío ha sigut marcada per una tendinitis d'Aquilles, 
 Primera setama: 7.08.
 Primer reto: Super Week setmana 4.09-11.09 - 115km
 Segon reto: Correbarri: MMP o sub39
@@ -64,12 +64,17 @@ No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona m
 
 Quan els factors que no controles, com les condicions meteó estan al teu costat només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
-{% assign img=page.images[0] %}
-{% include figure.html image=img %}
+<figure class="center">
+  <img alt="Recorregut Marató Sant Sebastià 2017" src="http://assets.locknet.ro/posts/2017-11-26/0-recorrido-maraton-donostia-san-sebastian-2017.jpg" style="width:620px;height:445px;">
+  <figcaption>Recorregut Marató Sant Sebastià 20127</figcaption>
+</figure>
 
 ### Donostia
 
-Vaig arribar el divendres per la nit, m'allotjo al hotel Anoeta, prop de tot el que és la marató. Dissabte vaig sortir a trotejar 30 minuts per soltar les cames i a la tarda vaig caminar fins el centre amb els meus xipirunners.
+Vaig arribar el divendres per la nit després d'un viatje llarg en tren de Barcelona. M'allotjo al hotel Anoeta, prop de tot el que és la marató. Dissabte vaig sortir a trotejar 30 minuts per activar les cames i a la tarda vaig caminar fins el centre amb els meus xipirunners.
+
+{% assign img=page.images[0] %}
+{% include figure.html image=img %}
 
 La marató de diumenge? La veritat és que no hi han moltes històries per explicar.
 
@@ -131,9 +136,9 @@ La meva 5a marató s'acabat.
 
 Veig a la grada els xipiruns que estan euforics. Que frikis! M'estan cantat el nom. Ho celebrem junts.
 
-Sembla, però no ha sigut facil. Em desmaio i caic en un bassal. Potser per donar-li drama al moment.
+Sembla, però no ha sigut facil. Em desmaio i caic en un bassal en la pista. Potser per donar-li drama al moment.
 
-Poc després arriba el **Chute** i em quedo esperançat per veure a **Hansi** com entra, però tinc fred i finalment em vaig.
+Poc després arriba el **Chute** qui m'ajuda eixecar-me de la pista. Em quedo esperançat per veure a **Hansi** com entra, però tinc fred i finalment em marxo.
 
 {% assign img=page.images[3] %}
 {% include figure.html image=img %}
