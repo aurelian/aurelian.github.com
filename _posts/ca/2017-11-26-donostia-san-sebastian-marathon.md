@@ -36,7 +36,7 @@ La [marató de Boston](http://locknet.ro/running/ca/2017-04-17-boston-marathon.h
   <figcaption>la celebració al estil Shalane estava parcticada.</figcaption>
 </figure>
 
-El pragmatisme que porto a dins també volia tenir clar el "per què", per què vull córrer la marató de Sant Sebastià i que espero encontrar? A tot aquest embolic mental s'afageix una molestia fisica, la tendinitis del talo d'Aquilles.
+El pragmatisme que porto a dins també volia tenir clar el "per què", per què vull córrer la marató de Sant Sebastià i que espero encontrar? A tot aquest embolic mental s'afageix una molestia fisica, la tendinitis del taló d'Aquil·les.
 
 El camí no ha sigut fàcil.
 
@@ -44,6 +44,12 @@ El camí no ha sigut fàcil.
 ### Preparació
 
 MMPs: 38:43 (38:58), 1:26:50 (n/a), 2:59:32 (3:08:58)
+
+Doncs aquesta lesió del taló em va deixar molt parat al principi d'estiu. 
+
+He seguit un programa especific, *Hakan Alfredson excéntric eccentric protocol* de 12 setmanes per fortificar la   de rehabilitació i fortificatio del talo
+
+Amb 250 quilometres en dos mesos (juny + juliol) i molesties
 
 La preparacío ha sigut marcada per una tendinitis d'Aquilles, 
 Primera setama: 7.08.
