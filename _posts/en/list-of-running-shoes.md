@@ -4,10 +4,10 @@ layout: mainframe
 category: running
 date: 2015-11-02 10:22:37.000000000 +01:00
 lang: en
-
+permalink: /running/en/list-of-running-shoes.html
 ---
 
-### New Balance
+### New Balance (2016)
 
  * New Balance RC 1400 v2 (181.4g 24/15 0.9)
  * New Balance FF Zante (229.6g 23/17 0.5)
