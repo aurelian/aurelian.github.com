@@ -5,6 +5,7 @@ category: running
 date: 2015-11-02 10:22:37.000000000 +01:00
 lang: en
 permalink: /running/en/list-of-running-shoes.html
+
 ---
 
 ### New Balance (2016)
