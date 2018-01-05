@@ -1,6 +1,17 @@
 ## KaPACE
 
-### Stuff TODO:
+React / mob-x app with various running calculators.
+
+### Development
+
+  yarn start
+
+### Deployment
+
+  yarn build
+
+
+#### Stuff TODO:
 
  * alert user when invalid time
  * remove split

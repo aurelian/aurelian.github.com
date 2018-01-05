@@ -1,7 +1,8 @@
 {
-  "name": "mayerpace",
-  "version": "0.1.0",
+  "name": "kapace",
+  "version": "0.2.0",
   "private": true,
+  "homepage" : "http://locknet.ro/running/calc",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
