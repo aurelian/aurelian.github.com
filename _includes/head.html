@@ -31,13 +31,16 @@
   <meta name="twitter:creator" content="@ao12">
   <meta name="twitter:site" content="@ao12">
   <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+
   {% if page.image != "" %}
   <meta property="og:image" content="{{ page.image }}" itemprop="thumbnailUrl">
   <meta name="twitter:image" content="{{ page.image }}">
   {% endif %}
   {% if page.images %}
     {% for image in page.images %}
-    <meta property="og:image" content="{{ image.path }}" />
+    <meta property="og:image" content="{{ image.path }}">
+    <meta property="og:image:alt" content="{{ image.caption }}">
     {% endfor %}
   {% endif %}
   {% if page.description != "" %}
@@ -45,4 +48,7 @@
   <meta property="twitter:description" content="{{ page.description }}">
   {% endif %}
   <meta property="og:url" content="http://locknet.ro{{ page.url }}">
+  {% if page.video %}
+    <meta property="og:video" content="{{ page.video }}">
+  {% endif %}
 </head>

@@ -5,6 +5,7 @@ category: running
 lang: ca
 permalink: /running/ca/2017-11-26-donostia-san-sebastian-marathon.html
 date: 2017-11-26 15:22:47.000000000 +01:00
+video: "https://www.youtube-nocookie.com/embed/SDSX2cxwXgE"
 image: http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg
 description: "Amb tota la preparació fisica i mental vaig convertir la mítica distància en previsible."
 images:
@@ -45,13 +46,13 @@ El camí no ha sigut fàcil.
 
 MMPs: 38:43 (38:58), 1:26:50 (n/a), 2:59:32 (3:08:58)
 
-Doncs aquesta lesió del taló em va deixar molt parat al principi d'estiu. 
+Doncs aquesta lesió del taló em va deixar molt parat al principi d'estiu.
 
 He seguit un programa especific, *Hakan Alfredson excéntric eccentric protocol* de 12 setmanes per fortificar la   de rehabilitació i fortificatio del talo
 
 Amb 250 quilometres en dos mesos (juny + juliol) i molesties
 
-La preparacío ha sigut marcada per una tendinitis d'Aquilles, 
+La preparacío ha sigut marcada per una tendinitis d'Aquilles,
 Primera setama: 7.08.
 Primer reto: Super Week setmana 4.09-11.09 - 115km
 Segon reto: Correbarri: MMP o sub39
@@ -152,6 +153,12 @@ Poc després arriba el **Chute** qui m'ajuda eixecar-me de la pista. Em quedo es
 **2:57:09** - 1:28:57/1:28:12, nova millior marca personal (MMP) en marató amb *negative split*. Necessito temps per assimilar el que acaba de passar. Estic mirant els parcials de Garmin a partir del km 32 fins l'arribada amb poca credibilidad. El mur m'ha respectat i no ha apparegut. Més, aquest últims 10k de la marató han sigut els més rapids de tota la cursa.
 
 <div class="clearfix"></div>
+
+<figure>
+  <div class="video-container">
+  <iframe class="center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/SDSX2cxwXgE?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</figure>
 
 ### Ara que?
 

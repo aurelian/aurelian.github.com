@@ -5,8 +5,35 @@ category: running
 lang: ca
 permalink: /running/ca/2017-04-17-boston-marathon.html
 date: 2017-04-17 18:31:47.000000000 +01:00
+video: "https://www.youtube-nocookie.com/embed/h81Ojd3d2rY"
 image: "http://assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
 description: "12 quilòmetres en 52 minuts. Ho puc fer."
+images:
+  - path: "http://assets.locknet.ro/posts/2017-04-17/boston-marathon-it-all-starts-here-sign.jpg"
+    position: "left"
+    style: "width:355px;height:200px;"
+    caption: "It all starts here"
+  - path: "http://assets.locknet.ro/posts/2017-04-17/entering-brookline.jpg"
+    position: "right"
+    style: "width:466px;height:350px;"
+    caption: "Entering Brookline"
+  - path: "http://assets.locknet.ro/posts/2017-04-17/lake-cochituate.jpg"
+    position: "right"
+    style: "width:461px;height:230px;"
+    caption: "Lake Cochituate, foto Google Street View"
+  - path: "http://assets.locknet.ro/posts/2017-04-17/scream-tunnel-at-wellesley-college.jpg"
+    position: "left"
+    style: "width:390px;height:260px;"
+    caption: "Scream Tunnel at Wellesley College"
+  - path: "http://assets.locknet.ro/posts/2017-04-17/top-of-heartbreak-hill.jpg"
+    position: "left"
+    style: "height:467px;width:280px;"
+    caption: "Dizzy but still in one piece<br/>at the Top of the Heartbreak Hill"
+  - path: "http://assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
+    position: "right"
+    style: "height:467px;width:280px;"
+    caption: "Happy to get the medal<br/>at Boston Marathon finish line 2017"
+
 ---
 
 ### Dimarts 18 d'Abril, 1 día despres
@@ -61,11 +88,8 @@ Sunday morning another [brief shakeout](https://www.strava.com/activities/944735
 
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
-<figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-it-all-starts-here-sign.jpg"
-       style="width:355px;height:200px;">
-  <figcaption>It all starts here</figcaption>
-</figure>
+{% assign img=page.images[0] %}
+{% include figure.html image=img %}
 
 Dins del Village em trobo els companys d'un club que tenim en Strava. Ens asseiem sobre l'herba en una de les tendas de campanya. Parlem de tot: running, mecànica dels fluids i sediments del riu Mississippi, difèrencias culturals, tot això mentre feia els últims preparatius - crema de sol, vaselina, cordons, _caramel cheesecake_, aigua, meitat de _bagel_ i un doble espresso comprat el dia abans en un Starbucks.
 
@@ -79,11 +103,8 @@ A les 9:05 ens cridan als del _Wave 1_ per dirigir-nos a sortida. Hi ha 800 metr
 
 Del _corral 4_ vagi trigar 2 minuts en creuar la sortida i arancar la meva quarta marató - primera [major](https://www.facebook.com/wmmajors/) i primera fora d'Europa.
 
-<figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-04-17/entering-brookline.jpg"
-       style="width:466px;height:350px;">
-  <figcaption>Entering Brookline</figcaption>
-</figure>
+{% assign img=page.images[1] %}
+{% include figure.html image=img %}
 
 Som molts, tots amb un nivell espectacular i costa correr en una carretera amb un carril per cada sentit. Estic posicionat al meitat del carrer i no vull gastar res esquivant la gent, prefereixo avançar quan trobo forats. Fa una baixada brutal, vam perdre 40-45 metres d'altura en el primer quilòmetre que'l vagi passar en 4 minuts i 13 segons.
 
@@ -105,11 +126,8 @@ El **quilòmetre 10 cau en 42:17 (4:14/km)**. És on deixo anar definitivament e
 
 El public cada vegada més nombrós em fascina: aqui uns que han sortit amb tota la família per montar un avituallament improvisat amb aigua i taronjes. Ara uns que fan una festa. Uns han sacat el lit fora de casa per veure amb tot el confort i de la primera fila els maratonians. Altres, boratxus, comparteixen les seves birras. Crec que és molt d'hora fotre'm una en el km 10.
 
-<figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-04-17/lake-cochituate.jpg"
-       style="width:461px;height:230px">
-  <figcaption>Lake Cochituate, foto Google Street View</figcaption>
-</figure>
+{% assign img=page.images[2] %}
+{% include figure.html image=img %}
 
 Entrem en _Natick_, en papel la part "plana" de la Marató, també és on la xafogor puja. No hi ha ombra en tot el recorregut que va de l'oest al l'est. Un corredor em dona una ampolla de aigua freda que m'ho tiro damunt.
 
@@ -119,11 +137,8 @@ Deixo enrere el **quilòmetre 15 en 1:03:30 (4:14/km)**. Milla 10 és on comence
 
 No sé si adelanto on m'adelantan, intento fer converses amb els que tinc al voltant i segueixo gaudint de l'ambient, llegint cartells i al•lucinant amb la penya que ha sortit a animar.
 
-<figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-04-17/scream-tunnel-at-wellesley-college.jpg"
-       style="width:390px;height:260px;">
-  <figcaption>Scream Tunnel at Wellesley College</figcaption>
-</figure>
+{% assign img=page.images[3] %}
+{% include figure.html image=img %}
 
 El passeig pel _Wellesley College_ és tot una experiència, encara dubto si ha sigut real. Primer, és diu "Scream Tunnel" però no hi ha un tunel (em fa molta gracia aquesta broma), segon, pell de gallina és poc perquè tots els pels (i tinc molts) se m'estiren. Era una oportunidad única per deixar uns petons però no ho he fet per por de ser atropellat al camviar la dirrecció de correr. Ho se. Una menció per la noia amb el cartel [I'm not from Florida](https://www.google.es/webhp?q=florida+woman&hl=en&tbm=nws), una referencia que m'ha tret un somriure.
 
@@ -139,11 +154,8 @@ _Right at Newton Fire Station._ Dies avanç, vagi calcular que tinc una hora d'a
 
 Però la imatge que em va marcar és la de millers de corredors atacant la primera pujada. De la distancia semblan un serpent gigant xocant contra un mur o una banda d'orcs saltant en una recol·lectora per ser classificats. Qui ha fet els deures? És una carnisseria, però ho pujo bé.
 
-<figure class="left">
-  <img src="//assets.locknet.ro/posts/2017-04-17/top-of-heartbreak-hill.jpg"
-       style="height:467px;width:280px">
-  <figcaption>Dizzy but still in one piece <br>at the Top of the Heartbreak Hill</figcaption>
-</figure>
+{% assign img=page.images[4] %}
+{% include figure.html image=img %}
 
 **quilòmetre 30, 2:08:51 (4:18/km)**, 12 quilòmetres en 52 minuts. Ho puc fer.
 
@@ -181,12 +193,8 @@ _Right on Hereford St. Left on Boylston St_. Així acaban les croniques de Bosto
 
 #### Post cursa
 
-<figure class="right">
-  <img src="//assets.locknet.ro/posts/2017-04-17/boston-marathon-finish-line-3h-08m-56s-after.jpg"
-       alt="Happy to get the medal At Boston Marathon finish line 2017"
-       style="height:467px;width:280px">
-  <figcaption>Happy to get the medal<br/>At Boston Marathon finish line 2017</figcaption>
-</figure>
+{% assign img=page.images[5] %}
+{% include figure.html image=img %}
 
 Un voluntari m'adjuda mantenir-m'hi en equilibri. Li dic que puc caminar i pregunto si hi ha birra. Em diu que hi ha al final de tot i que camini. Confio i el crec, també he perdut punts del coeficient d'intel•ligència. Una noia em penja la medalla i li fagi una abraçada. Fotos. Menjo i bec tot el que em donen. Intercanvio opinions amb tots. Em quedo amb el noi romanes per debatre la jugada i despres amb una noia que un dia voll fer de lliebre en una marató.
 
