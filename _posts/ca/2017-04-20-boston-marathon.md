@@ -84,7 +84,7 @@ At this point I had more knowledge of the Boston course than every other maratho
 Sunday morning another [brief shakeout](https://www.strava.com/activities/944735449) this time with the HCS group. At 9am I was having a coffee outside at a Starbucks and couldn't help but notice how Sun was burning my skin.
 </aside>
 
-### Dimarts 17 d'Abril, Marató de Boston
+### Dilluns 17 d'Abril, Marató de Boston
 
 Em desperto a les 4:45 del matí per fer la meva rutina prèvia de marató. El bus que m'ha de portar a _Hopkinton_ sortirà de _Boston Common_ entre 6:00-6:40 i vull arribar a les 6:15 per evitar imprevistos. Tot ha anat molt fluid i després de un viatge que m'ha semblat llarg arribem a les 7:50-8:00 en el _Athlete's Village_ de _Hopkinton_.
 
@@ -210,7 +210,7 @@ Vaig notar molt la calor del km 10 a la mitja encara que el cos respondia bé. L
 
 La marató de Boston pateix ultimament per les onades de calor, vagi pensar que entrenant en el hivern de Barcelona em donaria l'aclimatizacio necesaria, peró quan corres despullat (vull dir en samarreta i pantalons) en El Prat a 17°C no t'acostumas.
 
-Estic molt satisfet amb tota la preparació que vagi fer: crec que 1600 quilòmetres en 18 setmanes, 5 tirades de +30, 5 setmanes seguides de 100. 0 dies amb grip. Tinc molta sort.
+Estic molt satisfet amb tota la preparació que vagi fer: crec que 1600 quilòmetres en 18 setmanes, 6 tirades de +30, 5 setmanes seguides de 100km. 0 dies amb grip. Tinc molta sort.
 
 Despres, la marató de Boston és una institució. 121 anys seguits que ho organizan, competir de la meva manera en la mateixa cursa que Bill Rodgers o John "The Younger" Kelly és tot un privilegi.
 
