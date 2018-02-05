@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { inject, observer } from 'mobx-react'
-import DevTools from 'mobx-react-devtools'
 
 import './App.css'
 
@@ -23,16 +22,12 @@ class App extends Component {
         </header>
 
         <div className="App-container">
-          <p>cummulative time: {SplitStore.formattedTime}</p>
+          <p>cumulative time: {SplitStore.formattedTime}</p>
           <p>average time: {SplitStore.formattedAvgTime} (splits: {SplitStore.total})</p>
           {SplitStore.splits.map( (sp, idx) =>
             <Split split={sp} pos={idx} key={sp.id}/>)}
           <button title="Add split"
             onClick={ e => this.addSplit(e) }>Add split</button>
-        </div>
-
-        <div className="App-debug">
-          <DevTools />
         </div>
       </div>
     )

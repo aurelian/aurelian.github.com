@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route } from 'react-router'
+import { Router, Route, Redirect } from 'react-router'
 
 import {Provider} from 'mobx-react'
 import { RouterStore, syncHistoryWithStore } from 'mobx-react-router'
@@ -21,13 +21,16 @@ const stores = {
   SplitStore: Store
 }
 
-// check BrowserHistory comompoent. Does the same?
+// check BrowserHistory component. Does the same?
 const history = syncHistoryWithStore(browserHistory, routingStore)
 
 const Root = (
   <Provider {...stores}>
     <Router history={history}>
-      <Route path='/' component={App}/>
+      <div>
+        <Redirect from='/' to='/cumulative'/>
+        <Route path='/cumulative' component={App}/>
+      </div>
     </Router>
   </Provider>
 )
