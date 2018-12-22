@@ -73,7 +73,7 @@ Quan els factors que no controles, com les condicions meteó estan al teu costat
 
 <figure class="center">
   <img alt="Recorregut Marató Sant Sebastià 2017" src="http://assets.locknet.ro/posts/2017-11-26/0-recorrido-maraton-donostia-san-sebastian-2017.jpg" style="width:620px;height:445px;">
-  <figcaption>Recorregut Marató Sant Sebastià 20127</figcaption>
+  <figcaption>Recorregut Marató Sant Sebastià 2017</figcaption>
 </figure>
 
 ### Donostia
