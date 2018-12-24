@@ -39,7 +39,7 @@ images:
 {% assign img=page.images[0] %}
 {% include figure.html image=img %}
 
-This was my 7th marathon and as all the others before, I used the same sane principles of a Hanson's training plan with some adjustments: kept the Tuesday workouts (but at MP-15/sec/km), moved the tempo runs on Friday (because work) and longer (than 16 miles) long runs Sundays. I also took the day off when I actually needed it.
+This was my 7th marathon and as all the others before, I used the same sane principles of a Hanson's training plan but with some adjustments: kept the Tuesday workouts (but at MP-15/sec/km), moved the tempo runs on Friday (because work) and longer (than 16 miles) long runs Sundays. I also took the day off when I actually needed it.
 
 Before going into marathon specific training, I did a cycle of 18 weeks to prepare the Oxford Half Marathon where I ended up running a new PB: 1:23:49. Right after, I build my volume back to 90km/week then sat for 3 weeks at 100km/week. Progression between the half and marathon was: 60km/88km/92km/95km/99km/100km/100km/107km/72km/race-week.
 
@@ -134,10 +134,8 @@ I also did not end up in a medical tent. I did not cry, as the announcer suggest
 {% include figure.html image=img %}
 
 ### Analysis
-I'm happy with the performance although I PRd by seconds. I executed the plan as I had it laid down, the wind had influenced the outcome thou I really think my race was lost between 22 and 29 where I wasted a lot of energy on something that was completely out of my control: the kilometer markers being off. Not having water when needed was also stressful. Overall, I went into this race with the wrong mindset, I should have chilled the f*&*!k out.
+I'm happy with the performance although I PRd by seconds. I executed the plan as I had it laid down, the wind had influenced the outcome thou I really think my race was lost between 22 and 29 where I wasted a lot of energy on something that was completely out of my control: the kilometer markers being off. The water stations were not predictable and not having water when needed was also stressful. Overall, I went into this race with the wrong mindset, I should have chilled the f*&*!k out and take everything as it is.
 
-I knew it won't be the big breakthrough marathon that I'm striving to make, thou for this to happen I would need to run more and maybe train smarter.
+I knew Pisa Marathon won't be the big breakthrough marathon that I'm striving to make. For this to happen I would need to run more and maybe train smarter.
 
 {% include lightbox.html %}
-
-<div id="amzn-assoc-ad-ff441b73-4c11-4cec-a40b-43e398c969da"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ff441b73-4c11-4cec-a40b-43e398c969da"></script>
