@@ -8,31 +8,29 @@ permalink: /running/en/marathons.html
 
 ---
 
-### 2014
+#### 2019
 
-#### 16th of November - Valencia Marathon _3:13:08 (1:37:10 / 1:35:58)_
+* 3rd of November - New York City Marathon **n/a**
 
-### 2015
+#### 2018
 
-#### 11th of October - Munich Marathon _3:04:07 (1:31:39 / 1:32:28)_
+* 11th of March - Barcelona Marathon **3:02:03 (1:29:49 / 1:32:14)**
+* 16th of December - Pisa Marathon **2:56:26 (1:26:45 / 1:29:41)**
 
-### 2016
+#### 2017
 
-#### 10th of April - Rotterdam Marathon _2:59:32 (1:29:28 / 1:30:04)_
+* 17th of April - Boston Marathon **3:08:58 (1:29:23 / 1:39:35)**
+* 26th of November - Sant Sebastian Marathon **2:57:09 (1:28:57 / 1:28:12)**
 
-### 2017
+#### 2016
 
-#### 17th of April - Boston Marathon _3:08:58 (1:29:23 / 1:39:35)_
+* 10th of April - Rotterdam Marathon **2:59:32 (1:29:28 / 1:30:04)**
 
-#### 26th of November - Sant Sebastian Marathon _2:57:09 (1:28:57 / 1:28:12)_
+#### 2015
 
-### 2018
+* 11th of October - Munich Marathon **3:04:07 (1:31:39 / 1:32:28)**
 
-#### 11th of March - Barcelona Marathon _3:02:03 (1:29:49 / 1:32:14)_
+#### 2014
 
-#### 16th of December - Pisa Marathon _2:56:26 (1:26:45 / 1:29:41)_
-
-### 2019
-
-#### 3rd of November - New York City Marathon _n/a_
+* 16th of November - Valencia Marathon **3:13:08 (1:37:10 / 1:35:58)**
 
