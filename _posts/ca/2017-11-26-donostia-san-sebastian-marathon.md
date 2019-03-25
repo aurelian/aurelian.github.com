@@ -5,23 +5,23 @@ category: running
 lang: ca
 permalink: /running/ca/2017-11-26-donostia-san-sebastian-marathon.html
 date: 2017-11-26 15:22:47.000000000 +01:00
-video: "https://www.youtube-nocookie.com/embed/SDSX2cxwXgE"
-image: http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg
+video: https://www.youtube-nocookie.com/embed/SDSX2cxwXgE
+image: https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/IMG_20171203_000509.jpg
 description: "Amb tota la preparació fisica i mental vaig convertir la mítica distància en previsible."
 images:
-  - path: "http://assets.locknet.ro/posts/2017-11-26/IMG-20171129-WA0004.jpg"
+  - path: "https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/IMG-20171129-WA0004.jpg"
     position: "left"
     style: "width:454px;height:341px;"
     caption: "amb Manu1.1 abans de entrar al calaix. foto jonibegut"
-  - path: "http://assets.locknet.ro/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
+  - path: "https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/crop-IMG-20171129-WA0003.jpg"
     position: "right"
     style: "width:190px;height:375px;"
     caption: "tirant la cinta. foto jonibegut"
-  - path: "http://assets.locknet.ro/posts/2017-11-26/IMG_20171203_000509.jpg"
+  - path: "https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/IMG_20171203_000509.jpg"
     position: "left"
     style: "width:500px;height:500px;"
     caption: "Soc la Shalane. foto marathon-photos"
-  - path: "http://assets.locknet.ro/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
+  - path: "https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/crop-IMG-20171203-WA0007.jpg"
     position: "center"
     style: "width:620px;height:445px;"
     caption: "Amb els xipis. foto jonibegut"
@@ -72,7 +72,7 @@ No he tingut Plan C per què a la Maratoia de Donostia has d'anar per una bona m
 Quan els factors que no controles, com les condicions meteó estan al teu costat només has d'executar el plan sense pensar massa. I gaudir del día. Aquesta és la meva manera de fer-ho, així és com gaudeixo: preparació, planificació, execució.
 
 <figure class="center">
-  <img alt="Recorregut Marató Sant Sebastià 2017" src="http://assets.locknet.ro/posts/2017-11-26/0-recorrido-maraton-donostia-san-sebastian-2017.jpg" style="width:620px;height:445px;">
+  <img alt="Recorregut Marató Sant Sebastià 2017" src="https://d1tenolnzww98k.cloudfront.net/posts/2017-11-26/0-recorrido-maraton-donostia-san-sebastian-2017.jpg" style="width:620px;height:445px;">
   <figcaption>Recorregut Marató Sant Sebastià 2017</figcaption>
 </figure>
 

@@ -5,30 +5,30 @@ category: running
 lang: en
 permalink: /running/en/2018-pisa-marathon.html
 date: 2018-12-23 22:08:47.000000000 +01:00
-image: http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-da059ce7a0.jpg
+image: https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-da059ce7a0.jpg
 description: "All perfect until km30 which I have passed in 2:03:26 (2:54 pace) when on the way back to Pisa we faced moderate head wind for about 4 maybe 5 kilometers. Afterwards I didn't had legs to drop the pace back but I didn't give up and saved a shinny new Personal Best: 2:56:26 (1:26:45/1:29:41)"
 images:
-    - path: "http://assets.locknet.ro/posts/2018-12-16/IMG_20181215_094341_839.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/IMG_20181215_094341_839.jpg"
       position: "right"
       style: "width:180px;height:400px;"
       caption: "Shakeout in Pisa, the morning before"
-    - path: "http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-512e75a1.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-512e75a1.jpg"
       position: "center"
       style: "width:100%;height:100%;"
       caption: "Race day on Arno river banks"
-    - path: "http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-course-d53f266.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-course-d53f266.jpg"
       position: "left"
       style: "width:542px;height:381px;"
       caption: "2018 Pisa Marathon Race Course"
-    - path: "http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-9e09cdc.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-9e09cdc.jpg"
       position: "left"
       style: "width:575px;height:452px;"
       caption: "5 meters at a time"
-    - path: "http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-da059ce7a0.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-da059ce7a0.jpg"
       position: "center"
       style: "width:842px;height:452px;"
       caption: "2k to go"
-    - path: "http://assets.locknet.ro/posts/2018-12-16/pisa-marathon-60968d9df.jpg"
+    - path: "https://d1tenolnzww98k.cloudfront.net/posts/2018-12-16/pisa-marathon-60968d9df.jpg"
       position: "center"
       style: "width:735px;height:452px;"
       caption: "crossing the finish line"

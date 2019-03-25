@@ -3,9 +3,9 @@ title: Rotterdam Marathon
 layout: mainframe
 category: running
 lang: ca
-permalink: /running/ca/2016-04-10-rotterdam-marathon.html
+permalink: /running/ca/2016-rotterdam-marathon.html
 date: 2016-04-10 22:31:47.000000000 +01:00
-image: http://assets.locknet.ro/img/focus.jpeg
+image: https://d1tenolnzww98k.cloudfront.net/img/focus.jpeg
 description: "La marató és aixi"
 ---
 
