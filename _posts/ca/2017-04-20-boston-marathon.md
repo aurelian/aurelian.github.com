@@ -57,7 +57,7 @@ Somric, això és màgic. Boston, amb la seva marató i el seus bostonians, és 
 
 ### Preparació i objectius
 
-Vaig preparar els 3 maratóns que he fet fins ara amb el mètode <a target="_blank" href="https://www.amazon.es/gp/product/1937715485/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=1937715485&linkCode=as2&tag=au0e2-21&linkId=90e6ac4128fc575a8f38b163e168e0a2">Hanson's Marathon Method</a><img src="//ir-es.amazon-adsystem.com/e/ir?t=au0e2-21&l=am2&o=30&a=1937715485" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> i m'ha anat bé: [3:13, Valencia 2014](https://www.strava.com/activities/220041948) (14 setmanes beginner), [3:04, Munic 2015](https://www.strava.com/activities/410803159) (12 setmanes advanced) i [2:59, Rotterdam 2016](https://www.strava.com/activities/541202770) (8 setmanes advanced).
+Vaig preparar els 3 maratóns que he fet fins ara amb el mètode _Hanson's Marathon Method_ i m'ha anat bé: [3:13, Valencia 2014](https://www.strava.com/activities/220041948) (14 setmanes beginner), [3:04, Munic 2015](https://www.strava.com/activities/410803159) (12 setmanes advanced) i [2:59, Rotterdam 2016](https://www.strava.com/activities/541202770) (8 setmanes advanced).
 
 El plantajement inicial per Boston era de fer-ho com a viatje d'oci sense tenir un objectiu molt concret, però despres de rebre la confirmacio he cambiat de xip i m'he proposat buscar un **sub 2:55 (plan A)** que em donaria el billet per NY el 2018. El plan B era de fer MMP, o sigui **sub 3:00**, i per fi, el plan C de gaudir de la marató.
 

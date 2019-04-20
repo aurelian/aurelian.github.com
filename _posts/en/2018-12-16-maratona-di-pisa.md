@@ -62,7 +62,7 @@ There's only one start box for everyone and it is chaotic as runners aren't plac
 ### Race, 16th of December 2018
 At 9AM we're off. Elbows are flying in all directions, a lady felt in a perfect superman pose and a kind fellow runner helps her by making a wall. I dodge them both. _Don't go out too fast_.
 
-I start with my lucky orange headband on, only to take it off early since it didn't felt too cold. To complete the tour of my racing gear, I had the european bootleg edition of the ARTC singlet with the [Under Armour tank](https://amzn.to/2QI8Gyh) underneath, red HOKO arm warmers and [Reebok gloves](https://amzn.to/2BEdIBl). I went with the [Nike tights](https://amzn.to/2PU0N3u) instead of the Adidas split shots just to get some extra compression and warmth around the upper leg muscles. And finally I was rocking the same pair of [Adidas Adios 3 AKTIV](https://amzn.to/2Reg6IZ) that I had at the 2018 Barcelona Marathon in the spring.
+I start with my lucky orange headband on, only to take it off early since it didn't felt too cold. To complete the tour of my racing gear, I had the european bootleg edition of the ARTC singlet with the Under Armour tank underneath, red HOKO arm warmers and Reebok gloves. I went with the Nike tights instead of the Adidas split shots just to get some extra compression and warmth around the upper leg muscles. And finally I was rocking the same pair of Adidas Adios 3 AKTIV that I had at the 2018 Barcelona Marathon in the spring.
 
 I settle into a relaxed pace as we move around on the Arno river banks. The only remarkable thing is Ben Parkes - which at that time I had no idea he's a known influencer who ran 2:25 only 2 weeks before at the Valencia Marathon - [shuffling with a camera](https://youtu.be/Z2IoMu164FQ?t=185).
 
