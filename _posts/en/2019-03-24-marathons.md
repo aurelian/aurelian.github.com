@@ -10,7 +10,7 @@ permalink: /running/en/marathons.html
 
 **2019**
 
-* 3rd of November - New York City Marathon n/a
+* 3rd of November - New York City Marathon 3:03:52 (1:30:51/1:33:01)
 
 **2018**
 
