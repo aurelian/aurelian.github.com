@@ -21,7 +21,7 @@ I guess I took the decision to run my first marathon in March while volunteering
 {% assign img=page.images[0] %}
 {% include figure.html image=img %}
 
-I evaluated a few training programs and finally decided to go with the beginner's plan from Hanson's Marathon Method book drown by the shorter long runs (26km) compared with other plans. I was a bit worried about how would I go from running 50km/week to a 92km peak without getting hurt and it turned out I learned fairly soon to keep the easy days easy, otherwise it would have been impossible to hit the workout paces and the cumulated volume at the prescribed level.
+I evaluated a few training programs and finally decided to go with the beginner's plan from Hanson's Marathon Method book drown by the shorter long runs (26km) compared with other plans. I was a bit worried about how I would go from running 50km/week to a 92km peak without getting hurt and it turned out I learned fairly soon to keep the easy days easy, otherwise it would have been impossible to hit the workout paces and the cumulated volume at the prescribed level.
 
 I plugged in the Hansons calculator the paces for a **3:08** marathon and started the plan on 11th of August fiting the last 14 weeks of it. Speed and strength workours were all a bit faster than prescribed, tempo runs were OK, but the paces started to drift to slower edge after accumulating a few weeks above 80km/week. I did a tune-up half at MP and PRd on a very challanging course, effort wise it felt more than MP but I was happy with the outcome. Overall, I missed 4 runs out of 84 and I totalled about 1000km.
 

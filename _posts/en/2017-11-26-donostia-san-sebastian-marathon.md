@@ -40,7 +40,7 @@ I haven't done a specific training plan because I wasn't sure (nor convinced) th
 
 There was a 10 weeks build up mixing base-building with fast workouts 10k specific from our beloved Jack Daniels. After, I switched to a Hanson's style of workouts with strength (done at 15-10k pace), MP work (12-16k) and +30k long runs. 3 weeks before I did a 32k long run with 21k (a half) in 1:29:something.
 
-The hardest part was the mental preparation. You see, it takes milliseconds in a marathon for my mind to switch to survival mode. There's a very thin line between: "I already run a sub3, what's the point" and "I can do this". So, I had to have my mental game ready for various scenarios. If X will happen I'll do Y. And so on.
+The hardest part was the mental preparation. You see, it takes milliseconds in a marathon for my mind to switch to survival mode. There's a very thin line between: "I already ran a sub3, what's the point" and "I can do this". So, I had to have my mental game ready for various scenarios. If X will happen I'll do Y. And so on.
 
 Hint: it worked.
 
