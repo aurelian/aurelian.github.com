@@ -24,7 +24,7 @@ images:
 {% include figure.html image=img %}
 </aside>
 
-Why write this report now, more than 2 months after the race?
+I'm writing this race report now, two months after the actual race, so I can turn the page and move on to the next chapter. I had previously wrote pieces of it and hopefully glueing them toghether will help me keep the images and the feelings I had, with me, for as long as I can. All those wednsdaysummer mornings waking up at 5:30am to fit an workout before work, the heat, the humidity and the taste of caffeinated SiS GO drink. How was I feeling entering Cental Park? How did Bronx smelled that day?
 
 ### Training
 
