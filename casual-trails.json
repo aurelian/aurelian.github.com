@@ -1,0 +1,76 @@
+{"events":
+  [
+    {
+      "name": "Casual Trails #9 (Intermedio/Intermediate)",
+      "datetime": "2021/09/25 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/kbywD",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/280893679/",
+      "strava": ""
+    },
+    {
+      "name": "Casual Trails #8 (Principiantes/Beginners)",
+      "datetime": "2021/09/18 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/tXXv7",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/280709332/",
+      "strava": "https://www.strava.com/activities/5977989133"
+    },
+    {
+      "name": "Casual Trails #7 (Intermedio/Intermediate)",
+      "datetime": "2021/09/11 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/u5qXp",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/280577921/",
+      "strava": "https://www.strava.com/activities/5940893395"
+    },
+    {
+      "name": "Casual Trails #6 (Principiantes/Beginners)",
+      "datetime": "2021/09/04 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/ek92o",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/280409107/",
+      "strava": "https://www.strava.com/activities/5902355780"
+    },
+    {
+      "name": "Trail Principiantes/Beginners #5",
+      "datetime": "2021/08/07 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/GGMf5",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/279709258/",
+      "strava": "https://www.strava.com/activities/5751919435"
+    },
+    {
+      "name": "Trail Principiantes/Beginners #4",
+      "datetime": "2021/07/31 08:30:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/GGMf5",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/279697821/",
+      "strava": "https://www.strava.com/activities/5714522937"
+    },
+    {
+      "name": "Trail Principiantes/Beginners",
+      "datetime": "2021/07/24 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/FVaIS",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/279530771/",
+      "strava": "https://www.strava.com/activities/5677814188"
+    },
+    {
+      "name": "Trail Principiantes/Beginners",
+      "datetime": "2021/07/17 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/YmVoc",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/279380876/",
+      "strava": "https://www.strava.com/activities/5640067743"
+    },
+    {
+      "name": "Trail Principiantes/Beginners",
+      "datetime": "2021/07/10 08:45:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://connect.garmin.com/modern/course/65613347",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/279256341/",
+      "strava": "https://www.strava.com/activities/5603206624"
+    }
+  ]
+}
