@@ -1,6 +1,14 @@
 {"events":
   [
     {
+      "name": "Casual Trails #17 (Pretemporada 2022)",
+      "datetime": "2022/01/22 09:00:00",
+      "location":"El n9u, Vallvidrera",
+      "route": "https://trailrouter.com/5a7Vf",
+      "meetup": "https://www.meetup.com/Barcelona-casual-runners/events/283286156/",
+      "strava": "https://www.strava.com/activities/6562083046"
+    },
+    {
       "name": "Casual Trails #16 (Principiantes/Beginners)",
       "datetime": "2021/12/04 09:00:00",
       "location":"El n9u, Vallvidrera",
